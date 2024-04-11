@@ -52,12 +52,32 @@
   - [Registros de Testes](#registros-de-testes)
 - [Referências](#referências)
 
+# Contexto
 
-# Introdução
+## 1. Introdução
+
+Hoje em dia, o mercado dos jogos digitais vem aumentando cada vez mais, e com isso,
+a busca por informações, ligas, torneios e eventos também se encontram no auge.
+Todavia, com essa demanda cada vez maior do público dos games desejarem estar
+cada vez mais antenados nesse assunto, a busca por sites que oferecem horários de
+jogos de competição de E-Sports, de forma intuitiva e acessível para os fãs, se torna um
+problema.
+Este documento visa fornecer uma visão abrangente do projeto que irá ser criado para
+preencher esta lacuna, documentando seus objetivos, requisitos, arquitetura, e todas
+as informações necessárias para garantir o entendimento completo e bem-sucedido do
+desenvolvimento do site. Desde a concepção até a implementação, este documento
+servirá como um guia abrangente para todos os aspectos do desenvolvimento do site
+de horários de jogos digitais, campeonatos, eventos e classificações.
+Assim, o desejo desse projeto não é apenas criar uma plataforma que seja funcional,
+como também, atender todas as expectativas dos fãs de E-Sports em todo o mundo.
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+De acordo com o que foi apresentado na introdução, o principal problema que
+necessita de uma solução através desse projeto, é a falta de informações relacionadas
+à horários de campeonatos de jogos digitais. Vale lembrar que nesta web, a GM Empire
+cita os cinco jogos mais jogados do mundo atualmente. São eles: CS2 (Counter-Strike
+2); LOL (League of Legends); Rainbow Six; Fortnite; Valorant;
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -77,8 +97,15 @@
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
+O objetivo trivial deste projeto é da criação de uma plataforma que disponibilize da
+melhor maneira possível, informações que irão satisfazer as necessidades dos usuários
+que gostam de jogar e estão presentes no mundo profissional, seja espectador ou até
+mesmo, um atleta.
+Dessa forma, o site da empresa visa resolver dificuldades como:
+  ● Datas e horários de partidas entre times;
+  ● Notícias;
+  ● Sobre nós;
+  
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
 > apresentado acima. Apresente também alguns (pelo menos 2) objetivos
@@ -90,7 +117,15 @@
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Diante do crescimento exponencial da indústria dos jogos digitais nos últimos anos, é
+fundamental reconhecer a necessidade de fornecer aos entusiastas e espectadores
+uma plataforma confiável e abrangente para acompanhar os horários dos jogos. De
+acordo com a Pesquisa Game Brasil, cerca de 165 milhões de pessoas em todo o
+mundo acompanham partidas de esporte eletrônico com frequência. No Brasil, 64,3%
+do público tem o hábito de jogar os E-Sports, sendo que 29% assiste partidas por cerca
+de três horas por semana.
+Com isso, a disponibilidade de plataformas que contenham informações acerca de
+eventos e competições deste mercado, se encontra precária.
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
@@ -106,7 +141,10 @@
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O público do cenário dos jogos eletrônicos é bastante diversificado e abrange uma
+ampla faixa etária, mas é mais focado em jovens adultos e adolescentes (que estão
+entre 14 e 34 anos, em média). Porém, o público dos E-Sports continua a evoluir à
+medida que o setor cresce e se diversifica.
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
