@@ -1,12 +1,12 @@
 <<<<<<< HEAD:docs/02 - relatório técnico/Relatorio Tecnico - TEMPLATE.md
 # Informações do Projeto
-## Documentação  
+## Documentação da GM Empire
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Aqui está a documentação completa da empresa GM Empire, que por sua vez, visa deixar evidente a parte documental do nosso projeto que iremos seguir durante todo o percurso.
 
 ## SI-Sistemas de Informação 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Curso que tem o estudo voltado para a compreensão, desenvolvimento e aplicação de sistemas computacionais em diversos contextos.
 
 ## Participantes
 
@@ -17,12 +17,6 @@
 ### - Estevão Cunha
 ### - João Victor
 ### - Vitor Mendonça
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
 
 # Estrutura do Documento
 
