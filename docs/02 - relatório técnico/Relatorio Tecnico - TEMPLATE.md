@@ -294,7 +294,7 @@ Uma das principais necessidades do projeto é de que a interface seja intuitiva 
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin - Matriz CSD  | Miro |  https://miro.com/XXXXXXX | 
+|Processo de Design Thinkgin - Matriz CSD  | Miro |  https://miro.com/ | 
 |Processo de Design Thinkgin - Mapa Stakeholders  | Canva |  https://canva.com/design/DAGCCqy2VME/U9NNqkrMT1QLavvXyKqOyA/edit | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/ | 
 |Organização | Trello |  https://trello.com/b/U665ykp9/gm-empire | 
