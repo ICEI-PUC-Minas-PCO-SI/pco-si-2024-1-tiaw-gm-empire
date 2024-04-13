@@ -281,13 +281,10 @@ Uma das principais necessidades do projeto é de que a interface seja intuitiva 
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+Daniel Heringer para fazer a parte introdutória, e design thinking.
+Especificação do projeto foi dividido entre Estevão e Caio.  Estevão ficou responsável por fazer as entrevistas, histórias dos usuários e personas, e Caio com requisitos funcionais e não funcionais e restrições.
+A parte de metodologia mostrando como foi a divisão do trabalho, quais ferramentas foram utilizadas. Sendo divido entre Daniel de Queiroz e Bruno para fazê-lo
+O projeto de interface e fluxos de usuário foi esculpido por João Victor e o Vitor.
 
 
 ## Ferramentas
