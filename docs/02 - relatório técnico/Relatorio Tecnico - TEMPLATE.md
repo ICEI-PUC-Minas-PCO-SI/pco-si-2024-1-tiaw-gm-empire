@@ -227,12 +227,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+Uma das principais necessidades do projeto é de que a interface seja intuitiva ao usuário. Principalmente por conta de trabalhar com várias informações de vários cenários. Com isso mente, foi desenhada uma interface simples e clean para atender esse requisito.
 
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
 
 ## User Flow
 
@@ -241,23 +237,49 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Wireframes
 
-#Home![home nao logado](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/ba9a0863-4818-420f-a6f4-a915a62654f7)
- COM UM BREVE DESCRITIVO ......
+# Home
+![home nao logado](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/ba9a0863-4818-420f-a6f4-a915a62654f7)
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+# Tela de Login
+![login](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/24f3a915-aba1-44cd-a91f-16115b016258)
+
+# Tela de Cadastro
+![cadastro](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/bef2eff2-32e7-47bb-b8c0-8fc8c799d41d)
+
+# Home Logado
+![home nao logado](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/c836916d-d149-4e6d-93cb-63692e47ff39)
+
+# Tela de Calendario
+![calendario geral](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/10c35f33-9de8-4e3f-923a-25c1729e0f30)
+
+# Tabela Valorant
+![tabela valorant](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/3be36b67-3844-4c92-bb45-e0b6c4aeb483)
+
+# Tabela LoL
+![tabela lol](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/150f62a7-685a-4f3c-8cf7-fb79eec570ad)
+
+# Tabela R6
+![tabela r6](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/0e4ae213-2d48-4000-be1d-9e715dfa77c7)
+
+# Tabela CS
+![tabela csgo](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/9029cb3a-6622-4d1e-8035-05e773b34eac)
+
+# Tabela Fortnite
+![tabela fornite](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/5cac1236-6e37-41aa-aa01-906679f8f7fe)
+
+# Tela de Noticia 1
+![noticia 1](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/03d817e8-4d84-4cbd-9ce5-87322b2b94bc)
+
+# Tela de Noticia 2
+![noticia 2](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/7c5c6e26-9fa7-43da-914c-7593a8bcb8fa)
+
+# Tela de Noticia 3
+![noticia 3](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/86ed3853-240d-479b-b9a2-9b8773680953)
+
+# Sobre Nós
+![sobre nos](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/0433f9cd-8cb6-4933-abdd-0f7086a14193)
+
+
 
 
 # Metodologia
