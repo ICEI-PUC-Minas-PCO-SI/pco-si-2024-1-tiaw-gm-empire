@@ -174,38 +174,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site deve ser intuitivo e fácil de usar, com uma interface limpa e organizada que permita aos usuários encontrar rapidamente as informações que procuram. | ALTA | 
+|RF-002| Os usuários devem poder se inscrever para receber notificações sobre os horários dos confrontos dos times de sua preferência.   | MÉDIA |
+|RF-003| o site deve exibir um calendário de eventos importantes, como torneios, campeonatos e eventos especiais. | ALTA | 
+|RF-004| Permitir aos usuários acessar e reproduzir destaques de partidas anteriores, oferecendo uma experiência de visualização retrospectiva das partidas mais emocionantes ou significativas.  | BAIXA | 
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
+|RNF-001| Oferecer suporte a múltiplos idiomas para alcançar uma audiência global e garantir que os usuários possam acessar as informações no idioma de sua preferência. | ALTA | 
+|RNF-002| O site deve ser intuitivo e fácil de usar, com uma interface limpa e organizada que permita aos usuários encontrar rapidamente as informações que procuram. |  ALTA | 
+|RNF-003|  O site deve oferecer suporte a diferentes fusos horários e regiões geográficas, garantindo que os usuários de todo o mundo possam acessar e acompanhar os confrontos sem problemas. | MÉDIA | 
+|RNF-004|  Garantir que o site seja acessível em navegadores mais antigos, mas sem priorizar extensivamente a otimização para eles | BAIXA | 
 
 ## Restrições
 
@@ -213,16 +195,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| Não devem ser feitos aportes financeiros no projeto |
+|02| O projeto deverá ser entregue até o final do semestre |
+|03| Não pode-se utilizar  banco de dados |
+|04| O desenvolvimento do site não pode ser delegado/terceirizado |
 
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 
 # Projeto de Interface
