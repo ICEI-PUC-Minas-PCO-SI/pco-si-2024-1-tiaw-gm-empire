@@ -655,16 +655,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001|O site deve permitir o registro e a exibição das datas e horários dos confrontos entre times de jogos E-sports. | ALTA | 
+|RF-002| Os usuários devem poder se inscrever para receber notificações sobre os horários dos confrontos dos times de sua preferência.| MÉDIA |
+|RF-003| O site deve exibir um calendário de eventos importantes, como torneios, campeonatos e eventos especiais. | ALTA | 
+|RF-004| Permitir aos usuários acessar e reproduzir destaques de partidas anteriores, oferecendo uma experiência de visualização retrospectiva das partidas mais emocionantes ou significativas. | BAIXA | 
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Oferecer suporte a múltiplos idiomas para alcançar uma audiência global e garantir que os usuários possam acessar as informações no idioma de sua preferência. | ALTA | 
+|RNF-002| O site deve ser intuitivo e fácil de usar, com uma interface limpa e organizada que permita aos usuários encontrar rapidamente as informações que procuram.|  ALTA |
+|RNF-003| O site deve oferecer suporte a diferentes fusos horários e regiões geográficas, garantindo que os usuários de todo o mundo possam acessar e acompanhar os confrontos sem problemas. | MÉDIA | 
+|RNF-004|Garantir que o site seja acessível em navegadores mais antigos, mas sem priorizar extensivamente a otimização para eles| BAIXA |
+
+
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
