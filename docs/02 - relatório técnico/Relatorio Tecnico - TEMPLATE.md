@@ -237,46 +237,46 @@ Uma das principais necessidades do projeto é de que a interface seja intuitiva 
 
 ## Wireframes
 
-# Home
+## Home
 ![home nao logado](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/ba9a0863-4818-420f-a6f4-a915a62654f7)
 
-# Tela de Login
+## Tela de Login
 ![login](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/24f3a915-aba1-44cd-a91f-16115b016258)
 
-# Tela de Cadastro
+## Tela de Cadastro
 ![cadastro](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/bef2eff2-32e7-47bb-b8c0-8fc8c799d41d)
 
-# Home Logado
+## Home Logado
 ![home nao logado](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/c836916d-d149-4e6d-93cb-63692e47ff39)
 
-# Tela de Calendario
+## Tela de Calendario
 ![calendario geral](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/10c35f33-9de8-4e3f-923a-25c1729e0f30)
 
-# Tabela Valorant
+## Tabela Valorant
 ![tabela valorant](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/3be36b67-3844-4c92-bb45-e0b6c4aeb483)
 
-# Tabela LoL
+## Tabela LoL
 ![tabela lol](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/150f62a7-685a-4f3c-8cf7-fb79eec570ad)
 
-# Tabela R6
+## Tabela R6
 ![tabela r6](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/0e4ae213-2d48-4000-be1d-9e715dfa77c7)
 
-# Tabela CS
+## Tabela CS
 ![tabela csgo](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/9029cb3a-6622-4d1e-8035-05e773b34eac)
 
-# Tabela Fortnite
+## Tabela Fortnite
 ![tabela fornite](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/5cac1236-6e37-41aa-aa01-906679f8f7fe)
 
-# Tela de Noticia 1
+## Tela de Noticia 1
 ![noticia 1](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/03d817e8-4d84-4cbd-9ce5-87322b2b94bc)
 
-# Tela de Noticia 2
+## Tela de Noticia 2
 ![noticia 2](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/7c5c6e26-9fa7-43da-914c-7593a8bcb8fa)
 
-# Tela de Noticia 3
+## Tela de Noticia 3
 ![noticia 3](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/86ed3853-240d-479b-b9a2-9b8773680953)
 
-# Sobre Nós
+## Sobre Nós
 ![sobre nos](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/0433f9cd-8cb6-4933-abdd-0f7086a14193)
 
 
