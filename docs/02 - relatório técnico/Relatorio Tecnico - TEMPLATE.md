@@ -257,12 +257,6 @@ Dificuldade em se manter atualizado sobre eventos devido à falta de uma fonte c
 informação.
 Interesse em competir e participar ativamente da cena de e-sports.
 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](imaages/../images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
-
 
 ## Histórias de Usuários
 
@@ -338,7 +332,7 @@ Uma das principais necessidades do projeto é de que a interface seja intuitiva 
 ![WhatsApp Image 2024-04-12 at 20 00 46](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/ce4bcd3c-a641-4a6f-aa83-cc0eece0363b)
 
 
-## Tela de Calendario
+## Tela de Calendário
 ![calendario geral](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/10c35f33-9de8-4e3f-923a-25c1729e0f30)
 
 ## Tabela Valorant
@@ -356,13 +350,13 @@ Uma das principais necessidades do projeto é de que a interface seja intuitiva 
 ## Tabela Fortnite
 ![tabela fornite](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/5cac1236-6e37-41aa-aa01-906679f8f7fe)
 
-## Tela de Noticia 1
+## Tela de Notícia 1
 ![noticia 1](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/03d817e8-4d84-4cbd-9ce5-87322b2b94bc)
 
-## Tela de Noticia 2
+## Tela de Notícia 2
 ![noticia 2](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/7c5c6e26-9fa7-43da-914c-7593a8bcb8fa)
 
-## Tela de Noticia 3
+## Tela de Notícia 3
 ![noticia 3](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/86ed3853-240d-479b-b9a2-9b8773680953)
 
 ## Sobre Nós
