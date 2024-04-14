@@ -112,33 +112,118 @@ medida que o setor cresce e se diversifica.
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+Nesta parte do documento, vamos detalhar as especificações do projeto, onde serão descritos os requisitos funcionais e não funcionais, bem como as restrições que orientam o escopo do trabalho. Também serão apresentadas as personas, representando os diferentes tipos de usuários do sistema, juntamente com o mapa de empatia para compreender suas necessidades e expectativas. Por fim, serão discutidas as histórias de usuários, que descrevem situações específicas do sistema do ponto de vista dos usuários. As técnicas e ferramentas utilizadas para realizar estas especificações incluem entrevistas, análise de documentos, discussões em grupo e prototipagem.
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Lucas tem 16 anos, mora no bairro Eldorado em Contagem e é Estudante no Ensino Médio do
+instituto Maria Montessori, devido a ocupações com a escola, gostaria de algo que pudesse atualizálo rapidamente sobre eventos festivos e competitivos em jogos eletrônicos no dia a dia. Lucas diz
+que perde bastante tempo para encontrar cronogramas de eventos em um modelo englobe todos os
+jogos que ele consome. Um relato legal de Lucas durante a entrevista foi a história de quando, aos
+14 anos, venceu seu primeiro torneio de League of Legends organizados por seus colegas de
+diferentes turmas e idades. Por ser um dos mais novos competidores desse torneio amador na
+época, seu destaque no time vencedor o inspirou a buscar uma carreira no mundo dos e-sports.
+Fernanda tem 21 anos, mora no bairro Água Branca em Contagem e é uma estudante universitária
+de Psicologia na cidade de Belo Horizonte. Adora jogar e assistir a competições de e-sports nas horas
+vagas para relaxar do estresse dos estudos. Ao mesmo tempo, gostaria de ter mais facilidade para se
+atualizar sobre eventos festivos e casuais de jogos, já que não tem tempo para competir. Sua paixão
+por jogos começou desde quando ela tinha 12 anos e jogava Minecraft em servidores recheados de
+“mods” com seus amigos depois da escola.
+Gustavo tem 34 anos, é tutor de Muay Thai e trabalha em uma academia de lutas no bairro Castelo
+em Belo Horizonte. Embora não seja um jogador ávido, ele ocasionalmente joga alguns jogos de RPG
+em seu Playstation 5, dado que desde sempre foi apaixonado pelas histórias de várias franquias
+como: The Elder Scrolls, Diablo, Baldur’s Gate e Dark Souls. Sua história marcante com jogos
+eletrônicos aconteceu quando ele tinha 19 anos e conseguiu 100% das conquistas de Demon Soul’s,
+jogo que na época era seu favorito. Ele aprecia a habilidade e estratégia envolvidas em jogos
+competitivos, mas não costuma consumir tantos conteúdos de jogos de FPS, onde predominam
+torneios e coisas do tipo.
+Bruno tem 29 anos, mora no bairro Riacho das Pedras em Contagem e é um engenheiro de software
+que trabalha em uma empresa de tecnologia em Belo Horizonte. Ele sempre foi apaixonado por
+jogos eletrônicos desde criança, quando ganhou seu primeiro console de videogame. Sua história
+marcante nos jogos aconteceu quando ele tinha 20 anos e participou de um torneio de Mortal
+Kombat em uma feira de jogos. Apesar de não ter vencido, a experiência de competir em um evento
+ao vivo foi inesquecível para ele. Embora não tenha mais tanto tempo livre para jogar como antes,
+Bruno ainda acompanha de perto o cenário competitivo de e-sports, especialmente os torneios de
+jogos de luta.
+Ana tem 17 anos, é estudante do Chromos, está no ensino médio e mora no bairro Novo Eldorado
+em Contagem. Apaixonada por jogos desde criança, Ana passa grande parte do tempo livre jogando
+uma variedade de jogos, desde jogos competitivos como Valorant até jogos casuais como Animal
+Crossing. No entanto, ela tem dificuldade em se manter atualizada sobre os eventos e torneios que
+acontecem no mundo dos e-sports. Ana muitas vezes encontra obstáculos ao tentar acessar
+cronogramas de eventos, pois muitas fontes são confusas ou desatualizadas. Isso dificulta sua
+participação em competições locais, pois ela nem sempre sabe quando elas estão ocorrendo. Ana diz
+não ter momentos marcantes em jogos eletrônicos, mas que definitivamente não abriria mão de seu
+hobby.
+João tem apenas 14 anos e é um estudante do Ensino Fundamental do instituto Maria Montessori,
+no bairro Eldorado, em Contagem. Ele aficionado por torneios de e-sports, especialmente de
+Fortnite e Rocket League. Apesar de sua paixão pelos jogos, João enfrenta dificuldades em se manter
+atualizado sobre os eventos e torneios que ocorrem regularmente. Ele muitas vezes encontra
+problemas ao tentar acessar informações de eventos e torneios online, pois sente a necessidade de
+procurar em diversas fontes e raramente consegue se atualizar sobre vários eventos e torneios em
+uma mesma plataforma ou site.
 
+## Mapas de Empatia
 
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> 
-> 
+Lucas (16 anos, Estudante do Ensino Médio no Instituto Maria Montessori, Contagem):
+Razões para usar o site de e-sports:
+Atualização rápida sobre eventos festivos e competitivos em jogos eletrônicos no dia a dia.
+Facilidade de encontrar cronogramas de eventos em um único lugar.
+Inspirado por sua vitória em um torneio amador de League of Legends, busca uma carreira no
+mundo dos e-sports.
+Conhecimentos e habilidades:
+Experiência em competições de e-sports, especialmente em League of Legends.
+Conhecimento sobre a cena competitiva de jogos eletrônicos.
+Habilidades técnicas em jogos e estratégias de equipe.
+Fernanda (21 anos, Estudante Universitária de Psicologia, Contagem/Belo Horizonte):
+Razões para usar o site de e-sports:
+Atualização sobre eventos festivos e casuais de jogos para relaxar do estresse dos estudos.
+Facilidade de acesso a informações relevantes sobre competições de e-sports.
+Interesse em jogos desde a infância, especialmente em Minecraft.
+Conhecimentos e habilidades:
+Experiência em jogos, especialmente Minecraft com mods.
+Conhecimento sobre a cena competitiva de e-sports, mesmo não competindo ativamente.
+Interesse em acompanhar competições de e-sports como forma de entretenimento e relaxamento.
+Gustavo (34 anos, Tutor de Muay Thai, Belo Horizonte):
+Razões para usar o site de e-sports:
+Acompanhamento de torneios e eventos de jogos online como forma de entretenimento.
+Interesse em jogos de RPG e apreciação pela habilidade e estratégia envolvidas em jogos
+competitivos.
+Dificuldade em se manter atualizado sobre eventos devido à falta de serviços de notificação.
+Conhecimentos e habilidades:
+Experiência em jogos de RPG, incluindo conquistas significativas.
+Apreciador do aspecto estratégico e desafiador dos jogos eletrônicos.
+Habilidades técnicas em jogos, especialmente em jogos de RPG.
+Bruno (29 anos, Engenheiro de Software, Belo Horizonte):
+Razões para usar o site de e-sports:
+Paixão por jogos eletrônicos desde a infância, interesse em acompanhar o cenário competitivo.
+Dificuldade em encontrar informações atualizadas e organizadas sobre eventos de e-sports.
+Experiência em participar de torneios presenciais, interesse em acompanhar competições online.
+Conhecimentos e habilidades:
+Experiência em competições de jogos de FPS, como Counter-Strike.
+Familiaridade com a cena competitiva de e-sports.
+Habilidades técnicas em jogos eletrônicos e interesse em novas tecnologias.
+Ana (17 anos, Estudante do Ensino Médio, Contagem):
+Razões para usar o site de e-sports:
+Apaixonada por jogos desde a infância, desejo de participar de competições locais.
+Dificuldade em se manter atualizada sobre eventos devido à falta de fontes confiáveis e organizadas.
+Interesse em encontrar um local centralizado para informações sobre eventos e torneios de esports.
+Conhecimentos e habilidades:
+Experiência em uma variedade de jogos, tanto competitivos quanto casuais.
+Dificuldade em acessar informações atualizadas sobre eventos de e-sports.
+Interesse em competir e se envolver mais profundamente na cena de e-sports.
+João (14 anos, Estudante do Ensino Fundamental, Contagem):
+Razões para usar o site de e-sports:
+Aficionado por torneios de e-sports, especialmente em jogos como Fortnite e Rocket League.
+Dificuldade em acessar informações atualizadas sobre eventos e torneios online devido à dispersão
+das fontes de informação.
+Interesse em encontrar uma plataforma centralizada para acompanhar eventos e torneios de
+múltiplos jogos.
+Conhecimentos e habilidades:
+Experiência em jogos de e-sports, especialmente em Fortnite e Rocket League.
+Dificuldade em se manter atualizado sobre eventos devido à falta de uma fonte centralizada de
+informação.
+Interesse em competir e participar ativamente da cena de e-sports.
+
 > **Exemplo de Persona**
 > 
 > ![Exemplo de Persona](imaages/../images/persona.png)
@@ -148,23 +233,16 @@ medida que o setor cresce e se diversifica.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|    Persona         |            Quer/Precisa            |                Motivo                  |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|       Lucas        | Receber atualizações sobre eventos festivos e competitivos em jogos eletrônicos. | Se atualizar sem perder tempo.       |
+|       Fernanda     | Facilidade para se atualizar sobre eventos casuais de jogos. | Se informar sobre seu hobby de maneira confiável e rápida. |
+|       Gustavo      | Rapidez para se informar sobre eventos de jogos mais nichados. | Diminuir a perda de eventos online importantes. |
+|       Bruno        | Melhorar a facilidade de entendimento em relação às datas de torneios em jogos de fps. | Não se confundir com informações mal distribuídas na maioria das fontes. |
+|       Ana          | Acessar cronogramas que estejam sempre atualizados. | Aumentar sua participação em competições locais. |
+|       João         | Otimizar a quantidade de fontes necessárias para se informar sobre torneios. | Facilitar sua participação em eventos competitivos a partir de fontes informativas de qualidade. |
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Requisitos
 
