@@ -10,13 +10,13 @@ Curso que tem o estudo voltado para a compreensão, desenvolvimento e aplicaçã
 
 ## Participantes
 
-### - Bruno Xavier
-### - Caio Martins
-### - Daniel de Queiroz
-### - Daniel Heringer
-### - Estevão Cunha
-### - João Victor
-### - Vitor Mendonça
+### - Bruno Xavier Santos Frota
+### - Caio Martins Bicalho da Costa
+### - Daniel de Queiroz Fernandes
+### - Daniel Heringer Verner Silva
+### - Estevão Cunha Roberto
+### - João Víctor Fagundes Barbosa
+### - Vitor Mendonça Braga
 
 # Estrutura do Documento
 
