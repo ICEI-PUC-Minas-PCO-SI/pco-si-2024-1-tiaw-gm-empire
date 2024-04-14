@@ -175,8 +175,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| O site deve ser intuitivo e fácil de usar, com uma interface limpa e organizada que permita aos usuários encontrar rapidamente as informações que procuram. | ALTA | 
-|RF-002| Os usuários devem poder se inscrever para receber notificações sobre os horários dos confrontos dos times de sua preferência. | MÉDIA |
-|RF-003| o site deve exibir um calendário de eventos importantes, como torneios, campeonatos e eventos especiais. | ALTA | 
+|RF-002| o site deve exibir um calendário de eventos importantes, como torneios, campeonatos e eventos especiais. | ALTA |
+|RF-003| Os usuários devem poder se inscrever para receber notificações sobre os horários dos confrontos dos times de sua preferência. | MÉDIA | 
 |RF-004| Permitir aos usuários acessar e reproduzir destaques de partidas anteriores. | BAIXA | 
 
 
