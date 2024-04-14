@@ -123,12 +123,14 @@ jogos que ele consome. Um relato legal de Lucas durante a entrevista foi a hist�
 14 anos, venceu seu primeiro torneio de League of Legends organizados por seus colegas de
 diferentes turmas e idades. Por ser um dos mais novos competidores desse torneio amador na
 época, seu destaque no time vencedor o inspirou a buscar uma carreira no mundo dos e-sports.
+
 Fernanda tem 21 anos, mora no bairro Água Branca em Contagem e é uma estudante universitária
 de Psicologia na cidade de Belo Horizonte. Adora jogar e assistir a competições de e-sports nas horas
 vagas para relaxar do estresse dos estudos. Ao mesmo tempo, gostaria de ter mais facilidade para se
 atualizar sobre eventos festivos e casuais de jogos, já que não tem tempo para competir. Sua paixão
 por jogos começou desde quando ela tinha 12 anos e jogava Minecraft em servidores recheados de
 “mods” com seus amigos depois da escola.
+
 Gustavo tem 34 anos, é tutor de Muay Thai e trabalha em uma academia de lutas no bairro Castelo
 em Belo Horizonte. Embora não seja um jogador ávido, ele ocasionalmente joga alguns jogos de RPG
 em seu Playstation 5, dado que desde sempre foi apaixonado pelas histórias de várias franquias
@@ -137,6 +139,7 @@ eletrônicos aconteceu quando ele tinha 19 anos e conseguiu 100% das conquistas 
 jogo que na época era seu favorito. Ele aprecia a habilidade e estratégia envolvidas em jogos
 competitivos, mas não costuma consumir tantos conteúdos de jogos de FPS, onde predominam
 torneios e coisas do tipo.
+
 Bruno tem 29 anos, mora no bairro Riacho das Pedras em Contagem e é um engenheiro de software
 que trabalha em uma empresa de tecnologia em Belo Horizonte. Ele sempre foi apaixonado por
 jogos eletrônicos desde criança, quando ganhou seu primeiro console de videogame. Sua história
@@ -145,6 +148,7 @@ Kombat em uma feira de jogos. Apesar de não ter vencido, a experiência de comp
 ao vivo foi inesquecível para ele. Embora não tenha mais tanto tempo livre para jogar como antes,
 Bruno ainda acompanha de perto o cenário competitivo de e-sports, especialmente os torneios de
 jogos de luta.
+
 Ana tem 17 anos, é estudante do Chromos, está no ensino médio e mora no bairro Novo Eldorado
 em Contagem. Apaixonada por jogos desde criança, Ana passa grande parte do tempo livre jogando
 uma variedade de jogos, desde jogos competitivos como Valorant até jogos casuais como Animal
@@ -154,6 +158,7 @@ cronogramas de eventos, pois muitas fontes são confusas ou desatualizadas. Isso
 participação em competições locais, pois ela nem sempre sabe quando elas estão ocorrendo. Ana diz
 não ter momentos marcantes em jogos eletrônicos, mas que definitivamente não abriria mão de seu
 hobby.
+
 João tem apenas 14 anos e é um estudante do Ensino Fundamental do instituto Maria Montessori,
 no bairro Eldorado, em Contagem. Ele aficionado por torneios de e-sports, especialmente de
 Fortnite e Rocket League. Apesar de sua paixão pelos jogos, João enfrenta dificuldades em se manter
@@ -165,60 +170,88 @@ uma mesma plataforma ou site.
 ## Mapas de Empatia
 
 Lucas (16 anos, Estudante do Ensino Médio no Instituto Maria Montessori, Contagem):
+
 Razões para usar o site de e-sports:
+
 Atualização rápida sobre eventos festivos e competitivos em jogos eletrônicos no dia a dia.
 Facilidade de encontrar cronogramas de eventos em um único lugar.
 Inspirado por sua vitória em um torneio amador de League of Legends, busca uma carreira no
 mundo dos e-sports.
+
 Conhecimentos e habilidades:
+
 Experiência em competições de e-sports, especialmente em League of Legends.
 Conhecimento sobre a cena competitiva de jogos eletrônicos.
 Habilidades técnicas em jogos e estratégias de equipe.
+
 Fernanda (21 anos, Estudante Universitária de Psicologia, Contagem/Belo Horizonte):
+
 Razões para usar o site de e-sports:
+
 Atualização sobre eventos festivos e casuais de jogos para relaxar do estresse dos estudos.
 Facilidade de acesso a informações relevantes sobre competições de e-sports.
-Interesse em jogos desde a infância, especialmente em Minecraft.
+Interesse em jogos desde a infância.
+
 Conhecimentos e habilidades:
+
 Experiência em jogos, especialmente Minecraft com mods.
 Conhecimento sobre a cena competitiva de e-sports, mesmo não competindo ativamente.
 Interesse em acompanhar competições de e-sports como forma de entretenimento e relaxamento.
+
 Gustavo (34 anos, Tutor de Muay Thai, Belo Horizonte):
+
 Razões para usar o site de e-sports:
+
 Acompanhamento de torneios e eventos de jogos online como forma de entretenimento.
 Interesse em jogos de RPG e apreciação pela habilidade e estratégia envolvidas em jogos
 competitivos.
 Dificuldade em se manter atualizado sobre eventos devido à falta de serviços de notificação.
+
 Conhecimentos e habilidades:
+
 Experiência em jogos de RPG, incluindo conquistas significativas.
 Apreciador do aspecto estratégico e desafiador dos jogos eletrônicos.
 Habilidades técnicas em jogos, especialmente em jogos de RPG.
+
 Bruno (29 anos, Engenheiro de Software, Belo Horizonte):
+
 Razões para usar o site de e-sports:
+
 Paixão por jogos eletrônicos desde a infância, interesse em acompanhar o cenário competitivo.
 Dificuldade em encontrar informações atualizadas e organizadas sobre eventos de e-sports.
 Experiência em participar de torneios presenciais, interesse em acompanhar competições online.
+
 Conhecimentos e habilidades:
+
 Experiência em competições de jogos de FPS, como Counter-Strike.
 Familiaridade com a cena competitiva de e-sports.
 Habilidades técnicas em jogos eletrônicos e interesse em novas tecnologias.
+
 Ana (17 anos, Estudante do Ensino Médio, Contagem):
+
 Razões para usar o site de e-sports:
+
 Apaixonada por jogos desde a infância, desejo de participar de competições locais.
 Dificuldade em se manter atualizada sobre eventos devido à falta de fontes confiáveis e organizadas.
 Interesse em encontrar um local centralizado para informações sobre eventos e torneios de esports.
+
 Conhecimentos e habilidades:
+
 Experiência em uma variedade de jogos, tanto competitivos quanto casuais.
 Dificuldade em acessar informações atualizadas sobre eventos de e-sports.
 Interesse em competir e se envolver mais profundamente na cena de e-sports.
+
 João (14 anos, Estudante do Ensino Fundamental, Contagem):
+
 Razões para usar o site de e-sports:
 Aficionado por torneios de e-sports, especialmente em jogos como Fortnite e Rocket League.
 Dificuldade em acessar informações atualizadas sobre eventos e torneios online devido à dispersão
 das fontes de informação.
 Interesse em encontrar uma plataforma centralizada para acompanhar eventos e torneios de
 múltiplos jogos.
+
 Conhecimentos e habilidades:
+
 Experiência em jogos de e-sports, especialmente em Fortnite e Rocket League.
 Dificuldade em se manter atualizado sobre eventos devido à falta de uma fonte centralizada de
 informação.
