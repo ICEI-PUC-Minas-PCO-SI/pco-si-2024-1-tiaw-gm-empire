@@ -184,10 +184,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Oferecer suporte a múltiplos idiomas para alcançar uma audiência global e garantir que os usuários possam acessar as informações no idioma de sua preferência. | ALTA | 
-|RNF-002| O site deve ser intuitivo e fácil de usar, com uma interface limpa e organizada que permita aos usuários encontrar rapidamente as informações que procuram. | ALTA | 
-|RNF-003|  O site deve oferecer suporte a diferentes fusos horários e regiões geográficas. | MÉDIA | 
-|RNF-004|  Garantir que o site seja acessível em navegadores mais antigos, mas sem priorizar extensivamente a otimização para eles | BAIXA | 
+|RNF-001| O site deve ser intuitivo e fácil de usar, com uma interface limpa e organizada que permita aos usuários encontrar rapidamente as informações que procuram. | ALTA | 
+|RNF-002| O site deve oferecer suporte a diferentes fusos horários e regiões geográficas. | MÉDIA | 
+|RNF-003| Oferecer suporte a múltiplos idiomas para alcançar uma audiência global e garantir que os usuários possam acessar as informações no idioma de sua preferência. | BAIXA |
+|RNF-004| Garantir que o site seja acessível em navegadores mais antigos, mas sem priorizar extensivamente a otimização para eles | BAIXA | 
 
 ## Restrições
 
