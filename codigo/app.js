@@ -117,17 +117,17 @@ var ultimos_jogos = [
     },
     {
         "jogo": "Rainbow six",
-        "data": "05/06/2024 19:30",
-        "campeonato": "Challengets Brazil 2024",
+        "data": "05/06/2024 19:00",
+        "campeonato": "TPL Season 8",
         "times": {
             "time_a": {
-                "nome": "Hero base",
-                "img": "https://pbs.twimg.com/profile_images/1726322424658993152/7EJIXFip_400x400.jpg",
+                "nome": "TSG Black",
+                "img": "https://pbs.twimg.com/profile_images/1650135927069503488/k-fdGFWU_400x400.jpg",
                 "placar": 2
             },
             "time_b": {
-                "nome": "Galorys Company",
-                "img": "https://static.valorantzone.gg/news/2023/06/07163614/imagem_2023-06-07_163613604.png",
+                "nome": "Mkers",
+                "img": "https://pbs.twimg.com/profile_images/1131572156293373953/devWtScQ_400x400.png",
                 "placar": 0
             }
         }

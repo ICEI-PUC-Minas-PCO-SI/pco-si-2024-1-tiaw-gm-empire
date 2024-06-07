@@ -170,7 +170,7 @@ section h1{
 .noticias_container{
     margin: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 200px;
 }
 
