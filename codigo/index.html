@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="noticias.json"></script>
+    <title>Document</title>
+</head>
+<body onload="atualizar()">
+    <header>
+        <img src="Imgs/logo-removebg-preview.png" width="14%" height="100%">
+        <div class="header_links">
+            <ul>
+                <li>AGENDA</li>
+                <li>PESQUISAR</li>
+                <li><input type="text" placeholder = "Digite um nome de um time:"> <i class="bi bi-search"></i></li>
+                <a href="Login/login.html"><li><button>Entrar</button></li></a>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Sobre qual jogo você quer saber mais?</h1>
+            <div class="games">
+                <ul>
+                    <li><a href=""><img src="Imgs/valorant-removebg-preview.png" height="75px" width="75px" id="valorant"></a></li>
+                    <li><a href=""><img src="Imgs/fortnite.png" height="75px" width="75px"></a></li>
+                    <li><a href=""><img src="Imgs/r6-removebg-preview.png" height="75px" width="75px"></a></li>
+                    <li><a href=""><img src="Imgs/lol-removebg-preview.png" height="75px" width="75px"></a></li>
+                    <li><a href=""><img src="Imgs/cs-removebg-preview.png" height="75px" width="75px"></a></li>
+                </ul>
+            </div>
+        </div>
+            <h1 id="titulo">Próximos jogos</h1>
+        <div class="jogos">
+            <i class="bi bi-arrow-left-circle" id="seta_esquerda" onclick="carrosel_esquerda()"></i>
+            <div class="lol">
+                <h2 id="nome_jogo1"></h2>
+                <div class="card" id="card1">
+                    <div class="data">
+                        <h4 id="campeonato_1"></h4>
+                        <p id="data_1"></p>
+                    </div>
+                    <div class="time">
+                        <img src="" width="40px" height="40px" id="imagem_time_1" data-url="pain.html">
+                    </div>
+                    <div class="time">
+                        <img src="" alt="" height="40px" width="40px" id="imagem_time_2" data-url="loud.html">
+                    </div>
+                </div>
+             </div>
+             <div class="valorant">
+                <h2 id="nome_jogo2"></h2>
+                <div class="card" id="card2">
+                    <div class="data">
+                        <h4 id="campeonato_2"></h4>
+                        <p id="data_2"></p>
+                    </div>
+                    <div class="time">
+                        <img src="" width="40px" height="40px" id="imagem_time_3" data-url="pain.html">
+                    </div>
+                    <div class="time">
+                        <img src="" alt="" height="40px" width="40px" id="imagem_time_4" data-url="loud.html">
+                    </div>
+                </div>
+             </div>
+             <i class="bi bi-arrow-right-circle" id="seta_direita" onclick="carrosel_direita()"></i>
+        </div>
+        <h1 id="titulo">Últimos Jogos</h1>
+        <div class="jogos">
+            <i class="bi bi-arrow-left-circle" id="ulitmos_jogos_seta_esquerda" onclick="ultimosJogos_carrosel_esquerda()"></i>
+            <div class="lol">
+                <h2 id="nome_jogo3"></h2>
+                <div class="card" id="card1">
+                    <div class="data">
+                        <h4 id="campeonato_3"></h4>
+                        <p id="data_3"></p>
+                    </div>
+                    <div class="time">
+                        <img src="" width="40px" height="40px" id="imagem_time_5" data-url="pain.html">
+                        <p id="placar_1"></p>
+                    </div>
+                    <div class="time">
+                        <img src="" alt="" height="40px" width="40px" id="imagem_time_6" data-url="loud.html">
+                        <p id="placar_2"></p>
+                    </div>
+                </div>
+             </div>
+             <div class="valorant">
+                <h2 id="nome_jogo4"></h2>
+                <div class="card" id="card2">
+                    <div class="data">
+                        <h4 id="campeonato_4"></h4>
+                        <p id="data_4"></p>
+                    </div>
+                    <div class="time">
+                        <img src="" width="40px" height="40px" id="imagem_time_7" data-url="pain.html">
+                        <p id="placar_3"></p>
+                    </div>
+                    <div class="time">
+                        <img src="" alt="" height="40px" width="40px" id="imagem_time_8" data-url="loud.html">
+                        <p id="placar_4"></p>
+                    </div>
+                </div>
+             </div>
+             <i class="bi bi-arrow-right-circle" id="ulitmos_jogos_seta_direita" onclick="ultimosJogos_carrosel_direita()"></i>
+        </div>
+    </main>
+    <section>
+        <h1 id="titulo">Notícias</h1>
+        <div class="noticias_container">
+            <div class="card_noticia">
+                <img src="" id="foto_noticia1" alt="">
+                <div class="conteudo_noticia" id="conteudo_noticia1">
+                    <h6 id="noticia_nomejogo1"></h6>
+                    <h3 id="noticia_titulo1"></h3>
+                    <p id="noticia_content1"></p>
+                    <p id="noticia_data1"></p>
+                </div>
+            </div>
+            <div class="card_noticia">
+                <img src="" id="foto_noticia2" alt="">
+                <div class="conteudo_noticia" id="conteudo_noticia2"> 
+                    <h6 id="noticia_nomejogo2"></h6>
+                    <h3 id="noticia_titulo2"></h3>
+                    <p id="noticia_content2"></p>
+                    <p id="noticia_data2"></p>
+                </div>
+            </div>
+            <div class="card_noticia">
+                <img src="" id="foto_noticia3" alt="">
+                <div class="conteudo_noticia" id="conteudo_noticia3">
+                    <h6 id="noticia_nomejogo3"></h6>
+                    <h3 id="noticia_titulo3"></h3>
+                    <p id="noticia_content3"></p>
+                    <p id="noticia_data3"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_container">
+            <div class="footer_logo">
+                <img src="Imgs/logo-removebg-preview.png" alt="" height="100%" width="300px">
+            </div>
+            <div class="footer_informacoes">
+                <h2>Informações</h2>
+                <h4>Sobre nós</h6>
+            </div>
+            <div class="footer_contatos">
+                <h2>Contatos</h2>
+                <h4><i class="bi bi-telephone-fill"></i>(31) 98214-7060</h4>
+                <h4><i class="bi bi-envelope"></i>gmempire@gmempire.com</h4>
+            </div>
+            <div class="footer_redes">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter-x"></i>
+            </div>
+        </div>
+        <p>Copyright © 2024 GM Empire. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
