@@ -30,6 +30,10 @@ header{
     align-items: center;
     cursor: pointer;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 
 .header_links ul li{
     font-size: 20px;
