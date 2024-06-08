@@ -23,20 +23,6 @@
         "titulo": "Atualização do patch",
         "conteudo": "Nova atualização do patch deixa muitos jogadores preocupados sobre como será o andamento do jogo.",
         "data": "06/06/2024"
-      },
-      {
-        "id": 4,
-        "jogo": "League of Legends",
-        "titulo": "Campeonato Mundial de Futebol começa amanhã",
-        "conteudo": "O Campeonato Mundial de Futebol terá início amanhã, com equipes de todo o mundo competindo pelo título.",
-        "data": "2024-06-07"
-      },
-      {
-        "id": 5,
-        "jogo": "League of Legends",
-        "titulo": "Nova exposição de arte moderna em São Paulo",
-        "conteudo": "Uma nova exposição de arte moderna foi inaugurada em São Paulo, destacando obras de artistas emergentes.",
-        "data": "2024-06-05"
       }
     ]
   }
