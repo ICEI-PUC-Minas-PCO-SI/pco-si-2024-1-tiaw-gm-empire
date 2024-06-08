@@ -10,13 +10,12 @@
 </head>
 <body onload="atualizar()">
     <header>
-        <img src="Imgs/logo-removebg-preview.png" width="14%" height="100%">
+        <img src="Imgs/logo-removebg-preview.png" width="20%" height="100%">    
+        <input type="text" placeholder = "Digite um nome de um time:"><i class="bi bi-search"></i>
         <div class="header_links">
             <ul>
                 <li>AGENDA</li>
-                <li>PESQUISAR</li>
-                <li><input type="text" placeholder = "Digite um nome de um time:"> <i class="bi bi-search"></i></li>
-                <a href="Login/login.html"><li><button>Entrar</button></li></a>
+                <a href="Login/login.html"><li><button>ENTRAR</button></li></a>
             </ul>
         </div>
     </header>
@@ -33,7 +32,7 @@
                 </ul>
             </div>
         </div>
-            <h1 id="titulo">Próximos jogos</h1>
+        <h1 id="titulo">Próximos jogos</h1>
         <div class="jogos">
             <i class="bi bi-arrow-left-circle" id="seta_esquerda" onclick="carrosel_esquerda()"></i>
             <div class="lol">
@@ -70,7 +69,7 @@
         </div>
         <h1 id="titulo">Últimos Jogos</h1>
         <div class="jogos">
-            <i class="bi bi-arrow-left-circle" id="ulitmos_jogos_seta_esquerda" onclick="ultimosJogos_carrosel_esquerda()"></i>
+            <i class="bi bi-arrow-left-circle" id="ultimos_jogos_seta_esquerda"  onclick="ultimosJogos_carrosel_esquerda()"></i>
             <div class="lol">
                 <h2 id="nome_jogo3"></h2>
                 <div class="card" id="card1">
@@ -105,7 +104,7 @@
                     </div>
                 </div>
              </div>
-             <i class="bi bi-arrow-right-circle" id="ulitmos_jogos_seta_direita" onclick="ultimosJogos_carrosel_direita()"></i>
+             <i class="bi bi-arrow-right-circle" id="ultimos_jogos_seta_direita" onclick="ultimosJogos_carrosel_direita()"></i>
         </div>
     </main>
     <section>

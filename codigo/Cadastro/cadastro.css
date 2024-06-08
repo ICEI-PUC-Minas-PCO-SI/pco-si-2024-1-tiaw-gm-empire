@@ -67,6 +67,8 @@ form{
 
 .form button:hover{
     scale: 1.05;
+    background-color: black;
+    color: white;
 }
 
 .links{

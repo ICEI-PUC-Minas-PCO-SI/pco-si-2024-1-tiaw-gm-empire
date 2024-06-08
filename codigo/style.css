@@ -15,6 +15,7 @@ header{
     margin: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header_links{
@@ -28,41 +29,66 @@ header{
     justify-content: center;
     gap: 50px;
     align-items: center;
-    cursor: pointer;
+}
+header input{
+    width: 40%;
+}
+header i{
+    color: black;
+    font-size: 22px;
+    position: absolute;
+    left: 66%;
+}
+
+header input{
+    width: 35%;
+    height: 43px;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid transparent;
 }
 a{
     text-decoration: none;
     color: black;
 }
-
+.header_links{
+    width: 20%;
+}
 .header_links ul li{
     font-size: 20px;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
-.header_links input{
-    padding: 10px;
-    border-radius: 20px;
-    border: 2px solid transparent;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    width: 200px;
+#seta_esquerda:hover, #seta_direita:hover, #ultimos_jogos_seta_esquerda:hover, #ultimos_jogos_seta_direita:hover{
+    scale: 1.1;
+}
+
+#seta_esquerda, #seta_direita, #ultimos_jogos_seta_esquerda, #ultimos_jogos_seta_direita{
+    transition: all 1s ease;
+}
+
+header input{
+    padding-left: 17px;
+}
+
+li button{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 17px;
 }
 
 input::placeholder{
     color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: Roboto;
 }
 
 ul li{
     list-style: none;
 }
 
-button{
+.header_links li, button{
     padding: 10px;
     border-radius: 20px;
     width: 100px;
@@ -72,13 +98,18 @@ button{
     cursor: pointer;
 }
 
-button:hover{
-    scale: 1.2;
+.header_links button:hover{
+    background-color: black;
+    color: white;
+}
+
+.header_links li:hover, button:hover{
+    scale: 1.1;
 }
 
 .container{
     margin: 20px;
-    background: linear-gradient(90deg, rgba(107,96,159,1) 11%, rgba(110,132,171,1) 100%); 
+    background: radial-gradient(circle, rgb(127, 167, 207) 0%, rgb(28, 34, 61) 100%);
     padding: 100px;
     border-radius: 25px;
 }
@@ -152,7 +183,7 @@ main h1{
     border-left: 5px solid orange;
 }
 
-#seta_esquerda, #seta_direita, #ulitmos_jogos_seta_direita, #ulitmos_jogos_seta_esquerda{
+#seta_esquerda, #seta_direita, #ultimos_jogos_seta_direita, #ultimos_jogos_seta_esquerda{
     font-size: 40px;
     margin-top: 60px;
     cursor: pointer;
@@ -206,9 +237,10 @@ section h1{
     width: 50%;
 }
 footer{
-    background-color: rgb(177, 177, 182);
+    background-color: rgb(28, 34, 61);
     width: 100%;
     height: 200px;
+    color: white;
 }
 
 footer p{
@@ -242,6 +274,10 @@ footer p{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.footer_informacoes a{
+    color: white;
 }
 
 .footer_informacoes h4{
