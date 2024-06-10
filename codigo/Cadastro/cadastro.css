@@ -22,7 +22,11 @@ body{
 
 .logo{
     border-right: 2px solid white;
-}
+    padding: 50px;
+    height: 387.55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
 
 .form{
     margin-left: 100px;
