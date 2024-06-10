@@ -243,7 +243,8 @@ section h1{
 }
 
 #noticia_data1, #noticia_data2, #noticia_data3{
-    margin-top: 40px;
+    position: absolute;
+    top: 150%;
 }
 .card_noticia img{
     width: 50%;
