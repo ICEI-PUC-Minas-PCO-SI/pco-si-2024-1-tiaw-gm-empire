@@ -233,18 +233,21 @@ section h1{
 .card_noticia:hover{
     scale: 1.05;
 }
+.card_noticia:hover #noticia_data1{
+    scale: 1.0;
+}
 
 .conteudo_noticia{
     padding: 5px;
     border-bottom: 5px solid rgb(255, 0, 191);
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 4;
     gap: 6%;
 }
 
+
 #noticia_data1, #noticia_data2, #noticia_data3{
-    position: absolute;
-    top: 150%;
+    grid-row: 4;
 }
 .card_noticia img{
     width: 50%;

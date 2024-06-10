@@ -311,7 +311,7 @@ function ultimosJogos_carrosel_esquerda(){
     document.querySelector("#placar_4").innerHTML = ultimos_jogos[i + 1].times.time_b.placar
 }
 
-fetch("noticias.json")
+fetch("db.json")
     .then(function(response){
         return response.json()
     })
