@@ -8,6 +8,7 @@ body{
     height: 100vh;
     font-family: Roboto;
 }
+
 header{
     background-color: rgb(28, 34, 61);
     height: 165px;
@@ -55,6 +56,7 @@ a{
     color: white;
     font-weight: bold;
     cursor: pointer;
+    list-style: none;
 }
 
 .header_img{
@@ -73,14 +75,6 @@ a{
     scale: 1.1;
 }
 
-#seta_esquerda:hover, #seta_direita:hover, #ultimos_jogos_seta_esquerda:hover, #ultimos_jogos_seta_direita:hover{
-    scale: 1.1;
-}
-
-#seta_esquerda, #seta_direita, #ultimos_jogos_seta_esquerda, #ultimos_jogos_seta_direita{
-    transition: all 1s ease;
-}
-
 header input{
     padding-left: 17px;
 }
@@ -96,7 +90,7 @@ input::placeholder{
     font-family: Roboto;
 }
 
-ul li{
+header ul li{
     list-style: none;
 }
 
@@ -121,136 +115,61 @@ ul li{
 
 .container{
     margin: 20px;
-    background: radial-gradient(circle, rgb(127, 167, 207) 0%, rgb(28, 34, 61) 100%);
-    padding: 100px;
-    border-radius: 25px;
-}
-
-.container  h1{
-    text-align: center;
-    margin-bottom: 50px;
-}
-.games ul{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px;
+    flex-direction: column;
+    gap: 50px;
 }
 
-.games ul li{
-    cursor: pointer;
-    transition: all 1s ease;
-   
+.colegas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.games ul li:hover{
-    scale: 1.2;
-}
-
-.jogos h1{
-    text-align: center;
-}
-.jogos{
-  display: flex;
-  justify-content: space-around;
-  gap: 30px;
-}
-
-#valorant{
-    scale: 1.4;
-}
-
-main h1{
-    text-align: center;
+.colegas img{
+    border-radius: 100%;
 }
 
 .card{
-    width: 400px;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    padding: 15px;
-    transition: all 1s ease;
-    cursor: pointer;
-}
-.data{
     display: flex;
-    justify-content: space-between;
-}
-
-.time{
-    display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    margin: 10px 0px;
+    justify-content: center;
 }
 
-#card1{
-    border-left: 5px solid blue;
-}
-#card2{
-    grid-column: 2;
-    border-left: 5px solid red;
-}
-
-.card3{
-    border-left: 5px solid orange;
+.sobrenos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
 }
 
-#seta_esquerda, #seta_direita, #ultimos_jogos_seta_direita, #ultimos_jogos_seta_esquerda{
-    font-size: 40px;
-    margin-top: 60px;
-    cursor: pointer;
+.objetivos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.integrantes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
 }
 
-#nome_jogo1, #nome_jogo2, #nome_jogo3, #nome_jogo4{
-    margin-bottom: 20px;
-}
-
-#titulo{
-    margin: 30px;
-}
-
-section h1{
+.integrantes h1{
     text-align: center;
-    font-size: 33px;
+    margin-bottom: 30px;
 }
 
-.noticias_container{
-    margin: 20px;
-    display: flex;
-    justify-content: space-around;
-    height: 200px;
+.objetivos h1{
+    margin-bottom: 30px;
 }
 
-.card_noticia{
-    display: flex;
-    width: 30%;
-    height: 100%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    transition: all 1s ease;
-    cursor: pointer;
-}
-
-.card_noticia:hover{
-    scale: 1.05;
-}
-.card_noticia:hover #noticia_data1{
-    scale: 1.0;
-}
-
-.conteudo_noticia{
-    padding: 5px;
-    border-bottom: 5px solid rgb(255, 0, 191);
-    display: grid;
-    grid-template-rows: 4;
-    gap: 6%;
-}
-
-
-#noticia_data1, #noticia_data2, #noticia_data3{
-    grid-row: 4;
-}
-.card_noticia img{
-    width: 50%;
+.sobrenos h1{
+    margin-bottom: 30px;
 }
 footer{
     background-color: rgb(28, 34, 61);
@@ -321,6 +240,8 @@ footer h2{
     padding-top: 20px;
 }
 
-section{
-    margin-bottom: 70px;
+@media screen and (max-width: 700px) {
+    .colegas{
+        flex-direction: column;
+    }
 }
