@@ -239,7 +239,7 @@ section h1{
 
 .conteudo_noticia{
     padding: 5px;
-    border-bottom: 5px solid rgb(255, 0, 191);
+    border-bottom: 5px solid rgb(91, 142, 155);
     display: grid;
     grid-template-rows: 4;
     gap: 6%;
