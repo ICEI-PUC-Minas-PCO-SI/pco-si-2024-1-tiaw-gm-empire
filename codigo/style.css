@@ -65,6 +65,14 @@ a{
     justify-content: center;
 }
 
+.header_img img{
+    transition: all 1s ease;
+}
+
+.header_img img:hover{
+    scale: 1.1;
+}
+
 #seta_esquerda:hover, #seta_direita:hover, #ultimos_jogos_seta_esquerda:hover, #ultimos_jogos_seta_direita:hover{
     scale: 1.1;
 }
