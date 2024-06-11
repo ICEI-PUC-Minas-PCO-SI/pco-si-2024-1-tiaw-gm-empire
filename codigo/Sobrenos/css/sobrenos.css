@@ -285,3 +285,9 @@ footer h2{
         display: none;
     }
 }
+
+@media screen and (min-width: 501px) and (max-width: 850px){
+    .colegas{
+        flex-direction: column;
+    }
+}
