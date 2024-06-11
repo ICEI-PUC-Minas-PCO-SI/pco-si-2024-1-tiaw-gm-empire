@@ -105,13 +105,16 @@ ul li{
 }
 
 .header_links li, button{
-    padding: 10px;
     border-radius: 20px;
-    width: 100px;
     border: 2px solid transparent;
     outline: none;
     transition: all 1s ease;
     cursor: pointer;
+}
+
+.header_links button{
+    padding: 10px;
+    width: 100px;
 }
 
 .header_links button:hover{
@@ -334,7 +337,7 @@ section{
 }
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 500px){
     .jogos{
         flex-direction: column;
         align-items: center;
@@ -351,6 +354,10 @@ section{
         width: 100%;
     }
 
+    .header_links ul{
+        gap: 10px;
+    }
+
     header{
         display: grid;
         grid-template-columns: 3;
@@ -361,50 +368,60 @@ section{
     header #pesquisa{
         grid-row: 2;
         grid-column: span 2;
-        width: 96%;
+        width: 86%;
+        margin-left: 15px;
     }
 
     header #icon_busca{
         display: none;
-        left: 86%;
     }
 
+    .card{
+        scale: 0.8;
+    }
+
+    #nome_jogo1, #nome_jogo2, #nome_jogo3, #nome_jogo4{
+        text-align: center;
+    }
     .noticias_container{
         flex-direction: column;
         align-items: center;
         gap: 50px;
-        max-height: 500px;
+        max-height: 130px;
         overflow: scroll;
     }
 
     #seta_esquerda{
         position: absolute;
-        top: 1270px;
+        top: 1230px;
         right: 55%;
     }
 
     #seta_direita{
         position: absolute;
-        top: 1270px;
+        top: 1230px;
         left: 55%;
     }
 
     #ultimos_jogos_seta_esquerda{
         position: absolute;
-        top: 1890px;
+        top: 1850px;
         right: 55%;
     }
 
     #ultimos_jogos_seta_direita{
         position: absolute;
-        top: 1890px;
+        top: 1850px;
         left: 55%;
     }
 
     .card_noticia{
         width: 100%;
-        height: 100%;
+        height: 200px;
+        font-size: 10px;
+        scale: 1.1;
     }
+
 
     .valorant{
         margin-bottom: 50px;
@@ -416,6 +433,19 @@ section{
 
     .footer_contatos, .footer_informacoes{
         display: none;
+    }
+
+    .container{
+       height: 400px;
+       padding: 50px;
+    }
+
+    .games{
+        width: 100%;
+    }
+
+    .games ul{
+        width: 100%;
     }
 
 }

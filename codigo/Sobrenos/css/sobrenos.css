@@ -95,14 +95,18 @@ header ul li{
 }
 
 .header_links li, button{
-    padding: 10px;
     border-radius: 20px;
-    width: 100px;
     border: 2px solid transparent;
     outline: none;
     transition: all 1s ease;
     cursor: pointer;
 }
+
+.header_links button{
+    padding: 10px;
+    width: 100px;
+}
+
 
 .header_links button:hover{
     background-color: black;
