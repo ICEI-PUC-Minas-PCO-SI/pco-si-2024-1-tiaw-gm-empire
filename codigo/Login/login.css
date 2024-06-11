@@ -92,3 +92,18 @@ img{
 img:hover{
     scale: 1.1;
 }
+
+@media only screen and (max-width: 500px){
+    .logo{
+        display: none;
+    }
+    .container{
+        margin-right: 0px;
+    }
+
+    .form{
+        margin: 0;
+
+        padding: 20px;
+    }
+}
