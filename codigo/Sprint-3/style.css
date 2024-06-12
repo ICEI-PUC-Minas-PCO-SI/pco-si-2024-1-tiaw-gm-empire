@@ -1,0 +1,111 @@
+/* style.css */
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+h1 {
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    color: lightgreen;
+    text-align: center;
+    margin-top: 5%;
+    transition: all 1.5s ease;
+    
+}
+
+/* Estilo para os campos de entrada */
+input[type="text"],
+textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid lightgreen;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 0 auto; 
+    display: block; 
+    margin-top: 10px;
+}
+
+/* Estilo para o botão */
+button {
+    background-color: lightgreen;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3px;
+    margin-bottom: 8%;
+    transition: all 0.2s ease-in;
+}
+
+/* Estilo para o botão quando hover */
+button:hover {
+    background-color: darkgreen;
+    scale: 1.1;
+}
+
+/* Estilo para a área de comentários */
+#comentario-do-usuario {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    clip-path: circle(40%);
+}
+
+/* Animações */
+img:hover{
+    scale: 1.1;
+}
+
+img {
+    transition: all 0.5s ease;
+}
+
+h2:hover{
+    transform: rotateX(360deg);
+}
+
+#nome {
+    transition: all 0.5s ease;
+}
+
+#nome:hover {
+    scale: 1.1;
+}
+
+#comentario {
+    transition: all 0.5s ease;
+}
+
+#comentario:hover {
+    scale: 1.1;
+}
+
+#comentario-do-usuario {
+    box-shadow: -1em 0 0.4em lightgreen;
+}
