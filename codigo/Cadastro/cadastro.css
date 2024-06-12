@@ -72,7 +72,6 @@ form{
 }
 
 .form #btn:hover{
-    scale: 1.05;
     background-color: black;
     color: white;
 }
@@ -90,8 +89,14 @@ img{
 img:hover{
     scale: 1.1;
 }
-
-@media only screen and (max-width: 500px){
+.bi-eye, .bi-eye-slash{
+    position: absolute;
+    top: 59.5%;
+    left: 65.5%;
+    font-size: 25px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 399px){
     .logo{
         display: none;
     }
@@ -103,5 +108,82 @@ img:hover{
         margin: 0;
 
         padding: 20px;
+    }
+
+    .bi-eye, .bi-eye-slash{
+        top: 66%;
+        left: 87%;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 479px){
+    .logo{
+        display: none;
+    }
+    .container{
+        margin-right: 0px;
+    }
+
+    .form{
+        margin: 0;
+
+        padding: 20px;
+    }
+
+    .bi-eye, .bi-eye-slash{
+        left: 88%;
+    }
+}
+
+@media only screen and (min-width: 479px) and (max-width: 799px){
+    .logo{
+        display: none;
+    }
+    .container{
+        margin-right: 0px;
+    }
+
+    .form{
+        margin: 0;
+
+        padding: 20px;
+    }
+
+    .bi-eye, .bi-eye-slash{
+        left: 84%;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 899px){
+    .container{
+        margin-right: 0px;
+    }
+
+    .form{
+        margin: 0;
+
+        padding: 20px;
+    }
+
+    .bi-eye, .bi-eye-slash{
+        top: 57.5%;
+        left: 86.5%;
+    }
+}
+
+@media only screen and (min-width: 1500px) and (max-width:1600px){
+    .container{
+        margin-right: 0px;
+    }
+
+    .form{
+        margin: 0;
+
+        padding: 20px;
+    }
+
+    .bi-eye, .bi-eye-slash{
+        top: 59%;
+        left: 69%;
     }
 }
