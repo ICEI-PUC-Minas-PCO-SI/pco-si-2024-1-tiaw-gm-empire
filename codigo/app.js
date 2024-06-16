@@ -326,15 +326,15 @@ fetch("db.json")
         // Cria card html para as notícias
         news.forEach(n => {
             containerNoticias.insertAdjacentHTML('beforeend',
-                `<a href="Noticias/noticias.html" onclick="setNoticia(${n.id});"><div class="card_noticia">
+                `<div class="card_noticia">
                     <img src="${n.imagem}" alt="${n.titulo}">
                     <div class="conteudo_noticia">
                         <h6>${n.jogo}</h6>
-                        <h3>${n.titulo}</h3>
+                        <h3><a href="Noticias/noticias.html" onclick="setNoticia(${n.id});">${n.titulo}</a></h3>
                         <p>${n.conteudo}</p>
                         <p>${n.data}</p>
                     </div>
-                </div></a>`
+                </div>`
             );
         });
     });
@@ -342,6 +342,6 @@ fetch("db.json")
 function setNoticia(noticiaId) {
     debugger;
     const noticia = JSON.stringify(news.find(n => n.id === noticiaId));
-    localStorage.getItem('noticia', noticia);
+    localStorage.setItem('noticia', noticia);
     
 }
