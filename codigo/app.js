@@ -330,7 +330,7 @@ fetch("db.json")
                         <div class="conteudo_noticia">
                             <h6>${n.jogo}</h6>
                             <h3>${n.titulo}</h3>
-                            <p>${n.conteudo}</p>
+                            <p>${n.conteudo_breve}</p>
                             <p>${n.data}</p>
                         </div>
                     </div>

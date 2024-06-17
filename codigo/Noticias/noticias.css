@@ -179,7 +179,27 @@ footer h2{
 }
 
 main{
-    height: 600px;
+    height: 1350px;
+}
+
+#noticia_img{
+    width: 30%;
+    height: 400px;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 25px;
+}
+
+#noticia_conteudo{
+    margin-left: 13%;
+    margin-right: 12%;
+    line-height: 35px;
+}
+
+textarea{
+    border-radius: 20px;
+    outline: none;
 }
 
 @media only screen and (max-width: 400px){
