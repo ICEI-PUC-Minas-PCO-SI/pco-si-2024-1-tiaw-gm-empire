@@ -311,28 +311,37 @@ function ultimosJogos_carrosel_esquerda(){
     document.querySelector("#placar_4").innerHTML = ultimos_jogos[i + 1].times.time_b.placar
 }
 
+let news;
+const containerNoticias = document.querySelector('.noticias_container');
 fetch("db.json")
-    .then(function(response){
+    .then(function (response) {
         return response.json()
     })
-    .then(function(data){
-        // card 1
-        document.querySelector("#noticia_nomejogo1").innerHTML = data.noticias[0].jogo
-        document.querySelector("#noticia_titulo1").innerHTML = data.noticias[0].titulo
-        document.querySelector("#noticia_content1").innerHTML = data.noticias[0].conteudo
-        document.querySelector("#noticia_data1").innerHTML = data.noticias[0].data
-        document.querySelector("#foto_noticia1").src = data.noticias[0].imagem  
-        // card 2
-        document.querySelector("#noticia_nomejogo2").innerHTML = data.noticias[1].jogo
-        document.querySelector("#noticia_titulo2").innerHTML = data.noticias[1].titulo
-        document.querySelector("#noticia_content2").innerHTML = data.noticias[1].conteudo
-        document.querySelector("#noticia_data2").innerHTML = data.noticias[1].data
-        document.querySelector("#foto_noticia2").src = data.noticias[1].imagem  
+    .then(function (data) {
+        // Array de notícias
+        news = data.noticias;
 
-        // card 3
-        document.querySelector("#noticia_nomejogo3").innerHTML = data.noticias[2].jogo
-        document.querySelector("#noticia_titulo3").innerHTML = data.noticias[2].titulo
-        document.querySelector("#noticia_content3").innerHTML = data.noticias[2].conteudo
-        document.querySelector("#noticia_data3").innerHTML = data.noticias[2].data
-        document.querySelector("#foto_noticia3").src = data.noticias[2].imagem  
-    })
+        // Cria card html para as notícias
+        news.forEach(n => {
+            containerNoticias.insertAdjacentHTML('beforeend',
+              `<a href="Noticias/noticias.html" onclick="setNoticia(${n.id});">
+                    <div class="card_noticia">
+                        <img src="${n.imagem}" alt="${n.titulo}">
+                        <div class="conteudo_noticia">
+                            <h6>${n.jogo}</h6>
+                            <h3>${n.titulo}</h3>
+                            <p>${n.conteudo}</p>
+                            <p>${n.data}</p>
+                        </div>
+                    </div>
+                </a>`
+            );
+        });
+    });
+
+function setNoticia(noticiaId) {
+    debugger;
+    const noticia = JSON.stringify(news.find(n => n.id === noticiaId));
+    localStorage.setItem('noticia', noticia);
+    
+}
