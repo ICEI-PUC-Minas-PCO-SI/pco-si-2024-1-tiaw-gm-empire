@@ -1,3 +1,29 @@
+// Verifica se o usuário está logado ao carregar a página
+window.onload = function () {
+    const nomeInput = document.getElementById("nome");
+    const comentarioTextArea = document.getElementById("comentario");
+    const enviarButton = document.querySelector("button[onclick='addComment()']");
+
+    // Verifica se existe um usuário logado
+    const user = sessionStorage.getItem('USER');
+
+    if (USER) {
+        // Usuário está logado, habilita os campos e o botão
+        nomeInput.removeAttribute('disabled');
+        comentarioTextArea.removeAttribute('disabled');
+        enviarButton.removeAttribute('disabled');
+    } else {
+        // Usuário não está logado, desabilita os campos e o botão e muda o placeholder
+        nomeInput.setAttribute('disabled', 'true');
+        comentarioTextArea.setAttribute('disabled', 'true');
+        enviarButton.setAttribute('disabled', 'true');
+    }
+
+    exibirComentarios(); // Chama a função para exibir os comentários já existentes
+};
+
+
+
 function addComment() {
 
     //Declarando as variáveis "nome" e "comentario"
@@ -11,7 +37,7 @@ function addComment() {
     }
 
     //LOCALSTORAGE - INÍCIO DO NOVO CÓDIGO 
-    
+
     // Criando objeto com o novo comentário
     const novoComentario = {
         nome: nome,
@@ -42,9 +68,6 @@ document.getElementById("comentario").addEventListener("keypress", function (eve
     }
 });
 
-//FIM DO CÓDIGO NOVO QUE ENGLOBA O LOCALSTORAGE E O BOTÃO ENTER, OBTENDO UMA APRESENTAÇÃO DE INFORMAÇÃO (AI)
-
-
 // Função para exibir os comentários na página
 function exibirComentarios() {
     const comentarioDiv = document.getElementById("comentario-do-usuario");
@@ -65,49 +88,3 @@ window.onload = exibirComentarios;
 
 //Limpar o localStorage quando for preciso (NOVO)
 //localStorage.clear();
-
-
-
-
-
-
-
-/*const comentarios = [
-    {
-        "nome": "João:",
-        "comentario": "Ótimo site! Gostei da navegação e da interação feita com o usuário."
-    },
-    {
-        "nome": "Maria:",
-        "comentario": "Gostei muito do site! Atendeu as minhas expectativas!!"
-    },
-    {
-        "nome": "Daniel:",
-        "comentario": "Site muito completo! Agora consigo me localizar quanto aos horários dos jogos que eu curto!!"
-    },
-    {
-        "nome": "Luíza:",
-        "comentario": "Site totalmente responsivo e adequado a qualquer tipo de tela! Sem contar no seu conteúdo, que era necessário para atender o público dos games!"
-    }
-];
-
-// Função para carregar os comentários
-function carregarComentarios() {
-    // Recupera a div onde os comentários serão exibidos
-    const comentarioDiv = document.getElementById("comentario-do-usuario");
-
-    // Itera sobre os comentários no JSON
-    for (const comment of comentarios) {
-        // Cria um elemento de parágrafo para cada comentário
-        const comentarioElement = document.createElement("p");
-        comentarioElement.textContent = `${comment.nome} ${comment.comentario}`;
-
-        // Adiciona o elemento de parágrafo à div de comentários
-        comentarioDiv.appendChild(comentarioElement);
-    }
-}
-
-// Chama a função para carregar os comentários assim que a página for carregada
-window.onload = function () {
-    carregarComentarios();
-};*/
