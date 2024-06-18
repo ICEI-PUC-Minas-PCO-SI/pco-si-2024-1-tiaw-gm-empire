@@ -45,16 +45,16 @@ body{
     font-style: italic;
 }
 
-
 a{
     text-decoration: none;
 }
+
 form{
     display: flex;
     flex-direction: column;
 }
 
-.form input{
+.form input, #btn{
     width: 95%;
     padding: 20px 0px;
     padding-left: 5%;
@@ -69,7 +69,6 @@ form{
     transition: all 1s ease;
     cursor: pointer;
     width: 100%;
-    
 }
 
 .form #btn:hover{

@@ -343,5 +343,14 @@ function setNoticia(noticiaId) {
     debugger;
     const noticia = JSON.stringify(news.find(n => n.id === noticiaId));
     localStorage.setItem('noticia', noticia);
-    
+}
+
+// usuário logado
+const usuarioDiv = document.getElementById('usuario');
+if (sessionStorage.getItem('USER')) {
+    const user = JSON.parse(sessionStorage.getItem('USER'));
+
+    usuarioDiv.innerHTML = `Olá ${user.nome}`;
+} else {
+    usuarioDiv.innerHTML = `<a href="Login/login.html"><li><button>ENTRAR</button></li></a>`;
 }
