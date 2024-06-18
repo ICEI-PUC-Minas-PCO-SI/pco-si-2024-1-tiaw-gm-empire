@@ -36,9 +36,11 @@ document.addEventListener('DOMContentLoaded', function() {
     if (user) {
         // Usuário está logado, habilita a área de texto
         commentTextArea.removeAttribute('disabled');
+        btn-submit.removeAttribute('disabled');
     } else {
         // Usuário não está logado, desabilita a área de texto e muda seu placeholder
         commentTextArea.setAttribute('disabled', 'true');
+        btn-submit.setAttribute('disabled', 'true');
         commentTextArea.placeholder = 'Você precisa estar logado para comentar.';
     }
 
