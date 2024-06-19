@@ -22,7 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector(`#local_1`).innerHTML = selectedTeam.proximo_jogo.local
         document.querySelector(`#local_2`).innerHTML = selectedTeam.ultimo_jogo.local
         
-    } else {
+    } 
+    else {
         teamDetailsContainer.textContent = 'Nenhum time selecionado.';
     }
 });
