@@ -88,7 +88,7 @@ var ultimos_jogos = [
         "times": {
             "time_a": {
                 "nome": "Hero base",
-                "img": "https://pbs.twimg.com/profile_images/1726322424658993152/7EJIXFip_400x400.jpg",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR5A4CVohUKkco24sZ-41lbbcrbZwkU_TXxbYIz5YVpwpedT2p2qLtvRymBbk_QDBHiEg&usqp=CAU",
                 "placar": 2
             },
             "time_b": {
@@ -341,7 +341,55 @@ fetch("db.json")
 
 function setNoticia(noticiaId) {
     debugger;
+    console.log(news)
     const noticia = JSON.stringify(news.find(n => n.id === noticiaId));
     localStorage.setItem('noticia', noticia);
-    
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    const championship_cblol = teamsData.times_jogos.lol.campeonatos.cblol;
+    const images_lol_cblol = document.querySelectorAll('.img_lol_cblol');
+    const championship_champions = teamsData.times_jogos.valorant.campeonatos.valorant_champions;
+    const imagens_valorant_champions = document.querySelectorAll(".img_valorant_champions")
+    const championship_challengers = teamsData.times_jogos.valorant.campeonatos.valorant_challengers;
+    const imagens_valorant_challengers = document.querySelectorAll(".img_valorant_challengers")
+
+    images_lol_cblol.forEach(img => {
+        const teamName = img.getAttribute('data-nome');
+        const team = championship_cblol.times.find(team => team.nome === teamName);
+        if (team) {
+            img.src = team.logo;
+            img.alt = team.nome;
+            img.addEventListener('click', () => {
+                localStorage.setItem('selectedTeam', JSON.stringify(team));
+                window.location.href = 'times/time.html';
+            });
+        }
+    });
+
+    imagens_valorant_champions.forEach(img => {
+        const teamName = img.getAttribute('data-nome');
+        const team = championship_champions.times.find(team => team.nome === teamName);
+        if (team) {
+            img.src = team.logo;
+            img.alt = team.nome;
+            img.addEventListener('click', () => {
+                localStorage.setItem('selectedTeam', JSON.stringify(team));
+                window.location.href = 'times/time.html';
+            });
+        }
+    });
+
+    imagens_valorant_challengers.forEach(img => {
+        const teamName = img.getAttribute('data-nome');
+        const team = championship_challengers.times.find(team => team.nome === teamName);
+        if (team) {
+            img.src = team.logo;
+            img.alt = team.nome;
+            img.addEventListener('click', () => {
+                localStorage.setItem('selectedTeam', JSON.stringify(team));
+                window.location.href = 'times/time.html';
+            });
+        }
+    });
+});

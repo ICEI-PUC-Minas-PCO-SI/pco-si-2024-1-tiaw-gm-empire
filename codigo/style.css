@@ -161,6 +161,8 @@ ul li{
   display: flex;
   justify-content: space-around;
   gap: 30px;
+  padding: 20px;
+  margin: 0px 80px;
 }
 
 #valorant{
@@ -336,6 +338,11 @@ section{
     visibility: hidden;
 }
 
+.cs-ultimos_jogos{
+    position: absolute;
+    top: 100%;
+}
+
 
 @media only screen and (max-width: 500px){
     .jogos{
@@ -358,23 +365,23 @@ section{
         gap: 10px;
     }
 
-    header{
-        display: grid;
-        grid-template-columns: 3;
-        grid-template-rows: 2;
-        height: 200px;
-    }
+        header{
+            display: grid;
+            grid-template-columns: 3;
+            grid-template-rows: 2;
+            height: 200px;
+        }
 
-    header #pesquisa{
-        grid-row: 2;
-        grid-column: span 2;
-        width: 86%;
-        margin-left: 15px;
-    }
+        header #pesquisa{
+            grid-row: 2;
+            grid-column: span 2;
+            width: 86%;
+            margin-left: 15px;
+        }
 
-    header #icon_busca{
-        display: none;
-    }
+        header #icon_busca{
+            display: none;
+        }
 
     .card{
         scale: 0.8;

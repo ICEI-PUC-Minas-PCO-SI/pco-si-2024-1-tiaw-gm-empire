@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="noticias.json"></script>
     <title>GM Empire</title>
 </head>
 <body onload="atualizar()">
     <header>
         <div class="header_img">
-            <a href="index.html"><img src="Imgs/logo-removebg-preview.png" width="50%" height="60%"></a> 
+            <a href="index.html"><img src="Imgs/logos/logo-removebg-preview.png" width="50%" height="60%"></a> 
         </div>   
         <input type="text" placeholder = "Digite um nome de um time:" id="pesquisa"><i class="bi bi-search" id="icon_busca"></i>
         <div class="header_links">
@@ -26,10 +25,10 @@
             <h1>Sobre qual jogo você quer saber mais?</h1>
             <div class="games">
                 <ul>
-                    <li><a href=""><img src="Imgs/valorant-removebg-preview.png" height="75px" width="75px" id="valorant"></a></li>
-                    <li id="r6"><a href=""><img src="Imgs/r6-removebg-preview.png" height="75px" width="75px"></a></li>
-                    <li id="lol"><a href=""><img src="Imgs/lol-removebg-preview.png" height="75px" width="75px"></a></li>
-                    <li id="cs"><a href=""><img src="Imgs/cs-removebg-preview.png" style="border-radius: 5px;" height="75px" width="75px"></a></li>
+                    <li><a href=""><img src="Imgs/logos/valorant-removebg-preview.png" height="75px" width="75px" id="valorant"></a></li>
+                    <li id="r6"><a href=""><img src="Imgs/logos/r6-removebg-preview.png" height="75px" width="75px"></a></li>
+                    <li id="lol"><a href=""><img src="Imgs/logos/lol-removebg-preview.png" height="75px" width="75px"></a></li>
+                    <li id="cs"><a href=""><img src="Imgs/logos/cs-removebg-preview.png" style="border-radius: 5px;" height="75px" width="75px"></a></li>
                 </ul>
             </div>
         </div>
@@ -44,10 +43,10 @@
                         <p id="data_1"></p>
                     </div>
                     <div class="time">
-                        <img src="" width="40px" height="40px" id="imagem_time_1">
+                        <img src="" width="40px" height="40px" id="imagem_time_1" data-nome="Fluxo" class="img_lol_cblol">
                     </div>
                     <div class="time">
-                        <img src="" alt="" height="40px" width="40px" id="imagem_time_2">
+                        <img src="" alt="" height="40px" width="40px" id="imagem_time_2" data-nome="Kabum" class="img_lol_cblol">
                     </div>
                 </div>
              </div>
@@ -59,10 +58,10 @@
                         <p id="data_2"></p>
                     </div>
                     <div class="time">
-                        <img src="" width="40px" height="40px" id="imagem_time_3">
+                        <img src="" width="40px" height="40px" id="imagem_time_3" data-nome="LOUD" class="img_valorant_champions">
                     </div>
                     <div class="time">
-                        <img src="" alt="" height="40px" width="40px" id="imagem_time_4">
+                        <img src="" alt="" height="40px" width="40px" id="imagem_time_4" data-nome="MIBR" class="img_valorant_champions">
                     </div>
                 </div>
              </div>
@@ -79,11 +78,11 @@
                         <p id="data_3"></p>
                     </div>
                     <div class="time">
-                        <img src="" width="40px" height="40px" id="imagem_time_5" data-url="pain.html">
+                        <img src="" width="40px" height="40px" id="imagem_time_5" data-nome="Pain Gaming" class="img_lol_cblol">
                         <p id="placar_1"></p>
                     </div>
                     <div class="time">
-                        <img src="" alt="" height="40px" width="40px" id="imagem_time_6" data-url="loud.html">
+                        <img src="" alt="" height="40px" width="40px" id="imagem_time_6" data-nome="Fúria" class="img_lol_cblol">
                         <p id="placar_2"></p>
                     </div>
                 </div>
@@ -96,11 +95,11 @@
                         <p id="data_4"></p>
                     </div>
                     <div class="time">
-                        <img src="" width="40px" height="40px" id="imagem_time_7" data-url="pain.html">
+                        <img src="" width="40px" height="40px" id="imagem_time_7" data-nome="Hero Base" class="img_valorant_challengers">
                         <p id="placar_3"></p>
                     </div>
                     <div class="time">
-                        <img src="" alt="" height="40px" width="40px" id="imagem_time_8" data-url="loud.html">
+                        <img src="" alt="" height="40px" width="40px" id="imagem_time_8" data-nome="Galorys Comoany" class="img_valorant_challengers">
                         <p id="placar_4"></p>
                     </div>
                 </div>
@@ -115,7 +114,7 @@
     <footer>
         <div class="footer_container">
             <div class="footer_logo">
-                <img src="Imgs/logo-removebg-preview.png" alt="" height="80%" width="100%">
+                <img src="Imgs/logos/logo-removebg-preview.png" alt="" height="80%" width="100%">
             </div>
             <div class="footer_informacoes">
                 <h2>Informações</h2>
@@ -135,5 +134,6 @@
         <p>Copyright © 2024 GM Empire. All rights reserved.</p>
     </footer>
     <script src="app.js"></script>
+    <script src="times.js"></script>
 </body>
 </html>
