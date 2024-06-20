@@ -377,27 +377,27 @@ const teamsData = {
                 {
                   "nome": "Robo",
                   "lane": "Top",
-                  "img": "https://www.maisesports.com.br/wp-content/uploads/2021/11/cblol-robo-loud.jpg"
+                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPY5D9v6m-8sgYynioropQSuNQnoOuPunZ-Q&s"
                 },
                 {
                   "nome": "Croc",
                   "lane": "Jungler",
-                  "img": "https://s2-ge.glbimg.com/hgvc29JecAV3LepZGsD8C2J9zZI=/0x0:1200x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/8/d/BP8JUbSruq85fiF2g3Fg/croc.png"
+                  "img": "https://pbs.twimg.com/profile_images/1647387661009580033/SBthZvC2_400x400.jpg"
                 },
                 {
-                  "nome": "Duds",
+                  "nome": "Tinowns",
                   "lane": "Mid",
-                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKxwblTk57R9YQai-GoyX1uxdWKr_Euf0tQw&s"
+                  "img": "https://pbs.twimg.com/profile_images/1667064090227884033/CIz_BqGv_400x400.jpg"
                 },
                 {
-                  "nome": "Tae",
+                  "nome": "Route",
                   "lane": "Bot",
-                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ2plhp9Xv_MfB-rzcdKhwF1vIxG0DMyZk6g&s"
+                  "img": "https://noticias.maisesports.com.br/wp-content/uploads/2023/10/route-loud-worlds-2023-despedida.jpg"
                 },
                 {
-                  "nome": "Bard",
+                  "nome": "RedBert",
                   "lane": "Suport",
-                  "img": "https://s2-ge.glbimg.com/pA8RSwCpHzOBW_VwRDFUt_-6QY4=/0x0:1200x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/y/E/dkCguGQcWA6aUDvLUtvg/loud-esports-bard.png"
+                  "img": "https://s2-ge.glbimg.com/iwe1zcw_nzoIWsCH8ksamz29Wqc=/600x0/filters:quality(50)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/c/i/AFqTAuTqW5XMBA3knqRA/redbert-loud-lol.jpg"
                 }
               ],
               "ultimo_jogo": {
