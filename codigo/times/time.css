@@ -6,9 +6,11 @@
 
 body{
     height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto;
+    display: grid;
+    grid-template-rows: 3;
+    grid-template-columns: 2;
 }
-
 header{
     background-color: rgb(28, 34, 61);
     height: 165px;
@@ -16,6 +18,8 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    grid-column: span 2;
+    grid-row: 1;
 }
 
 .header_links{
@@ -30,7 +34,7 @@ header{
     gap: 50px;
     align-items: center;
 }
-header i{
+header #icon_busca{
     color: black;
     font-size: 22px;
     position: absolute;
@@ -44,10 +48,12 @@ header input{
     border-radius: 20px;
     border: 2px solid transparent;
 }
+
 a{
     text-decoration: none;
     color: black;
 }
+
 .header_links{
     width: 25%;
 }
@@ -90,10 +96,6 @@ input::placeholder{
     font-family: Roboto;
 }
 
-header ul li{
-    list-style: none;
-}
-
 .header_links li, button{
     border-radius: 20px;
     border: 2px solid transparent;
@@ -107,7 +109,6 @@ header ul li{
     width: 100px;
 }
 
-
 .header_links button:hover{
     background-color: black;
     color: white;
@@ -117,134 +118,61 @@ header ul li{
     scale: 1.1;
 }
 
-.container{
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+main{
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 20%;
+    margin-bottom: 20%;
 }
 
-.colegas{
+.logo_nome{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-}
-
-.colegas img{
-    border-radius: 100%;
-}
-
-.card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.sobrenos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 25px;
-}
-
-.objetivos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 25px;
-}
-.integrantes{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 25px;
-}
-
-.integrantes h1{
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.objetivos h1{
-    margin-bottom: 30px;
-}
-
-.sobrenos h1{
-    margin-bottom: 30px;
-}
-footer{
-    background-color: rgb(28, 34, 61);
-    width: 100%;
-    height: 200px;
-    color: white;
-}
-
-footer p{
-    text-align: center;
-}
-
-.footer_container{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    height: 170px;
-}
-
-.footer_logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer_redes{
-    display: flex;
     gap: 40px;
 }
 
-.footer_redes i{
-    font-size: 40px;
-    padding-top: 50px;
+.container img{
+    border-radius: 100%;
+}
+
+.container li{
+    list-style: none;
+}
+
+.jogador{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.card{
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 15px;
     transition: all 1s ease;
     cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-
-.footer_redes i:hover{
-    scale: 1.2;
-}
-
-.footer_informacoes{
+.data{
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    justify-content: space-between;
 }
 
-.footer_informacoes a{
-    color: white;
-}
-
-.footer_informacoes h4{
-    cursor: pointer;
-}
-
-.footer_contatos{
+.time{
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
 }
 
-.footer_contatos h4{
+section{
+    grid-column: 2;
     display: flex;
-    gap: 5px;
+    gap: 20%;
+    margin-top: 20%;
 }
 
-footer h2{
-    padding-top: 20px;
-}
-
-@media screen and (max-width: 700px) {
+@media only screen and (max-width: 400px){
     .header_img{
         grid-row: 1;
         grid-column: 1;
@@ -259,12 +187,12 @@ footer h2{
     .header_links ul{
         gap: 10px;
     }
-
     header{
         display: grid;
         grid-template-columns: 3;
         grid-template-rows: 2;
-        height: 200px;
+        height: 230px;
+        width: 375px;
     }
 
     header #pesquisa{
@@ -278,16 +206,25 @@ footer h2{
         display: none;
     }
 
-    .colegas{
+    body{
+        display: flex;
         flex-direction: column;
     }
-    .footer_contatos, .footer_informacoes{
-        display: none;
+    
+    section{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
     }
-}
 
-@media screen and (min-width: 501px) and (max-width: 850px){
-    .colegas{
+    .logo_nome{
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%
+    }
+    main{
+        margin-left: 0%
     }
 }

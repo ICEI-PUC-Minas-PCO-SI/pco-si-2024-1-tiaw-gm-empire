@@ -214,6 +214,19 @@ textarea{
         width: 100%;
     }
 
+    #noticia_img{
+        display: none;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    #noticia_conteudo{
+        line-height: 15px;
+        margin: 0;
+    }
+
     .header_links ul{
         gap: 10px;
     }
@@ -241,7 +254,7 @@ textarea{
     }
 
     main{
-        height: 500px;
+        height: 1100px;
     }
 
 }
@@ -262,6 +275,19 @@ textarea{
         gap: 10px;
     }
 
+    #noticia_img{
+        display: none;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    #noticia_conteudo{
+        line-height: 15px;
+        margin: 0;
+    }
+
     header{
         display: grid;
         grid-template-columns: 3;
@@ -285,7 +311,7 @@ textarea{
     }
 
     main{
-        height: 534px;
+        height: 1100px;
     }
 
 }
@@ -305,6 +331,7 @@ textarea{
     .header_links ul{
         gap: 10px;
     }
+    
 
     header{
         display: grid;
