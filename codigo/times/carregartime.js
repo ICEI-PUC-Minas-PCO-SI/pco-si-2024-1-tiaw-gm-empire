@@ -26,3 +26,4 @@ document.addEventListener('DOMContentLoaded', () => {
         teamDetailsContainer.textContent = 'Nenhum time selecionado.';
     }
 });
+

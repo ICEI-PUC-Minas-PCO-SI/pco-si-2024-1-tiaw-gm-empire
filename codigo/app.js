@@ -393,3 +393,63 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+// Função para carregar os dados do time na página time.html
+function loadTeamData(teamName) {
+    // Busca o time no JSON
+    const foundTeam = teamsData.times_jogos.lol.campeonatos.cblol.times.find(time => time.nome.toLowerCase() === teamName.toLowerCase());
+
+    if (foundTeam) {
+        // Atualiza os elementos na página com os dados do time encontrado
+        document.getElementById("time-logo").src = foundTeam.logo;
+        document.getElementById("time-nome").textContent = foundTeam.nome;
+
+        // Carrega os jogadores do time
+        foundTeam.jogadores.forEach((jogador, index) => {
+            document.getElementById(`foto_jogador_${index + 1}`).src = jogador.img;
+            document.getElementById(`jogador_${index + 1}`).textContent = `${jogador.nome} - ${jogador.lane}`;
+        });
+
+        // Carrega informações do último jogo
+        const ultimoJogo = foundTeam.ultimo_jogo;
+        document.getElementById("local_2").textContent = ultimoJogo.local;
+        document.getElementById("data_2").textContent = ultimoJogo.data;
+        document.getElementById("imagem_time_3").src = ultimoJogo.times[0].logo;
+        document.getElementById("placar_1").textContent = ultimoJogo.times[0].placar;
+        document.getElementById("imagem_time_4").src = ultimoJogo.times[1].logo;
+        document.getElementById("placar_2").textContent = ultimoJogo.times[1].placar;
+
+        // Carrega informações do próximo jogo
+        const proximoJogo = foundTeam.proximo_jogo;
+        document.getElementById("local_1").textContent = proximoJogo.local;
+        document.getElementById("data_1").textContent = proximoJogo.data;
+        document.getElementById("imagem_time_1").src = proximoJogo.times[0].logo;
+        document.getElementById("imagem_time_2").src = proximoJogo.times[1].logo;
+
+    } else {
+        alert("Time não encontrado!");
+    }
+}
+
+// Função para buscar e carregar os dados do time a partir da barra de pesquisa
+function search() {
+    const term = document.getElementById("pesquisa").value.trim().toLowerCase();
+    if (term) {
+        loadTeamData(term);
+    } else {
+        alert("Por favor, digite o nome de um time.");
+    }
+}
+
+// Adiciona um ouvinte de evento para a pesquisa ao clicar no ícone de busca
+document.getElementById("icon_busca").addEventListener("click", function() {
+    search();
+});
+
+// Adiciona um ouvinte de evento para a tecla "Enter" na barra de pesquisa
+document.getElementById("pesquisa").addEventListener("keypress", function(event) {
+    // Verifica se a tecla pressionada é "Enter" (código 13)
+    if (event.key === "Enter") {
+        search(); // Chama a função de pesquisa
+    }
+});
