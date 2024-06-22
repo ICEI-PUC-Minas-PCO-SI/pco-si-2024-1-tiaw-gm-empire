@@ -347,10 +347,22 @@ function setNoticia(noticiaId) {
 
 // usuário logado
 const usuarioDiv = document.getElementById('usuario');
-if (sessionStorage.getItem('USER')) {
-    const user = JSON.parse(sessionStorage.getItem('USER'));
+function usuarioLogado() {
+    if (sessionStorage.getItem('USER')) {
+        const user = JSON.parse(sessionStorage.getItem('USER'));
+    
+        usuarioDiv.innerHTML = `<span onclick="sair();">Olá ${user.nome}</span>`;
+    } else {
+        usuarioDiv.innerHTML = `<a href="Login/login.html"><li><button>ENTRAR</button></li></a>`;
+    }
+}
 
-    usuarioDiv.innerHTML = `Olá ${user.nome}`;
-} else {
-    usuarioDiv.innerHTML = `<a href="Login/login.html"><li><button>ENTRAR</button></li></a>`;
+usuarioLogado();
+
+function sair() {
+    if(confirm('Tem certeza que deseja sair?')) {
+        sessionStorage.removeItem('USER');
+        
+        usuarioLogado();
+    }
 }
