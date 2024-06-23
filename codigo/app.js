@@ -88,7 +88,7 @@ var ultimos_jogos = [
         "times": {
             "time_a": {
                 "nome": "Hero base",
-                "img": "https://pbs.twimg.com/profile_images/1726322424658993152/7EJIXFip_400x400.jpg",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR5A4CVohUKkco24sZ-41lbbcrbZwkU_TXxbYIz5YVpwpedT2p2qLtvRymBbk_QDBHiEg&usqp=CAU",
                 "placar": 2
             },
             "time_b": {
