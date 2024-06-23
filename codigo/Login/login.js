@@ -18,7 +18,7 @@ buttonEntrar.addEventListener('click', function() {
     fetch(`${urlJSONServer}usuarios/${user}`).then(r => r.json()).then(
         response => {
             sessionStorage.setItem('USER', JSON.stringify(response));
-
+            window.location.href = '../index.html';
         }
     )
 })
