@@ -210,24 +210,110 @@ function setNoticia(noticiaId) {
     localStorage.setItem('noticia', noticia);
 }
 
-// usuário logado
-const usuarioDiv = document.getElementById('usuario');
-function usuarioLogado() {
-    if (sessionStorage.getItem('USER')) {
-        const user = JSON.parse(sessionStorage.getItem('USER'));
-    
-        usuarioDiv.innerHTML = `<span onclick="sair();">Olá ${user.nome}</span>`;
+document.addEventListener('DOMContentLoaded', () => {
+    const championship_cblol = teamsData.times_jogos.lol.campeonatos.cblol;
+    const images_lol_cblol = document.querySelectorAll('.img_lol_cblol');
+    const championship_champions = teamsData.times_jogos.valorant.campeonatos.valorant_champions;
+    const imagens_valorant_champions = document.querySelectorAll(".img_valorant_champions")
+    const championship_challengers = teamsData.times_jogos.valorant.campeonatos.valorant_challengers;
+    const imagens_valorant_challengers = document.querySelectorAll(".img_valorant_challengers")
+
+    images_lol_cblol.forEach(img => {
+        const teamName = img.getAttribute('data-nome');
+        const team = championship_cblol.times.find(team => team.nome === teamName);
+        if (team) {
+            img.src = team.logo;
+            img.alt = team.nome;
+            img.addEventListener('click', () => {
+                localStorage.setItem('selectedTeam', JSON.stringify(team));
+                window.location.href = 'times/time.html';
+            });
+        }
+    });
+
+    imagens_valorant_champions.forEach(img => {
+        const teamName = img.getAttribute('data-nome');
+        const team = championship_champions.times.find(team => team.nome === teamName);
+        if (team) {
+            img.src = team.logo;
+            img.alt = team.nome;
+            img.addEventListener('click', () => {
+                localStorage.setItem('selectedTeam', JSON.stringify(team));
+                window.location.href = 'times/time.html';
+            });
+        }
+    });
+
+    imagens_valorant_challengers.forEach(img => {
+        const teamName = img.getAttribute('data-nome');
+        const team = championship_challengers.times.find(team => team.nome === teamName);
+        if (team) {
+            img.src = team.logo;
+            img.alt = team.nome;
+            img.addEventListener('click', () => {
+                localStorage.setItem('selectedTeam', JSON.stringify(team));
+                window.location.href = 'times/time.html';
+            });
+        }
+    });
+});
+
+// Função para carregar os dados do time na página time.html
+function loadTeamData(teamName) {
+    // Busca o time no JSON
+    const foundTeam = teamsData.times_jogos.lol.campeonatos.cblol.times.find(time => time.nome.toLowerCase() === teamName.toLowerCase());
+
+    if (foundTeam) {
+        // Atualiza os elementos na página com os dados do time encontrado
+        document.getElementById("time-logo").src = foundTeam.logo;
+        document.getElementById("time-nome").textContent = foundTeam.nome;
+
+        // Carrega os jogadores do time
+        foundTeam.jogadores.forEach((jogador, index) => {
+            document.getElementById(`foto_jogador_${index + 1}`).src = jogador.img;
+            document.getElementById(`jogador_${index + 1}`).textContent = `${jogador.nome} - ${jogador.lane}`;
+        });
+
+        // Carrega informações do último jogo
+        const ultimoJogo = foundTeam.ultimo_jogo;
+        document.getElementById("local_2").textContent = ultimoJogo.local;
+        document.getElementById("data_2").textContent = ultimoJogo.data;
+        document.getElementById("imagem_time_3").src = ultimoJogo.times[0].logo;
+        document.getElementById("placar_1").textContent = ultimoJogo.times[0].placar;
+        document.getElementById("imagem_time_4").src = ultimoJogo.times[1].logo;
+        document.getElementById("placar_2").textContent = ultimoJogo.times[1].placar;
+
+        // Carrega informações do próximo jogo
+        const proximoJogo = foundTeam.proximo_jogo;
+        document.getElementById("local_1").textContent = proximoJogo.local;
+        document.getElementById("data_1").textContent = proximoJogo.data;
+        document.getElementById("imagem_time_1").src = proximoJogo.times[0].logo;
+        document.getElementById("imagem_time_2").src = proximoJogo.times[1].logo;
+
     } else {
-        usuarioDiv.innerHTML = `<a href="Login/login.html"><li><button>ENTRAR</button></li></a>`;
+        alert("Time não encontrado!");
     }
 }
 
-usuarioLogado();
-
-function sair() {
-    if(confirm('Tem certeza que deseja sair?')) {
-        sessionStorage.removeItem('USER');
-        
-        usuarioLogado();
+// Função para buscar e carregar os dados do time a partir da barra de pesquisa
+function search() {
+    const term = document.getElementById("pesquisa").value.trim().toLowerCase();
+    if (term) {
+        loadTeamData(term);
+    } else {
+        alert("Por favor, digite o nome de um time.");
     }
 }
+
+// Adiciona um ouvinte de evento para a pesquisa ao clicar no ícone de busca
+document.getElementById("icon_busca").addEventListener("click", function() {
+    search();
+});
+
+// Adiciona um ouvinte de evento para a tecla "Enter" na barra de pesquisa
+document.getElementById("pesquisa").addEventListener("keypress", function(event) {
+    // Verifica se a tecla pressionada é "Enter" (código 13)
+    if (event.key === "Enter") {
+        search(); // Chama a função de pesquisa
+    }
+});
