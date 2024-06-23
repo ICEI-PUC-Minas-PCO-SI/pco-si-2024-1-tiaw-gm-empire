@@ -22,6 +22,5 @@ console.log(noticia);
 
 conteudoNoticia.innerHTML = `
     <h1>${noticia.titulo}</h3>
-    <img id="noticia_img" src=${noticia.imagem}>
-    <p id="noticia_conteudo">${noticia.conteudo}<p>
+    <p>${noticia.conteudo}<p>
 `;

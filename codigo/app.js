@@ -134,117 +134,117 @@ var ultimos_jogos = [
     },
 ]
 
-function atualizar(){
+function atualizar() {
     // card 1 - proximos jogos
-        // nome do game
-        document.querySelector("#nome_jogo1").innerHTML = proximos_jogos[0].jogo
-        // campeonato
-        document.querySelector("#campeonato_1").innerHTML = proximos_jogos[0].campeonato
-        // data
-        document.querySelector("#data_1").innerHTML = proximos_jogos[0].data
-        // time 1
-        document.querySelector("#imagem_time_1").src = proximos_jogos[0].times.time_a.img
-        // time 2
-        document.querySelector("#imagem_time_2").src = proximos_jogos[0].times.time_b.img
+    // nome do game
+    document.querySelector("#nome_jogo1").innerHTML = proximos_jogos[0].jogo
+    // campeonato
+    document.querySelector("#campeonato_1").innerHTML = proximos_jogos[0].campeonato
+    // data
+    document.querySelector("#data_1").innerHTML = proximos_jogos[0].data
+    // time 1
+    document.querySelector("#imagem_time_1").src = proximos_jogos[0].times.time_a.img
+    // time 2
+    document.querySelector("#imagem_time_2").src = proximos_jogos[0].times.time_b.img
 
     // card 2
-        // nome do game
-        document.querySelector("#nome_jogo2").innerHTML = proximos_jogos[1].jogo
-        // campeonato
-        document.querySelector("#campeonato_2").innerHTML = proximos_jogos[1].campeonato
-        // data
-        document.querySelector("#data_2").innerHTML = proximos_jogos[1].data
-        // time 1
-        document.querySelector("#imagem_time_3").src = proximos_jogos[1].times.time_a.img
-        // time 2
-        document.querySelector("#imagem_time_4").src = proximos_jogos[1].times.time_b.img
+    // nome do game
+    document.querySelector("#nome_jogo2").innerHTML = proximos_jogos[1].jogo
+    // campeonato
+    document.querySelector("#campeonato_2").innerHTML = proximos_jogos[1].campeonato
+    // data
+    document.querySelector("#data_2").innerHTML = proximos_jogos[1].data
+    // time 1
+    document.querySelector("#imagem_time_3").src = proximos_jogos[1].times.time_a.img
+    // time 2
+    document.querySelector("#imagem_time_4").src = proximos_jogos[1].times.time_b.img
 
     // card 3 - ultimos jogos
-        // nome do game
-        document.querySelector("#nome_jogo3").innerHTML = ultimos_jogos[0].jogo
-        // campeonato
-        document.querySelector("#campeonato_3").innerHTML = ultimos_jogos[0].campeonato
-        // data
-        document.querySelector("#data_3").innerHTML = ultimos_jogos[0].data
-        // time 1
-        document.querySelector("#imagem_time_5").src = ultimos_jogos[0].times.time_a.img
-        // time 2
-        document.querySelector("#imagem_time_6").src = ultimos_jogos[0].times.time_b.img
-        // placar 1
-        document.querySelector("#placar_1").innerHTML = ultimos_jogos[0].times.time_a.placar
-        // placar 2
-        document.querySelector("#placar_2").innerHTML = ultimos_jogos[0].times.time_b.placar
+    // nome do game
+    document.querySelector("#nome_jogo3").innerHTML = ultimos_jogos[0].jogo
+    // campeonato
+    document.querySelector("#campeonato_3").innerHTML = ultimos_jogos[0].campeonato
+    // data
+    document.querySelector("#data_3").innerHTML = ultimos_jogos[0].data
+    // time 1
+    document.querySelector("#imagem_time_5").src = ultimos_jogos[0].times.time_a.img
+    // time 2
+    document.querySelector("#imagem_time_6").src = ultimos_jogos[0].times.time_b.img
+    // placar 1
+    document.querySelector("#placar_1").innerHTML = ultimos_jogos[0].times.time_a.placar
+    // placar 2
+    document.querySelector("#placar_2").innerHTML = ultimos_jogos[0].times.time_b.placar
 
     // card 4
-        // nome do game
-        document.querySelector("#nome_jogo4").innerHTML = ultimos_jogos[1].jogo
-        // campeonato
-        document.querySelector("#campeonato_4").innerHTML = ultimos_jogos[1].campeonato
-        // data
-        document.querySelector("#data_4").innerHTML = ultimos_jogos[1].data
-        // time 1
-        document.querySelector("#imagem_time_7").src = ultimos_jogos[1].times.time_a.img
-        // time 2
-        document.querySelector("#imagem_time_8").src = ultimos_jogos[1].times.time_b.img
-        // placar 1
-        document.querySelector("#placar_3").innerHTML = ultimos_jogos[1].times.time_a.placar
-        // placar 2
-        document.querySelector("#placar_4").innerHTML = ultimos_jogos[1].times.time_b.placar
+    // nome do game
+    document.querySelector("#nome_jogo4").innerHTML = ultimos_jogos[1].jogo
+    // campeonato
+    document.querySelector("#campeonato_4").innerHTML = ultimos_jogos[1].campeonato
+    // data
+    document.querySelector("#data_4").innerHTML = ultimos_jogos[1].data
+    // time 1
+    document.querySelector("#imagem_time_7").src = ultimos_jogos[1].times.time_a.img
+    // time 2
+    document.querySelector("#imagem_time_8").src = ultimos_jogos[1].times.time_b.img
+    // placar 1
+    document.querySelector("#placar_3").innerHTML = ultimos_jogos[1].times.time_a.placar
+    // placar 2
+    document.querySelector("#placar_4").innerHTML = ultimos_jogos[1].times.time_b.placar
 
-     
+
 }
 let i = 0
-function carrosel_direita(){
-     // nome do game
-     document.querySelector("#nome_jogo1").innerHTML = proximos_jogos[i + 2].jogo
-     // campeonato
-     document.querySelector("#campeonato_1").innerHTML = proximos_jogos[i + 2].campeonato
-     // data
-     document.querySelector("#data_1").innerHTML = proximos_jogos[i + 2].data
-     // time 2
-     document.querySelector("#imagem_time_1").src = proximos_jogos[i + 2].times.time_a.img
-     // time 2
-     document.querySelector("#imagem_time_2").src = proximos_jogos[i + 2].times.time_b.img
-    
- // card 2
-     // nome do game
-     document.querySelector("#nome_jogo2").innerHTML = proximos_jogos[i + 3].jogo
-     // campeonato
-     document.querySelector("#campeonato_2").innerHTML = proximos_jogos[i + 3].campeonato
-     // data
-     document.querySelector("#data_2").innerHTML = proximos_jogos[i + 3].data
-     // time 3
-     document.querySelector("#imagem_time_3").src = proximos_jogos[i + 3].times.time_a.img
-     // time 2
-     document.querySelector("#imagem_time_4").src = proximos_jogos[i + 3].times.time_b.img
+function carrosel_direita() {
+    // nome do game
+    document.querySelector("#nome_jogo1").innerHTML = proximos_jogos[i + 2].jogo
+    // campeonato
+    document.querySelector("#campeonato_1").innerHTML = proximos_jogos[i + 2].campeonato
+    // data
+    document.querySelector("#data_1").innerHTML = proximos_jogos[i + 2].data
+    // time 2
+    document.querySelector("#imagem_time_1").src = proximos_jogos[i + 2].times.time_a.img
+    // time 2
+    document.querySelector("#imagem_time_2").src = proximos_jogos[i + 2].times.time_b.img
+
+    // card 2
+    // nome do game
+    document.querySelector("#nome_jogo2").innerHTML = proximos_jogos[i + 3].jogo
+    // campeonato
+    document.querySelector("#campeonato_2").innerHTML = proximos_jogos[i + 3].campeonato
+    // data
+    document.querySelector("#data_2").innerHTML = proximos_jogos[i + 3].data
+    // time 3
+    document.querySelector("#imagem_time_3").src = proximos_jogos[i + 3].times.time_a.img
+    // time 2
+    document.querySelector("#imagem_time_4").src = proximos_jogos[i + 3].times.time_b.img
 }
 
-function carrosel_esquerda(){
-     // nome do game
-     document.querySelector("#nome_jogo1").innerHTML = proximos_jogos[i].jogo
-     // campeonato
-     document.querySelector("#campeonato_1").innerHTML = proximos_jogos[i].campeonato
-     // data
-     document.querySelector("#data_1").innerHTML = proximos_jogos[i].data
-     // time 2
-     document.querySelector("#imagem_time_1").src = proximos_jogos[i].times.time_a.img
-     // time 2
-     document.querySelector("#imagem_time_2").src = proximos_jogos[i].times.time_b.img
+function carrosel_esquerda() {
+    // nome do game
+    document.querySelector("#nome_jogo1").innerHTML = proximos_jogos[i].jogo
+    // campeonato
+    document.querySelector("#campeonato_1").innerHTML = proximos_jogos[i].campeonato
+    // data
+    document.querySelector("#data_1").innerHTML = proximos_jogos[i].data
+    // time 2
+    document.querySelector("#imagem_time_1").src = proximos_jogos[i].times.time_a.img
+    // time 2
+    document.querySelector("#imagem_time_2").src = proximos_jogos[i].times.time_b.img
 
- // card 2
-     // nome do game
-     document.querySelector("#nome_jogo2").innerHTML = proximos_jogos[i + 1].jogo
-     // campeonato
-     document.querySelector("#campeonato_2").innerHTML = proximos_jogos[i + 1].campeonato
-     // data
-     document.querySelector("#data_2").innerHTML = proximos_jogos[i + 1].data
-     // tim+ 1
-     document.querySelector("#imagem_time_3").src = proximos_jogos[i + 1].times.time_a.img
-     // time 2
-     document.querySelector("#imagem_time_4").src = proximos_jogos[i + 1].times.time_b.img
+    // card 2
+    // nome do game
+    document.querySelector("#nome_jogo2").innerHTML = proximos_jogos[i + 1].jogo
+    // campeonato
+    document.querySelector("#campeonato_2").innerHTML = proximos_jogos[i + 1].campeonato
+    // data
+    document.querySelector("#data_2").innerHTML = proximos_jogos[i + 1].data
+    // tim+ 1
+    document.querySelector("#imagem_time_3").src = proximos_jogos[i + 1].times.time_a.img
+    // time 2
+    document.querySelector("#imagem_time_4").src = proximos_jogos[i + 1].times.time_b.img
 }
 
-function ultimosJogos_carrosel_direita(){
+function ultimosJogos_carrosel_direita() {
     // nome do game
     document.querySelector("#nome_jogo3").innerHTML = ultimos_jogos[i + 2].jogo
     // campeonato
@@ -261,7 +261,7 @@ function ultimosJogos_carrosel_direita(){
     document.querySelector("#placar_2").innerHTML = ultimos_jogos[i + 2].times.time_b.placar
 
 
-// card 2
+    // card 2
     // nome do game
     document.querySelector("#nome_jogo4").innerHTML = ultimos_jogos[i + 3].jogo
     // campeonato
@@ -278,7 +278,7 @@ function ultimosJogos_carrosel_direita(){
     document.querySelector("#placar_4").innerHTML = ultimos_jogos[i + 3].times.time_b.placar
 }
 
-function ultimosJogos_carrosel_esquerda(){
+function ultimosJogos_carrosel_esquerda() {
     // nome do game
     document.querySelector("#nome_jogo3").innerHTML = ultimos_jogos[i].jogo
     // campeonato
@@ -294,7 +294,7 @@ function ultimosJogos_carrosel_esquerda(){
     // placar 2
     document.querySelector("#placar_2").innerHTML = ultimos_jogos[i].times.time_b.placar
 
-// card 2
+    // card 2
     // nome do game
     document.querySelector("#nome_jogo4").innerHTML = ultimos_jogos[i + 1].jogo
     // campeonato
@@ -311,6 +311,8 @@ function ultimosJogos_carrosel_esquerda(){
     document.querySelector("#placar_4").innerHTML = ultimos_jogos[i + 1].times.time_b.placar
 }
 
+// Daniel Fernandes - 11/06/2024
+// Notícias
 let news;
 const containerNoticias = document.querySelector('.noticias_container');
 fetch("db.json")
@@ -324,72 +326,43 @@ fetch("db.json")
         // Cria card html para as notícias
         news.forEach(n => {
             containerNoticias.insertAdjacentHTML('beforeend',
-              `<a href="Noticias/noticias.html" onclick="setNoticia(${n.id});">
-                    <div class="card_noticia">
-                        <img src="${n.imagem}" alt="${n.titulo}">
-                        <div class="conteudo_noticia">
-                            <h6>${n.jogo}</h6>
-                            <h3>${n.titulo}</h3>
-                            <p>${n.conteudo_breve}</p>
-                            <p>${n.data}</p>
-                        </div>
+                `<div class="card_noticia">
+                    <img src="${n.imagem}" alt="${n.titulo}">
+                    <div class="conteudo_noticia">
+                        <h6>${n.jogo}</h6>
+                        <h3><a href="Noticias/noticias.html" onclick="setNoticia(${n.id});">${n.titulo}</a></h3>
+                        <p>${n.conteudo}</p>
+                        <p>${n.data}</p>
                     </div>
-                </a>`
+                </div>`
             );
         });
     });
 
 function setNoticia(noticiaId) {
     debugger;
-    console.log(news)
     const noticia = JSON.stringify(news.find(n => n.id === noticiaId));
     localStorage.setItem('noticia', noticia);
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    const championship_cblol = teamsData.times_jogos.lol.campeonatos.cblol;
-    const images_lol_cblol = document.querySelectorAll('.img_lol_cblol');
-    const championship_champions = teamsData.times_jogos.valorant.campeonatos.valorant_champions;
-    const imagens_valorant_champions = document.querySelectorAll(".img_valorant_champions")
-    const championship_challengers = teamsData.times_jogos.valorant.campeonatos.valorant_challengers;
-    const imagens_valorant_challengers = document.querySelectorAll(".img_valorant_challengers")
+// usuário logado
+const usuarioDiv = document.getElementById('usuario');
+function usuarioLogado() {
+    if (sessionStorage.getItem('USER')) {
+        const user = JSON.parse(sessionStorage.getItem('USER'));
+    
+        usuarioDiv.innerHTML = `<span onclick="sair();">Olá ${user.nome}</span>`;
+    } else {
+        usuarioDiv.innerHTML = `<a href="Login/login.html"><li><button>ENTRAR</button></li></a>`;
+    }
+}
 
-    images_lol_cblol.forEach(img => {
-        const teamName = img.getAttribute('data-nome');
-        const team = championship_cblol.times.find(team => team.nome === teamName);
-        if (team) {
-            img.src = team.logo;
-            img.alt = team.nome;
-            img.addEventListener('click', () => {
-                localStorage.setItem('selectedTeam', JSON.stringify(team));
-                window.location.href = 'times/time.html';
-            });
-        }
-    });
+usuarioLogado();
 
-    imagens_valorant_champions.forEach(img => {
-        const teamName = img.getAttribute('data-nome');
-        const team = championship_champions.times.find(team => team.nome === teamName);
-        if (team) {
-            img.src = team.logo;
-            img.alt = team.nome;
-            img.addEventListener('click', () => {
-                localStorage.setItem('selectedTeam', JSON.stringify(team));
-                window.location.href = 'times/time.html';
-            });
-        }
-    });
-
-    imagens_valorant_challengers.forEach(img => {
-        const teamName = img.getAttribute('data-nome');
-        const team = championship_challengers.times.find(team => team.nome === teamName);
-        if (team) {
-            img.src = team.logo;
-            img.alt = team.nome;
-            img.addEventListener('click', () => {
-                localStorage.setItem('selectedTeam', JSON.stringify(team));
-                window.location.href = 'times/time.html';
-            });
-        }
-    });
-});
+function sair() {
+    if(confirm('Tem certeza que deseja sair?')) {
+        sessionStorage.removeItem('USER');
+        
+        usuarioLogado();
+    }
+}
