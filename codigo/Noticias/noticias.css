@@ -43,10 +43,6 @@ header input{
     border-radius: 20px;
     border: 2px solid transparent;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
 
 .menu{
     display: none;
@@ -68,6 +64,16 @@ a{
     align-items: center;
     justify-content: center;
 }
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 
 .header_img img{
     transition: all 1s ease;

@@ -635,7 +635,7 @@ const teamsData = {
                 {
                   "nome": "Jackies",
                   "lane": "Mid",
-                  "img": ""
+                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcg4wOVUWolEvP3wJtTpQOH565mH5CGVu3ozA3sXz62lVyVPFzfEgFQkz14RIj0pS45OQ&usqp=CAU"
                 },
                 {
                   "nome": "Patrik",
