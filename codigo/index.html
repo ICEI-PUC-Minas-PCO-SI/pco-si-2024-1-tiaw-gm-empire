@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,18 @@
     <link rel="stylesheet" href="style.css">
     <title>GM Empire</title>
 </head>
+
 <body onload="atualizar()">
     <header>
         <div class="header_img">
-            <a href="index.html"><img src="Imgs/logos/logo-removebg-preview.png" width="50%" height="60%"></a> 
-        </div>   
-        <input type="text" placeholder = "Digite um nome de um time:" id="pesquisa"><i class="bi bi-search" id="icon_busca"></i>
+            <a href="index.html"><img src="Imgs/logo-removebg-preview.png" width="50%" height="60%"></a>
+        </div>
+        <input type="text" placeholder="Digite um nome de um time:" id="pesquisa"><i class="bi bi-search"
+            id="icon_busca"></i>
         <div class="header_links">
             <ul>
-                <a href="Sobrenos/sobrenos.html"><li>SOBRE NÓS</li></a>
-                <a href="Login/login.html"><li><button>ENTRAR</button></li></a>
+                <li><a href="Sobrenos/sobrenos.html">SOBRE NÓS</a></li>
+                <li id="usuario"><a href="Login/login.html"><button>ENTRAR</button></a></li>
             </ul>
         </div>
     </header>
@@ -25,10 +28,13 @@
             <h1>Sobre qual jogo você quer saber mais?</h1>
             <div class="games">
                 <ul>
-                    <li><a href=""><img src="Imgs/logos/valorant-removebg-preview.png" height="75px" width="75px" id="valorant"></a></li>
-                    <li id="r6"><a href=""><img src="Imgs/logos/r6-removebg-preview.png" height="75px" width="75px"></a></li>
-                    <li id="lol"><a href=""><img src="Imgs/logos/lol-removebg-preview.png" height="75px" width="75px"></a></li>
-                    <li id="cs"><a href=""><img src="Imgs/logos/cs-removebg-preview.png" style="border-radius: 5px;" height="75px" width="75px"></a></li>
+                    <li><a href=""><img src="Imgs/valorant-removebg-preview.png" height="75px" width="75px"
+                                id="valorant"></a></li>
+                    <li id="r6"><a href=""><img src="Imgs/r6-removebg-preview.png" height="75px" width="75px"></a></li>
+                    <li id="lol"><a href=""><img src="Imgs/lol-removebg-preview.png" height="75px" width="75px"></a>
+                    </li>
+                    <li id="cs"><a href=""><img src="Imgs/cs-removebg-preview.png" style="border-radius: 5px;"
+                                height="75px" width="75px"></a></li>
                 </ul>
             </div>
         </div>
@@ -49,9 +55,9 @@
                         <img src="" alt="" height="40px" width="40px" id="imagem_time_2" data-nome="Loud" class="img_lol_cblol">
                     </div>
                 </div>
-             </div>
-             <div class="valorant">
-                <h2 id="nome_jogo2">Valorant</h2>
+            </div>
+            <div class="valorant">
+                <h2 id="nome_jogo2"></h2>
                 <div class="card" id="card2">
                     <div class="data">
                         <h4 id="local_2"></h4>
@@ -64,12 +70,13 @@
                         <img src="" alt="" height="40px" width="40px" id="imagem_time_4" data-nome="Evil Geniuses" class="img_valorant_champions">
                     </div>
                 </div>
-             </div>
-             <i class="bi bi-arrow-right-circle" id="seta_direita" onclick="carrosel_direita()"></i>
+            </div>
+            <i class="bi bi-arrow-right-circle" id="seta_direita" onclick="carrosel_direita()"></i>
         </div>
         <h1 id="titulo">Últimos Jogos</h1>
         <div class="jogos">
-            <i class="bi bi-arrow-left-circle" id="ultimos_jogos_seta_esquerda"  onclick="ultimosJogos_carrosel_esquerda()"></i>
+            <i class="bi bi-arrow-left-circle" id="ultimos_jogos_seta_esquerda"
+                onclick="ultimosJogos_carrosel_esquerda()"></i>
             <div class="lol">
                 <h2 id="nome_jogo3">League of Legends</h2>
                 <div class="card" id="card1">
@@ -86,9 +93,9 @@
                         <p id="placar_2"></p>
                     </div>
                 </div>
-             </div>
-             <div class="valorant">
-                <h2 id="nome_jogo4">Valorant</h2>
+            </div>
+            <div class="valorant">
+                <h2 id="nome_jogo4"></h2>
                 <div class="card" id="card2">
                     <div class="data">
                         <h4 id="local_4"></h4>
@@ -103,28 +110,36 @@
                         <p id="placar_4"></p>
                     </div>
                 </div>
-             </div>
-             <i class="bi bi-arrow-right-circle" id="ultimos_jogos_seta_direita" onclick="ultimosJogos_carrosel_direita()"></i>
+            </div>
+            <i class="bi bi-arrow-right-circle" id="ultimos_jogos_seta_direita"
+                onclick="ultimosJogos_carrosel_direita()"></i>
         </div>
     </main>
     <section>
         <h1 id="titulo">Notícias</h1>
-        <div class="noticias_container"></div>
+        <div class="noticias_container">
+
+        </div>
     </section>
     <footer>
         <div class="footer_container">
             <div class="footer_logo">
-                <img src="Imgs/logos/logo-removebg-preview.png" alt="" height="80%" width="100%">
+                <img src="Imgs/logo-removebg-preview.png" alt="logo gmempire" height="80%" width="auto">
             </div>
+
             <div class="footer_informacoes">
                 <h2>Informações</h2>
-                <a href="Feedback/feedback.html"><h4>Feedback</h4></a>
+                <a href="">
+                    <h4>Feedback</h4>
+                </a>
             </div>
+
             <div class="footer_contatos">
                 <h2>Contatos</h2>
                 <h4><i class="bi bi-telephone-fill"></i>(31) 98214-7060</h4>
                 <h4><i class="bi bi-envelope"></i>gmempire@gmempire.com</h4>
             </div>
+
             <div class="footer_redes">
                 <i class="bi bi-facebook"></i>
                 <i class="bi bi-instagram"></i>
@@ -136,4 +151,5 @@
     <script src="app.js"></script>
     <script src="times.js"></script>
 </body>
+
 </html>

@@ -22,30 +22,5 @@ console.log(noticia);
 
 conteudoNoticia.innerHTML = `
     <h1>${noticia.titulo}</h3>
-    <img id="noticia_img" src=${noticia.imagem}>
-    <p id="noticia_conteudo">${noticia.conteudo}<p>
+    <p>${noticia.conteudo}<p>
 `;
-
-document.addEventListener('DOMContentLoaded', function() {
-    const commentForm = document.querySelector('.form-coment');
-    const commentTextArea = document.getElementById('comentario');
-
-    // Verifica se o usuário está logado
-    const user = sessionStorage.getItem('USER');
-    
-    if (user) {
-        // Usuário está logado, habilita a área de texto
-        commentTextArea.removeAttribute('disabled');
-        btn-submit.removeAttribute('disabled');
-    } else {
-        // Usuário não está logado, desabilita a área de texto e muda seu placeholder
-        commentTextArea.setAttribute('disabled', 'true');
-        btn-submit.setAttribute('disabled', 'true');
-        commentTextArea.placeholder = 'Você precisa estar logado para comentar.';
-    }
-
-    //Pode só tirar a área de texto também quando o usuário não estiver logado
-    /*if (!user) {
-        commentForm.style.display = 'none';
-    }*/
-});
