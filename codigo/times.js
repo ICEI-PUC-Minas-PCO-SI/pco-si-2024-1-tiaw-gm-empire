@@ -2424,70 +2424,653 @@ const teamsData = {
     },
     "cs": {
       "campeonatos": {
-        "nome-do-campeonato-1": {
+        "BPFG": {
           "times": [
             {
-              "nome": "Time D",
-              "logo": "logo_time_d.png",
+              "nome": "Astralis",
+              "logo": "https://liquipedia.net/counterstrike/File:Astralis_2021_lightmode.png",
               "jogadores": [
                 {
-                  "nome": "Jogador 16",
-                  "img": ""
+                  "nome": "device",
+                  "img": "https://liquipedia.net/counterstrike/File:Device_at_IEM_Winter_2023.jpg"
                 },
                 {
-                  "nome": "Jogador 16",
-                  "img": ""
+                  "nome": "dupreeh",
+                  "img": "https://liquipedia.net/counterstrike/File:Dupreeh_at_IEM_Winter_2023.jpg"
                 },
                 {
-                  "nome": "Jogador 16",
-                  "img": ""
+                  "nome": "Xyp9x",
+                  "img": "https://liquipedia.net/counterstrike/File:Xyp9x_at_IEM_Winter_2023.jpg"
                 },
                 {
-                  "nome": "Jogador 16",
-                  "img": ""
+                  "nome": "Magisk",
+                  "img": "https://liquipedia.net/counterstrike/File:Magisk_at_IEM_Winter_2023.jpg"
                 },
                 {
-                  "nome": "Jogador 16",
-                  "img": ""
+                  "nome": "Bubzkji",
+                  "img": "https://liquipedia.net/counterstrike/File:Bubzkji_at_IEM_Winter_2023.jpg"
                 }
               ]
-            }
+            },
+            {
+              "nome": "BIG",
+              "logo": "https://liquipedia.net/counterstrike/File:BIG_2021_lightmode.png",
+              "jogadores": [
+                {
+                  "nome": "tabseN",
+                  "img": "https://liquipedia.net/counterstrike/File:TabseN_at_IEM_Sydney_2023.jpg"
+                },
+                {
+                  "nome": "k1to",
+                  "img": "https://liquipedia.net/counterstrike/File:K1to_at_IEM_Sydney_2023.jpg"
+                },
+                {
+                  "nome": "syrsoN",
+                  "img": "https://liquipedia.net/counterstrike/File:SyrsoN_at_IEM_Sydney_2023.jpg"
+                },
+                {
+                  "nome": "tiziaN",
+                  "img": "https://liquipedia.net/counterstrike/File:TiziaN_at_IEM_Sydney_2023.jpg"
+                },
+                {
+                  "nome": "XANTARES",
+                  "img": "https://liquipedia.net/counterstrike/File:XANTARES_at_IEM_Sydney_2023.jpg"
+                }
+              ]
+            },
+            {
+              "nome": "Cloud9",
+              "logo": "https://liquipedia.net/counterstrike/File:Cloud9_2021_lightmode.png",
+              "jogadores": [
+                {
+                  "nome": "Xeppaa",
+                  "img": "https://liquipedia.net/counterstrike/File:Xeppaa_at_IEM_Chicago_2023.jpg"
+                },
+                {
+                  "nome": "wippie",
+                  "img": "https://liquipedia.net/counterstrike/File:Wippie_at_IEM_Chicago_2023.jpg"
+                },
+                {
+                  "nome": "floppy",
+                  "img": "https://liquipedia.net/counterstrike/File:Floppy_at_IEM_Chicago_2023.jpg"
+                },
+                {
+                  "nome": "es3tag",
+                  "img": "https://liquipedia.net/counterstrike/File:Es3tag_at_IEM_Chicago_2023.jpg"
+                },
+                {
+                  "nome": "mezii",
+                  "img": "https://liquipedia.net/counterstrike/File:Mezii_at_IEM_Chicago_2023.jpg"
+                }
+              ]
+            },
+            {
+              "nome": "Complexity Gaming",
+              "logo": "https://liquipedia.net/counterstrike/File:Complexity_2021_lightmode.png",
+              "jogadores": [
+                {
+                  "nome": "blameF",
+                  "img": "https://liquipedia.net/counterstrike/File:BlameF_at_IEM_Chicago_2023.jpg"
+                },
+                {
+                  "nome": "k0nfig",
+                  "img": "https://liquipedia.net/counterstrike/File:K0nfig_at_IEM_Chicago_2023.jpg"
+                },
+                {
+                  "nome": "poizon",
+                  "img": "https://liquipedia.net/counterstrike/File:Poizon_at_IEM_Chicago_2023.jpg"
+                },
+                {
+                  "nome": "Jks",
+                  "img": "https://liquipedia.net/counterstrike/File:Jks_at_IEM_Chicago_2023.jpg"
+                },
+                {
+                  "nome": "RUSH",
+                  "img": "https://liquipedia.net/counterstrike/File:RUSH_at_IEM_Chicago_2023.jpg"
+                }
+              ]
+            },
+            {
+              "nome": "FaZe Clan",
+              "logo": "https://liquipedia.net/counterstrike/File:FaZe_Clan_November_2021_full_darkmode.png",
+              "jogadores": [
+                {
+                  "nome": "rain",
+                  "img": "https://liquipedia.net/counterstrike/File:Rain_at_IEM_Sydney_2023.jpg"
+                },
+                {
+                  "nome": "broky",
+                  "img": "https://liquipedia.net/counterstrike/File:Broky_at_PGL_Major_Copenhagen_2024.jpg"
+                },
+                {
+                  "nome": "ropz",
+                  "img": "https://liquipedia.net/counterstrike/File:Ropz_at_IEM_Katowice_2024.jpg"
+                },
+                {
+                  "nome": "frozen",
+                  "img": "https://liquipedia.net/counterstrike/File:Frozen_at_Copenhagen_Major_2024_EU_RMR.jpg"
+                },
+                {
+                  "nome": "NEO",
+                  "img": "https://liquipedia.net/counterstrike/File:NEO_at_PGL_Major_Copenhagen_2024.jpg"
+                }
+              ]
+            },
+            {
+              "nome": "G2 Esports",
+              "logo": "https://liquipedia.net/counterstrike/File:G2_Esports_2021_lightmode.png",
+              "jogadores": [
+                {
+                  "nome": "NiKo",
+                  "img": "https://liquipedia.net/counterstrike/File:NiKo_at_IEM_Winter_2023.jpg"
+                },
+                {
+                  "nome": "huNter-",
+                  "img": "https://liquipedia.net/counterstrike/File:HUNTER-_at_IEM_Winter_2023.jpg"
+                },
+                {
+                  "nome": "nexa",
+                  "img": "https://liquipedia.net/counterstrike/File:Nexa_at_IEM_Winter_2023.jpg"
+                },
+                {
+                  "nome": "AMANEK",
+                  "img": "https://liquipedia.net/counterstrike/File:AMANEK_at_IEM_Winter_2023.jpg"
+                },
+                {
+                  "nome": "JaCkz",
+                  "img": "https://liquipedia.net/counterstrike/File:JaCkz_at_IEM_Winter_2023.jpg"
+                }
+              ]
+            },
+            {
+              "nome": "Heroic",
+              "logo": "https://liquipedia.net/counterstrike/File:Heroic_2021_lightmode.png",
+              "jogadores": [
+                {
+                  "nome": "cadiaN",
+                  "img": "https://liquipedia.net/counterstrike/File:Cadian_at_IEM_Chicago_2023.jpg"
+                },
+                {
+                  "nome": "stavn",
+                  "img": "https://liquipedia.net/counterstrike/File:Stavn_at_IEM_Chicago_2023.jpg"
+                },
+                {
+                  "nome": "TeSeS",
+                  "img": "https://liquipedia.net/counterstrike/File:TeSeS_at_IEM_Chicago_2023.jpg"
+                },
+                {
+                  "nome": "sjuush",
+                  "img": "https://liquipedia.net/counterstrike/File:Sjuush_at_IEM_Chicago_2023.jpg"
+                },
+                {
+                  "nome": "Refrezh",
+                  "img": "https://liquipedia.net/counterstrike/File:Refrezh_at_IEM_Chicago_2023.jpg"
+                }
+              ]
+            },
+            {
+              "nome": "Natus Vincere",
+              "logo": "https://liquipedia.net/counterstrike/File:Natus_Vincere_2021_lightmode.png",
+              "jogadores": [
+                {
+                  "nome": "s1mple",
+                  "img": "https://liquipedia.net/counterstrike/File:S1mple_at_IEM_Cologne_2023.jpg"
+                },
+                {
+                  "nome": "electronic",
+                  "img": "https://liquipedia.net/counterstrike/File:Electronic_at_IEM_Cologne_2023.jpg"
+                },
+                {
+                  "nome": "Boombl4",
+                  "img": "https://liquipedia.net/counterstrike/File:Boombl4_at_IEM_Cologne_2023.jpg"
+                },
+                {
+                  "nome": "flamie",
+                  "img": "https://liquipedia.net/counterstrike/File:Flamie_at_IEM_Cologne_2023.jpg"
+                },
+                {
+                  "nome": "ninjas in pyjamas",
+                  "logo": "https://liquipedia.net/counterstrike/File:Ninjas_in_Pyjamas_2021_lightmode.png",
+                  "jogadores": [
+                    {
+                      "nome": "hampus",
+                      "img": "https://liquipedia.net/counterstrike/File:Hampus_at_IEM_Winter_2023.jpg"
+                    },
+                    {
+                      "nome": "rez",
+                      "img": "https://liquipedia.net/counterstrike/File:Rez_at_IEM_Winter_2023.jpg"
+                    },
+                    {
+                      "nome": "nawwk",
+                      "img": "https://liquipedia.net/counterstrike/File:Nawwk_at_IEM_Winter_2023.jpg"
+                    },
+                    {
+                      "nome": "ztr",
+                      "img": "https://liquipedia.net/counterstrike/File:Ztr_at_IEM_Winter_2023.jpg"
+                    },
+                    {
+                      "nome": "Plopski",
+                      "img": "https://liquipedia.net/counterstrike/File:Plopski_at_IEM_Winter_2023.jpg"
+                    }
+                  ]
+                },
+                {
+                  "nome": "OG",
+                  "logo": "https://liquipedia.net/counterstrike/File:OG_2021_lightmode.png",
+                  "jogadores": [
+                    {
+                      "nome": "valde",
+                      "img": "https://liquipedia.net/counterstrike/File:Valde_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "flameZ",
+                      "img": "https://liquipedia.net/counterstrike/File:FlameZ_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "niko",
+                      "img": "https://liquipedia.net/counterstrike/File:Niko_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "mantuu",
+                      "img": "https://liquipedia.net/counterstrike/File:Mantuu_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "Aleksib",
+                      "img": "https://liquipedia.net/counterstrike/File:Aleksib_at_IEM_Chicago_2023.jpg"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Team Liquid",
+                  "logo": "https://liquipedia.net/counterstrike/File:Team_Liquid_2021_lightmode.png",
+                  "jogadores": [
+                    {
+                      "nome": "EliGE",
+                      "img": "https://liquipedia.net/counterstrike/File:EliGE_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "Stewie2K",
+                      "img": "https://liquipedia.net/counterstrike/File:Stewie2K_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "NAF",
+                      "img": "https://liquipedia.net/counterstrike/File:NAF_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "Grim",
+                      "img": "https://liquipedia.net/counterstrike/File:Grim_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "FalleN",
+                      "img": "https://liquipedia.net/counterstrike/File:FalleN_at_IEM_Chicago_2023.jpg"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Team Vitality",
+                  "logo": "https://liquipedia.net/counterstrike/File:Vitality_2021_lightmode.png",
+                  "jogadores": [
+                    {
+                      "nome": "ZywOo",
+                      "img": "https://liquipedia.net/counterstrike/File:ZywOo_at_IEM_Cologne_2023.jpg"
+                    },
+                    {
+                      "nome": "apEX",
+                      "img": "https://liquipedia.net/counterstrike/File:ApEX_at_IEM_Cologne_2023.jpg"
+                    },
+                    {
+                      "nome": "shox",
+                      "img": "https://liquipedia.net/counterstrike/File:Shox_at_IEM_Cologne_2023.jpg"
+                    },
+                    {
+                      "nome": "misutaaa",
+                      "img": "https://liquipedia.net/counterstrike/File:Misutaaa_at_IEM_Cologne_2023.jpg"
+                    },
+                    {
+                      "nome": "Kyojin",
+                      "img": "https://liquipedia.net/counterstrike/File:Kyojin_at_IEM_Cologne_2023.jpg"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Gamer Legion",
+                  "logo": "https://liquipedia.net/counterstrike/File:Gamer_Legion_2021_lightmode.png",
+                  "jogadores": [
+                    {
+                      "nome": "draken",
+                      "img": "https://liquipedia.net/counterstrike/File:Draken_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "hampus",
+                      "img": "https://liquipedia.net/counterstrike/File:Hampus_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "pyth",
+                      "img": "https://liquipedia.net/counterstrike/File:Pyth_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "freddieb",
+                      "img": "https://liquipedia.net/counterstrike/File:Freddieb_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "RuStY",
+                      "img": "https://liquipedia.net/counterstrike/File:RuStY_at_IEM_Chicago_2023.jpg"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Team Falcons",
+                  "logo": "https://liquipedia.net/counterstrike/File:Team_Falcons_2021_lightmode.png",
+                  "jogadores": [
+                    {
+                      "nome": "sjuush",
+                      "img": "https://liquipedia.net/counterstrike/File:Sjuush_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "acoR",
+                      "img": "https://liquipedia.net/counterstrike/File:AcoR_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "TeSeS",
+                      "img": "https://liquipedia.net/counterstrike/File:TeSeS_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "torben",
+                      "img": "https://liquipedia.net/counterstrike/File:Torben_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "Bubzkji",
+                      "img": "https://liquipedia.net/counterstrike/File:Bubzkji_at_IEM_Chicago_2023.jpg"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Team Spirit",
+                  "logo": "https://liquipedia.net/counterstrike/File:Team_Spirit_2021_lightmode.png",
+                  "jogadores": [
+                    {
+                      "nome": "mir",
+                      "img": "https://liquipedia.net/counterstrike/File:Mir_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "chopper",
+                      "img": "https://liquipedia.net/counterstrike/File:Chopper_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "magixx",
+                      "img": "https://liquipedia.net/counterstrike/File:Magixx_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "degster",
+                      "img": "https://liquipedia.net/counterstrike/File:Degster_at_IEM_Chicago_2023.jpg"
+                    },
+                    {
+                      "nome": "somedieyoung",
+                      "img": "https://liquipedia.net/counterstrike/File:Somedieyoung_at_IEM_Chicago_2023.jpg"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Virtus.pro",
+                  "logo": "https://liquipedia.net/counterstrike/File:Virtus.pro_logo.png",
+                  "jogadores": [
+                    {
+                      "nome": "buster",
+                      "img": "https://liquipedia.net/counterstrike/File:Buster_at_PGL_Stockholm_2022.jpg"
+                    },
+                    {
+                      "nome": "qikert",
+                      "img": "https://liquipedia.net/counterstrike/File:Qikert_at_IEM_Cologne_2023.jpg"
+                    },
+                    {
+                      "nome": "Jame",
+                      "img": "https://liquipedia.net/counterstrike/File:Jame_at_DreamHack_Leipzig_2022.jpg"
+                    },
+                    {
+                      "nome": "Yekindar",
+                      "img": "https://liquipedia.net/counterstrike/File:Yekindar_at_BLAST_Premier_Fall_2023.jpg"
+                    },
+                    {
+                      "nome": "SANJI",
+                      "img": "https://liquipedia.net/counterstrike/File:Sanji_at_IEM_Cologne_2023.jpg"
+                    }
+                  ]
+                }
+              ]
+            },
           ]
         }
       }
     },
+
+
     "r6": {
       "campeonatos": {
         "nome-do-campeonato-1": {
           "times": [
             {
-              "nome": "Time E",
-              "logo": "logo_time_e.png",
+              "nome": "w7m esports",
+              "logo": "https://liquipedia.net/commons/images/1/1e/W7M_Esports_2022_Logo.png",
               "jogadores": [
                 {
-                  "nome": "Jogador 21",
-                  "nickname": "J21",
-                  "posição": "Entry Fragger"
+                  "nome": "LuKid",
+                  "img": "https://liquipedia.net/commons/images/thumb/5/59/LuKid_at_BR6_2023.jpg/800px-LuKid_at_BR6_2023.jpg"
                 },
                 {
-                  "nome": "Jogador 22",
-                  "nickname": "J22",
-                  "posição": "Support"
+                  "nome": "pannari",
+                  "img": "https://liquipedia.net/commons/images/thumb/3/3f/Pannari_at_BR6_2023.jpg/800px-Pannari_at_BR6_2023.jpg"
                 },
                 {
-                  "nome": "Jogador 23",
-                  "nickname": "J23",
-                  "posição": "Anchor"
+                  "nome": "phai",
+                  "img": "https://liquipedia.net/commons/images/thumb/7/74/Phai_at_BR6_2023.jpg/800px-Phai_at_BR6_2023.jpg"
                 },
                 {
-                  "nome": "Jogador 24",
-                  "nickname": "J24",
-                  "posição": "Roamer"
+                  "nome": "r0mulo",
+                  "img": "https://liquipedia.net/commons/images/thumb/d/df/R0mulo_at_BR6_2023.jpg/800px-R0mulo_at_BR6_2023.jpg"
                 },
                 {
-                  "nome": "Jogador 25",
-                  "nickname": "J25",
-                  "posição": "Flex"
+                  "nome": "saadhak",
+                  "img": "https://liquipedia.net/commons/images/thumb/0/0d/Saadhak_at_BR6_2023.jpg/800px-Saadhak_at_BR6_2023.jpg"
+                }
+              ]
+            },
+            {
+              "nome": "FaZe Clan",
+              "logo": "https://liquipedia.net/commons/images/4/4e/FaZe_Clan_2023_Logo.png",
+              "jogadores": [
+                {
+                  "nome": "Astro",
+                  "img": "https://liquipedia.net/commons/images/thumb/d/d5/Astro_at_BR6_2023.jpg/800px-Astro_at_BR6_2023.jpg"
+                },
+                {
+                  "nome": "cameram4n",
+                  "img": "https://liquipedia.net/commons/images/thumb/2/21/Cameram4n_at_BR6_2023.jpg/800px-Cameram4n_at_BR6_2023.jpg"
+                },
+                {
+                  "nome": "souLz",
+                  "img": "https://liquipedia.net/commons/images/thumb/0/0b/SouLz_at_BR6_2023.jpg/800px-SouLz_at_BR6_2023.jpg"
+                },
+                {
+                  "nome": "FelipoX",
+                  "img": "https://liquipedia.net/commons/images/thumb/2/2b/FelipoX_at_BR6_2023.jpg/800px-FelipoX_at_BR6_2023.jpg"
+                },
+                {
+                  "nome": "Maestro",
+                  "img": "https://liquipedia.net/commons/images/thumb/7/77/Maestro_at_BR6_2023.jpg/800px-Maestro_at_BR6_2023.jpg"
+                }
+              ]
+            },
+            {
+              "nome": "LOS Brasil",
+              "logo": "https://liquipedia.net/commons/images/5/53/LOS_Brasil_2023_Logo.png",
+              "jogadores": [
+                {
+                  "nome": "Bullet1",
+                  "img": "https://liquipedia.net/commons/images/thumb/0/00/Bullet1_at_BR6_2023.jpg/800px-Bullet1_at_BR6_2023.jpg"
+                },
+                {
+                  "nome": "xS3xyCake",
+                  "img": "https://liquipedia.net/commons/images/thumb/4/4f/XS3xyCake_at_BR6_2023.jpg/800px-XS3xyCake_at_BR6_2023.jpg"
+                },
+                {
+                  "nome": "Novys",
+                  "img": "https://liquipedia.net/commons/images/thumb/8/8a/Novys_at_BR6_2023.jpg/800px-Novys_at_BR6_2023.jpg"
+                },
+                {
+                  "nome": "PSK1",
+                  "img": "https://liquipedia.net/commons/images/thumb/0/0a/PSK1_at_BR6_2023.jpg/800px-PSK1_at_BR6_2023.jpg"
+                },
+                {
+                  "nome": "Hugzord",
+                  "img": "https://liquipedia.net/commons/images/thumb/3/3e/Hugzord_at_BR6_2023.jpg/800px-Hugzord_at_BR6_2023.jpg"
+                }
+              ]
+            },
+            {
+              "nome": "Team Liquid",
+              "logo": "https://liquipedia.net/commons/images/a/a1/Team_Liquid_2023_Logo.png",
+              "jogadores": [
+                {
+                  "nome": "neskwga",
+                  "img": "https://liquipedia.net/commons/images/thumb/6/6f/Nesk_wga_at_BR6_2023.jpg/800px-Nesk_wga_at_BR6_2023.jpg"
+                },
+                {
+                  "nome": "Paluh",
+                  "img": "https://liquipedia.net/commons/images/thumb/7/7e/Paluh_at_BR6_2023.jpg/800px-Paluh_at_BR6_2023.jpg"
+                },
+                {
+                  "nome": "psk1",
+                  "img": "https://liquipedia.net/commons/images/thumb/0/0a/Psk1_at_BR6_2023.jpg/800px-Psk1_at_BR6_2023.jpg"
+                },
+                {
+                  "nome": "muringa",
+                  "img": "https://liquipedia.net/commons/images/thumb/0/0d/Muringa_at_BR6_2023.jpg/800px-Muringa_at_BR6_2023.jpg"
+                },
+                {
+                  "nome": "soulz1",
+                  "img": "https://liquipedia.net/commons/images/thumb/d/d0/Soulz1_at_BR6_2023.jpg/800px-Soulz1_at_BR6_2023.jpg"
+                }
+              ]
+            },
+            {
+              "nome": "Ninjas In Pyjamas",
+              "logo": "https://liquipedia.net/commons/images/7/75/NiP_2023_Logo.png",
+              "jogadores": [
+                {
+                  "nome": "kamikaze",
+                  "img": "https://liquipedia.net/commons/images/thumb/5/54/Kamikaze_at_BR6_2023.jpg/800px-Kamikaze_at_BR6_2023.jpg"
+                },
+                {
+                  "nome": "muzi",
+                  "img": "https://liquipedia.net/commons/images/thumb/4/41/Muzi_at_BR6_2023.jpg/800px-Muzi_at_BR6_2023.jpg"
+                },
+                {
+                  "nome": "julio",
+                  "img": "https://liquipedia.net/commons/images/thumb/6/6e/Julio_at_BR6_2023.jpg/800px-Julio_at_BR6_2023.jpg"
+                },
+                {
+                  "nome": "Spacestation Gaming",
+                  "logo": "https://liquipedia.net/commons/images/4/47/Spacestation_Gaming_2023_Logo.png",
+                  "jogadores": [
+                    {
+                      "nome": "Fultz",
+                      "img": "https://liquipedia.net/commons/images/thumb/6/6f/Fultz_at_BR6_2023.jpg/800px-Fultz_at_BR6_2023.jpg"
+                    },
+                    {
+                      "nome": "Rampy",
+                      "img": "https://liquipedia.net/commons/images/thumb/7/7a/Rampy_at_BR6_2023.jpg/800px-Rampy_at_BR6_2023.jpg"
+                    },
+                    {
+                      "nome": "ThinkingNade",
+                      "img": "https://liquipedia.net/commons/images/thumb/6/6a/ThinkingNade_at_BR6_2023.jpg/800px-ThinkingNade_at_BR6_2023.jpg"
+                    },
+                    {
+                      "nome": "Canadian",
+                      "img": "https://liquipedia.net/commons/images/thumb/e/e0/Canadian_at_BR6_2023.jpg/800px-Canadian_at_BR6_2023.jpg"
+                    },
+                    {
+                      "nome": "Bosco",
+                      "img": "https://liquipedia.net/commons/images/thumb/5/56/Bosco_at_BR6_2023.jpg/800px-Bosco_at_BR6_2023.jpg"
+                    }
+                  ]
+                },
+                {
+                  "nome": "M80",
+                  "logo": "https://liquipedia.net/commons/images/7/7b/M80_2023_Logo.png",
+                  "jogadores": [
+                    {
+                      "nome": "Cyb3r",
+                      "img": "https://liquipedia.net/commons/images/thumb/8/8e/Cyb3r_at_BR6_2023.jpg/800px-Cyb3r_at_BR6_2023.jpg"
+                    },
+                    {
+                      "nome": "Paluh",
+                      "img": "https://liquipedia.net/commons/images/thumb/7/7e/Paluh_at_BR6_2023.jpg/800px-Paluh_at_BR6_2023.jpg"
+                    },
+                    {
+                      "nome": "HSnamuringa",
+                      "img": "https://liquipedia.net/commons/images/thumb/0/05/HSnamuringa_at_BR6_2023.jpg/800px-HSnamuringa_at_BR6_2023.jpg"
+                    },
+                    {
+                      "nome": "Cyberz",
+                      "img": "https://liquipedia.net/commons/images/thumb/e/e3/Cyberz_at_BR6_2023.jpg/800px-Cyberz_at_BR6_2023.jpg"
+                    },
+                    {
+                      "nome": "HS",
+                      "img": "https://liquipedia.net/commons/images/thumb/5/5a/HS_at_BR6_2023.jpg/800px-HS_at_BR6_2023.jpg"
+                    }
+                  ]
+                },
+                {
+                  "nome": "G2 Esports",
+                  "logo": "https://liquipedia.net/commons/images/1/10/G2_Esports_2023_Logo.png",
+                  "jogadores": [
+                    {
+                      "nome": "CTZN",
+                      "img": "https://liquipedia.net/commons/images/thumb/8/8f/CTZN_at_BR6_2023.jpg/800px-CTZN_at_BR6_2023.jpg"
+                    },
+                    {
+                      "nome": "Kantoraketti",
+                      "img": "https://liquipedia.net/commons/images/thumb/8/80/Kantoraketti_at_BR6_2023.jpg/800px-Kantoraketti_at_BR6_2023.jpg"
+                    },
+                    {
+                      "nome": "UUNO",
+                      "img": "https://liquipedia.net/commons/images/thumb/e/e7/UUNO_at_BR6_2023.jpg/800px-UUNO_at_BR6_2023.jpg"
+                    },
+                    {
+                      "nome": "Virtue",
+                      "img": "https://liquipedia.net/commons/images/thumb/2/23/Virtue_at_BR6_2023.jpg/800px-Virtue_at_BR6_2023.jpg"
+                    },
+                    {
+                      "nome": "Kayak",
+                      "img": "https://liquipedia.net/commons/images/thumb/8/88/Kayak_at_BR6_2023.jpg/800px-Kayak_at_BR6_2023.jpg"
+                    }
+                  ]
+                },
+                {
+                  "nome": "Wolves Esports",
+                  "logo": "https://liquipedia.net/commons/images/0/0f/Wolves_Esports_2023_Logo.png",
+                  "jogadores": [
+                    {
+                      "nome": "Drone",
+                      "img": "https://liquipedia.net/commons/images/thumb/5/5a/Drone_at_BR6_2023.jpg/800px-Drone_at_BR6_2023.jpg"
+                    },
+                    {
+                      "nome": "B1ologic",
+                      "img": "https://liquipedia.net/commons/images/thumb/5/5d/B1ologic_at_BR6_2023.jpg/800px-B1ologic_at_BR6_2023.jpg"
+                    },
+                    {
+                      "nome": "Vandal",
+                      "img": "https://liquipedia.net/commons/images/thumb/2/22/Vandal_at_BR6_2023.jpg/800px-Vandal_at_BR6_2023.jpg"
+                    },
+                    {
+                      "nome": "Rampy",
+                      "img": "https://liquipedia.net/commons/images/thumb/7/7a/Rampy_at_BR6_2023.jpg/800px-Rampy_at_BR6_2023.jpg"
+                    },
+                    {
+                      "nome": "Drip",
+                      "img": "https://liquipedia.net/commons/images/thumb/6/60/Drip_at_BR6_2023.jpg/800px-Drip_at_BR6_2023.jpg"
+                    }
+                  ]
                 }
               ]
             }
