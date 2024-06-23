@@ -36,7 +36,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena CBLOL",
-                "data": "30/06/2023 17:00",
+                "data": "30/06/2024 17:00",
                 "times": [
                   {
                     "nome": "Liberty",
@@ -51,7 +51,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "12/07/2023 16:00",
+                "data": "12/07/2024 16:00",
                 "local": "Arena CBLOL",
                 "times": [
                   {
@@ -97,7 +97,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena CBLOL",
-                "data": "30/06/2023 15:00",
+                "data": "30/06/2024 15:00",
                 "times": [
                   {
                     "nome": "LOS",
@@ -112,7 +112,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "12/07/2023 13:00",
+                "data": "12/07/2024 13:00",
                 "local": "Arena CBLOL",
                 "times": [
                   {
@@ -158,7 +158,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena CBLOL",
-                "data": "30/06/2023 16:00",
+                "data": "30/06/2024 16:00",
                 "times": [
                   {
                     "nome": "Kabum",
@@ -173,7 +173,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "12/07/2023 15:00",
+                "data": "12/07/2024 15:00",
                 "local": "Arena CBLOL",
                 "times": [
                   {
@@ -219,7 +219,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena CBLOL",
-                "data": "30/06/2023 16:00",
+                "data": "30/06/2024 16:00",
                 "times": [
                   {
                     "nome": "Vivo Keyd",
@@ -234,7 +234,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "12/07/2023 15:00",
+                "data": "12/07/2024 15:00",
                 "local": "Arena CBLOL",
                 "times": [
                   {
@@ -280,7 +280,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena CBLOL",
-                "data": "30/06/2023 14:00",
+                "data": "30/06/2024 14:00",
                 "times": [
                   {
                     "nome": "Fluxo",
@@ -295,7 +295,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "12/07/2023 15:00",
+                "data": "12/07/2024 15:00",
                 "local": "Arena CBLOL",
                 "times": [
                   {
@@ -341,7 +341,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena CBLOL",
-                "data": "30/06/2023 15:00",
+                "data": "30/06/2024 15:00",
                 "times": [
                   {
                     "nome": "Fúria",
@@ -356,7 +356,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "12/07/2023 14:00",
+                "data": "12/07/2024 14:00",
                 "local": "Arena CBLOL",
                 "times": [
                   {
@@ -402,7 +402,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena CBLOL",
-                "data": "30/06/2023 13:00",
+                "data": "30/06/2024 13:00",
                 "times": [
                   {
                     "nome": "Loud",
@@ -417,7 +417,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "12/07/2023 16:00",
+                "data": "12/07/2024 16:00",
                 "local": "Arena CBLOL",
                 "times": [
                   {
@@ -463,7 +463,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena CBLOL",
-                "data": "30/06/2023 13:00",
+                "data": "30/06/2024 13:00",
                 "times": [
                   {
                     "nome": "Red",
@@ -478,7 +478,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "12/07/2023 17:00",
+                "data": "12/07/2024 17:00",
                 "local": "Arena CBLOL",
                 "times": [
                   {
@@ -524,7 +524,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena CBLOL",
-                "data": "30/06/2023 17:00",
+                "data": "30/06/2024 17:00",
                 "times": [
                   {
                     "nome": "Intz",
@@ -539,7 +539,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "12/07/2023 17:00",
+                "data": "12/07/2024 17:00",
                 "local": "Arena CBLOL",
                 "times": [
                   {
@@ -585,7 +585,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena CBLOL",
-                "data": "30/06/2023 14:00",
+                "data": "30/06/2024 14:00",
                 "times": [
                   {
                     "nome": "Pain Gaming",
@@ -600,7 +600,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "12/07/2023 13:00",
+                "data": "12/07/2024 13:00",
                 "local": "Arena CBLOL",
                 "times": [
                   {
@@ -650,11 +650,11 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena LEC",
-                "data": "30/06/2023 23:00",
+                "data": "30/06/2024 23:00",
                 "times": [
                   {
                     "nome": "GIANTX",
-              "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZEuXkixwb0r-W-6Ie8PyVtLdLwp7NJIgSA&s",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZEuXkixwb0r-W-6Ie8PyVtLdLwp7NJIgSA&s",
                     "placar": 3
                   },
                   {
@@ -665,7 +665,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "04/07/2023 20:00",
+                "data": "04/07/2024 20:00",
                 "local": "Arena LEC",
                 "times": [
                   {
@@ -711,7 +711,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena LEC",
-                "data": "30/06/2023 23:00",
+                "data": "30/06/2024 23:00",
                 "times": [
                   {
                     "nome": "Team Vitality",
@@ -726,7 +726,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "03/07/2023 20:00",
+                "data": "03/07/2024 20:00",
                 "local": "Arena LEC",
                 "times": [
                   {
@@ -772,7 +772,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena LEC",
-                "data": "30/06/2023 23:00",
+                "data": "30/06/2024 23:00",
                 "times": [
                   {
                     "nome": "SK Gaming",
@@ -787,7 +787,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "04/07/2023 20:00",
+                "data": "04/07/2024 20:00",
                 "local": "Arena LEC",
                 "times": [
                   {
@@ -833,7 +833,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena LEC",
-                "data": "30/06/2023 23:00",
+                "data": "30/06/2024 23:00",
                 "times": [
                   {
                     "nome": "Rougue",
@@ -848,7 +848,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "04/07/2023 20:00",
+                "data": "04/07/2024 20:00",
                 "local": "Arena LEC",
                 "times": [
                   {
@@ -894,7 +894,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena LEC",
-                "data": "30/06/2023 20:00",
+                "data": "30/06/2024 20:00",
                 "times": [
                   {
                     "nome": "Fnatic",
@@ -909,7 +909,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "04/07/2023 22:00",
+                "data": "04/07/2024 22:00",
                 "local": "Arena LEC",
                 "times": [
                   {
@@ -955,7 +955,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena LEC",
-                "data": "30/06/2023 20:00",
+                "data": "30/06/2024 20:00",
                 "times": [
                   {
                     "nome": "MAD Lions",
@@ -970,7 +970,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "04/07/2023 23:00",
+                "data": "04/07/2024 23:00",
                 "local": "Arena LEC",
                 "times": [
                   {
@@ -1016,7 +1016,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena LEC",
-                "data": "30/06/2023 19:00",
+                "data": "30/06/2024 19:00",
                 "times": [
                   {
                     "nome": "Team BDS",
@@ -1031,7 +1031,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "04/07/2023 21:00",
+                "data": "04/07/2024 21:00",
                 "local": "Arena LEC",
                 "times": [
                   {
@@ -1077,7 +1077,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena LEC",
-                "data": "30/06/2023 20:00",
+                "data": "30/06/2024 20:00",
                 "times": [
                   {
                     "nome": "Team Heretics",
@@ -1092,7 +1092,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "12/07/2023 22:00",
+                "data": "12/07/2024 22:00",
                 "local": "Arena LEC",
                 "times": [
                   {
@@ -1138,7 +1138,7 @@ const teamsData = {
             ],
             "ultimo_jogo": {
                 "local": "Arena LEC",
-                "data": "30/06/2023 21:00",
+                "data": "30/06/2024 21:00",
                 "times": [
                   {
                     "nome": "G2 Esports",
@@ -1153,7 +1153,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "04/07/2023 22:00",
+                "data": "04/07/2024 22:00",
                 "local": "Arena LEC",
                 "times": [
                   {
@@ -1199,7 +1199,7 @@ const teamsData = {
             ],
             "ultimo_jogo": {
                 "local": "Arena LEC",
-                "data": "30/06/2023 22:00",
+                "data": "30/06/2024 22:00",
                 "times": [
                   {
                    "nome": "Karmine Corp",
@@ -1214,7 +1214,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "04/07/2023 22:00",
+                "data": "04/07/2024 22:00",
                 "local": "Arena LEC",
                 "times": [
                   {
@@ -1265,7 +1265,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
               "local": "Arena Challengers",
-              "data": "25/06/2023 17:00",
+              "data": "25/06/2024 17:00",
               "times": [
                 {
                   "nome": "Hero Base",
@@ -1280,7 +1280,7 @@ const teamsData = {
               ]
             },
             "proximo_jogo": {
-              "data": "04/07/2023 20:00",
+              "data": "04/07/2024 20:00",
               "local": "Arena Challengers",
               "times": [
                 {
@@ -1321,7 +1321,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
               "local": "Arena Challengers",
-              "data": "25/06/2023 17:00",
+              "data": "25/06/2024 17:00",
               "times": [
                 {
                   "nome": "The 7",
@@ -1336,7 +1336,7 @@ const teamsData = {
               ]
             },
             "proximo_jogo": {
-              "data": "04/07/2023 17:00",
+              "data": "04/07/2024 17:00",
               "local": "Arena LEC",
               "times": [
                 {
@@ -1377,7 +1377,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
               "local": "Arena Challengers",
-              "data": "25/06/2023 17:00",
+              "data": "25/06/2024 17:00",
               "times": [
                 {
                   "nome": "XLD Gaming",
@@ -1392,7 +1392,7 @@ const teamsData = {
               ]
             },
             "proximo_jogo": {
-              "data": "05/07/2023 17:00",
+              "data": "05/07/2024 17:00",
               "local": "Arena Challengers",
               "times": [
                 {
@@ -1433,7 +1433,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
               "local": "Arena Challengers",
-              "data": "26/06/2023 20:00",
+              "data": "26/06/2024 20:00",
               "times": [
                 {
                   "nome": "2Game",
@@ -1448,7 +1448,7 @@ const teamsData = {
               ]
             },
             "proximo_jogo": {
-              "data": "04/07/2023 20:00",
+              "data": "04/07/2024 20:00",
               "local": "Arena Challengers",
               "times": [
                 {
@@ -1489,7 +1489,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
               "local": "Arena Challengers",
-              "data": "25/06/2023 17:00",
+              "data": "25/06/2024 17:00",
               "times": [
                 {
                   "nome": "SAGAZ Club",
@@ -1504,7 +1504,7 @@ const teamsData = {
               ]
             },
             "proximo_jogo": {
-              "data": "04/07/2023 17:00",
+              "data": "04/07/2024 17:00",
               "local": "Arena Challengers",
               "times": [
                 {
@@ -1545,7 +1545,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
               "local": "Arena Challengers",
-              "data": "26/06/2023 17:00",
+              "data": "26/06/2024 17:00",
               "times": [
                 {
                   "nome": "Legacy",
@@ -1560,7 +1560,7 @@ const teamsData = {
               ]
             },
             "proximo_jogo": {
-              "data": "05/07/2023 20:00",
+              "data": "05/07/2024 20:00",
               "local": "Arena Challengers",
               "times": [
                 {
@@ -1601,7 +1601,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
               "local": "Arena Challengers",
-              "data": "26/06/2023 20:00",
+              "data": "26/06/2024 20:00",
               "times": [
                 {
                   "nome": "Stellae Gaming",
@@ -1616,7 +1616,7 @@ const teamsData = {
               ]
             },
             "proximo_jogo": {
-              "data": "04/07/2023 17:00",
+              "data": "04/07/2024 17:00",
               "local": "Arena Challengers",
               "times": [
                 {
@@ -1657,7 +1657,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
               "local": "Arena Challengers",
-              "data": "26/06/2023 17:00",
+              "data": "26/06/2024 17:00",
               "times": [
                 {
                   "nome": "Galorys Comoany",
@@ -1672,7 +1672,7 @@ const teamsData = {
               ]
             },
             "proximo_jogo": {
-              "data": "04/07/2023 17:00",
+              "data": "04/07/2024 17:00",
               "local": "Arena Challengers",
               "times": [
                 {
@@ -1713,7 +1713,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
               "local": "Arena Challengers",
-              "data": "26/06/2023 17:00",
+              "data": "26/06/2024 17:00",
               "times": [
                 {
                   "nome": "RED Canids",
@@ -1728,7 +1728,7 @@ const teamsData = {
               ]
             },
             "proximo_jogo": {
-              "data": "05/07/2023 20:00",
+              "data": "05/07/2024 20:00",
               "local": "Arena Challengers",
               "times": [
                 {
@@ -1769,7 +1769,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
               "local": "Arena Challengers",
-              "data": "25/06/2023 20:00",
+              "data": "25/06/2024 20:00",
               "times": [
                 {
                   "nome": "TBK Esports",
@@ -1784,7 +1784,7 @@ const teamsData = {
               ]
             },
             "proximo_jogo": {
-              "data": "05/07/2023 17:00",
+              "data": "05/07/2024 17:00",
               "local": "Arena Challengers",
               "times": [
                 {
@@ -1829,7 +1829,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "30/06/2023",
+                "data": "30/06/2024 17:00",
                 "times": [
                   {
                     "nome": "Leviatán",
@@ -1844,7 +1844,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "02/07/2023",
+                "data": "02/07/2024 17:00",
                 "local": "Arena Champions",
                 "times": [
                   {
@@ -1885,7 +1885,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "29/06/2023",
+                "data": "29/06/2024 17:00",
                 "times": [
                   {
                     "nome": "Evil Geniuses",
@@ -1900,7 +1900,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "02/07/2023",
+                "data": "02/07/2024",
                 "local": "Arena LEC",
                 "times": [
                   {
@@ -1941,7 +1941,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "30/06/2023",
+                "data": "30/06/2024",
                 "times": [
                   {
                     "nome": "LOUD",
@@ -1956,8 +1956,8 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "02/07/2023",
-                "local": "Arena LEC",
+                "data": "02/07/2024",
+                "local": "Arena Champions",
                 "times": [
                   {
                     "nome": "LOUD",
@@ -1997,7 +1997,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "30/06/2023",
+                "data": "30/06/2024",
                 "times": [
                   {
                     "nome": "MIBR",
@@ -2012,8 +2012,8 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "03/07/2023",
-                "local": "Arena LEC",
+                "data": "03/07/2024",
+                "local": "Arena Champions",
                 "times": [
                   {
                     "nome": "MIBR",
@@ -2053,7 +2053,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "29/06/2023",
+                "data": "29/06/2024",
                 "times": [
                   {
                     "nome": "KRÜ Esports",
@@ -2068,8 +2068,8 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "03/07/2023",
-                "local": "Arena LEC",
+                "data": "03/07/2024",
+                "local": "Arena Champions",
                 "times": [
                   {
                     "nome": "KRÜ Esports",
@@ -2109,7 +2109,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "24/06/2023",
+                "data": "24/06/2024",
                 "times": [
                   {
                     "nome": "G2 Esports",
@@ -2124,7 +2124,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "01/07/2023",
+                "data": "01/07/2024",
                 "local": "Arena LEC",
                 "times": [
                   {
@@ -2165,7 +2165,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "22/06/2023",
+                "data": "22/06/2024",
                 "times": [
                   {
                     "nome": "NRG",
@@ -2180,8 +2180,8 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "01/07/2023",
-                "local": "Arena LEC",
+                "data": "01/07/2024",
+                "local": "Arena Champions",
                 "times": [
                   {
                     "nome": "NRG",
@@ -2221,7 +2221,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "24/06/2023",
+                "data": "24/06/2024",
                 "times": [
                   {
                     "nome": "Cloud9",
@@ -2236,8 +2236,8 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "01/07/2023",
-                "local": "Arena LEC",
+                "data": "01/07/2024",
+                "local": "Arena Champions",
                 "times": [
                   {
                     "nome": "Cloud9",
@@ -2277,7 +2277,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "30/06/2023",
+                "data": "30/06/2024",
                 "times": [
                   {
                     "nome": "100 Thieves",
@@ -2292,8 +2292,8 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "01/07/2023",
-                "local": "Arena LEC",
+                "data": "01/07/2024",
+                "local": "Arena Champions",
                 "times": [
                   {
                     "nome": "100 Thieves",
@@ -2333,7 +2333,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "29/06/2023",
+                "data": "29/06/2024",
                 "times": [
                   {
                     "nome": "Sentinels",
@@ -2348,8 +2348,8 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "01/07/2023",
-                "local": "Arena LEC",
+                "data": "01/07/2024",
+                "local": "Arena Champions",
                 "times": [
                   {
                     "nome": "Sentinels",
@@ -2389,7 +2389,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "29/06/2023",
+                "data": "29/06/2024",
                 "times": [
                   {
                     "nome": "FURIA Esports",
@@ -2404,8 +2404,8 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "01/07/2023",
-                "local": "Arena LEC",
+                "data": "01/07/2024",
+                "local": "Arena Champions",
                 "times": [
                   {
                     "nome": "FURIA Esports",
