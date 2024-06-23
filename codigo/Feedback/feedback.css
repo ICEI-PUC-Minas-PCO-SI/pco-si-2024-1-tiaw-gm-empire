@@ -6,11 +6,9 @@
 
 body{
     height: 100vh;
-    font-family: Roboto;
-    display: grid;
-    grid-template-rows: 3;
-    grid-template-columns: 2;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 header{
     background-color: rgb(28, 34, 61);
     height: 165px;
@@ -18,8 +16,6 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    grid-column: span 2;
-    grid-row: 1;
 }
 
 .header_links{
@@ -124,61 +120,143 @@ input::placeholder{
     scale: 1.1;
 }
 
-main{
-    grid-column: 1;
-    grid-row: 2;
-    margin-left: 20%;
-    margin-bottom: 20%;
+#descricao {
+    color: rgb(14, 15, 59);
+    text-align: center;
+    margin-top: 5%;
+    transition: all 1.5s ease;
+    
 }
 
-.logo_nome{
+/* Estilo para os campos de entrada */
+input[id="nome"],
+textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(14, 15, 59);
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 0 auto; 
+    display: block; 
+    margin-top: 10px;
+}
+
+/* Estilo para o botão */
+#comentar {
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    color: #000000;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3px;
+    margin-bottom: 8%;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 20px;
+    outline: none;
+    transition: all 1s ease;
+    cursor: pointer;
+    padding: 10px;
+    width: 100px;
+}
+
+/* Estilo para o botão quando hover */
+#comentar:hover {
+    background-color: rgb(0, 0, 0);
+    scale: 1.1;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Estilo para a área de comentários */
+#comentario-do-usuario {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: 10px auto;
+}
+
+footer{
+    background-color: rgb(28, 34, 61);
+    width: 100%;
+    height: 200px;
+    color: white;
+}
+
+footer p{
+    text-align: center;
+}
+
+.footer_container{
+    width: 100%;
     display: flex;
+    justify-content: space-around;
+    height: 170px;
+}
+
+.footer_logo{
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+.footer_redes{
+    display: flex;
     gap: 40px;
 }
 
-.container img{
-    border-radius: 100%;
-}
-
-.container li{
-    list-style: none;
-}
-
-.jogador{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-
-.card{
-    width: 400px;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    padding: 15px;
+.footer_redes i{
+    font-size: 40px;
+    padding-top: 50px;
     transition: all 1s ease;
     cursor: pointer;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
-.data{
-    display: flex;
-    justify-content: space-between;
 }
 
-.time{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px 0px;
+.footer_redes i:hover{
+    scale: 1.2;
 }
 
-section{
-    grid-column: 2;
+.footer_informacoes{
     display: flex;
-    gap: 20%;
-    margin-top: 20%;
+    flex-direction: column;
+    gap: 10px;
 }
 
-@media only screen and (max-width: 400px){
+.footer_informacoes a{
+    color: white;
+}
+
+.footer_informacoes h4{
+    cursor: pointer;
+}
+
+.footer_contatos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_contatos h4{
+    display: flex;
+    gap: 5px;
+}
+
+footer h2{
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 700px) {
     .header_img{
         grid-row: 1;
         grid-column: 1;
@@ -193,12 +271,12 @@ section{
     .header_links ul{
         gap: 10px;
     }
+
     header{
         display: grid;
         grid-template-columns: 3;
         grid-template-rows: 2;
-        height: 230px;
-        width: 375px;
+        height: 200px;
     }
 
     header #pesquisa{
@@ -212,25 +290,10 @@ section{
         display: none;
     }
 
-    body{
-        display: flex;
+    .colegas{
         flex-direction: column;
     }
-    
-    section{
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-    }
-
-    .logo_nome{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-left: 0%
-    }
-    main{
-        margin-left: 0%
+    .footer_contatos, .footer_informacoes{
+        display: none;
     }
 }

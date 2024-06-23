@@ -5,6 +5,128 @@ const teamsData = {
         "cblol": {
           "times": [
             {
+              "nome": "Liberty",
+              "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png",
+              "jogadores": [
+                {   
+                  "nome": "Makes",
+                  "lane": "Top",
+                  "img": "https://www.pichauarena.com.br/wp-content/uploads/2024/01/53476705249_53554c212e_c.jpg"
+                },
+                {
+                    "nome": "Drakehero",
+                    "lane": "Jungler",
+                    "img": "https://pbs.twimg.com/profile_images/1732058345224261632/8q8owlvG_400x400.jpg"
+                },
+                {
+                    "nome": "Piloto",
+                    "lane": "Mid",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzoaw77_LRiKrBeV5G5evOyAQlFjcl9trFWg&s"
+                },
+                {
+                    "nome": "micaO",
+                    "lane": "Bot",
+                    "img":  "https://s2-ge.glbimg.com/Z4fvHgHRTvF1iJfVqjX3n6RClOI=/0x0:1920x1280/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/0/Z/3yPKbkRDScDUtERv2Jlw/cblol-2022-micao-intz.jpg"
+                },
+                {
+                    "nome": "Cavalo",
+                    "lane": "Suport",
+                    "img": "https://s2-ge.glbimg.com/IqjnqUwUxeoe7rNCQ_GFfx8ePis=/0x0:1263x820/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/X/H/cWnskQRWm89Jn9MsdM4Q/cavalo-liberty-academy-divulgacao-liberty.jpg"
+                }
+              ],
+              "ultimo_jogo": {
+                "local": "Arena CBLOL",
+                "data": "30/06/2024 17:00",
+                "times": [
+                  {
+                    "nome": "Liberty",
+                    "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png",
+                    "placar": 2
+                  },
+                  {
+                    "nome": "Intz",
+                    "logo": "https://noticias.maisesports.com.br/wp-content/uploads/2014/07/INTZ1.png",
+                    "placar": 3
+                  }
+                ]
+              },
+              "proximo_jogo": {
+                "data": "12/07/2024 16:00",
+                "local": "Arena CBLOL",
+                "times": [
+                  {
+                    "nome": "Liberty",
+                    "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png",
+                  },
+                  {
+                    "nome": "Loud",
+                    "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png"
+                  }
+                ]
+              }
+            },
+            {
+              "nome": "LOS",
+              "logo": "https://n9necats.com.br/wp-content/uploads/2022/03/Los_Grandes.png",
+              "jogadores": [
+                {
+                  "nome": "SuperCleber",
+                  "lane": "Top",
+                  "img": "https://pbs.twimg.com/profile_images/1748097573091479552/VFGBtgRt_400x400.jpg"
+                },
+                {
+                  "nome": "Seize",
+                  "lane": "Jungler",
+                  "img": "https://pbs.twimg.com/profile_images/1748107171382935552/-8NY16kP_400x400.jpg"
+                },
+                {
+                  "nome": "Envy",
+                  "lane": "Mid",
+                  "img": "https://pbs.twimg.com/profile_images/1748096409922854912/yJ5d8UkI_400x400.jpg"
+                },
+                {
+                  "nome": "Celo",
+                  "lane": "Bot",
+                  "img": "https://losgrandes.gg/celolol1.png"
+                },
+                {
+                  "nome": "Karbbie",
+                  "lane": "Suport",
+                  "img": "https://i0.wp.com/www.gamersegames.com.br/wp-content/uploads/2022/11/Los-Grandes-Kim-Lava-Tae-hoon.jpg?ssl=1"
+                }
+              ],
+              "ultimo_jogo": {
+                "local": "Arena CBLOL",
+                "data": "30/06/2024 15:00",
+                "times": [
+                  {
+                    "nome": "LOS",
+                    "logo": "https://n9necats.com.br/wp-content/uploads/2022/03/Los_Grandes.png",
+                    "placar": 3
+                  },
+                  {
+                    "nome": "Fúria",
+                    "logo": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png",
+                    "placar": 1
+                  }
+                ]
+              },
+              "proximo_jogo": {
+                "data": "12/07/2024 13:00",
+                "local": "Arena CBLOL",
+                "times": [
+                  {
+                    "nome": "LOS",
+                    "logo": "https://n9necats.com.br/wp-content/uploads/2022/03/Los_Grandes.png"
+                  },
+                  {
+                    "nome": "Pain Gaming",
+                    "logo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png"
+                  }
+                ]
+              }
+            },
+            {
               "nome": "Kabum",
               "logo": "https://pm1.aminoapps.com/6743/de686a056e10c16124d5dff523a914ff0789c866v2_00.jpg",
               "jogadores": [
@@ -36,7 +158,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena CBLOL",
-                "data": "10/06/2023",
+                "data": "30/06/2024 16:00",
                 "times": [
                   {
                     "nome": "Kabum",
@@ -44,19 +166,80 @@ const teamsData = {
                     "placar": 2
                   },
                   {
-                    "nome": "Fluxo",
-                    "logo": "https://esportenewsmundo.com.br/wp-content/uploads/2022/01/fluxo.png",
-                    "placar": 1
+                    "nome": "Vivo Keyd",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDj2osS2rk5CQ-cxpzSs63tZGq2LE6UyWkg&s",
+                    "placar": 3
                   }
                 ]
               },
               "proximo_jogo": {
-                "data": "17/06/2023",
+                "data": "12/07/2024 15:00",
                 "local": "Arena CBLOL",
                 "times": [
                   {
                     "nome": "Kabum",
                     "logo": "https://pm1.aminoapps.com/6743/de686a056e10c16124d5dff523a914ff0789c866v2_00.jpg"
+                  },
+                  {
+                    "nome": "Fluxo",
+                    "logo": "https://esportenewsmundo.com.br/wp-content/uploads/2022/01/fluxo.png"
+                  }
+                ]
+              }
+            },
+            {
+              "nome": "Vivo Keyd",
+              "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDj2osS2rk5CQ-cxpzSs63tZGq2LE6UyWkg&s",
+              "jogadores": [
+                {
+                  "nome": "Guigo",
+                  "lane": "Top",
+                  "img": "https://keydstars.com.br/wp-content/uploads/2023/04/guigo-2-1-150x150.jpg"
+                },
+                {
+                  "nome": "Disamis",
+                  "lane": "Jungler",
+                  "img": "https://keydstars.com.br/wp-content/uploads/2023/04/disamis-2-1-150x150.jpg"
+                },
+                {
+                  "nome": "Leleko",
+                  "lane": "Mid",
+                  "img": "https://keydstars.com.br/wp-content/uploads/2023/04/leleko-5-150x150.jpg"
+                },
+                {
+                  "nome": "Smiley",
+                  "lane": "Bot",
+                  "img": "https://keydstars.com.br/wp-content/uploads/2023/04/smiley-2-1-150x150.jpg"
+                },
+                {
+                  "nome": "ProDelta",
+                  "lane": "Suport",
+                  "img": "https://keydstars.com.br/wp-content/uploads/2023/04/prodelta-2-150x150.jpg"
+                }
+              ],
+              "ultimo_jogo": {
+                "local": "Arena CBLOL",
+                "data": "30/06/2024 16:00",
+                "times": [
+                  {
+                    "nome": "Vivo Keyd",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDj2osS2rk5CQ-cxpzSs63tZGq2LE6UyWkg&s",
+                    "placar": 3
+                  },
+                  {
+                    "nome": "Kabum",
+                    "logo": "https://pm1.aminoapps.com/6743/de686a056e10c16124d5dff523a914ff0789c866v2_00.jpg",
+                    "placar": 2
+                  }
+                ]
+              },
+              "proximo_jogo": {
+                "data": "12/07/2024 15:00",
+                "local": "Arena CBLOL",
+                "times": [
+                  {
+                    "nome": "Vivo Keyd",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDj2osS2rk5CQ-cxpzSs63tZGq2LE6UyWkg&s"
                   },
                   {
                     "nome": "Fúria",
@@ -97,22 +280,22 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena CBLOL",
-                "data": "17/06/2023",
+                "data": "30/06/2024 14:00",
                 "times": [
                   {
                     "nome": "Fluxo",
                     "logo": "https://esportenewsmundo.com.br/wp-content/uploads/2022/01/fluxo.png",
-                    "placar": 1
+                    "placar": 3
                   },
                   {
-                    "nome": "Kabum",
-                    "logo": "https://pm1.aminoapps.com/6743/de686a056e10c16124d5dff523a914ff0789c866v2_00.jpg",
-                    "placar": 2
+                    "nome": "Pain Gaming",
+                    "logo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png",
+                    "placar": 1
                   }
                 ]
               },
               "proximo_jogo": {
-                "data": "24/06/2023",
+                "data": "12/07/2024 15:00",
                 "local": "Arena CBLOL",
                 "times": [
                   {
@@ -120,8 +303,8 @@ const teamsData = {
                     "logo": "https://esportenewsmundo.com.br/wp-content/uploads/2022/01/fluxo.png"
                   },
                   {
-                    "nome": "Intz",
-                    "logo": "https://noticias.maisesports.com.br/wp-content/uploads/2014/07/INTZ1.png"
+                    "nome": "Kabum",
+                    "logo": "https://pm1.aminoapps.com/6743/de686a056e10c16124d5dff523a914ff0789c866v2_00.jpg"
                   }
                 ]
               }
@@ -158,22 +341,22 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena CBLOL",
-                "data": "10/06/2023",
+                "data": "30/06/2024 15:00",
                 "times": [
                   {
                     "nome": "Fúria",
                     "logo": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png",
-                    "placar": 0
+                    "placar": 1
                   },
                   {
-                    "nome": "Loud",
-                    "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
-                    "placar": 2
+                    "nome": "LOS",
+                    "logo": "https://n9necats.com.br/wp-content/uploads/2022/03/Los_Grandes.png",
+                    "placar": 3
                   }
                 ]
               },
               "proximo_jogo": {
-                "data": "24/06/2023",
+                "data": "12/07/2024 14:00",
                 "local": "Arena CBLOL",
                 "times": [
                   {
@@ -181,8 +364,8 @@ const teamsData = {
                     "logo": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png"
                   },
                   {
-                    "nome": "Kabum",
-                    "logo": "https://pm1.aminoapps.com/6743/de686a056e10c16124d5dff523a914ff0789c866v2_00.jpg"
+                    "nome": "Vivo Keyd",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDj2osS2rk5CQ-cxpzSs63tZGq2LE6UyWkg&s"
                   }
                 ]
               }
@@ -194,47 +377,47 @@ const teamsData = {
                 {
                   "nome": "Robo",
                   "lane": "Top",
-                  "img": "https://www.maisesports.com.br/wp-content/uploads/2021/11/cblol-robo-loud.jpg"
+                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPY5D9v6m-8sgYynioropQSuNQnoOuPunZ-Q&s"
                 },
                 {
                   "nome": "Croc",
                   "lane": "Jungler",
-                  "img": "https://s2-ge.glbimg.com/hgvc29JecAV3LepZGsD8C2J9zZI=/0x0:1200x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/8/d/BP8JUbSruq85fiF2g3Fg/croc.png"
+                  "img": "https://pbs.twimg.com/profile_images/1647387661009580033/SBthZvC2_400x400.jpg"
                 },
                 {
-                  "nome": "Duds",
+                  "nome": "Tinowns",
                   "lane": "Mid",
-                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKxwblTk57R9YQai-GoyX1uxdWKr_Euf0tQw&s"
+                  "img": "https://pbs.twimg.com/profile_images/1667064090227884033/CIz_BqGv_400x400.jpg"
                 },
                 {
-                  "nome": "Tae",
+                  "nome": "Route",
                   "lane": "Bot",
-                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ2plhp9Xv_MfB-rzcdKhwF1vIxG0DMyZk6g&s"
+                  "img": "https://noticias.maisesports.com.br/wp-content/uploads/2023/10/route-loud-worlds-2023-despedida.jpg"
                 },
                 {
-                  "nome": "Bard",
+                  "nome": "RedBert",
                   "lane": "Suport",
-                  "img": "https://s2-ge.glbimg.com/pA8RSwCpHzOBW_VwRDFUt_-6QY4=/0x0:1200x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/y/E/dkCguGQcWA6aUDvLUtvg/loud-esports-bard.png"
+                  "img": "https://s2-ge.glbimg.com/iwe1zcw_nzoIWsCH8ksamz29Wqc=/600x0/filters:quality(50)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/c/i/AFqTAuTqW5XMBA3knqRA/redbert-loud-lol.jpg"
                 }
               ],
               "ultimo_jogo": {
                 "local": "Arena CBLOL",
-                "data": "10/06/2023",
+                "data": "30/06/2024 13:00",
                 "times": [
                   {
                     "nome": "Loud",
                     "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
-                    "placar": 0
+                    "placar": 3
                   },
                   {
-                    "nome": "Fúria",
-                    "logo": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png",
-                    "placar": 2
+                    "nome": "Red",
+                    "logo": "https://banner2.cleanpng.com/20180612/awp/kisspng-red-canids-tom-clancy-s-rainbow-six-siege-league-o-gaming-smite-5b1fd72e3e8ff5.4582464315288133582563.jpg",
+                    "placar": 0
                   }
                 ]
               },
               "proximo_jogo": {
-                "data": "17/06/2023",
+                "data": "12/07/2024 16:00",
                 "local": "Arena CBLOL",
                 "times": [
                   {
@@ -242,8 +425,8 @@ const teamsData = {
                     "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png"
                   },
                   {
-                    "nome": "Pain Gaming",
-                    "logo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png"
+                    "nome": "Liberty",
+                    "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png"
                   }
                 ]
               }
@@ -280,22 +463,22 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena CBLOL",
-                "data": "17/06/2023",
+                "data": "30/06/2024 13:00",
                 "times": [
                   {
                     "nome": "Red",
                     "logo": "https://banner2.cleanpng.com/20180612/awp/kisspng-red-canids-tom-clancy-s-rainbow-six-siege-league-o-gaming-smite-5b1fd72e3e8ff5.4582464315288133582563.jpg",
-                    "placar": 1
+                    "placar": 0
                   },
                   {
-                    "nome": "Pain Gaming",
-                    "logo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png",
-                    "placar": 2
+                    "nome": "Loud",
+                    "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
+                    "placar": 3
                   }
                 ]
               },
               "proximo_jogo": {
-                "data": "24/06/2023",
+                "data": "12/07/2024 17:00",
                 "local": "Arena CBLOL",
                 "times": [
                   {
@@ -303,8 +486,8 @@ const teamsData = {
                     "logo": "https://banner2.cleanpng.com/20180612/awp/kisspng-red-canids-tom-clancy-s-rainbow-six-siege-league-o-gaming-smite-5b1fd72e3e8ff5.4582464315288133582563.jpg"
                   },
                   {
-                    "nome": "Fúria",
-                    "logo": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png"
+                    "nome": "Intz",
+                    "logo": "https://noticias.maisesports.com.br/wp-content/uploads/2014/07/INTZ1.png"
                   }
                 ]
               }
@@ -316,47 +499,47 @@ const teamsData = {
                 {
                   "nome": "Hidan",
                   "lane": "Top",
-                  "img": "https://s2-ge.glbimg.com/pnhZfbA5P32RpGLsldBCjeOjz58=/0x0:1200x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/z/b/4EddJsTLCvGRy1adXcAg/hidan-intz.png"
+                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyDlFQ8pDNLer8JJqqz2W4R9zMPNa-yvCtXQ&s"
                 },
                 {
                   "nome": "Sting",
                   "lane": "Jungler",
-                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjIaxc-hBf8lGboN9FPwyy2hFW8zHZ4eqRrA&s"
+                  "img": "https://pbs.twimg.com/media/E2WE8_cXMAI_ITY.jpg:large"
                 },
                 {
                   "nome": "Kiari",
                   "lane": "Mid",
-                  "img": "https://s2-ge.glbimg.com/iZZrC2k0oR4bwmdE7gT3kjzQv88=/0x0:1200x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/i/a/F3GCW4Tc6joNhJfA7YhQ/kiari.png"
+                  "img": "https://res.cloudinary.com/strafe/image/upload/h_192/pandascore/player/image/31477/fx_kiari_2024_split_1.png"
                 },
                 {
                   "nome": "micaO",
                   "lane": "Bot",
-                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmjMXGu2QEN1nyUxlRleC4x40x_PBkX5a2-A&s"
+                  "img": "https://s2-ge.glbimg.com/Z4fvHgHRTvF1iJfVqjX3n6RClOI=/0x0:1920x1280/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/0/Z/3yPKbkRDScDUtERv2Jlw/cblol-2022-micao-intz.jpg"
                 },
                 {
                   "nome": "Jockster",
                   "lane": "Suport",
-                  "img": "https://s2-ge.glbimg.com/cLUZjdcj0BCG6K8vV7q3c6w_V4c=/0x0:1200x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/j/o/B6dZqiQjGQu26cXLv3Ng/jockster.png"
+                  "img": "https://s2-ge.glbimg.com/uGa_np5Aarn-BnGlvOdBiU9MvEM=/0x0:1920x1280/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/7/7/113GhAT9eBRUeeH7qHmQ/52189420944-26f1f8c7b4-k.jpg"
                 }
               ],
               "ultimo_jogo": {
                 "local": "Arena CBLOL",
-                "data": "10/06/2023",
+                "data": "30/06/2024 17:00",
                 "times": [
                   {
                     "nome": "Intz",
                     "logo": "https://noticias.maisesports.com.br/wp-content/uploads/2014/07/INTZ1.png",
-                    "placar": 0
+                    "placar": 3
                   },
                   {
-                    "nome": "Pain Gaming",
-                    "logo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png",
+                    "nome": "Liberty",
+                    "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png",
                     "placar": 2
                   }
                 ]
               },
               "proximo_jogo": {
-                "data": "17/06/2023",
+                "data": "12/07/2024 17:00",
                 "local": "Arena CBLOL",
                 "times": [
                   {
@@ -402,22 +585,22 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena CBLOL",
-                "data": "17/06/2023",
+                "data": "30/06/2024 14:00",
                 "times": [
                   {
                     "nome": "Pain Gaming",
                     "logo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png",
-                    "placar": 2
+                    "placar": 1
                   },
                   {
-                    "nome": "Red",
-                    "logo": "https://banner2.cleanpng.com/20180612/awp/kisspng-red-canids-tom-clancy-s-rainbow-six-siege-league-o-gaming-smite-5b1fd72e3e8ff5.4582464315288133582563.jpg",
-                    "placar": 1
+                    "nome": "Fluxo",
+                    "logo": "https://esportenewsmundo.com.br/wp-content/uploads/2022/01/fluxo.png",
+                    "placar": 3
                   }
                 ]
               },
               "proximo_jogo": {
-                "data": "24/06/2023",
+                "data": "12/07/2024 13:00",
                 "local": "Arena CBLOL",
                 "times": [
                   {
@@ -425,8 +608,8 @@ const teamsData = {
                     "logo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png"
                   },
                   {
-                    "nome": "Loud",
-                    "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png"
+                    "nome": "LOS",
+                    "logo": "https://n9necats.com.br/wp-content/uploads/2022/03/Los_Grandes.png"
                   }
                 ]
               }
@@ -435,6 +618,189 @@ const teamsData = {
         },
         "Lec": {
           "times": [
+            {
+              "nome": "GIANTX",
+              "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZEuXkixwb0r-W-6Ie8PyVtLdLwp7NJIgSA&s",
+              "jogadores": [
+                {
+                  "nome": "Odoamne",
+                  "lane": "Top",
+                  "img": "https://pt.egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Flol%2FplayersV2%2F4yrxsbezgu9uodoamne.png&w=256&q=75"
+                },
+                {
+                  "nome": "Juhan",
+                  "lane": "Jungler",
+                  "img": "https://pt.egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Flol%2FplayersV2%2F41zheycy7pjuhan.png&w=256&q=75"
+                },
+                {
+                  "nome": "Jackies",
+                  "lane": "Mid",
+                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcg4wOVUWolEvP3wJtTpQOH565mH5CGVu3ozA3sXz62lVyVPFzfEgFQkz14RIj0pS45OQ&usqp=CAU"
+                },
+                {
+                  "nome": "Patrik",
+                  "lane": "Bot",
+                  "img": "https://pt.egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Flol%2FplayersV2%2F4yi1kg13nspatrik.png&w=256&q=75"
+                },
+                {
+                  "nome": "IgNar",
+                  "lane": "Suport",
+                  "img": "https://pt.egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Flol%2FplayersV2%2Fe1aezlngxlcuignar.png&w=256&q=75"
+                }
+              ],
+              "ultimo_jogo": {
+                "local": "Arena LEC",
+                "data": "30/06/2024 23:00",
+                "times": [
+                  {
+                    "nome": "GIANTX",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZEuXkixwb0r-W-6Ie8PyVtLdLwp7NJIgSA&s",
+                    "placar": 3
+                  },
+                  {
+                    "nome": "G2 Esports",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s",
+                    "placar": 2
+                  }
+                ]
+              },
+              "proximo_jogo": {
+                "data": "04/07/2024 20:00",
+                "local": "Arena LEC",
+                "times": [
+                  {
+                   "nome": "GIANTX",
+                   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZEuXkixwb0r-W-6Ie8PyVtLdLwp7NJIgSA&s",
+                  },
+                  {
+                    "nome": "Team Heretics",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWAamjH2-yyxgIMcwhcnqAf2EzqJSj3IzK_Q&s",
+                  }
+                ]
+              }
+            },
+            {
+              "nome": "Team Vitality",
+              "logo": "https://esportbet.com/wp-content/smush-webp/2022/04/Team-Vitality.jpg.webp",
+              "jogadores": [
+                {
+                  "nome": "Photon",
+                  "lane": "Top",
+                  "img": "https://pt.egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Flol%2FplayersV2%2Fn1glw-stdpphoton.png&w=256&q=75"
+                },
+                {
+                  "nome": "Lyncas",
+                  "lane": "Jungler",
+                  "img": "https://pt.egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Flol%2FplayersV2%2F4yxrd9t6rhlyncas.png&w=256&q=75"
+                },
+                {
+                  "nome": "Vetheo",
+                  "lane": "Mid",
+                  "img": "https://pt.egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Flol%2FplayersV2%2Fn1dx1g1nhjvetheo.png&w=256&q=75"
+                },
+                {
+                  "nome": "Carzzy",
+                  "lane": "Bot",
+                  "img": "https://pt.egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Flol%2FplayersV2%2Fnkarleggu5-carzzy.png&w=256&q=75"
+                },
+                {
+                  "nome": "Kaiser",
+                  "lane": "Suport",
+                  "img": "https://pt.egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Flol%2FplayersV2%2Fnk26yyb2eokaiser.png&w=256&q=75"
+                }
+              ],
+              "ultimo_jogo": {
+                "local": "Arena LEC",
+                "data": "30/06/2024 23:00",
+                "times": [
+                  {
+                    "nome": "Team Vitality",
+                    "logo": "https://esportbet.com/wp-content/smush-webp/2022/04/Team-Vitality.jpg.webp",
+                    "placar": 2
+                  },
+                  {
+                    "nome": "MAD Lions",
+                    "logo": "https://egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Fvalorant%2FteamsV2%2Fm%2Fma%2Fmad-lions-koi_1706943970413.png&w=384&q=75",
+                    "placar": 3
+                  }
+                ]
+              },
+              "proximo_jogo": {
+                "data": "03/07/2024 20:00",
+                "local": "Arena LEC",
+                "times": [
+                  {
+                   "nome": "Team Vitality",
+                   "logo": "https://esportbet.com/wp-content/smush-webp/2022/04/Team-Vitality.jpg.webp",
+                  },
+                  {
+                    "nome": "Fnatic",
+                    "logo": "https://cdn.pandascore.co/images/team/image/394/220px_fnaticlogo_square.png"
+                  }
+                ]
+              }
+            },
+            {
+              "nome": "SK Gaming",
+              "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdKjXicEX8L3YkfFpXZuIiAdNMpDjxwU22Mw&s",
+              "jogadores": [
+                {
+                  "nome": "Irrelevant",
+                  "lane": "Top",
+                  "img": "https://pbs.twimg.com/profile_images/1737865125804072960/ZCNojl_x_400x400.jpg"
+                },
+                {
+                  "nome": "Isma",
+                  "lane": "Jungler",
+                  "img": "https://pbs.twimg.com/profile_images/1780542493596999680/ZN19PY3w_400x400.jpg"
+                },
+                {
+                  "nome": "Nisqy",
+                  "lane": "Mid",
+                  "img": "https://cdn.sanity.io/images/dmtcrhxp/production/e6234669aaf01a590892ec33c2727f46e79e427d-1031x677.png?rect=0,49,1031,580&w=1920&h=1080&q=30&auto=format"
+                },
+                {
+                  "nome": "Rahel",
+                  "lane": "Bot",
+                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7mSozZ-3RASpVSiFAEzsCESQzCZECGp3d5g&s"
+                },
+                {
+                  "nome": "Luon",
+                  "lane": "Suport",
+                  "img": "https://cdn.pandascore.co/images/player/image/38368/ns.ea_hh_2024_split_1.png"
+                }
+              ],
+              "ultimo_jogo": {
+                "local": "Arena LEC",
+                "data": "30/06/2024 23:00",
+                "times": [
+                  {
+                    "nome": "SK Gaming",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdKjXicEX8L3YkfFpXZuIiAdNMpDjxwU22Mw&s",
+                    "placar": 1
+                  },
+                  {
+                    "nome": "Team BDS",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2bqq58ADdI40Gczk5nBOYtNFn5MjKNpNqNQ&s",
+                    "placar": 3
+                  }
+                ]
+              },
+              "proximo_jogo": {
+                "data": "04/07/2024 20:00",
+                "local": "Arena LEC",
+                "times": [
+                  {
+                   "nome": "SK Gaming",
+                   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdKjXicEX8L3YkfFpXZuIiAdNMpDjxwU22Mw&s",
+                  },
+                  {
+                    "nome": "MAD Lions",
+                    "logo": "https://egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Fvalorant%2FteamsV2%2Fm%2Fma%2Fmad-lions-koi_1706943970413.png&w=384&q=75"
+                  }
+                ]
+              }
+            },
             {
               "nome": "Rougue",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s",
@@ -467,22 +833,22 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena LEC",
-                "data": "10/06/2023",
+                "data": "30/06/2024 23:00",
                 "times": [
                   {
                     "nome": "Rougue",
                     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s",
-                    "placar": 1
+                    "placar": 3
                   },
                   {
                     "nome": "Fnatic",
-                    "logo": "https://liquipedia.net/commons/images/thumb/f/f9/Fnatic_2020_allmode.png/600px-Fnatic_2020_allmode.png",
-                    "placar": 2
+                    "logo": "https://cdn.pandascore.co/images/team/image/394/220px_fnaticlogo_square.png", 
+                    "placar": 1
                   }
                 ]
               },
               "proximo_jogo": {
-                "data": "17/06/2023",
+                "data": "04/07/2024 20:00",
                 "local": "Arena LEC",
                 "times": [
                   {
@@ -490,15 +856,15 @@ const teamsData = {
                     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s"
                   },
                   {
-                    "nome": "G2 Esports",
-                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s"
+                    "nome": "Karmine Corp",
+                    "logo": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2d/Karmine_Corplogo_square.png/revision/latest?cb=20240319113928", 
                   }
                 ]
               }
             },
             {
               "nome": "Fnatic",
-              "logo": "https://liquipedia.net/commons/images/thumb/f/f9/Fnatic_2020_allmode.png/600px-Fnatic_2020_allmode.png",
+              "logo": "https://cdn.pandascore.co/images/team/image/394/220px_fnaticlogo_square.png",
               "jogadores": [
                 {
                   "nome": "Wonder",
@@ -528,38 +894,38 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena LEC",
-                "data": "10/06/2023",
+                "data": "30/06/2024 20:00",
                 "times": [
                   {
-                    "nome": "Rougue",
-                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s",
+                    "nome": "Fnatic",
+                    "logo": "https://cdn.pandascore.co/images/team/image/394/220px_fnaticlogo_square.png",
                     "placar": 1
                   },
                   {
-                    "nome": "Fnatic",
-                    "logo": "https://liquipedia.net/commons/images/thumb/f/f9/Fnatic_2020_allmode.png/600px-Fnatic_2020_allmode.png",
-                    "placar": 2
+                    "nome": "Rougue",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s",
+                    "placar": 3
                   }
                 ]
               },
               "proximo_jogo": {
-                "data": "17/06/2023",
+                "data": "04/07/2024 22:00",
                 "local": "Arena LEC",
                 "times": [
                   {
                     "nome": "Fnatic",
-                    "logo": "https://liquipedia.net/commons/images/thumb/f/f9/Fnatic_2020_allmode.png/600px-Fnatic_2020_allmode.png"
+                    "logo": "https://cdn.pandascore.co/images/team/image/394/220px_fnaticlogo_square.png"
                   },
                   {
-                    "nome": "MAD Lions",
-                    "logo": "https://liquipedia.net/commons/images/thumb/e/e7/MAD_Lions_2020_allmode.png/600px-MAD_Lions_2020_allmode.png"
+                    "nome": "Team Vitality",      
+                    "logo": "https://esportbet.com/wp-content/smush-webp/2022/04/Team-Vitality.jpg.webp"  
                   }
                 ]
               }
             },
             {
               "nome": "MAD Lions",
-              "logo": "https://liquipedia.net/commons/images/thumb/e/e7/MAD_Lions_2020_allmode.png/600px-MAD_Lions_2020_allmode.png",
+              "logo": "https://egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Fvalorant%2FteamsV2%2Fm%2Fma%2Fmad-lions-koi_1706943970413.png&w=384&q=75",
               "jogadores": [
                 {
                   "nome": "Armut",
@@ -589,38 +955,38 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena LEC",
-                "data": "10/06/2023",
+                "data": "30/06/2024 20:00",
                 "times": [
                   {
                     "nome": "MAD Lions",
-                    "logo": "https://liquipedia.net/commons/images/thumb/e/e7/MAD_Lions_2020_allmode.png/600px-MAD_Lions_2020_allmode.png",
-                    "placar": 1
+                    "logo": "https://egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Fvalorant%2FteamsV2%2Fm%2Fma%2Fmad-lions-koi_1706943970413.png&w=384&q=75",
+                    "placar": 2
                   },
                   {
                     "nome": "Team Vitality",
                     "logo": "https://logowik.com/content/uploads/images/team-vitality6447.jpg",
-                    "placar": 2
+                    "placar": 3
                   }
                 ]
               },
               "proximo_jogo": {
-                "data": "17/06/2023",
+                "data": "04/07/2024 23:00",
                 "local": "Arena LEC",
                 "times": [
                   {
-                    "nome": "Fnatic",
-                    "logo": "https://liquipedia.net/commons/images/thumb/f/f9/Fnatic_2020_allmode.png/600px-Fnatic_2020_allmode.png"
+                    "nome": "MAD Lions",
+                    "logo": "https://egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Fvalorant%2FteamsV2%2Fm%2Fma%2Fmad-lions-koi_1706943970413.png&w=384&q=75",
                   },
                   {
-                    "nome": "MAD Lions",
-                    "logo": "https://liquipedia.net/commons/images/thumb/e/e7/MAD_Lions_2020_allmode.png/600px-MAD_Lions_2020_allmode.png"
+                    "nome": "SK Gaming",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdKjXicEX8L3YkfFpXZuIiAdNMpDjxwU22Mw&s"
                   }
                 ]
               }
             },
             {
               "nome": "Team BDS",
-              "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2bqq58ADdI40Gczk5nBOYtNFn5MjKNpNqNQ&s",
+              "logo": "https://am-a.akamaihd.net/image?resize=400:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1641292031788_Team_BDSlogo_square.png",
               "jogadores": [
                 {
                   "nome": "Adam",
@@ -650,31 +1016,31 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena LEC",
-                "data": "10/06/2023",
+                "data": "30/06/2024 19:00",
                 "times": [
                   {
                     "nome": "Team BDS",
-                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2bqq58ADdI40Gczk5nBOYtNFn5MjKNpNqNQ&s",
-                    "placar": 0
+                    "logo": "https://am-a.akamaihd.net/image?resize=400:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1641292031788_Team_BDSlogo_square.png",
+                    "placar": 3
                   },
                   {
                     "nome": "SK Gaming",
                     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIgGnFmj7cdhSyZlgFgVhViQz9k3Kddesyyg&s",
-                    "placar": 2
+                    "placar": 1
                   }
                 ]
               },
               "proximo_jogo": {
-                "data": "17/06/2023",
+                "data": "04/07/2024 21:00",
                 "local": "Arena LEC",
                 "times": [
                   {
-                    "nome": "Astralis",
-                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWrJ9YY6-zQaW-Q_qXMFc_NyHLqTkw4XJInw&s"
+                    "nome": "Team BDS",
+                    "logo": "https://am-a.akamaihd.net/image?resize=400:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1641292031788_Team_BDSlogo_square.png", 
                   },
                   {
-                    "nome": "Team BDS",
-                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2bqq58ADdI40Gczk5nBOYtNFn5MjKNpNqNQ&s"
+                    "nome": "G2 Esports",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s"
                   }
                 ]
               }
@@ -711,22 +1077,22 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena LEC",
-                "data": "10/06/2023",
+                "data": "30/06/2024 20:00",
                 "times": [
                   {
                     "nome": "Team Heretics",
                     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWAamjH2-yyxgIMcwhcnqAf2EzqJSj3IzK_Q&s",
-                    "placar": 2
+                    "placar": 3
                   },
                   {
-                    "nome": "KOI",
-                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm-lXNGX2w02zBXTWqQL0rP0z2bs3VoNFCzA&s",
+                    "nome": "Karmine Corp",
+                    "logo": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2d/Karmine_Corplogo_square.png/revision/latest?cb=20240319113928",
                     "placar": 0
                   }
                 ]
               },
               "proximo_jogo": {
-                "data": "17/06/2023",
+                "data": "12/07/2024 22:00",
                 "local": "Arena LEC",
                 "times": [
                   {
@@ -734,8 +1100,8 @@ const teamsData = {
                     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWAamjH2-yyxgIMcwhcnqAf2EzqJSj3IzK_Q&s"
                   },
                   {
-                    "nome": "Excel Esports",
-                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTklwxq1wF2HQ2vgXGTOaRxPrrTjQGHur8xvQ&s"
+                    "nome": "GIANTX",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZEuXkixwb0r-W-6Ie8PyVtLdLwp7NJIgSA&s"
                   }
                 ]
               }
@@ -747,56 +1113,56 @@ const teamsData = {
                 {
                   "nome": "BrokenBlade",
                   "lane": "Top",
-                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGkmekXJcAbQ_PbA2WxrrM70EHSOAJ7IglTQ&s"
+                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeF8rZJpungxdEyiBGERKUYt7lHIF2cQjolA&s"
                 },
                 {
                   "nome": "Yike",
                   "lane": "Jungler",
-                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEjcD9MBecKrggVC1qSlsS8rTDH39pATnROw&s"
+                  "img": "https://admin.esports.gg/wp-content/uploads/2023/05/Yike-vs-MAD.jpg"
                 },
                 {
                   "nome": "Caps",
                   "lane": "Mid",
-                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoPG4pB35wJeQw9pzeVY6iQ6f6MT2h83C5oA&s"
+                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXJn8Vt9fcLiR2WXUbWKETYeTL6YXrHFnv4g&s"
                 },
                 {
                   "nome": "Hans sama",
                   "lane": "Bot",
-                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh4Mb8y04xhOK2bHoJ0u9nFQHZYocJ-8XJQA&s"
+                  "img": "https://pbs.twimg.com/media/GB9RweoWAAAFaQ1?format=jpg&name=4096x4096"
                 },
                 {
                   "nome": "Mikyx",
                   "lane": "Suport",
-                  "img": "https://liquipedia.net/commons/images/thumb/b/bd/G2_Mikyx_Worlds_2023.jpg/600px-G2_Mikyx_Worlds_2023.jpg"
+                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSb1_M7s2nbyu17WDA6LSqtyQrC1WOi6XAVQ&s"
                 }
             ],
             "ultimo_jogo": {
                 "local": "Arena LEC",
-                "data": "10/06/2023",
+                "data": "30/06/2024 21:00",
                 "times": [
                   {
                     "nome": "G2 Esports",
-                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWAamjH2-yyxgIMcwhcnqAf2EzqJSj3IzK_Q&s",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s",
                     "placar": 2
                   },
                   {
-                    "nome": "KOI",
-                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm-lXNGX2w02zBXTWqQL0rP0z2bs3VoNFCzA&s",
-                    "placar": 0
+                    "nome": "GIANTX",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZEuXkixwb0r-W-6Ie8PyVtLdLwp7NJIgSA&s",
+                    "placar": 3
                   }
                 ]
               },
               "proximo_jogo": {
-                "data": "17/06/2023",
+                "data": "04/07/2024 22:00",
                 "local": "Arena LEC",
                 "times": [
                   {
                     "nome": "G2 Esports",
-                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWAamjH2-yyxgIMcwhcnqAf2EzqJSj3IzK_Q&s"
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s"
                   },
                   {
-                    "nome": "Excel Esports",
-                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTklwxq1wF2HQ2vgXGTOaRxPrrTjQGHur8xvQ&s"
+                    "nome": "Team BDS",
+                    "logo": "https://am-a.akamaihd.net/image?resize=400:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1641292031788_Team_BDSlogo_square.png"
                   }
                 ]
               }
@@ -833,22 +1199,22 @@ const teamsData = {
             ],
             "ultimo_jogo": {
                 "local": "Arena LEC",
-                "data": "10/06/2023",
+                "data": "30/06/2024 22:00",
                 "times": [
                   {
                    "nome": "Karmine Corp",
                     "logo": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2d/Karmine_Corplogo_square.png/revision/latest?cb=20240319113928",
-                    "placar": 2
+                    "placar": 0
                   },
                   {
-                    "nome": "KOI",
-                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm-lXNGX2w02zBXTWqQL0rP0z2bs3VoNFCzA&s",
-                    "placar": 0
+                    "nome": "Team Heretics",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWAamjH2-yyxgIMcwhcnqAf2EzqJSj3IzK_Q&s",
+                    "placar": 3
                   }
                 ]
               },
               "proximo_jogo": {
-                "data": "17/06/2023",
+                "data": "04/07/2024 22:00",
                 "local": "Arena LEC",
                 "times": [
                   {
@@ -856,135 +1222,14 @@ const teamsData = {
                     "logo": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2d/Karmine_Corplogo_square.png/revision/latest?cb=20240319113928",
                   },
                   {
-                    "nome": "Excel Esports",
-                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTklwxq1wF2HQ2vgXGTOaRxPrrTjQGHur8xvQ&s"
+                    "nome": "Rougue",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s"    
                   }
                 ]
               }
             },
-            {
-              "nome": "MAD Lions KOI",
-              "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG-3bbNhJ2gTpjIQEMWLUNSHIQSczIjMjWwA&s",
-              "jogadores": [
-                {   
-                    "nome": "Chasy",
-                    "lane": "Top",
-                    "img": "https://liquipedia.net/commons/images/5/5f/MAD_Chasy_Worlds_2023.jpg"
-                },
-                {
-                    "nome": "Elyoya",
-                    "lane": "Jungler",
-                    "img": "https://liquipedia.net/commons/images/1/13/MAD_Elyoya_LEC_Spring_2024.jpg"
-                },
-                {
-                    "nome": "Fresskowy",
-                    "lane": "Mid",
-                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7RwF5qc0XCPKwBvCj_iB2EEPwjFZ6-r6bQw&s"
-                },
-                {
-                    "nome": "Supa",
-                    "lane": "Bot",
-                    "img":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiMSs2fZ_PtCcTih18tLDWyJTYOvhpx5XODQ&s"
-                },
-                {
-                    "nome": "Alvaro",
-                    "lane": "Suport",
-                    "img": "https://liquipedia.net/commons/images/thumb/4/4e/MDK_Alvaro_at_LEC_Winter_2024.jpg/600px-MDK_Alvaro_at_LEC_Winter_2024.jpg"
-                }
-            ],
-            "ultimo_jogo": {
-              "local": "Arena LEC",
-              "data": "10/06/2023",
-              "times": [
-                {
-                 "nome": "MAD Lions KOI",
-              "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG-3bbNhJ2gTpjIQEMWLUNSHIQSczIjMjWwA&s",
-                  "placar": 2
-                },
-                {
-                  "nome": "KOI",
-                  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm-lXNGX2w02zBXTWqQL0rP0z2bs3VoNFCzA&s",
-                  "placar": 0
-                }
-              ]
-            },
-            "proximo_jogo": {
-              "data": "17/06/2023",
-              "local": "Arena LEC",
-              "times": [
-                {
-                  "nome": "MAD Lions KOI",
-              "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG-3bbNhJ2gTpjIQEMWLUNSHIQSczIjMjWwA&s",
-                },
-                {
-                  "nome": "Excel Esports",
-                  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTklwxq1wF2HQ2vgXGTOaRxPrrTjQGHur8xvQ&s"
-                }
-              ]
-            }
             
-            },
-            {
-              "nome": "Fnatic",
-              "logo": "https://liquipedia.net/commons/images/thumb/f/f9/Fnatic_2020_allmode.png/600px-Fnatic_2020_allmode.png",
-              "jogadores": [
-                {   
-                    "nome": "Oscarinin",
-                    "lane": "Top",
-                    "img": "https://cdn.sanity.io/images/5gii1snx/production/20cdbf0d0fcc5122dd898fcd8935ab8017793f00-1861x1861.jpg"
-                },
-                {
-                    "nome": "Razork",
-                    "lane": "Jungler",
-                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfSihDzTkX3h2zzvDgc8yznvBrO_gG58gN6w&s"
-                },
-                {
-                    "nome": "Humanoid",
-                    "lane": "Mid",
-                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqmYL-_xE6kZP6-22NB_oe_1y8LeO8YW-L_w&s"
-                },
-                {
-                    "nome": "Noah",
-                    "lane": "Bot",
-                    "img":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR84o5JqLV3IDEyG76aYuY4iNvvlN7jNGv2Kw&s"
-                },
-                {
-                    "nome": "Jun",
-                    "lane": "Suport",
-                    "img": "https://cdn.sanity.io/images/5gii1snx/production/dcb9e40d1614f148e48169174c20616d7d1665ef-500x500.jpg"
-                }
-            ],
-            "ultimo_jogo": {
-              "local": "Arena LEC",
-              "data": "10/06/2023",
-              "times": [
-                {
-                 "nome": "Fnatic",
-              "logo": "https://liquipedia.net/commons/images/thumb/f/f9/Fnatic_2020_allmode.png/600px-Fnatic_2020_allmode.png",
-                  "placar": 2
-                },
-                {
-                  "nome": "KOI",
-                  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm-lXNGX2w02zBXTWqQL0rP0z2bs3VoNFCzA&s",
-                  "placar": 0
-                }
-              ]
-            },
-            "proximo_jogo": {
-              "data": "17/06/2023",
-              "local": "Arena LEC",
-              "times": [
-                {
-                  "nome": "Fnatic",
-              "logo": "https://liquipedia.net/commons/images/thumb/f/f9/Fnatic_2020_allmode.png/600px-Fnatic_2020_allmode.png",
-                },
-                {
-                  "nome": "Excel Esports",
-                  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTklwxq1wF2HQ2vgXGTOaRxPrrTjQGHur8xvQ&s"
-                }
-              ]
-            }
-            }
+           
           ]
         }
       }
@@ -1020,31 +1265,31 @@ const teamsData = {
               ],
               "ultimo_jogo": {
               "local": "Arena Challengers",
-              "data": "10/06/2023",
+              "data": "25/06/2024 17:00",
               "times": [
                 {
                   "nome": "Hero Base",
                   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR5A4CVohUKkco24sZ-41lbbcrbZwkU_TXxbYIz5YVpwpedT2p2qLtvRymBbk_QDBHiEg&usqp=CAU",
-                  "placar": 1
+                  "placar": 2
                 },
                 {
-                  "nome": "XLD Gaming",
-                  "logo": "https://owcdn.net/img/65c8a8af4aced.png",
+                  "nome": "The 7",
+                  "logo": "https://static.valorantzone.gg/news/2024/05/21195423/imagem_2024-05-21_195422738.png",
                   "placar": 0
                 }
               ]
             },
             "proximo_jogo": {
-              "data": "17/06/2023",
-              "local": "Arena LEC",
+              "data": "04/07/2024 20:00",
+              "local": "Arena Challengers",
               "times": [
                 {
                   "nome": "Hero Base",
                   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR5A4CVohUKkco24sZ-41lbbcrbZwkU_TXxbYIz5YVpwpedT2p2qLtvRymBbk_QDBHiEg&usqp=CAU"
                 },
                 {
-                  "nome": "The 7",
-                  "logo": "https://static.valorantzone.gg/news/2024/05/21195423/imagem_2024-05-21_195422738.png",
+                  "nome": "2Game",
+                  "logo": "https://static.valorantzone.gg/news/2024/02/02190809/imagem_2024-02-02_190803780.png",
                 }
               ]
             }
@@ -1076,22 +1321,22 @@ const teamsData = {
               ],
               "ultimo_jogo": {
               "local": "Arena Challengers",
-              "data": "10/06/2023",
+              "data": "25/06/2024 17:00",
               "times": [
+                {
+                  "nome": "The 7",
+                  "logo": "https://static.valorantzone.gg/news/2024/05/21195423/imagem_2024-05-21_195422738.png",
+                  "placar": 0
+                },
                 {
                   "nome": "Hero Base",
                   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR5A4CVohUKkco24sZ-41lbbcrbZwkU_TXxbYIz5YVpwpedT2p2qLtvRymBbk_QDBHiEg&usqp=CAU",
-                  "placar": 1
-                },
-                {
-                  "nome": "XLD Gaming",
-                  "logo": "https://owcdn.net/img/65c8a8af4aced.png",
-                  "placar": 0
+                  "placar": 2
                 }
               ]
             },
             "proximo_jogo": {
-              "data": "17/06/2023",
+              "data": "04/07/2024 17:00",
               "local": "Arena LEC",
               "times": [
                 {
@@ -1099,8 +1344,8 @@ const teamsData = {
                   "logo": "https://static.valorantzone.gg/news/2024/05/21195423/imagem_2024-05-21_195422738.png",
                 },
                 {
-                  "nome": "Hero Base",
-                  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR5A4CVohUKkco24sZ-41lbbcrbZwkU_TXxbYIz5YVpwpedT2p2qLtvRymBbk_QDBHiEg&usqp=CAU",
+                  "nome": "Stellae Gaming",
+                  "logo": "https://static.valorantzone.gg/news/2023/10/13120148/imagem_2023-10-13_120146228.png",
                 }
               ]
             }
@@ -1129,7 +1374,37 @@ const teamsData = {
                   "nome": "maestr0",
                   "img": "https://static.valorantzone.gg/news/2024/05/28135015/apeks-kaajak.png"
                 }
+              ],
+              "ultimo_jogo": {
+              "local": "Arena Challengers",
+              "data": "25/06/2024 17:00",
+              "times": [
+                {
+                  "nome": "XLD Gaming",
+                  "logo": "https://owcdn.net/img/65c8a8af4aced.png",
+                  "placar": 2
+                },
+                {
+                  "nome": "SAGAZ Club",
+                  "logo": "https://static.valorantzone.gg/news/2024/01/24180813/imagem_2024-01-24_180806260.png",
+                  "placar": 1
+                }
               ]
+            },
+            "proximo_jogo": {
+              "data": "05/07/2024 17:00",
+              "local": "Arena Challengers",
+              "times": [
+                {
+                  "nome": "XLD Gaming",
+                  "logo": "https://owcdn.net/img/65c8a8af4aced.png",
+                },
+                {
+                  "nome": "TBK Esports",
+                  "logo": "https://static.valorantzone.gg/news/2022/01/12162628/tbk.png",
+                }
+              ]
+            }
             },
             {
               "nome": "2Game",
@@ -1155,7 +1430,37 @@ const teamsData = {
                   "nome": "silentzz",
                   "img": "https://pbs.twimg.com/profile_images/1757603506532335616/s1UiL3RW_400x400.jpg"
                 }
+              ],
+              "ultimo_jogo": {
+              "local": "Arena Challengers",
+              "data": "26/06/2024 20:00",
+              "times": [
+                {
+                  "nome": "2Game",
+                  "logo": "https://static.valorantzone.gg/news/2024/02/02190809/imagem_2024-02-02_190803780.png",
+                  "placar": 2
+                },
+                {
+                  "nome": "Stellae Gaming",
+                  "logo": "https://static.valorantzone.gg/news/2023/10/13120148/imagem_2023-10-13_120146228.png",
+                  "placar": 1
+                }
               ]
+            },
+            "proximo_jogo": {
+              "data": "04/07/2024 20:00",
+              "local": "Arena Challengers",
+              "times": [
+                {
+                  "nome": "2Game",
+                  "logo": "https://static.valorantzone.gg/news/2024/02/02190809/imagem_2024-02-02_190803780.png",
+                },
+                {
+                  "nome": "Hero Base",
+                  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR5A4CVohUKkco24sZ-41lbbcrbZwkU_TXxbYIz5YVpwpedT2p2qLtvRymBbk_QDBHiEg&usqp=CAU",
+                }
+              ]
+            }
             },
             {
               "nome": "SAGAZ Club",
@@ -1181,7 +1486,37 @@ const teamsData = {
                   "nome": "Tisora",
                   "img": ""
                 }
+              ],
+              "ultimo_jogo": {
+              "local": "Arena Challengers",
+              "data": "25/06/2024 17:00",
+              "times": [
+                {
+                  "nome": "SAGAZ Club",
+                  "logo": "https://static.valorantzone.gg/news/2024/01/24180813/imagem_2024-01-24_180806260.png",
+                  "placar": 1
+                },
+                {
+                  "nome": "XLD Gaming",
+                  "logo": "https://owcdn.net/img/65c8a8af4aced.png",
+                  "placar": 2
+                }
               ]
+            },
+            "proximo_jogo": {
+              "data": "04/07/2024 17:00",
+              "local": "Arena Challengers",
+              "times": [
+                {
+                  "nome": "SAGAZ Club",
+                  "logo": "https://static.valorantzone.gg/news/2024/01/24180813/imagem_2024-01-24_180806260.png",
+                },
+                {
+                  "nome": "Galorys Comoany",
+                  "logo": "https://static.valorantzone.gg/news/2023/06/07163614/imagem_2023-06-07_163613604.png",
+                }
+              ]
+            }
             },
             {
               "nome": "Legacy",
@@ -1207,7 +1542,37 @@ const teamsData = {
                   "nome": "nanah",
                   "img": "https://pbs.twimg.com/media/F8lB0DBWgAAyRIW?format=jpg&name=large"
                 }
+              ],
+              "ultimo_jogo": {
+              "local": "Arena Challengers",
+              "data": "26/06/2024 17:00",
+              "times": [
+                {
+                  "nome": "Legacy",
+                  "logo": "https://static.valorantzone.gg/news/2023/09/22121900/Legacy.png",
+                  "placar": 1
+                },
+                {
+                  "nome": "Galorys Comoany",
+                  "logo": "https://static.valorantzone.gg/news/2023/06/07163614/imagem_2023-06-07_163613604.png",
+                  "placar": 2
+                }
               ]
+            },
+            "proximo_jogo": {
+              "data": "05/07/2024 20:00",
+              "local": "Arena Challengers",
+              "times": [
+                {
+                  "nome": "Legacy",
+                  "logo": "https://static.valorantzone.gg/news/2023/09/22121900/Legacy.png",
+                },
+                {
+                  "nome": "RED Canids",
+                  "logo": "https://static.valorantzone.gg/news/2023/01/10123132/380px-Red_Canids_allmode.png",
+                }
+              ]
+            }
             },
             {
               "nome": "Stellae Gaming",
@@ -1233,7 +1598,37 @@ const teamsData = {
                   "nome": "Siduzord",
                   "img": "https://pbs.twimg.com/profile_images/1758178427390095360/DDUQv5aH_400x400.jpg"
                 }
+              ],
+              "ultimo_jogo": {
+              "local": "Arena Challengers",
+              "data": "26/06/2024 20:00",
+              "times": [
+                {
+                  "nome": "Stellae Gaming",
+                  "logo": "https://static.valorantzone.gg/news/2023/10/13120148/imagem_2023-10-13_120146228.png",
+                  "placar": 1
+                },
+                {
+                  "nome": "2Game",
+                  "logo": "https://static.valorantzone.gg/news/2024/02/02190809/imagem_2024-02-02_190803780.png",
+                  "placar": 2
+                }
               ]
+            },
+            "proximo_jogo": {
+              "data": "04/07/2024 17:00",
+              "local": "Arena Challengers",
+              "times": [
+                {
+                  "nome": "Stellae Gaming",
+                  "logo": "https://static.valorantzone.gg/news/2023/10/13120148/imagem_2023-10-13_120146228.png",
+                },
+                {
+                  "nome": "The 7",
+                  "logo": "https://static.valorantzone.gg/news/2024/05/21195423/imagem_2024-05-21_195422738.png",
+                }
+              ]
+            }
             },
             {
               "nome": "Galorys Comoany",
@@ -1259,7 +1654,37 @@ const teamsData = {
                   "nome": "Sato",
                   "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREwPQCWjHyyLy9rOS6c-L7kEB_G6bQvxgQmw&s"
                 }
+              ],
+              "ultimo_jogo": {
+              "local": "Arena Challengers",
+              "data": "26/06/2024 17:00",
+              "times": [
+                {
+                  "nome": "Galorys Comoany",
+                  "logo": "https://static.valorantzone.gg/news/2023/06/07163614/imagem_2023-06-07_163613604.png",
+                  "placar": 2
+                },
+                {
+                  "nome": "Legacy",
+                  "logo": "https://static.valorantzone.gg/news/2023/09/22121900/Legacy.png",
+                  "placar": 1
+                }
               ]
+            },
+            "proximo_jogo": {
+              "data": "04/07/2024 17:00",
+              "local": "Arena Challengers",
+              "times": [
+                {
+                  "nome": "Galorys Comoany",
+                  "logo": "https://static.valorantzone.gg/news/2023/06/07163614/imagem_2023-06-07_163613604.png",
+                },
+                {
+                  "nome": "SAGAZ Club",
+                  "logo": "https://static.valorantzone.gg/news/2024/01/24180813/imagem_2024-01-24_180806260.png",
+                }
+              ]
+            }
             },
             {
               "nome": "RED Canids",
@@ -1285,7 +1710,37 @@ const teamsData = {
                   "nome": "gaabxx",
                   "img": "https://owcdn.net/img/65e0a6e6c899f.png"
                 }
+              ],
+              "ultimo_jogo": {
+              "local": "Arena Challengers",
+              "data": "26/06/2024 17:00",
+              "times": [
+                {
+                  "nome": "RED Canids",
+                  "logo": "https://static.valorantzone.gg/news/2023/01/10123132/380px-Red_Canids_allmode.png",
+                  "placar": 2
+                },
+                {
+                  "nome": "TBK Esports",
+                  "logo": "https://static.valorantzone.gg/news/2022/01/12162628/tbk.png",
+                  "placar": 1
+                }
               ]
+            },
+            "proximo_jogo": {
+              "data": "05/07/2024 20:00",
+              "local": "Arena Challengers",
+              "times": [
+                {
+                  "nome": "RED Canids",
+                  "logo": "https://static.valorantzone.gg/news/2023/01/10123132/380px-Red_Canids_allmode.png",
+                },
+                {
+                  "nome": "Legacy",
+                  "logo": "https://static.valorantzone.gg/news/2023/09/22121900/Legacy.png",
+                }
+              ]
+            }
             },
             {
               "nome": "TBK Esports",
@@ -1311,7 +1766,37 @@ const teamsData = {
                   "nome": "bezn1",
                   "img": ""
                 }
+              ],
+              "ultimo_jogo": {
+              "local": "Arena Challengers",
+              "data": "25/06/2024 20:00",
+              "times": [
+                {
+                  "nome": "TBK Esports",
+                  "logo": "https://static.valorantzone.gg/news/2022/01/12162628/tbk.png",
+                  "placar": 1
+                },
+                {
+                  "nome": "RED Canids",
+                  "logo": "https://static.valorantzone.gg/news/2023/01/10123132/380px-Red_Canids_allmode.png",
+                  "placar": 1
+                }
               ]
+            },
+            "proximo_jogo": {
+              "data": "05/07/2024 17:00",
+              "local": "Arena Challengers",
+              "times": [
+                {
+                  "nome": "TBK Esports",
+                  "logo": "https://static.valorantzone.gg/news/2022/01/12162628/tbk.png",
+                },
+                {
+                  "nome": "XLD Gaming",
+                  "logo": "https://owcdn.net/img/65c8a8af4aced.png",
+                }
+              ]
+            }
             }
           ]
         },
@@ -1344,7 +1829,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "30/06/2023",
+                "data": "30/06/2024 17:00",
                 "times": [
                   {
                     "nome": "Leviatán",
@@ -1359,8 +1844,8 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "02/07/2023",
-                "local": "Arena LEC",
+                "data": "02/07/2024 17:00",
+                "local": "Arena Champions",
                 "times": [
                   {
                     "nome": "Leviatán",
@@ -1368,14 +1853,14 @@ const teamsData = {
                   },
                   {
                     "nome": "Evil Geniuses",
-                    "logo": "https://static.valorantzone.gg/news/2023/10/18122935/EG.png",
+                    "logo": "https://pbs.twimg.com/profile_images/1484293952132251648/WPTSuxkN_400x400.jpg",
                   }
                 ]
               }
             },
             {
               "nome": "Evil Geniuses",
-              "logo": "https://static.valorantzone.gg/news/2023/10/18122935/EG.png",
+              "logo": "https://pbs.twimg.com/profile_images/1484293952132251648/WPTSuxkN_400x400.jpg",
               "jogadores": [
                 {
                   "nome": "jawgemo",
@@ -1400,11 +1885,11 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "29/06/2023",
+                "data": "29/06/2024 17:00",
                 "times": [
                   {
                     "nome": "Evil Geniuses",
-                    "logo": "https://static.valorantzone.gg/news/2023/10/18122935/EG.png",
+                    "logo": "https://pbs.twimg.com/profile_images/1484293952132251648/WPTSuxkN_400x400.jpg",
                     "placar": 3
                   },
                   {
@@ -1415,12 +1900,12 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "02/07/2023",
+                "data": "02/07/2024",
                 "local": "Arena LEC",
                 "times": [
                   {
                     "nome": "Evil Geniuses",
-                    "logo": "https://static.valorantzone.gg/news/2023/10/18122935/EG.png",
+                    "logo": "https://pbs.twimg.com/profile_images/1484293952132251648/WPTSuxkN_400x400.jpg",
                   },
                   {
                     "nome": "Leviatán",
@@ -1456,7 +1941,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "30/06/2023",
+                "data": "30/06/2024",
                 "times": [
                   {
                     "nome": "LOUD",
@@ -1471,8 +1956,8 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "02/07/2023",
-                "local": "Arena LEC",
+                "data": "02/07/2024",
+                "local": "Arena Champions",
                 "times": [
                   {
                     "nome": "LOUD",
@@ -1512,7 +1997,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "30/06/2023",
+                "data": "30/06/2024",
                 "times": [
                   {
                     "nome": "MIBR",
@@ -1527,8 +2012,8 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "03/07/2023",
-                "local": "Arena LEC",
+                "data": "03/07/2024",
+                "local": "Arena Champions",
                 "times": [
                   {
                     "nome": "MIBR",
@@ -1568,7 +2053,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "29/06/2023",
+                "data": "29/06/2024",
                 "times": [
                   {
                     "nome": "KRÜ Esports",
@@ -1583,8 +2068,8 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "03/07/2023",
-                "local": "Arena LEC",
+                "data": "03/07/2024",
+                "local": "Arena Champions",
                 "times": [
                   {
                     "nome": "KRÜ Esports",
@@ -1624,7 +2109,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "24/06/2023",
+                "data": "24/06/2024",
                 "times": [
                   {
                     "nome": "G2 Esports",
@@ -1639,7 +2124,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "01/07/2023",
+                "data": "01/07/2024",
                 "local": "Arena LEC",
                 "times": [
                   {
@@ -1680,7 +2165,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "22/06/2023",
+                "data": "22/06/2024",
                 "times": [
                   {
                     "nome": "NRG",
@@ -1695,8 +2180,8 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "01/07/2023",
-                "local": "Arena LEC",
+                "data": "01/07/2024",
+                "local": "Arena Champions",
                 "times": [
                   {
                     "nome": "NRG",
@@ -1736,7 +2221,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "24/06/2023",
+                "data": "24/06/2024",
                 "times": [
                   {
                     "nome": "Cloud9",
@@ -1751,8 +2236,8 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "01/07/2023",
-                "local": "Arena LEC",
+                "data": "01/07/2024",
+                "local": "Arena Champions",
                 "times": [
                   {
                     "nome": "Cloud9",
@@ -1792,7 +2277,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "30/06/2023",
+                "data": "30/06/2024",
                 "times": [
                   {
                     "nome": "100 Thieves",
@@ -1807,8 +2292,8 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "01/07/2023",
-                "local": "Arena LEC",
+                "data": "01/07/2024",
+                "local": "Arena Champions",
                 "times": [
                   {
                     "nome": "100 Thieves",
@@ -1848,7 +2333,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "29/06/2023",
+                "data": "29/06/2024",
                 "times": [
                   {
                     "nome": "Sentinels",
@@ -1863,8 +2348,8 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "01/07/2023",
-                "local": "Arena LEC",
+                "data": "01/07/2024",
+                "local": "Arena Champions",
                 "times": [
                   {
                     "nome": "Sentinels",
@@ -1904,7 +2389,7 @@ const teamsData = {
               ],
               "ultimo_jogo": {
                 "local": "Arena Champions",
-                "data": "29/06/2023",
+                "data": "29/06/2024",
                 "times": [
                   {
                     "nome": "FURIA Esports",
@@ -1919,8 +2404,8 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "01/07/2023",
-                "local": "Arena LEC",
+                "data": "01/07/2024",
+                "local": "Arena Champions",
                 "times": [
                   {
                     "nome": "FURIA Esports",
@@ -1947,28 +2432,23 @@ const teamsData = {
               "jogadores": [
                 {
                   "nome": "Jogador 16",
-                  "nickname": "J16",
-                  "posição": "AWPer"
+                  "img": ""
                 },
                 {
-                  "nome": "Jogador 17",
-                  "nickname": "J17",
-                  "posição": "Rifler"
+                  "nome": "Jogador 16",
+                  "img": ""
                 },
                 {
-                  "nome": "Jogador 18",
-                  "nickname": "J18",
-                  "posição": "Entry Fragger"
+                  "nome": "Jogador 16",
+                  "img": ""
                 },
                 {
-                  "nome": "Jogador 19",
-                  "nickname": "J19",
-                  "posição": "Support"
+                  "nome": "Jogador 16",
+                  "img": ""
                 },
                 {
-                  "nome": "Jogador 20",
-                  "nickname": "J20",
-                  "posição": "In-game Leader"
+                  "nome": "Jogador 16",
+                  "img": ""
                 }
               ]
             }

@@ -22,5 +22,4 @@ console.log(noticia);
 
 conteudoNoticia.innerHTML = `
     <h1>${noticia.titulo}</h3>
-    <p>${noticia.conteudo}<p>
-`;
+
