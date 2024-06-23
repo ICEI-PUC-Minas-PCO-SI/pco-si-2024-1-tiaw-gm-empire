@@ -4,7 +4,7 @@ const buttonEntrar = document.getElementById('btn');
 const inputLogin = document.getElementById('usuario');
 const inputSenha = document.getElementById('senha');
 
-const urlJSONServer = 'http://localhost:3000/';
+const urlJSONServer = 'https://json-server-one-phi.vercel.app/';
 
 buttonEntrar.addEventListener('click', function() {
     const user = inputLogin.value;
