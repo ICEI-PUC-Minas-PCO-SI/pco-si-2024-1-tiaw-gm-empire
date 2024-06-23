@@ -244,6 +244,10 @@ section h1{
     cursor: pointer;
 }
 
+.jogos .cs_proximos, .jogos .r6_proximos, .jogos .cs_ultimos, .jogos .r6_ultimos {
+    display: none;
+}
+
 .card_noticia:hover{
     scale: 1.05;
 }

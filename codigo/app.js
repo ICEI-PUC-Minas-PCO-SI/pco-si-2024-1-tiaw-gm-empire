@@ -45,7 +45,34 @@ function atualizar(){
      
 }
 
+function carrosel_direita() {
+    document.querySelector('.lol_proximos').style.display = 'none';
+    document.querySelector('.valorant_proximos').style.display = 'none';
+    document.querySelector('.cs_proximos').style.display = 'block';
+    document.querySelector('.r6_proximos').style.display = 'block';
+}
 
+function carrosel_esquerda() {
+    document.querySelector('.lol_proximos').style.display = 'block';
+    document.querySelector('.valorant_proximos').style.display = 'block';
+    document.querySelector('.cs_proximos').style.display = 'none';
+    document.querySelector('.r6_proximos').style.display = 'none';
+}
+
+
+function ultimosJogos_carrosel_direita() {
+    document.querySelector('.lol_ultimos').style.display = 'none';
+    document.querySelector('.valorant_ultimos').style.display = 'none';
+    document.querySelector('.cs_ultimos').style.display = 'block';
+    document.querySelector('.r6_ultimos').style.display = 'block';
+}
+
+function ultimosJogos_carrosel_esquerda() {
+    document.querySelector('.lol_ultimos').style.display = 'block';
+    document.querySelector('.valorant_ultimos').style.display = 'block';
+    document.querySelector('.cs_ultimos').style.display = 'none';
+    document.querySelector('.r6_ultimos').style.display = 'none';
+}
 let news;
 const containerNoticias = document.querySelector('.noticias_container');
 fetch("db.json")
