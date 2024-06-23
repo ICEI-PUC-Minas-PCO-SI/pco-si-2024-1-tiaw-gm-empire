@@ -22,7 +22,28 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector(`#local_1`).innerHTML = selectedTeam.proximo_jogo.local
         document.querySelector(`#local_2`).innerHTML = selectedTeam.ultimo_jogo.local
         
-    } else {
+    } 
+    else {
         teamDetailsContainer.textContent = 'Nenhum time selecionado.';
     }
 });
+
+const usuarioDiv = document.getElementById('usuario');
+function usuarioLogado() {
+    if (sessionStorage.getItem('USER')) {
+        const user = JSON.parse(sessionStorage.getItem('USER'));
+        usuarioDiv.innerHTML = `<span onclick="sair();">Olá ${user.nome}</span>`;
+    } else {
+        usuarioDiv.innerHTML = `<a href="../Login/login.html"><li><button>ENTRAR</button></li></a>`;
+    }
+}
+
+usuarioLogado();
+
+function sair() {
+    if(confirm('Tem certeza que deseja sair?')) {
+        sessionStorage.removeItem('USER');
+        
+        usuarioLogado();
+    }
+}

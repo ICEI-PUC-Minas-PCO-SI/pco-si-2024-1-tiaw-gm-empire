@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GM Empire</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Calendario</title>
+     <script src="dados.json" id="jsonDados" type="application/json"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="noticias.css">
+    <link rel="stylesheet" href="calendario.css">
 </head>
 <body>
     <header>
@@ -24,14 +21,30 @@
             </ul>
         </div>
     </header>
-
     <main>
-        <div id="conteudoNoticia"></div>
-        <div class="comentarios"></div>
-        <form action="#" class="form-coment">
-            <textarea id="comentario" disabled></textarea>
-            <button class="btn-submit" disabled>Enviar comentário</button>
-        </form>
+        <img src="imgs/lol-removebg-preview.png" alt="" height="60px" width="100px">
+        <div id="container">
+            <i class="bi bi-caret-left-fill" id="prevMonth"></i>
+            <div id="header">janeiro</div>
+            <i class="bi bi-caret-right-fill" id="nextMonth"></i>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dom</th>
+                    <th>Seg</th>
+                    <th>Ter</th>
+                    <th>Qua</th>
+                    <th>Qui</th>
+                    <th>Sex</th>
+                    <th>Sáb</th>
+                </tr>
+            </thead>
+            <tbody id="dias">
+                <!-- Dias do mês serão adicionados aqui -->
+            </tbody>
+        </table>
     </main>
     <footer>
         <div class="footer_container">
@@ -40,7 +53,7 @@
             </div>
             <div class="footer_informacoes">
                 <h2>Informações</h2>
-                <a href="../Feedback/feedback.html"><h4>Feedback</h4></a>
+                <a href=""><h4>Feedback</h4></a>
             </div>
             <div class="footer_contatos">
                 <h2>Contatos</h2>
@@ -55,7 +68,6 @@
         </div>
         <p>Copyright © 2024 GM Empire. All rights reserved.</p>
     </footer>
-
-    <script src="noticias.js"></script>
+    <script src="script3.js"></script>
 </body>
 </html>
