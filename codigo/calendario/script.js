@@ -255,49 +255,102 @@ function sair() {
 // API JSON
 const teamsData = {
     "times_jogos": {
-    "lol": {
-      "campeonatos": {
-        "cblol": {
-              "proximo_jogo": {
-                "data": "12/07/2024 16:00",
-                "local": "Arena CBLOL",
-                "times": [
-                  {
-                    "nome": "Liberty",
-                    "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png",
-                  },
-                  {
-                    "nome": "Loud",
-                    "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png"
-                  }
-                ]
-              }
+        "lol": {
+            "campeonatos": {
+                "cblol": {
+                    "jogos": [
+                        {
+                            "data": "12/07/2024 16:00",
+                            "local": "Arena CBLOL",
+                            "times": [
+                                {
+                                    "nome": "Liberty",
+                                    "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png",
+                                },
+                                {
+                                    "nome": "Loud",
+                                    "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png"
+                                }
+                            ]
+                        },
+                        {
+                            "data": "12/07/2024 13:00",
+                            "local": "Arena CBLOL",
+                            "times": [
+                                {
+                                    "nome": "LOS",
+                                    "logo": "https://n9necats.com.br/wp-content/uploads/2022/03/Los_Grandes.png"
+                                },
+                                {
+                                    "nome": "Pain Gaming",
+                                    "logo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png"
+                                }
+                            ]
+                        },
+                        {
+                            "data": "12/07/2024 15:00",
+                            "local": "Arena CBLOL",
+                            "times": [
+                                {
+                                    "nome": "Kabum",
+                                    "logo": "https://pm1.aminoapps.com/6743/de686a056e10c16124d5dff523a914ff0789c866v2_00.jpg"
+                                },
+                                {
+                                    "nome": "Fluxo",
+                                    "logo": "https://esportenewsmundo.com.br/wp-content/uploads/2022/01/fluxo.png"
+                                }
+                            ]
+                        },
+                        {
+                            "data": "12/07/2024 15:00",
+                            "local": "Arena CBLOL",
+                            "times": [
+                                {
+                                    "nome": "Vivo Keyd",
+                                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDj2osS2rk5CQ-cxpzSs63tZGq2LE6UyWkg&s"
+                                },
+                                {
+                                    "nome": "Fúria",
+                                    "logo": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png"
+                                }
+                            ]
+                        }
+                    ]
+                }
             }
         }
     }
 }
-}
+
 
 //Receber os dados da API
 
-let dataJogos = teamsData.times_jogos.lol.campeonatos.cblol.proximo_jogo.data
-let timeUm = teamsData.times_jogos.lol.campeonatos.cblol.proximo_jogo.times[0]
-let timeDois = teamsData.times_jogos.lol.campeonatos.cblol.proximo_jogo.times[1]
+let jogos = document.querySelector("#jogos")
 
-//Passar os dados da API para o HTML
-jogos.innerHTML += `
-                    <aside class="jogos-do-dia">
-                        <div id="data">
-                            ${dataJogos}
-                        </div>
-                        <div class="times">
-                            <div class="time-um">
-                                    <img src="${timeUm.logo}" alt="${timeUm.nome}" class="logo-time">
-                                    <p class="nome-time">${timeUm.nome}</p>
-                            </div>
-                            <div class="time-dois">
-                                <img src="${timeDois.logo}" alt="${timeDois.nome}" class="logo-time">
-                                <p class="nome-time">${timeDois.nome}</p>
-                            </div>
-                        </div>
-                    </aside>`
+teamsData.times_jogos.lol.campeonatos.cblol.jogos.forEach(jogo => {
+    let dataJogo = jogo.data;
+    let timeUm = jogo.times[0];
+    let timeDois = jogo.times[1];
+    let lugar = jogo.local;
+
+    // Criar o HTML para cada jogo e adicionar ao elemento jogos
+    jogos.innerHTML += `
+        <aside class="jogos-do-dia">
+            <div id="data">
+                ${dataJogo}
+            </div>
+            <div class="times">
+                <div class="time-um">
+                    <img src="${timeUm.logo}" alt="${timeUm.nome}" class="logo-time">
+                    <p class="nome-time">${timeUm.nome}</p>
+                </div>
+                <p class="x"> X </p>
+                <div class="time-dois">
+                    <img src="${timeDois.logo}" alt="${timeDois.nome}" class="logo-time">
+                    <p class="nome-time">${timeDois.nome}</p>
+                </div>
+            </div>
+            <p class="local-jogo">${lugar}</p>
+        </aside>
+    `;
+});

@@ -160,12 +160,13 @@ table {
 
 th, td {
     border: 2px solid #ddd;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     text-align: center;
     vertical-align: middle;
     font-size: 22px;
     transition: background-color 0.3s, color 0.3s;
+
 }
 
 td:hover {
@@ -236,23 +237,67 @@ tbody td:empty {
 }
 
 /* COMEÇO DOS PRÓXIMOS JOGOS */
-#jogos{
+#jogos {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 5px;
+}
+
+.jogos-do-dia {
     border: solid 5px black;
     border-radius: 10px;
-    margin: 20px 5px 20px 5px;
+    margin-bottom: 20px;
     padding: 20px;
+    width: 80%; 
+    max-width: 600px; 
+}
+
+#data {
+    margin: 10px 0;
+    font-weight: bold;
 }
 
 .times {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
 }
 
-aside img {
-    width: 35px;
-
+.time-um, .time-dois {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 45%; 
 }
 
+.time-um img, .time-dois img {
+    width: 80px; 
+    border-radius: 50%; 
+}
+
+.nome-time {
+    margin-top: 5px;
+}
+
+.x {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.local-jogo {
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    color: #666; 
+    display: none; 
+}
+
+
+/* Footer */
 footer{
     background-color: rgb(28, 34, 61);
     width: 100%;
