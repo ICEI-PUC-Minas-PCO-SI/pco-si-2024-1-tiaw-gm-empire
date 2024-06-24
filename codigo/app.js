@@ -425,3 +425,50 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const campoPesquisa = document.querySelector('#pesquisa');
+    const linkTime = document.querySelector('#link_time');
+
+    campoPesquisa.addEventListener('keypress', async (event) => {
+        if (event.key === 'Enter') {
+            event.preventDefault(); // Evita o comportamento padrão do formulário
+            const nomeTime = campoPesquisa.value.trim();
+
+            if (nomeTime === '') {
+                alert('Digite o nome de um time para pesquisar.');
+                return;
+            }
+
+            try {
+                const response = await fetch('times.json'); // Simulação de busca na API
+                const data = await response.json();
+
+                const timeEncontrado = encontrarTime(data, nomeTime);
+
+                if (timeEncontrado) {
+                    localStorage.setItem('timePesquisado', JSON.stringify(timeEncontrado));
+
+                    const timeUrl = `times/time.html?time=${encodeURIComponent(nomeTime)}`;
+                    linkTime.href = timeUrl;
+                    linkTime.textContent = `Redirecionando para ${timeEncontrado.nome}`;
+                    window.location.href = 'times/time.html'
+                } else {
+                    linkTime.href = '#'; // Sem link
+                    linkTime.textContent = `O time "${nomeTime}" não foi encontrado.`;
+                }
+            } catch (error) {
+                console.error('Erro ao buscar dados: ', error);
+                alert('Ocorreu um erro ao buscar os dados. Por favor, tente novamente mais tarde.');
+            }
+        }
+    });
+});
+
+function encontrarTime(data, nomeTime) {
+    // Implementação para encontrar o time na estrutura de dados fornecida
+    const times = data.times_jogos.lol.campeonatos.cblol.times;
+    const timeEncontrado = times.find(time => time.nome.toLowerCase() === nomeTime.toLowerCase());
+    return timeEncontrado;
+}
+

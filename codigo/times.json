@@ -1,4 +1,4 @@
-const teamsData = {
+{
   "times_jogos": {
     "lol": {
       "campeonatos": {
@@ -853,7 +853,7 @@ const teamsData = {
                 "times": [
                   {
                     "nome": "Karmine Corp",
-                    "logo": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2d/Karmine_Corplogo_square.png/revision/latest?cb=20240319113928",
+                    "logo": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2d/Karmine_Corplogo_square.png/revision/latest?cb=20240319113928"
                   },
                   {
                     "nome": "Excel Esports",
@@ -914,7 +914,7 @@ const teamsData = {
                 "times": [
                   {
                     "nome": "MAD Lions KOI",
-                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG-3bbNhJ2gTpjIQEMWLUNSHIQSczIjMjWwA&s",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG-3bbNhJ2gTpjIQEMWLUNSHIQSczIjMjWwA&s"
                   },
                   {
                     "nome": "Excel Esports",
@@ -976,7 +976,7 @@ const teamsData = {
                 "times": [
                   {
                     "nome": "Fnatic",
-                    "logo": "https://liquipedia.net/commons/images/thumb/f/f9/Fnatic_2020_allmode.png/600px-Fnatic_2020_allmode.png",
+                    "logo": "https://liquipedia.net/commons/images/thumb/f/f9/Fnatic_2020_allmode.png/600px-Fnatic_2020_allmode.png"
                   },
                   {
                     "nome": "Excel Esports",
@@ -1044,7 +1044,7 @@ const teamsData = {
                   },
                   {
                     "nome": "The 7",
-                    "logo": "https://static.valorantzone.gg/news/2024/05/21195423/imagem_2024-05-21_195422738.png",
+                    "logo": "https://static.valorantzone.gg/news/2024/05/21195423/imagem_2024-05-21_195422738.png"
                   }
                 ]
               }
@@ -1096,11 +1096,11 @@ const teamsData = {
                 "times": [
                   {
                     "nome": "The 7",
-                    "logo": "https://static.valorantzone.gg/news/2024/05/21195423/imagem_2024-05-21_195422738.png",
+                    "logo": "https://static.valorantzone.gg/news/2024/05/21195423/imagem_2024-05-21_195422738.png"
                   },
                   {
                     "nome": "Hero Base",
-                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR5A4CVohUKkco24sZ-41lbbcrbZwkU_TXxbYIz5YVpwpedT2p2qLtvRymBbk_QDBHiEg&usqp=CAU",
+                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR5A4CVohUKkco24sZ-41lbbcrbZwkU_TXxbYIz5YVpwpedT2p2qLtvRymBbk_QDBHiEg&usqp=CAU"
                   }
                 ]
               }
@@ -1364,11 +1364,11 @@ const teamsData = {
                 "times": [
                   {
                     "nome": "Leviatán",
-                    "logo": "https://static.valorantzone.gg/news/2022/02/08003207/297px-Leviatan_allmode.png",
+                    "logo": "https://static.valorantzone.gg/news/2022/02/08003207/297px-Leviatan_allmode.png"
                   },
                   {
                     "nome": "Evil Geniuses",
-                    "logo": "https://static.valorantzone.gg/news/2023/10/18122935/EG.png",
+                    "logo": "https://static.valorantzone.gg/news/2023/10/18122935/EG.png"
                   }
                 ]
               }
@@ -1420,11 +1420,11 @@ const teamsData = {
                 "times": [
                   {
                     "nome": "Evil Geniuses",
-                    "logo": "https://static.valorantzone.gg/news/2023/10/18122935/EG.png",
+                    "logo": "https://static.valorantzone.gg/news/2023/10/18122935/EG.png"
                   },
                   {
                     "nome": "Leviatán",
-                    "logo": "https://static.valorantzone.gg/news/2022/02/08003207/297px-Leviatan_allmode.png",
+                    "logo": "https://static.valorantzone.gg/news/2022/02/08003207/297px-Leviatan_allmode.png"
                   }
                 ]
               }
@@ -1476,11 +1476,11 @@ const teamsData = {
                 "times": [
                   {
                     "nome": "LOUD",
-                    "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
+                    "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png"
                   },
                   {
                     "nome": "FURIA Esports",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png",
+                    "logo": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png"
                   }
                 ]
               }
@@ -1532,11 +1532,11 @@ const teamsData = {
                 "times": [
                   {
                     "nome": "MIBR",
-                    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/53/Made_In_Brazil_logo.png",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/53/Made_In_Brazil_logo.png"
                   },
                   {
                     "nome": "100 Thieves",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/03164947/100-thieves-4ejlxysw.png",
+                    "logo": "https://static.valorantzone.gg/news/2021/04/03164947/100-thieves-4ejlxysw.png"
                   }
                 ]
               }
@@ -1588,11 +1588,11 @@ const teamsData = {
                 "times": [
                   {
                     "nome": "KRÜ Esports",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/14153552/kru.png",
+                    "logo": "https://static.valorantzone.gg/news/2021/04/14153552/kru.png"
                   },
                   {
                     "nome": "NRG",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png",
+                    "logo": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png"
                   }
                 ]
               }
@@ -1644,11 +1644,11 @@ const teamsData = {
                 "times": [
                   {
                     "nome": "G2 Esports",
-                    "logo": "https://static.valorantzone.gg/news/2022/02/06153248/g2.png",
+                    "logo": "https://static.valorantzone.gg/news/2022/02/06153248/g2.png"
                   },
                   {
                     "nome": "NRG",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png",
+                    "logo": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png"
                   }
                 ]
               }
@@ -1700,11 +1700,11 @@ const teamsData = {
                 "times": [
                   {
                     "nome": "NRG",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png",
+                    "logo": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png"
                   },
                   {
                     "nome": "G2 Esports",
-                    "logo": "https://static.valorantzone.gg/news/2022/02/06153248/g2.png",
+                    "logo": "https://static.valorantzone.gg/news/2022/02/06153248/g2.png"
                   }
                 ]
               }
@@ -1756,11 +1756,11 @@ const teamsData = {
                 "times": [
                   {
                     "nome": "Cloud9",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/03214658/380px-Cloud9.png",
+                    "logo": "https://static.valorantzone.gg/news/2021/04/03214658/380px-Cloud9.png"
                   },
                   {
                     "nome": "Sentinels",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png",
+                    "logo": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png"
                   }
                 ]
               }
@@ -1812,11 +1812,11 @@ const teamsData = {
                 "times": [
                   {
                     "nome": "100 Thieves",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/03164947/100-thieves-4ejlxysw.png",
+                    "logo": "https://static.valorantzone.gg/news/2021/04/03164947/100-thieves-4ejlxysw.png"
                   },
                   {
                     "nome": "MIBR",
-                    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/53/Made_In_Brazil_logo.png",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/53/Made_In_Brazil_logo.png"
                   }
                 ]
               }
@@ -1868,11 +1868,11 @@ const teamsData = {
                 "times": [
                   {
                     "nome": "Sentinels",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png",
+                    "logo": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png"
                   },
                   {
                     "nome": "Cloud9",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/03214658/380px-Cloud9.png",
+                    "logo": "https://static.valorantzone.gg/news/2021/04/03214658/380px-Cloud9.png"
                   }
                 ]
               }
@@ -1924,11 +1924,11 @@ const teamsData = {
                 "times": [
                   {
                     "nome": "FURIA Esports",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png",
+                    "logo": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png"
                   },
                   {
                     "nome": "Loud",
-                    "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
+                    "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png"
                   }
                 ]
               }
@@ -2352,7 +2352,7 @@ const teamsData = {
                   ]
                 }
               ]
-            },
+            }
           ]
         }
       }
@@ -2595,3 +2595,4 @@ const teamsData = {
     }
   }
 }
+
