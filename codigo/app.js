@@ -115,8 +115,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const imagens_valorant_champions = document.querySelectorAll(".img_valorant_champions")
     const championship_challengers = teamsData.times_jogos.valorant.campeonatos.valorant_challengers;
     const imagens_valorant_challengers = document.querySelectorAll(".img_valorant_challengers")
-    const championship_Lec = teamsData.times_jogos.lol.campeonatos.Lec
-    const imagens_lol_Lec = document.querySelectorAll(".img_lol_Lec")
 
     images_lol_cblol.forEach(img => {
         const teamName = img.getAttribute('data-nome');
@@ -156,20 +154,6 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
     });
-
-    imagens_lol_Lec.forEach(img =>{
-        const teamName = img.getAttribute('data-nome');
-        const team = championship_Lec.times.find(team => team.nome === teamName);
-        if (team) {
-            img.src = team.logo;
-            img.alt = team.nome;
-            img.addEventListener('click', () => {
-                localStorage.setItem('selectedTeam', JSON.stringify(team));
-                window.location.href = 'times/time.html';
-            });
-        }
-    })
-    
 });
 
    // usuário logado
