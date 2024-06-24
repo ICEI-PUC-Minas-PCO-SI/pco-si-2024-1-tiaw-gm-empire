@@ -33,6 +33,7 @@ buttonCadastrar.addEventListener('click', function(e) {
         "login": inputUser.value,
 		"email": inputMail.value
 	}
+    
     console.log(newUser);
 
     const options = {
@@ -44,7 +45,7 @@ buttonCadastrar.addEventListener('click', function(e) {
     }
 
     console.log(options);
-    fetch('http://localhost:3000/usuarios/', options).then(res => {
+    fetch('https://json-server-one-phi.vercel.app/usuarios/', options).then(res => {
         if (res.ok) {
             alert('Usuário criado');
         }
