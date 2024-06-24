@@ -4,7 +4,7 @@ const buttonEntrar = document.getElementById('btn');
 const inputLogin = document.getElementById('usuario');
 const inputSenha = document.getElementById('senha');
 
-const urlJSONServer = 'http://localhost:3000/';
+const urlJSONServer = 'https://json-server-one-phi.vercel.app/';
 
 buttonEntrar.addEventListener('click', function() {
     const user = inputLogin.value;
@@ -18,7 +18,7 @@ buttonEntrar.addEventListener('click', function() {
     fetch(`${urlJSONServer}usuarios/${user}`).then(r => r.json()).then(
         response => {
             sessionStorage.setItem('USER', JSON.stringify(response));
-            window.location = 'http://127.0.0.1:8080/index.html';
+            window.location.href = '../index.html';
         }
     )
 })

@@ -43,6 +43,11 @@ header input{
     border-radius: 20px;
     border: 2px solid transparent;
 }
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -237,6 +242,10 @@ section h1{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transition: all 1s ease;
     cursor: pointer;
+}
+
+.jogos .cs_proximos, .jogos .r6_proximos, .jogos .cs_ultimos, .jogos .r6_ultimos {
+    display: none;
 }
 
 .card_noticia:hover{
