@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-
+/* CALENDÁRIO */
 
 const meses = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
 let dataAtual = new Date();
@@ -244,3 +244,60 @@ function sair() {
         usuarioLogado();
     }
 }
+
+
+
+
+
+
+/* Mostrar os jogos */
+
+// API JSON
+const teamsData = {
+    "times_jogos": {
+    "lol": {
+      "campeonatos": {
+        "cblol": {
+              "proximo_jogo": {
+                "data": "12/07/2024 16:00",
+                "local": "Arena CBLOL",
+                "times": [
+                  {
+                    "nome": "Liberty",
+                    "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png",
+                  },
+                  {
+                    "nome": "Loud",
+                    "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png"
+                  }
+                ]
+              }
+            }
+        }
+    }
+}
+}
+
+//Receber os dados da API
+
+let dataJogos = teamsData.times_jogos.lol.campeonatos.cblol.proximo_jogo.data
+let timeUm = teamsData.times_jogos.lol.campeonatos.cblol.proximo_jogo.times[0]
+let timeDois = teamsData.times_jogos.lol.campeonatos.cblol.proximo_jogo.times[1]
+
+//Passar os dados da API para o HTML
+jogos.innerHTML += `
+                    <aside class="jogos-do-dia">
+                        <div id="data">
+                            ${dataJogos}
+                        </div>
+                        <div class="times">
+                            <div class="time-um">
+                                    <img src="${timeUm.logo}" alt="${timeUm.nome}" class="logo-time">
+                                    <p class="nome-time">${timeUm.nome}</p>
+                            </div>
+                            <div class="time-dois">
+                                <img src="${timeDois.logo}" alt="${timeDois.nome}" class="logo-time">
+                                <p class="nome-time">${timeDois.nome}</p>
+                            </div>
+                        </div>
+                    </aside>`
