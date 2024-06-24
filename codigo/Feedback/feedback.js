@@ -1,6 +1,8 @@
 const nomeInput = document.getElementById("nome");
 const comentarioTextArea = document.getElementById("comentario");
 const enviarButton = document.querySelector("button[onclick='addComment()']");
+const comentarioDiv = document.getElementById("comentario-do-usuario");
+const usuarioDiv = document.getElementById('usuario');
 
 // Verifica se existe um usuário logado
 const user = sessionStorage.getItem('USER');
@@ -15,8 +17,7 @@ if (user) {
     enviarButton.setAttribute('disabled', 'true');
 }
 
-exibirComentarios(); // Chama a função para exibir os comentários já existentes
-
+// Função para adicionar comentário
 function addComment() {
     const nome = document.getElementById("nome").value;
     const comentario = document.getElementById("comentario").value;
@@ -37,7 +38,7 @@ function addComment() {
 
 // Função para enviar o novo comentário para o servidor
 function enviarComentarioParaServidor(novoComentario) {
-    fetch('http://localhost:3000/comentarios', {
+    fetch('https://json-server-one-phi.vercel.app/comentarios', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -54,54 +55,17 @@ function enviarComentarioParaServidor(novoComentario) {
     });
 }
 
-// Função para exibir os comentários na página (sem alterações necessárias para a nova abordagem)
+// Função para exibir os comentários na página
 function exibirComentarios() {
-    const comentarioDiv = document.getElementById("comentario-do-usuario");
-    comentarioDiv.innerHTML = ""; // Limpa qualquer conteúdo existente na div
-
-// Obtendo comentários armazenados no localStorage
-const comentarios = JSON.parse(localStorage.getItem("comentarios")) || [];
-
-// Adicionando cada comentário à div
-comentarios.forEach(comentario => {
-    const comentarioElement = document.createElement("p");
-    comentarioElement.textContent = `${comentario.nome}: ${comentario.comentario}`;
-    comentarioDiv.appendChild(comentarioElement);
-});
-}
-
-window.onload = exibirComentarios;
-
-//Limpar o localStorage quando for preciso (NOVO)
-//localStorage.clear();
-
-   // usuário logado
-   const usuarioDiv = document.getElementById('usuario');
-   function usuarioLogado() {
-       if (sessionStorage.getItem('USER')) {
-           const user = JSON.parse(sessionStorage.getItem('USER'));
-       
-           usuarioDiv.innerHTML = `<span onclick="sair();">Olá ${user.nome}</span>`;
-       } else {
-           usuarioDiv.innerHTML = `<a href="../Login/login.html"><li><button>ENTRAR</button></li></a>`;
-       }
-   }
-   
-   usuarioLogado();
-   
-   function sair() {
-       if(confirm('Tem certeza que deseja sair?')) {
-           sessionStorage.removeItem('USER');
-           
-           usuarioLogado();
-       }
-   }
-    fetch('http://localhost:3000/comentarios')
+    fetch('https://json-server-one-phi.vercel.app/comentarios')
     .then(response => response.json())
     .then(comentarios => {
+        comentarioDiv.innerHTML = ""; // Limpa qualquer conteúdo existente na div
+
+        // Adicionando cada comentário à div
         comentarios.forEach(comentario => {
             const comentarioElement = document.createElement("p");
-            comentarioElement.textContent = `${comentario.nome}: ${comentario.comentario}`;
+            comentarioElement.textContent = `${comentario.nome} ${comentario.comentario}`;
             comentarioDiv.appendChild(comentarioElement);
         });
     })
@@ -110,9 +74,30 @@ window.onload = exibirComentarios;
     });
 }
 
-// Evento de escuta para adicionar comentário ao pressionar Enter (sem alterações necessárias para a nova abordagem)
+// Evento de escuta para adicionar comentário ao pressionar Enter
 document.getElementById("comentario").addEventListener("keypress", function (event) {
     if (event.key === 'Enter') {
         addComment();
     }
 });
+
+// Verificar se há usuário logado e exibir o nome ou botão de login
+function usuarioLogado() {
+    if (sessionStorage.getItem('USER')) {
+        const user = JSON.parse(sessionStorage.getItem('USER'));
+        usuarioDiv.innerHTML = `<span onclick="sair();">Olá ${user.nome}</span>`;
+    } else {
+        usuarioDiv.innerHTML = `<a href="../Login/login.html"><li><button>ENTRAR</button></li></a>`;
+    }
+}
+
+// Função para sair da sessão
+function sair() {
+    if(confirm('Tem certeza que deseja sair?')) {
+        sessionStorage.removeItem('USER');
+        usuarioLogado();
+    }
+}
+
+// Chamada inicial para exibir os comentários na página
+exibirComentarios();
