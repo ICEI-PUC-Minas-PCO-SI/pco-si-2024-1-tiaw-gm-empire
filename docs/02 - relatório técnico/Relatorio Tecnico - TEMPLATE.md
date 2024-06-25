@@ -410,22 +410,23 @@ O projeto de interface e fluxos de usuário foi esculpido por João Victor e o V
 | Linguagem de programação | JavaScript |
 | Framework | Bootstrap |
 | Biblioteca | jQuery |
-| API | a definir |
+| API | Não Utilizado |
 | IDE | Visual Studio Code |
 | Versionamento de código | Git |
 | Controle de versão compartilhado | GitHub |
 | Hospedagem | a definir |
 
 ## Arquitetura da solução
+![arquitetura da solucao](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/44eb58a3-f70e-4c77-a196-eed808ac3c18)
+Assim que o usuário entra na plataforma, ele é apresentado a um questionário. O objetivo desse processo, é conhecer o usuário e aferir seu nível de conhecimento sobre o mercado.
+A imagem abaixo ilustra o fluxo do usuário em nossa solução. Assim que o usuário entra na plataforma, ele é apresentado à tela inicial (Home) onde ele é confrontado com as opões de fazer login/cadastro ou então visualizar superficialmente os jogos mostrados na tela e as noticias recentes(Quando logado, consegue fazer comentários e interagir com outros usuários).
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+![arquitetura 2](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/01707da6-b055-4a56-9167-40bfc3277661)
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+
+
+
+
 
 
 # Avaliação da Aplicação
