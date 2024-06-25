@@ -11,7 +11,7 @@ if (user) {
     comentarioTextArea.removeAttribute('disabled');
     enviarButton.removeAttribute('disabled');
 } else {
-    alert("Você precisa realizar o login antes de comentar!");
+    alert("Você precisa realizar o login antes de comentar! 🙃");
     nomeInput.setAttribute('disabled', 'true');
     comentarioTextArea.setAttribute('disabled', 'true');
     enviarButton.setAttribute('disabled', 'true');
@@ -45,10 +45,11 @@ function enviarComentarioParaServidor(novoComentario) {
         },
         body: JSON.stringify(novoComentario),
     })
-    .then(response => response.json())
-    .then(data => {
-        console.log('Novo comentário enviado com sucesso!', data);
-        exibirComentarios(); // Atualiza os comentários na página após enviar
+    .then(response => {
+        console.log(response);
+        alert('Comentário registrado com sucesso 👍');    
+        exibirComentarios(); 
+        
     })
     .catch(error => {
         console.error('Erro ao enviar o comentário:', error);
@@ -57,6 +58,7 @@ function enviarComentarioParaServidor(novoComentario) {
 
 // Função para exibir os comentários na página
 function exibirComentarios() {
+    debugger;
     fetch('https://json-server-one-phi.vercel.app/comentarios')
     .then(response => response.json())
     .then(comentarios => {
