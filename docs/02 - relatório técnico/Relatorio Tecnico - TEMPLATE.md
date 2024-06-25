@@ -1,4 +1,4 @@
-<<<<<<< HEAD:docs/02 - relatório técnico/Relatorio Tecnico - TEMPLATE.md
+
 # Informações do Projeto
 ## Documentação da GM Empire
 
@@ -83,7 +83,7 @@ cita os cinco jogos mais jogados do mundo atualmente. São eles: CS2 (Counter-St
 
 O objetivo trivial deste projeto é da criação de uma plataforma que disponibilize da
 melhor maneira possível, informações que irão satisfazer as necessidades dos usuários
-que gostam de jogar e estão presentes no mundo profissional, seja espectador ou até
+que gostam de jogar e estão presentes no mundo profissional dos e-sports, seja espectador ou até
 mesmo, um atleta.
 Dessa forma, o site da empresa visa resolver dificuldades como:
   ● Datas e horários de partidas entre times;
@@ -417,9 +417,9 @@ O projeto de interface e fluxos de usuário foi esculpido por João Victor e o V
 | Hospedagem | a definir |
 
 ## Arquitetura da solução
+A nossa solução visa criar uma plataforma que disponibilize da melhor maneira possível, informações que irão satisfazer as necessidades dos usuários que gostam de jogar e estão presentes no mundo profissional dos e-sports, seja espectador ou até mesmo, um atleta. Dessa forma, a solução visa resolver dificuldades como: ● Datas e horários de partidas entre times; ● Notícias.
 ![arquitetura da solucao](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/44eb58a3-f70e-4c77-a196-eed808ac3c18)
-Assim que o usuário entra na plataforma, ele é apresentado a um questionário. O objetivo desse processo, é conhecer o usuário e aferir seu nível de conhecimento sobre o mercado.
-A imagem abaixo ilustra o fluxo do usuário em nossa solução. Assim que o usuário entra na plataforma, ele é apresentado à tela inicial (Home) onde ele é confrontado com as opões de fazer login/cadastro ou então visualizar superficialmente os jogos mostrados na tela e as noticias recentes(Quando logado, consegue fazer comentários e interagir com outros usuários).
+As imagens ilustram o fluxo do usuário em nossa solução. Assim que o usuário entra na plataforma, ele é apresentado à tela inicial (Home) onde ele é confrontado com as opões de fazer login/cadastro ou então visualizar superficialmente os jogos mostrados na tela e as noticias recentes(Quando logado, consegue fazer comentários e interagir com outros usuários).
 
 ![arquitetura 2](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/01707da6-b055-4a56-9167-40bfc3277661)
 
