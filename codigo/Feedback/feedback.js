@@ -1,4 +1,4 @@
-const nomeInput = document.getElementById("nome");
+
 const comentarioTextArea = document.getElementById("comentario");
 const enviarButton = document.querySelector("button[onclick='addComment()']");
 const comentarioDiv = document.getElementById("comentario-do-usuario");
@@ -7,28 +7,28 @@ const usuarioDiv = document.getElementById('usuario');
 // Verifica se existe um usuário logado
 const user = sessionStorage.getItem('USER');
 if (user) {
-    nomeInput.removeAttribute('disabled');
+    
     comentarioTextArea.removeAttribute('disabled');
     enviarButton.removeAttribute('disabled');
 } else {
     alert("Você precisa realizar o login antes de comentar! 🙃");
-    nomeInput.setAttribute('disabled', 'true');
+
     comentarioTextArea.setAttribute('disabled', 'true');
     enviarButton.setAttribute('disabled', 'true');
 }
 
 // Função para adicionar comentário
 function addComment() {
-    const nome = document.getElementById("nome").value;
+
     const comentario = document.getElementById("comentario").value;
 
     if (nome.trim() === "" || comentario.trim() === "") {
-        alert("Por favor, preencha todos os campos antes de enviar.");
+        alert("Por favor, preencha todos os campos antes de enviar!");
         return;
     }
 
     const novoComentario = {
-        nome: nome,
+        nome: user.nome,
         comentario: comentario
     };
 
@@ -52,7 +52,7 @@ function enviarComentarioParaServidor(novoComentario) {
         
     })
     .catch(error => {
-        console.error('Erro ao enviar o comentário:', error);
+        console.error('Erro ao enviar o comentário: 😕', error);
     });
 }
 
