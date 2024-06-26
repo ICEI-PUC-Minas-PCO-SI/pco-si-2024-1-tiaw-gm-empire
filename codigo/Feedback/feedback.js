@@ -4,9 +4,9 @@ const comentarioDiv = document.getElementById("comentario-do-usuario");
 const usuarioDiv = document.getElementById('usuario');
 
 // Verifica se existe um usuário logado
-const user = sessionStorage.getItem('USER');
+const user = JSON.parse(sessionStorage.getItem('USER'));
 if (user) {
-    
+
     comentarioTextArea.removeAttribute('disabled');
     enviarButton.removeAttribute('disabled');
 } else {
@@ -16,14 +16,13 @@ if (user) {
     enviarButton.setAttribute('disabled', 'true');
 }
 
-// Função para adicionar comentário
+
 // Função para adicionar comentário
 function addComment() {
+    const comentario = comentarioTextArea.value;
 
-    const comentario = document.getElementById("comentario").value;
-
-    if (nome.trim() === "" || comentario.trim() === "") {
-        alert("Por favor, preencha todos os campos antes de enviar!");
+    if (comentario.trim() === "") {
+        alert("Por favor, preencha o campo de comentário antes de enviar!");
         return;
     }
 
@@ -46,19 +45,25 @@ function enviarComentarioParaServidor(novoComentario) {
         body: JSON.stringify(novoComentario),
     })
     .then(response => {
-        console.log(response);
-        alert('Comentário registrado com sucesso 👍');    
-        exibirComentarios(); 
-        
+        if (!response.ok) {
+            throw new Error('Erro ao enviar o comentário.');
+        }
+        return response.json();
+    })
+    .then(data => {
+        console.log(data); // Apenas para depuração, pode ser removido
+        alert('Comentário registrado com sucesso 👍');
+        exibirComentarios(); // Atualiza a exibição dos comentários após adicionar um novo
     })
     .catch(error => {
-        console.error('Erro ao enviar o comentário: 😕', error);
+        console.error('Erro ao enviar o comentário:', error);
+        alert('Erro ao enviar o comentário. Por favor, tente novamente.');
     });
 }
 
 // Função para exibir os comentários na página
 function exibirComentarios() {
-    debugger;
+
     fetch('https://json-server-one-phi.vercel.app/comentarios')
     .then(response => response.json())
     .then(comentarios => {
@@ -67,7 +72,7 @@ function exibirComentarios() {
         // Adicionando cada comentário à div
         comentarios.forEach(comentario => {
             const comentarioElement = document.createElement("p");
-            comentarioElement.textContent = `${comentario.nome} ${comentario.comentario}`;
+            comentarioElement.textContent = `${comentario.nome}: ${comentario.comentario}`;
             comentarioDiv.appendChild(comentarioElement);
         });
     })
@@ -77,7 +82,7 @@ function exibirComentarios() {
 }
 
 // Evento de escuta para adicionar comentário ao pressionar Enter
-document.getElementById("comentario").addEventListener("keypress", function (event) {
+comentarioTextArea.addEventListener("keypress", function (event) {
     if (event.key === 'Enter') {
         addComment();
     }
