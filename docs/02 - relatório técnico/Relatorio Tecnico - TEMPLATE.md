@@ -393,7 +393,7 @@ O projeto de interface e fluxos de usuário foi esculpido por João Victor e o V
 > foi utilizado para hospedagem do repositório.
 > 
 > O projeto segue a seguinte convenção para o nome de branchs:
-> 
+> - `dev`: branch para versão de desenvolvimento do software
 > - `master`: branch utilizada para a documentação geral do projeto, e, no futuro, para o código final da implementação
 
 # **############## SPRINT 1 ACABA AQUI #############**
@@ -401,24 +401,20 @@ O projeto de interface e fluxos de usuário foi esculpido por João Victor e o V
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+| TIPO | NOME |
+|------|------|
+| Linguagem de marcação | HTML |
+| Linguagem de estilo | CSS |
+| Linguagem de programação | JavaScript |
+| Framework | Bootstrap |
+| Biblioteca | jQuery |
+| API | a definir |
+| IDE | Visual Studio Code |
+| Versionamento de código | Git |
+| Controle de versão compartilhado | GitHub |
+| Hospedagem | a definir |
 
 ## Arquitetura da solução
 
@@ -433,13 +429,6 @@ O projeto de interface e fluxos de usuário foi esculpido por João Victor e o V
 
 
 # Avaliação da Aplicação
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
-
 ## Plano de Testes
 
 ......  COLOQUE AQUI O SEU TEXTO ......
