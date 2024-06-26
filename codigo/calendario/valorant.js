@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /* CALENDÁRIO */
 
-const meses = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
+const meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 let dataAtual = new Date();
 let mesAtual = dataAtual.getMonth();
 let anoAtual = dataAtual.getFullYear();
@@ -329,28 +329,25 @@ let jogos = document.querySelector("#jogos")
 
 teamsData.times_jogos.lol.campeonatos.cblol.jogos.forEach(jogo => {
     let dataJogo = jogo.data;
-    let timeUm = jogo.times[0];
-    let timeDois = jogo.times[1];
+    let timeUm = jogo.times[0].logo;
+    let timeDois = jogo.times[1].logo;
     let lugar = jogo.local;
 
     // Criar o HTML para cada jogo e adicionar ao elemento jogos
     jogos.innerHTML += `
         <aside class="jogos-do-dia">
-            <div id="data">
-                ${dataJogo}
-            </div>
-            <div class="times">
-                <div class="time-um">
-                    <img src="${timeUm.logo}" alt="${timeUm.nome}" class="logo-time">
-                    <p class="nome-time">${timeUm.nome}</p>
+            <div class="card" id="card1">
+                    <div class="data">
+                        <h4 id="local_1">${lugar}</h4>
+                        <p>${dataJogo}</p>
+                    </div>
+                    <div class="time">
+                        <img src="${timeUm}" width="40px" height="40px" id="imagem_time_1" data-nome="Liberty" class="img_lol_cblol">
+                    </div>
+                    <div class="time">
+                        <img src="${timeDois}" alt="" height="40px" width="40px" id="imagem_time_2" data-nome="Loud" class="img_lol_cblol">
+                    </div>
                 </div>
-                <p class="x"> X </p>
-                <div class="time-dois">
-                    <img src="${timeDois.logo}" alt="${timeDois.nome}" class="logo-time">
-                    <p class="nome-time">${timeDois.nome}</p>
-                </div>
-            </div>
-            <p class="local-jogo">${lugar}</p>
         </aside>
     `;
 });
