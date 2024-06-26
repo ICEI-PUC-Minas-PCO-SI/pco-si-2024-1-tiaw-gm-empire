@@ -1,8 +1,5 @@
-
 const comentarioTextArea = document.getElementById("comentario");
 const enviarButton = document.querySelector("button[onclick='addComment()']");
-const comentarioDiv = document.getElementById("comentario-do-usuario");
-const usuarioDiv = document.getElementById('usuario');
 const comentarioDiv = document.getElementById("comentario-do-usuario");
 const usuarioDiv = document.getElementById('usuario');
 
