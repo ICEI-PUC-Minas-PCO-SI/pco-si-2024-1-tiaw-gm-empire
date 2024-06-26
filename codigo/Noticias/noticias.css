@@ -74,6 +74,9 @@ a{
     color: black;
 }
 
+#icon_busca{
+    cursor: pointer;
+}
 
 .header_img img{
     transition: all 1s ease;

@@ -3,6 +3,8 @@ const comentarioTextArea = document.getElementById("comentario");
 const enviarButton = document.querySelector("button[onclick='addComment()']");
 const comentarioDiv = document.getElementById("comentario-do-usuario");
 const usuarioDiv = document.getElementById('usuario');
+const comentarioDiv = document.getElementById("comentario-do-usuario");
+const usuarioDiv = document.getElementById('usuario');
 
 // Verifica se existe um usuário logado
 const user = sessionStorage.getItem('USER');
@@ -17,6 +19,7 @@ if (user) {
     enviarButton.setAttribute('disabled', 'true');
 }
 
+// Função para adicionar comentário
 // Função para adicionar comentário
 function addComment() {
 
