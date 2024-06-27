@@ -64,7 +64,7 @@ function exibirComentarios() {
     fetch('https://json-server-one-phi.vercel.app/comentarios')
     .then(response => response.json())
     .then(comentarios => {
-        comentarioDiv.innerHTML = ""; // Limpa qualquer conteúdo existente na div
+        comentarioDiv.value = ""; // Limpa qualquer conteúdo existente na div
 
         // Adicionando cada comentário à div
         comentarios.forEach(comentario => {

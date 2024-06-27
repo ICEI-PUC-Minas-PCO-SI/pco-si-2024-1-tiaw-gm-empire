@@ -26,6 +26,10 @@ document.addEventListener('DOMContentLoaded', () => {
             document.querySelector("#card1").style.borderLeft = "5px solid blue"
             document.querySelector("#card2").style.borderLeft = "5px solid blue"
         }
+        if(selectedTeam.campeonato == "challengers" || selectedTeam.campeonato == "champions"){
+            document.querySelector("#card1").style.borderLeft = "5px solid red"
+            document.querySelector("#card2").style.borderLeft = "5px solid red"
+        }
         
     } 
     else {
@@ -54,24 +58,24 @@ function sair() {
 }
 
 const searchInput = document.getElementById('searchInput');
-const suggestions = document.getElementById('suggestions');
-const icone_busca = document.querySelector("#icon_busca")
+    const suggestions = document.getElementById('suggestions');
+    const icone_busca = document.querySelector("#icon_busca")
 
-icone_busca.addEventListener('click', async () => {
-    fetch('times.json').then(r => r.json()).then(
-        response => {
-            const timesCs = response.times_jogos.cs.campeonatos.BPFG.times;
-            const timesLol = response.times_jogos.lol.campeonatos.cblol.times;
-            const timesLol2 = response.times_jogos.lol.campeonatos.Lec.times;
-            const timesValorant = response.times_jogos.valorant.campeonatos.valorant_challengers.times;
-            const timesValorant2 = response.times_jogos.valorant.campeonatos.valorant_champions.times;
-            const timesTodos = timesCs.concat(timesLol).concat(timesLol2).concat(timesValorant).concat(timesValorant2);
-            const teamName = searchInput.value
-            const team = timesTodos.find(team => team.nome === teamName);
-            if (team) {
-                localStorage.setItem('selectedTeam', JSON.stringify(team));
-                window.location.href = "time.html"
+    icone_busca.addEventListener('click', async () => {
+        fetch('../times.json').then(r => r.json()).then(
+            response => {
+                const timesCs = response.times_jogos.cs.campeonatos.BPFG.times;
+                const timesLol = response.times_jogos.lol.campeonatos.cblol.times;
+                const timesLol2 = response.times_jogos.lol.campeonatos.Lec.times;
+                const timesValorant = response.times_jogos.valorant.campeonatos.valorant_challengers.times;
+                const timesValorant2 = response.times_jogos.valorant.campeonatos.valorant_champions.times;
+                const timesTodos = timesCs.concat(timesLol).concat(timesLol2).concat(timesValorant).concat(timesValorant2);
+                const teamName = searchInput.value
+                const team = timesTodos.find(team => team.nome === teamName);
+                if (team) {
+                    localStorage.setItem('selectedTeam', JSON.stringify(team));
+                    window.location.href = "time.html"
+                }
             }
-        }
-    )
-})
+        )
+    })
