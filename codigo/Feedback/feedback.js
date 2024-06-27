@@ -6,8 +6,8 @@ const usuarioDiv = document.getElementById('usuario');
 
 // Verifica se existe um usuário logado
 const user = sessionStorage.getItem('USER');
+const userObjeto = JSON.parse(user)
 if (user) {
-    nomeInput.removeAttribute('disabled');
     comentarioTextArea.removeAttribute('disabled');
     enviarButton.removeAttribute('disabled');
 } else {
@@ -19,21 +19,21 @@ if (user) {
 
 // Função para adicionar comentário
 function addComment() {
-    const nome = document.getElementById("nome").value;
     const comentario = document.getElementById("comentario").value;
 
-    if (nome.trim() === "" || comentario.trim() === "") {
+    if (comentario.trim() === "") {
         alert("Por favor, preencha todos os campos antes de enviar.");
         return;
     }
 
     const novoComentario = {
-        nome: nome,
+        nome: userObjeto.nome,
         comentario: comentario
     };
 
     // Enviar o novo comentário para o servidor
     enviarComentarioParaServidor(novoComentario);
+    
 }
 
 // Função para enviar o novo comentário para o servidor
@@ -46,9 +46,12 @@ function enviarComentarioParaServidor(novoComentario) {
         body: JSON.stringify(novoComentario),
     })
     .then(response => {
+        debugger
+        console.log(novoComentario)
         console.log(response);
         alert('Comentário registrado com sucesso 👍');    
         exibirComentarios(); 
+        comentarioTextArea.innerHTML = ''
         
     })
     .catch(error => {
@@ -58,7 +61,6 @@ function enviarComentarioParaServidor(novoComentario) {
 
 // Função para exibir os comentários na página
 function exibirComentarios() {
-    debugger;
     fetch('https://json-server-one-phi.vercel.app/comentarios')
     .then(response => response.json())
     .then(comentarios => {
@@ -67,7 +69,7 @@ function exibirComentarios() {
         // Adicionando cada comentário à div
         comentarios.forEach(comentario => {
             const comentarioElement = document.createElement("p");
-            comentarioElement.textContent = `${comentario.nome} ${comentario.comentario}`;
+            comentarioElement.textContent = `${comentario.nome}: ${comentario.comentario}`;
             comentarioDiv.appendChild(comentarioElement);
         });
     })
@@ -83,7 +85,10 @@ document.getElementById("comentario").addEventListener("keypress", function (eve
     }
 });
 
-// Verificar se há usuário logado e exibir o nome ou botão de login
+
+// Chamada inicial para exibir os comentários na página
+exibirComentarios();
+
 function usuarioLogado() {
     if (sessionStorage.getItem('USER')) {
         const user = JSON.parse(sessionStorage.getItem('USER'));
@@ -93,6 +98,7 @@ function usuarioLogado() {
     }
 }
 
+usuarioLogado()
 // Função para sair da sessão
 function sair() {
     if(confirm('Tem certeza que deseja sair?')) {
@@ -100,6 +106,3 @@ function sair() {
         usuarioLogado();
     }
 }
-
-// Chamada inicial para exibir os comentários na página
-exibirComentarios();
