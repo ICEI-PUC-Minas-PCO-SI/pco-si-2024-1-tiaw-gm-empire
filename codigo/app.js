@@ -199,8 +199,8 @@ document.addEventListener('DOMContentLoaded', () => {
       }).then((result) => {
         if (result.isConfirmed) {
           Swal.fire({
-            title: "Deleted!",
-            text: "Your file has been deleted.",
+            title: "Saiu!",
+            text: "Você saiu da sua conta!.",
             icon: "success"
           });
           sessionStorage.removeItem('USER');

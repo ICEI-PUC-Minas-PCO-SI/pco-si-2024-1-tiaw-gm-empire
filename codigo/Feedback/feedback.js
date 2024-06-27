@@ -3,7 +3,6 @@ const comentarioTextArea = document.getElementById("comentario");
 const enviarButton = document.querySelector("button[onclick='addComment()']");
 const comentarioDiv = document.getElementById("comentario-do-usuario");
 const usuarioDiv = document.getElementById('usuario');
-
 // Verifica se existe um usuário logado
 const user = sessionStorage.getItem('USER');
 const userObjeto = JSON.parse(user)
@@ -11,7 +10,12 @@ if (user) {
     comentarioTextArea.removeAttribute('disabled');
     enviarButton.removeAttribute('disabled');
 } else {
-    alert("Você precisa realizar o login antes de comentar! 🙃");
+    Swal.fire({
+        title: "Atenção!",
+        text: "Você precisa realizar o login antes de comentar! 🙃",
+        icon: "warning"
+      });
+    exibirComentarios()
     nomeInput.setAttribute('disabled', 'true');
     comentarioTextArea.setAttribute('disabled', 'true');
     enviarButton.setAttribute('disabled', 'true');
@@ -117,8 +121,8 @@ function sair() {
       }).then((result) => {
         if (result.isConfirmed) {
           Swal.fire({
-            title: "Deleted!",
-            text: "Your file has been deleted.",
+            title: "Saiu!",
+            text: "Você saiu da sua conta!.",
             icon: "success"
           });
           sessionStorage.removeItem('USER');
