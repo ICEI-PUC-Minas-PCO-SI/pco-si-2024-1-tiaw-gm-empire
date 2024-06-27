@@ -64,12 +64,28 @@ function usuarioLogado() {
 usuarioLogado();
 
 function sair() {
-    if(confirm('Tem certeza que deseja sair?')) {
-        sessionStorage.removeItem('USER');
-        
-        usuarioLogado();
-    }
-}
+
+    Swal.fire({
+        title: "Deseja sair?",
+        text: "Deseja sair da sua conta?",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Sim"
+      }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire({
+            title: "Deleted!",
+            text: "Your file has been deleted.",
+            icon: "success"
+          });
+          sessionStorage.removeItem('USER');
+          usuarioLogado();
+        }
+      });
+   }
+
 
 const searchInput = document.getElementById('searchInput');
 const suggestions = document.getElementById('suggestions');
