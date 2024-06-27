@@ -21,6 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         document.querySelector(`#local_1`).innerHTML = selectedTeam.proximo_jogo.local
         document.querySelector(`#local_2`).innerHTML = selectedTeam.ultimo_jogo.local
+
+        if(selectedTeam.campeonato == "cblol" || selectedTeam.campeonato == "lec"){
+            document.querySelector("#card1").style.borderLeft = "5px solid blue"
+            document.querySelector("#card2").style.borderLeft = "5px solid blue"
+        }
         
     } 
     else {

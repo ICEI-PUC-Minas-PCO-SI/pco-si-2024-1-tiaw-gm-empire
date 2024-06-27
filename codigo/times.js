@@ -7,6 +7,7 @@ const teamsData = {
             {
               "nome": "Liberty",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png",
+              "campeonato": "cblol",
               "jogadores": [
                 {   
                   "nome": "Makes",
