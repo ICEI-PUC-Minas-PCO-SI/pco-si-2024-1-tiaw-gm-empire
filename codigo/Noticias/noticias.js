@@ -44,10 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
         commentTextArea.placeholder = 'Você precisa estar logado para comentar.';
     }
 
-    //Pode só tirar a área de texto também quando o usuário não estiver logado
-    /*if (!user) {
-        commentForm.style.display = 'none';
-    }*/
+
 });
 
 const usuarioDiv = document.getElementById('usuario');
