@@ -145,6 +145,14 @@ main{
     list-style: none;
 }
 
+.container{
+    margin-top: 45px;
+}
+
+.container h1{
+    margin-bottom: 30px;
+}
+
 .jogador{
     display: flex;
     align-items: center;
@@ -171,11 +179,30 @@ main{
     margin: 10px 0px;
 }
 
+.logo_nome{
+    margin-top: 3%;
+}
+
+.proximo_jogo h1, .ultimo_jogo h1{
+    margin-bottom: 10px;
+}
+
 section{
     grid-column: 2;
     display: flex;
-    gap: 20%;
+    flex-direction: column;
+    gap: 10%;
     margin-top: 20%;
+}
+
+#icon_busca{
+    cursor: pointer;
+}
+
+.container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 @media only screen and (max-width: 400px){
@@ -229,9 +256,6 @@ section{
         text-align: center;
     }
 
-    #icon_busca{
-        cursor: pointer;
-    }
 
     .proximo_jogo{
         display: flex;

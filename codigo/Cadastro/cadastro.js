@@ -46,9 +46,11 @@ buttonCadastrar.addEventListener('click', function(e) {
 
     console.log(options);
     fetch('https://json-server-one-phi.vercel.app/usuarios/', options).then(res => {
-        if (res.ok) {
-            alert('Usuário criado');
-        }
+        Swal.fire({
+            title: "Registrado!",
+            text: "Usuário registrado com sucesso👍",
+            icon: "success"
+          });
         console.log(res);
         res.json();
     })

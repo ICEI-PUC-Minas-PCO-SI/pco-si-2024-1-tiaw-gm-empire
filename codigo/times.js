@@ -7,6 +7,7 @@ const teamsData = {
             {
               "nome": "Liberty",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png",
+              "campeonato": "cblol",
               "jogadores": [
                 {   
                   "nome": "Makes",
@@ -67,6 +68,7 @@ const teamsData = {
             },
             {
               "nome": "LOS",
+              "campeonato": "cblol",
               "logo": "https://n9necats.com.br/wp-content/uploads/2022/03/Los_Grandes.png",
               "jogadores": [
                 {
@@ -128,6 +130,7 @@ const teamsData = {
             },
             {
               "nome": "Kabum",
+              "campeonato": "cblol",
               "logo": "https://pm1.aminoapps.com/6743/de686a056e10c16124d5dff523a914ff0789c866v2_00.jpg",
               "jogadores": [
                 {
@@ -189,6 +192,7 @@ const teamsData = {
             },
             {
               "nome": "Vivo Keyd",
+              "campeonato": "cblol",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDj2osS2rk5CQ-cxpzSs63tZGq2LE6UyWkg&s",
               "jogadores": [
                 {
@@ -250,6 +254,7 @@ const teamsData = {
             },
             {
               "nome": "Fluxo",
+              "campeonato": "cblol",
               "logo": "https://esportenewsmundo.com.br/wp-content/uploads/2022/01/fluxo.png",
               "jogadores": [
                 {
@@ -311,6 +316,7 @@ const teamsData = {
             },
             {
               "nome": "Fúria",
+              "campeonato": "cblol",
               "logo": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png",
               "jogadores": [
                 {
@@ -372,6 +378,7 @@ const teamsData = {
             },
             {
               "nome": "Loud",
+              "campeonato": "cblol",
               "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
               "jogadores": [
                 {
@@ -433,6 +440,7 @@ const teamsData = {
             },
             {
               "nome": "Red",
+              "campeonato": "cblol",
               "logo": "https://banner2.cleanpng.com/20180612/awp/kisspng-red-canids-tom-clancy-s-rainbow-six-siege-league-o-gaming-smite-5b1fd72e3e8ff5.4582464315288133582563.jpg",
               "jogadores": [
                 {
@@ -494,6 +502,7 @@ const teamsData = {
             },
             {
               "nome": "Intz",
+              "campeonato": "cblol",
               "logo": "https://noticias.maisesports.com.br/wp-content/uploads/2014/07/INTZ1.png",
               "jogadores": [
                 {
@@ -555,6 +564,7 @@ const teamsData = {
             },
             {
               "nome": "Pain Gaming",
+              "campeonato": "cblol",
               "logo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png",
               "jogadores": [
                 {
@@ -620,6 +630,7 @@ const teamsData = {
           "times": [
             {
               "nome": "GIANTX",
+              "campeonato": "lec",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZEuXkixwb0r-W-6Ie8PyVtLdLwp7NJIgSA&s",
               "jogadores": [
                 {
@@ -681,6 +692,7 @@ const teamsData = {
             },
             {
               "nome": "Team Vitality",
+              "campeonato": "lec",
               "logo": "https://esportbet.com/wp-content/smush-webp/2022/04/Team-Vitality.jpg.webp",
               "jogadores": [
                 {
@@ -742,6 +754,7 @@ const teamsData = {
             },
             {
               "nome": "SK Gaming",
+              "campeonato": "lec",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdKjXicEX8L3YkfFpXZuIiAdNMpDjxwU22Mw&s",
               "jogadores": [
                 {
@@ -803,6 +816,7 @@ const teamsData = {
             },
             {
               "nome": "Rougue",
+              "campeonato": "lec",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s",
               "jogadores": [
                 {
@@ -857,13 +871,14 @@ const teamsData = {
                   },
                   {
                     "nome": "Karmine Corp",
-                    "logo": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2d/Karmine_Corplogo_square.png/revision/latest?cb=20240319113928", 
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Karmine_Corp_logo.svg/800px-Karmine_Corp_logo.svg.png", 
                   }
                 ]
               }
             },
             {
               "nome": "Fnatic",
+              "campeonato": "lec",
               "logo": "https://cdn.pandascore.co/images/team/image/394/220px_fnaticlogo_square.png",
               "jogadores": [
                 {
@@ -925,6 +940,7 @@ const teamsData = {
             },
             {
               "nome": "MAD Lions",
+              "campeonato": "lec",
               "logo": "https://egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Fvalorant%2FteamsV2%2Fm%2Fma%2Fmad-lions-koi_1706943970413.png&w=384&q=75",
               "jogadores": [
                 {
@@ -986,6 +1002,7 @@ const teamsData = {
             },
             {
               "nome": "Team BDS",
+              "campeonato": "lec",
               "logo": "https://am-a.akamaihd.net/image?resize=400:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1641292031788_Team_BDSlogo_square.png",
               "jogadores": [
                 {
@@ -1047,6 +1064,7 @@ const teamsData = {
             },
             {
               "nome": "Team Heretics",
+              "campeonato": "lec",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWAamjH2-yyxgIMcwhcnqAf2EzqJSj3IzK_Q&s",
               "jogadores": [
                 {
@@ -1108,6 +1126,7 @@ const teamsData = {
             },
             {
               "nome": "G2 Esports",
+              "campeonato": "lec",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s",
               "jogadores": [
                 {
@@ -1169,7 +1188,8 @@ const teamsData = {
             },
             {
               "nome": "Karmine Corp",
-              "logo": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2d/Karmine_Corplogo_square.png/revision/latest?cb=20240319113928",
+              "campeonato": "lec",
+              "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/895a9f157056617.Y3JvcCw5MDAsNzAzLDAsOTg.png",
               "jogadores": [
                 {   
                     "nome": "Cabochard",
@@ -1203,7 +1223,7 @@ const teamsData = {
                 "times": [
                   {
                    "nome": "Karmine Corp",
-                    "logo": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2d/Karmine_Corplogo_square.png/revision/latest?cb=20240319113928",
+                    "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/895a9f157056617.Y3JvcCw5MDAsNzAzLDAsOTg.png",
                     "placar": 0
                   },
                   {
@@ -1219,7 +1239,7 @@ const teamsData = {
                 "times": [
                   {
                     "nome": "Karmine Corp",
-                    "logo": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2d/Karmine_Corplogo_square.png/revision/latest?cb=20240319113928",
+                    "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/895a9f157056617.Y3JvcCw5MDAsNzAzLDAsOTg.png",
                   },
                   {
                     "nome": "Rougue",
@@ -1240,6 +1260,7 @@ const teamsData = {
           "times": [
             {
               "nome": "Hero Base",
+              "campeonato": "challengers",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR5A4CVohUKkco24sZ-41lbbcrbZwkU_TXxbYIz5YVpwpedT2p2qLtvRymBbk_QDBHiEg&usqp=CAU",
               "jogadores": [
                 {
@@ -1296,6 +1317,7 @@ const teamsData = {
             },
             {
               "nome": "The 7",
+              "campeonato": "challengers",
               "logo": "https://static.valorantzone.gg/news/2024/05/21195423/imagem_2024-05-21_195422738.png",
               "jogadores": [
                 {
@@ -1352,6 +1374,7 @@ const teamsData = {
             },
             {
               "nome": "XLD Gaming",
+              "campeonato": "challengers",
               "logo": "https://owcdn.net/img/65c8a8af4aced.png",
               "jogadores": [
                 {
@@ -1408,6 +1431,7 @@ const teamsData = {
             },
             {
               "nome": "2Game",
+              "campeonato": "challengers",
               "logo": "https://static.valorantzone.gg/news/2024/02/02190809/imagem_2024-02-02_190803780.png",
               "jogadores": [
                 {
@@ -1464,6 +1488,7 @@ const teamsData = {
             },
             {
               "nome": "SAGAZ Club",
+              "campeonato": "challengers",
               "logo": "https://static.valorantzone.gg/news/2024/01/24180813/imagem_2024-01-24_180806260.png",
               "jogadores": [
                 {
@@ -1520,6 +1545,7 @@ const teamsData = {
             },
             {
               "nome": "Legacy",
+              "campeonato": "challengers",
               "logo": "https://static.valorantzone.gg/news/2023/09/22121900/Legacy.png",
               "jogadores": [
                 {
@@ -1576,6 +1602,7 @@ const teamsData = {
             },
             {
               "nome": "Stellae Gaming",
+              "campeonato": "challengers",
               "logo": "https://static.valorantzone.gg/news/2023/10/13120148/imagem_2023-10-13_120146228.png",
               "jogadores": [
                 {
@@ -1632,6 +1659,7 @@ const teamsData = {
             },
             {
               "nome": "Galorys Comoany",
+              "campeonato": "challengers",
               "logo": "https://static.valorantzone.gg/news/2023/06/07163614/imagem_2023-06-07_163613604.png",
               "jogadores": [
                 {
@@ -1688,6 +1716,7 @@ const teamsData = {
             },
             {
               "nome": "RED Canids",
+              "campeonato": "challengers",
               "logo": "https://static.valorantzone.gg/news/2023/01/10123132/380px-Red_Canids_allmode.png",
               "jogadores": [
                 {
@@ -1744,6 +1773,7 @@ const teamsData = {
             },
             {
               "nome": "TBK Esports",
+              "campeonato": "challengers",
               "logo": "https://static.valorantzone.gg/news/2022/01/12162628/tbk.png",
               "jogadores": [
                 {
@@ -1804,6 +1834,7 @@ const teamsData = {
           "times": [
             {
               "nome": "Leviatán",
+              "campeonato": "champions",
               "logo": "https://static.valorantzone.gg/news/2022/02/08003207/297px-Leviatan_allmode.png",
               "jogadores": [
                 {
@@ -1860,6 +1891,7 @@ const teamsData = {
             },
             {
               "nome": "Evil Geniuses",
+              "campeonato": "champions",
               "logo": "https://pbs.twimg.com/profile_images/1484293952132251648/WPTSuxkN_400x400.jpg",
               "jogadores": [
                 {
@@ -1916,6 +1948,7 @@ const teamsData = {
             },
             {
               "nome": "LOUD",
+              "campeonato": "champions",
               "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
               "jogadores": [
                 {
@@ -1972,6 +2005,7 @@ const teamsData = {
             },
             {
               "nome": "MIBR",
+              "campeonato": "champions",
               "logo": "https://upload.wikimedia.org/wikipedia/commons/5/53/Made_In_Brazil_logo.png",
               "jogadores": [
                 {
@@ -2028,6 +2062,7 @@ const teamsData = {
             },
             {
               "nome": "KRÜ Esports",
+              "campeonato": "champions",
               "logo": "https://static.valorantzone.gg/news/2021/04/14153552/kru.png",
               "jogadores": [
                 {
@@ -2084,6 +2119,7 @@ const teamsData = {
             },
             {
               "nome": "G2 Esports",
+              "campeonato": "champions",
               "logo": "https://static.valorantzone.gg/news/2022/02/06153248/g2.png",
               "jogadores": [
                 {
@@ -2140,6 +2176,7 @@ const teamsData = {
             },
             {
               "nome": "NRG",
+              "campeonato": "champions",
               "logo": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png",
               "jogadores": [
                 {
@@ -2196,6 +2233,7 @@ const teamsData = {
             },
             {
               "nome": "Cloud9",
+              "campeonato": "champions",
               "logo": "https://static.valorantzone.gg/news/2021/04/03214658/380px-Cloud9.png",
               "jogadores": [
                 {
@@ -2252,6 +2290,7 @@ const teamsData = {
             },
             {
               "nome": "100 Thieves",
+              "campeonato": "champions",
               "logo": "https://static.valorantzone.gg/news/2021/04/03164947/100-thieves-4ejlxysw.png",
               "jogadores": [
                 {
@@ -2308,6 +2347,7 @@ const teamsData = {
             },
             {
               "nome": "Sentinels",
+              "campeonato": "champions",
               "logo": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png",
               "jogadores": [
                 {
@@ -2364,6 +2404,7 @@ const teamsData = {
             },
             {
               "nome": "FURIA Esports",
+              "campeonato": "champions",
               "logo": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png",
               "jogadores": [
                 {

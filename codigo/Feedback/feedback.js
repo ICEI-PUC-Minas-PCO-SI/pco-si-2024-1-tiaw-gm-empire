@@ -2,16 +2,20 @@ const comentarioTextArea = document.getElementById("comentario");
 const enviarButton = document.querySelector("button[onclick='addComment()']");
 const comentarioDiv = document.getElementById("comentario-do-usuario");
 const usuarioDiv = document.getElementById('usuario');
-
 // Verifica se existe um usuário logado
-const user = JSON.parse(sessionStorage.getItem('USER'));
+const user = sessionStorage.getItem('USER');
+const userObjeto = JSON.parse(user)
 if (user) {
-
     comentarioTextArea.removeAttribute('disabled');
     enviarButton.removeAttribute('disabled');
 } else {
-    alert("Você precisa realizar o login antes de comentar! 🙃");
-
+    Swal.fire({
+        title: "Atenção!",
+        text: "Você precisa realizar o login antes de comentar! 🙃",
+        icon: "warning"
+      });
+    exibirComentarios()
+    nomeInput.setAttribute('disabled', 'true');
     comentarioTextArea.setAttribute('disabled', 'true');
     enviarButton.setAttribute('disabled', 'true');
 }
@@ -19,20 +23,21 @@ if (user) {
 
 // Função para adicionar comentário
 function addComment() {
-    const comentario = comentarioTextArea.value;
+    const comentario = document.getElementById("comentario").value;
 
     if (comentario.trim() === "") {
-        alert("Por favor, preencha o campo de comentário antes de enviar!");
+        alert("Por favor, preencha todos os campos antes de enviar.");
         return;
     }
 
     const novoComentario = {
-        nome: user.nome,
+        nome: userObjeto.nome,
         comentario: comentario
     };
 
     // Enviar o novo comentário para o servidor
     enviarComentarioParaServidor(novoComentario);
+    
 }
 
 // Função para enviar o novo comentário para o servidor
@@ -45,15 +50,17 @@ function enviarComentarioParaServidor(novoComentario) {
         body: JSON.stringify(novoComentario),
     })
     .then(response => {
-        if (!response.ok) {
-            throw new Error('Erro ao enviar o comentário.');
-        }
-        return response.json();
-    })
-    .then(data => {
-        console.log(data); // Apenas para depuração, pode ser removido
-        alert('Comentário registrado com sucesso 👍');
-        exibirComentarios(); // Atualiza a exibição dos comentários após adicionar um novo
+        debugger
+        console.log(novoComentario)
+        console.log(response);
+        Swal.fire({
+            title: "Registrado!",
+            text: "Comentário registrado com sucesso 👍",
+            icon: "success"
+          });
+        exibirComentarios(); 
+        comentarioTextArea.innerHTML = ''
+        
     })
     .catch(error => {
         console.error('Erro ao enviar o comentário:', error);
@@ -63,11 +70,10 @@ function enviarComentarioParaServidor(novoComentario) {
 
 // Função para exibir os comentários na página
 function exibirComentarios() {
-
     fetch('https://json-server-one-phi.vercel.app/comentarios')
     .then(response => response.json())
     .then(comentarios => {
-        comentarioDiv.innerHTML = ""; // Limpa qualquer conteúdo existente na div
+        comentarioDiv.value = ""; // Limpa qualquer conteúdo existente na div
 
         // Adicionando cada comentário à div
         comentarios.forEach(comentario => {
@@ -88,7 +94,10 @@ comentarioTextArea.addEventListener("keypress", function (event) {
     }
 });
 
-// Verificar se há usuário logado e exibir o nome ou botão de login
+
+// Chamada inicial para exibir os comentários na página
+exibirComentarios();
+
 function usuarioLogado() {
     if (sessionStorage.getItem('USER')) {
         const user = JSON.parse(sessionStorage.getItem('USER'));
@@ -98,13 +107,51 @@ function usuarioLogado() {
     }
 }
 
+usuarioLogado()
 // Função para sair da sessão
 function sair() {
-    if(confirm('Tem certeza que deseja sair?')) {
-        sessionStorage.removeItem('USER');
-        usuarioLogado();
-    }
-}
 
-// Chamada inicial para exibir os comentários na página
-exibirComentarios();
+    Swal.fire({
+        title: "Deseja sair?",
+        text: "Deseja sair da sua conta?",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Sim"
+      }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire({
+            title: "Saiu!",
+            text: "Você saiu da sua conta!.",
+            icon: "success"
+          });
+          sessionStorage.removeItem('USER');
+          usuarioLogado();
+        }
+      });
+   }
+
+
+const searchInput = document.getElementById('searchInput');
+    const suggestions = document.getElementById('suggestions');
+    const icone_busca = document.querySelector("#icon_busca")
+
+    icone_busca.addEventListener('click', async () => {
+        fetch('../times.json').then(r => r.json()).then(
+            response => {
+                const timesCs = response.times_jogos.cs.campeonatos.BPFG.times;
+                const timesLol = response.times_jogos.lol.campeonatos.cblol.times;
+                const timesLol2 = response.times_jogos.lol.campeonatos.Lec.times;
+                const timesValorant = response.times_jogos.valorant.campeonatos.valorant_challengers.times;
+                const timesValorant2 = response.times_jogos.valorant.campeonatos.valorant_champions.times;
+                const timesTodos = timesCs.concat(timesLol).concat(timesLol2).concat(timesValorant).concat(timesValorant2);
+                const teamName = searchInput.value
+                const team = timesTodos.find(team => team.nome === teamName);
+                if (team) {
+                    localStorage.setItem('selectedTeam', JSON.stringify(team));
+                    window.location.href = "../times/time.html"
+                }
+            }
+        )
+    })
