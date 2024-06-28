@@ -315,6 +315,30 @@ footer h2{
         gap: 10px;
     }
 
+    #searchContainer{
+        width: 370px;
+        grid-column: span 3;
+        grid-row: 2;
+    }
+
+    .header_img{
+        width: 200px;
+    }
+    .header_links{
+        width: 100px;
+    } #searchContainer{
+        width: 370px;
+        grid-column: span 3;
+        grid-row: 2;
+    }
+
+    .header_img{
+        width: 200px;
+    }
+    .header_links{
+        width: 100px;
+    }
+
     header{
         display: grid;
         grid-template-columns: 3;
