@@ -5,7 +5,8 @@ const comentarioDiv = document.getElementById("comentario-do-usuario");
 const usuarioDiv = document.getElementById('usuario');
 // Verifica se existe um usuário logado
 const user = sessionStorage.getItem('USER');
-const userObjeto = JSON.parse(user)
+const userObjeto = JSON.parse(user);
+
 if (user) {
     comentarioTextArea.removeAttribute('disabled');
     enviarButton.removeAttribute('disabled');
@@ -72,13 +73,11 @@ function exibirComentarios() {
     fetch('https://json-server-one-phi.vercel.app/comentarios')
     .then(response => response.json())
     .then(comentarios => {
-        comentarioDiv.value = ""; // Limpa qualquer conteúdo existente na div
+        comentarioDiv.innerHTML = ""; // Limpa qualquer conteúdo existente na div
 
         // Adicionando cada comentário à div
         comentarios.forEach(comentario => {
-            const comentarioElement = document.createElement("p");
-            comentarioElement.textContent = `${comentario.nome}: ${comentario.comentario}`;
-            comentarioDiv.appendChild(comentarioElement);
+            comentarioDiv.insertAdjacentHTML('beforeend', `<p>${comentario.nome}: ${comentario.comentario}</p>`)
         });
     })
     .catch(error => {
