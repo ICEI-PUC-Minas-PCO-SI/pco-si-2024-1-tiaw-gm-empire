@@ -1926,7 +1926,7 @@ const teamsData = {
                   },
                   {
                     "nome": "FURIA Esports",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png",
+                    "logo": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png",
                     "placar": 2
                   }
                 ]
@@ -1998,7 +1998,7 @@ const teamsData = {
                   },
                   {
                     "nome": "FURIA Esports",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png",
+                    "logo": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png",
                   }
                 ]
               }
@@ -2405,7 +2405,7 @@ const teamsData = {
             {
               "nome": "FURIA Esports",
               "campeonato": "champions",
-              "logo": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png",
+              "logo": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png",
               "jogadores": [
                 {
                   "nome": "Khalil",
@@ -2434,7 +2434,7 @@ const teamsData = {
                 "times": [
                   {
                     "nome": "FURIA Esports",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png",
+                    "logo": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png",
                     "placar": 0
                   },
                   {
@@ -2450,7 +2450,7 @@ const teamsData = {
                 "times": [
                   {
                     "nome": "FURIA Esports",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png",
+                    "logo": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png",
                   },
                   {
                     "nome": "Loud",
@@ -2521,7 +2521,7 @@ const teamsData = {
             },
             {
               "nome": "Cloud9",
-              "logo": "https://liquipedia.net/counterstrike/File:Cloud9_2021_lightmode.png",
+              "logo": "https://static.valorantzone.gg/news/2021/04/03214658/380px-Cloud9.png",
               "jogadores": [
                 {
                   "nome": "Xeppaa",

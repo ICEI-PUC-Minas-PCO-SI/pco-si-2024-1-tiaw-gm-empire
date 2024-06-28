@@ -34,21 +34,69 @@ header{
     gap: 50px;
     align-items: center;
 }
-header #icon_busca{
+#searchContainer {
+    width: 33.33%; /* 1/3 do header */
+    display: flex;
+    align-items: center;
+    position: relative; /* Para posicionamento absoluto do ícone */
+}
+
+#searchContainer input[type="text"] {
+    width: calc(100% - 30px); /* Ajustado para acomodar o ícone de busca */
+    height: 43px; /* Ajustado conforme o seu estilo */
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid transparent; /* Ajustado conforme o seu estilo */
+    border-radius: 20px; /* Ajustado conforme o seu estilo */
+    font-size: 16px;
+    outline: none;
+}
+
+#icon_busca {
     color: black;
     font-size: 22px;
     position: absolute;
-    left: 68%;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    cursor: pointer; /* Adicionado para indicar que é clicável */
 }
 
-header input{
-    width: 40%;
-    height: 43px;
-    outline: none;
-    border-radius: 20px;
-    border: 2px solid transparent;
+#suggestions {
+    position: absolute;
+    top: 110%; /* Coloca a caixa de sugestões abaixo da barra de pesquisa */
+    left: 0;
+    width: 90%; /* Mesma largura que a barra de pesquisa */
+    background-color: #ffffff; /* Cor de fundo */
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    z-index: 1;
+    cursor: pointer;
+    padding: 10px; /* Espaçamento interno */
+    overflow-y: auto; /* Adiciona scroll se necessário */
+    display: none; /* Inicialmente oculto */
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Transições suaves */
 }
 
+.suggestion{
+    padding: 8px 12px; /* Espaçamento interno para cada sugestão */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    display: grid;
+    grid-template-columns: 10;
+    place-items: center;
+}
+.suggestion #time{
+    grid-column: 1;
+}
+.suggestion #nome{
+    grid-column: 2;
+}
+
+.suggestion #jogo{
+    grid-column: 10;
+}
 li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -205,16 +253,82 @@ section{
     gap: 10px;
 }
 
-@media only screen and (max-width: 400px){
+footer{
+    background-color: rgb(28, 34, 61);
+    grid-column: span 2;
+    width: 100%;
+    height: 200px;
+    color: white;
+}
+
+footer p{
+    text-align: center;
+}
+
+.footer_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 170px;
+}
+
+.footer_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_redes{
+    display: flex;
+    gap: 40px;
+}
+
+.footer_redes i{
+    font-size: 40px;
+    padding-top: 50px;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.footer_redes i:hover{
+    scale: 1.2;
+}
+
+.footer_informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_informacoes a{
+    color: white;
+}
+
+.footer_informacoes h4{
+    cursor: pointer;
+}
+
+.footer_contatos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_contatos h4{
+    display: flex;
+    gap: 5px;
+}
+
+footer h2{
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 500px){
     .header_img{
-        grid-row: 1;
-        grid-column: 1;
-        width: 100%;
+        width: 200px;
     }
     .header_links{
-        grid-column: 2;
-        grid-row: 1;
-        width: 100%;
+        width: 100px;
     }
 
     .header_links ul{
@@ -228,11 +342,12 @@ section{
         width: 375px;
     }
 
-    header #pesquisa{
+    header #searchInput{
         grid-row: 2;
         grid-column: span 2;
         width: 86%;
         margin-left: 15px;
+        margin-bottom: 10px;
     }
 
     header #icon_busca{
@@ -262,6 +377,11 @@ section{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    #searchContainer{
+        width: 370px;
+        grid-column: span 3;
+        grid-row: 2;
     }
 
     .container{
