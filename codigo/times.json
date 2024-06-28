@@ -2717,7 +2717,10 @@
                 {
                   "nome": "flamie",
                   "img": "https://liquipedia.net/counterstrike/File:Flamie_at_IEM_Cologne_2023.jpg"
-                },
+                  
+                }
+              ]
+            },
                 {
                   "nome": "ninjas in pyjamas",
                   "logo": "https://liquipedia.net/counterstrike/File:Ninjas_in_Pyjamas_2021_lightmode.png",
@@ -2933,14 +2936,10 @@
                     }
                   ]
                 }
-              ]
-            }
           ]
         }
       }
     },
-
-
     "r6": {
       "campeonatos": {
         "nome-do-campeonato-1": {
@@ -3064,8 +3063,10 @@
                 {
                   "nome": "julio",
                   "img": "https://liquipedia.net/commons/images/thumb/6/6e/Julio_at_BR6_2023.jpg/800px-Julio_at_BR6_2023.jpg"
-                },
-                {
+                }
+              ]
+            },
+            {
                   "nome": "Spacestation Gaming",
                   "logo": "https://liquipedia.net/commons/images/4/47/Spacestation_Gaming_2023_Logo.png",
                   "jogadores": [
@@ -3171,9 +3172,7 @@
                 }
               ]
             }
-          ]
         }
       }
     }
   }
-}

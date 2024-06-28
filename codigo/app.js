@@ -228,6 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
                        })));
                    });
                });
+               console.log(timesTodos)
    
                const searchValue = searchInput.value.trim().toLowerCase();
                suggestions.innerHTML = ''; // Limpa sugestões anteriores
