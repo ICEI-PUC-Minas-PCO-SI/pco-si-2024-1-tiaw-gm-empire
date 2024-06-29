@@ -318,8 +318,13 @@ tbody td:empty {
     width: 400px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     padding: 15px;
-    transition: all 1s ease;
     cursor: pointer;
+    height: 128px;
+    transition: all 0.5s ease-in ;
+}
+
+.nome_time {
+    font-weight: bolder;
 }
 
 #card1{
@@ -347,6 +352,7 @@ tbody td:empty {
     margin-top: 5px;
 }
 
+
 .x {
     margin: 0 10px;
     font-size: 20px;
@@ -359,6 +365,19 @@ tbody td:empty {
     margin-top: 10px;
     color: #666; 
     display: none; 
+}
+
+.campeonato {
+    font-weight: bold;
+    margin-top: 15px;
+    transition: all;
+}
+
+.card:hover {
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 15px;
+    cursor: pointer;
 }
 
 

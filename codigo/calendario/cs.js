@@ -368,7 +368,7 @@ const teamsData = {
                                 },
                                 {
                                     "nome": "Vitality",
-                                    "logo": "https://liquipedia.net/counterstrike/File:Vitality_2021_lightmode.png"
+                                    "logo": "https://logowik.com/content/uploads/images/team-vitality6447.jpg"
                                 }
                             ]
                         },
@@ -378,11 +378,11 @@ const teamsData = {
                             "times": [
                                 {
                                     "nome": "Team Spiritt",
-                                    "logo": "https://liquipedia.net/counterstrike/File:Team_Spirit_2021_lightmode.png"
+                                    "logo": "https://ih1.redbubble.net/image.4338518766.9319/st,small,507x507-pad,600x600,f8f8f8.jpg"
                                 },
                                 {
                                     "nome": "FaZe Clan",
-                                    "logo": "https://liquipedia.net/counterstrike/File:FaZe_Clan_November_2021_full_darkmode.png"
+                                    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Faze_Clan.svg"
                                 }
                             ]
                         },
@@ -392,11 +392,11 @@ const teamsData = {
                             "times": [
                                 {
                                     "nome": "Natus Vincere",
-                                    "logo": "https://liquipedia.net/counterstrike/File:Natus_Vincere_2021_lightmode.png"
+                                    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Natus_Vincere_logo.png"
                                 },
                                 {
-                                    "nome": "ninjas in pyjamas",
-                                    "logo": "https://liquipedia.net/counterstrike/File:Ninjas_in_Pyjamas_2021_lightmode.png"
+                                    "nome": "Ninjas in Pyjamas",
+                                    "logo": "https://seeklogo.com/images/N/ninjas-in-pyjamas-logo-0AD2295340-seeklogo.com.png"
                                 }
                             ]
                         },
@@ -406,11 +406,11 @@ const teamsData = {
                             "times": [
                                 {
                                     "nome": "Virtus.pro",
-                                    "logo": "https://liquipedia.net/counterstrike/File:Virtus.pro_logo.png"
+                                    "logo": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg"
                                 },
                                 {
                                     "nome": "Heroic",
-                                    "logo": "https://liquipedia.net/counterstrike/File:Heroic_2021_lightmode.png"
+                                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKcdVyyAB6t9aZZ54737RSIIhToDTOwV6Gug&s"
                                 }
                             ]
                         }
@@ -427,11 +427,20 @@ const teamsData = {
 
 let jogos = document.querySelector("#jogos")
 
+let campeonato = "Blast"
+
+fetch('../caioAPI.json') .then(response => response.json())
+   .then(data => {
+    console.log(data)
+   })
+
 teamsData.times_jogos.cs.campeonatos.blast.jogos.forEach(jogo => {
-    let dataJogo = jogo.data;
-    let timeUm = jogo.times[0].logo;
-    let timeDois = jogo.times[1].logo;
-    let lugar = jogo.local;
+    let dataJogo = jogo.data
+    let nomeTimeUm = jogo.times[0].nome
+    let nomeTimeDois = jogo.times[1].nome
+    let timeUm = jogo.times[0].logo
+    let timeDois = jogo.times[1].logo
+    let lugar = jogo.local
 
     // Criar o HTML para cada jogo e adicionar ao elemento jogos
     jogos.innerHTML += `
@@ -443,11 +452,31 @@ teamsData.times_jogos.cs.campeonatos.blast.jogos.forEach(jogo => {
                     </div>
                     <div class="time">
                         <img src="${timeUm}" width="40px" height="40px" id="imagem_time_1">
+                        <p class="nome_time">${nomeTimeUm}</p>
                     </div>
                     <div class="time">
                         <img src="${timeDois}" alt="" height="40px" width="40px" id="imagem_time_2">
+                        <p class="nome_time">${nomeTimeDois}</p>
+                    </div>
+                    <div class="campeonato" style="display: none">
+                    <p>${campeonato}</p>
                     </div>
                 </div>
         </aside>
-    `;
-});
+    `
+    // Seleciona todos os cards gerados
+let cards = document.querySelectorAll('.card');
+
+// Adiciona eventos para mostrar/ocultar o campeonato ao passar o mouse
+cards.forEach(card => {
+    card.addEventListener('mouseenter', () => {
+        let campeonatoDiv = card.querySelector('.campeonato');
+        campeonatoDiv.style.display = 'block';
+    });
+
+    card.addEventListener('mouseleave', () => {
+        let campeonatoDiv = card.querySelector('.campeonato');
+        campeonatoDiv.style.display = 'none';
+    });
+})
+})

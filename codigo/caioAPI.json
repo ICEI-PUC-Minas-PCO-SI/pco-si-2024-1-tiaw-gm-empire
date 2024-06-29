@@ -1,394 +1,241 @@
 {
-    "cblol_2024_split_2": {
-      "temporada_regular": {
-        "semana_1": {
-          "rodada_1": [
-            {
-              "id_jogo": 1,
-              "data": "2024-06-01",
-              "time1": "LOUD",
-              "time2": "paiN Gaming",
-              "vencedor": "LOUD"
-            },
-            {
-              "id_jogo": 2,
-              "data": "2024-06-01",
-              "time1": "Fluxo",
-              "time2": "FURIA",
-              "vencedor": "Fluxo"
-            },
-            {
-              "id_jogo": 3,
-              "data": "2024-06-01",
-              "time1": "LOS",
-              "time2": "INTZ",
-              "vencedor": "INTZ"
-            },
-            {
-              "id_jogo": 4,
-              "data": "2024-06-01",
-              "time1": "Liberty",
-              "time2": "KaBuM!",
-              "vencedor": "KaBuM!"
-            },
-            {
-              "id_jogo": 5,
-              "data": "2024-06-01",
-              "time1": "Vivo Keyd Stars",
-              "time2": "RED Kalunga",
-              "vencedor": "RED Kalunga"
-            }
-          ]
-        },
-        "semana_2": {
-          "rodada_2": [
-            {
-              "id_jogo": 6,
-              "data": "2024-06-02",
-              "time1": "FURIA",
-              "time2": "LOS",
-              "vencedor": "FURIA"
-            },
-            {
-              "id_jogo": 7,
-              "data": "2024-06-02",
-              "time1": "KaBuM!",
-              "time2": "Vivo Keyd Stars",
-              "vencedor": "KaBuM!"
-            },
-            {
-              "id_jogo": 8,
-              "data": "2024-06-02",
-              "time1": "paiN Gaming",
-              "time2": "Fluxo",
-              "vencedor": "paiN Gaming"
-            },
-            {
-              "id_jogo": 9,
-              "data": "2024-06-02",
-              "time1": "INTZ",
-              "time2": "Liberty",
-              "vencedor": "INTZ"
-            },
-            {
-              "id_jogo": 10,
-              "data": "2024-06-02",
-              "time1": "RED Kalunga",
-              "time2": "LOUD",
-              "vencedor": "LOUD"
-            }
-          ]
-        },
-        "semana_3": {
-          "rodada_3": [
-            {
-              "id_jogo": 11,
-              "data": "2024-06-08",
-              "time1": "LOS",
-              "time2": "paiN Gaming",
-              "vencedor": "LOS"
-            },
-            {
-              "id_jogo": 12,
-              "data": "2024-06-08",
-              "time1": "Fluxo",
-              "time2": "KaBuM!",
-              "vencedor": "Fluxo"
-            },
-            {
-              "id_jogo": 13,
-              "data": "2024-06-08",
-              "time1": "RED Kalunga",
-              "time2": "INTZ",
-              "vencedor": "RED Kalunga"
-            },
-            {
-              "id_jogo": 14,
-              "data": "2024-06-08",
-              "time1": "LOUD",
-              "time2": "Liberty",
-              "vencedor": "LOUD"
-            },
-            {
-              "id_jogo": 15,
-              "data": "2024-06-08",
-              "time1": "Vivo Keyd Stars",
-              "time2": "FURIA",
-              "vencedor": "Vivo Keyd Stars"
-            }
-          ]
-        },
-        "semana_4": {
-          "rodada_4": [
-            {
-              "id_jogo": 16,
-              "data": "2024-06-09",
-              "time1": "INTZ",
-              "time2": "LOUD",
-              "vencedor": "INTZ"
-            },
-            {
-              "id_jogo": 17,
-              "data": "2024-06-09",
-              "time1": "FURIA",
-              "time2": "KaBuM!",
-              "vencedor": "KaBuM!"
-            },
-            {
-              "id_jogo": 18,
-              "data": "2024-06-09",
-              "time1": "Liberty",
-              "time2": "RED Kalunga",
-              "vencedor": "Liberty"
-            },
-            {
-              "id_jogo": 19,
-              "data": "2024-06-09",
-              "time1": "paiN Gaming",
-              "time2": "Vivo Keyd Stars",
-              "vencedor": "paiN Gaming"
-            },
-            {
-              "id_jogo": 20,
-              "data": "2024-06-09",
-              "time1": "LOS",
-              "time2": "Fluxo",
-              "vencedor": "Fluxo"
-            }
-          ]
-        },
-        "semana_5_super_semana": {
-          "rodada_5": [
-            {
-              "id_jogo": 21,
-              "data": "2024-06-15",
-              "time1": "KaBuM!",
-              "time2": "INTZ",
-              "vencedor": "KaBuM!"
-            },
-            {
-              "id_jogo": 22,
-              "data": "2024-06-15",
-              "time1": "LOUD",
-              "time2": "LOS",
-              "vencedor": "LOUD"
-            },
-            {
-              "id_jogo": 23,
-              "data": "2024-06-15",
-              "time1": "RED Kalunga",
-              "time2": "FURIA",
-              "vencedor": "RED Kalunga"
-            },
-            {
-              "id_jogo": 24,
-              "data": "2024-06-15",
-              "time1": "Fluxo",
-              "time2": "Vivo Keyd Stars",
-              "vencedor": "Fluxo"
-            },
-            {
-              "id_jogo": 25,
-              "data": "2024-06-15",
-              "time1": "Liberty",
-              "time2": "paiN Gaming",
-              "vencedor": "Liberty"
-            }
-          ],
-          "rodada_6": [
-            {
-              "id_jogo": 26,
-              "data": "2024-06-16",
-              "time1": "Vivo Keyd Stars",
-              "time2": "LOS",
-              "vencedor": "Vivo Keyd Stars"
-            },
-            {
-              "id_jogo": 27,
-              "data": "2024-06-16",
-              "time1": "paiN Gaming",
-              "time2": "RED Kalunga",
-              "vencedor": "paiN Gaming"
-            },
-            {
-              "id_jogo": 28,
-              "data": "2024-06-16",
-              "time1": "KaBuM!",
-              "time2": "LOUD",
-              "vencedor": "LOUD"
-            },
-            {
-              "id_jogo": 29,
-              "data": "2024-06-16",
-              "time1": "FURIA",
-              "time2": "INTZ",
-              "vencedor": "INTZ"
-            },
-            {
-              "id_jogo": 30,
-              "data": "2024-06-16",
-              "time1": "Fluxo",
-              "time2": "Liberty",
-              "vencedor": "Liberty"
-            }
-          ]
-        },
-        "semana_6_super_semana": {
-          "rodada_7": [
-            {
-              "id_jogo": 31,
-              "data": "2024-06-22",
-              "time1": "Liberty",
-              "time2": "FURIA",
-              "vencedor": "Liberty"
-            },
-            {
-              "id_jogo": 32,
-              "data": "2024-06-22",
-              "time1": "LOS",
-              "time2": "RED Kalunga",
-              "vencedor": "LOS"
-            },
-            {
-              "id_jogo": 33,
-              "data": "2024-06-22",
-              "time1": "LOUD",
-              "time2": "Vivo Keyd Stars",
-              "vencedor": "LOUD"
-            },
-            {
-              "id_jogo": 34,
-              "data": "2024-06-22",
-              "time1": "INTZ",
-              "time2": "Fluxo",
-              "vencedor": "INTZ"
-            },
-            {
-              "id_jogo": 35,
-              "data": "2024-06-22",
-              "time1": "paiN Gaming",
-              "time2": "KaBuM!",
-              "vencedor": "paiN Gaming"
-            }
-          ],
-          "rodada_8": [
-            {
-              "id_jogo": 36,
-              "data": "2024-06-23",
-              "time1": "RED Kalunga",
-              "time2": "Fluxo",
-              "vencedor": "Fluxo"
-            },
-            {
-              "id_jogo": 37,
-              "data": "2024-06-23",
-              "time1": "FURIA",
-              "time2": "LOUD",
-              "vencedor": "LOUD"
-            },
-            {
-              "id_jogo": 38,
-              "data": "2024-06-23",
-              "time1": "KaBuM!",
-              "time2": "Liberty",
-              "vencedor": "KaBuM!"
-            },
-            {
-              "id_jogo": 39,
-              "data": "2024-06-23",
-              "time1": "Vivo Keyd Stars",
-              "time2": "INTZ",
-              "vencedor": "Vivo Keyd Stars"
-            },
-            {
-              "id_jogo": 40,
-              "data": "2024-06-23",
-              "time1": "LOS",
-              "time2": "paiN Gaming",
-              "vencedor": "LOS"
-            }
-          ]
-        },
-        "semana_7": {
-          "rodada_9": [
-            {
-              "id_jogo": 41,
-              "data": "2024-06-29",
-              "time1": "Fluxo",
-              "time2": "Vivo Keyd Stars",
-              "vencedor": "Fluxo"
-            },
-            {
-              "id_jogo": 42,
-              "data": "2024-06-29",
-              "time1": "paiN Gaming",
-              "time2": "KaBuM!",
-              "vencedor": "paiN Gaming"
-            },
-            {
-              "id_jogo": 43,
-              "data": "2024-06-29",
-              "time1": "INTZ",
-              "time2": "RED Kalunga",
-              "vencedor": "INTZ"
-            },
-            {
-              "id_jogo": 44,
-              "data": "2024-06-29",
-              "time1": "Liberty",
-              "time2": "LOS",
-              "vencedor": "Liberty"
-            },
-            {
-              "id_jogo": 45,
-              "data": "2024-06-29",
-              "time1": "LOUD",
-              "time2": "FURIA",
-              "vencedor": "LOUD"
-            }
-          ]
-        },
-        "semana_8": {
-          "rodada_10": [
-            {
-              "id_jogo": 46,
-              "data": "2024-06-30",
-              "time1": "RED Kalunga",
-              "time2": "LOUD",
-              "vencedor": "RED Kalunga"
-            },
-            {
-              "id_jogo": 47,
-              "data": "2024-06-30",
-              "time1": "Vivo Keyd Stars",
-              "time2": "paiN Gaming",
-              "vencedor": "Vivo Keyd Stars"
-            },
-            {
-              "id_jogo": 48,
-              "data": "2024-06-30",
-              "time1": "KaBuM!",
-              "time2": "Fluxo",
-              "vencedor": "KaBuM!"
-            },
-            {
-              "id_jogo": 49,
-              "data": "2024-06-30",
-              "time1": "FURIA",
-              "time2": "Liberty",
-              "vencedor": "FURIA"
-            },
-            {
-              "id_jogo": 50,
-              "data": "2024-06-30",
-              "time1": "LOS",
-              "time2": "INTZ",
-              "vencedor": "LOS"
-            }
-          ]
-        }
+  "cblol_2024_split_2": {
+    "temporada_regular": {
+      "semana_1": {
+        "rodada_1": [
+          {
+            "id_jogo": 1,
+            "data": "2024-06-01",
+            "time1": "LOUD",
+            "logotime1": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
+            "time2": "paiN Gaming",
+            "logotime2": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png",
+            "vencedor": "LOUD"
+          },
+          {
+            "id_jogo": 2,
+            "data": "2024-06-01",
+            "time1": "Fluxo",
+            "logotime1": "https://esportenewsmundo.com.br/wp-content/uploads/2022/01/fluxo.png",
+            "time2": "FURIA",
+            "logotime2": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png",
+            "vencedor": "Fluxo"
+          },
+          {
+            "id_jogo": 3,
+            "data": "2024-06-01",
+            "time1": "LOS",
+            "logotime1": "https://n9necats.com.br/wp-content/uploads/2022/03/Los_Grandes.png",
+            "time2": "INTZ",
+            "logotime2": "https://noticias.maisesports.com.br/wp-content/uploads/2014/07/INTZ1.png",
+            "vencedor": "INTZ"
+          },
+          {
+            "id_jogo": 4,
+            "data": "2024-06-01",
+            "time1": "Liberty",
+            "logotime1": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png",
+            "time2": "KaBuM!",
+            "logotime2": "https://pm1.aminoapps.com/6743/de686a056e10c16124d5dff523a914ff0789c866v2_00.jpg",
+            "vencedor": "KaBuM!"
+          },
+          {
+            "id_jogo": 5,
+            "data": "2024-06-01",
+            "time1": "Vivo Keyd Stars",
+            "logotime1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDj2osS2rk5CQ-cxpzSs63tZGq2LE6UyWkg&s",
+            "time2": "RED Kalunga",
+            "logotime2": "https://banner2.cleanpng.com/20180612/awp/kisspng-red-canids-tom-clancy-s-rainbow-six-siege-league-o-gaming-smite-5b1fd72e3e8ff5.4582464315288133582563.jpg",
+            "vencedor": "RED Kalunga"
+          }
+        ]
+      },
+      "semana_2": {
+        "rodada_2": [
+          {
+            "id_jogo": 6,
+            "data": "2024-06-02",
+            "time1": "FURIA",
+            "logotime1": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png",
+            "time2": "LOS",
+            "logotime2": "https://n9necats.com.br/wp-content/uploads/2022/03/Los_Grandes.png",
+            "vencedor": "FURIA"
+          },
+          {
+            "id_jogo": 7,
+            "data": "2024-06-02",
+            "time1": "KaBuM!",
+            "logotime1": "https://pm1.aminoapps.com/6743/de686a056e10c16124d5dff523a914ff0789c866v2_00.jpg",
+            "time2": "Vivo Keyd Stars",
+            "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDj2osS2rk5CQ-cxpzSs63tZGq2LE6UyWkg&s",
+            "vencedor": "KaBuM!"
+          },
+          {
+            "id_jogo": 8,
+            "data": "2024-06-02",
+            "time1": "paiN Gaming",
+            "logotime1": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png",
+            "time2": "Fluxo",
+            "logotime2": "https://esportenewsmundo.com.br/wp-content/uploads/2022/01/fluxo.png",
+            "vencedor": "paiN Gaming"
+          },
+          {
+            "id_jogo": 9,
+            "data": "2024-06-02",
+            "time1": "INTZ",
+            "logotime1": "https://noticias.maisesports.com.br/wp-content/uploads/2014/07/INTZ1.png",
+            "time2": "Liberty",
+            "logotime2": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png",
+            "vencedor": "INTZ"
+          },
+          {
+            "id_jogo": 10,
+            "data": "2024-06-02",
+            "time1": "RED Kalunga",
+            "logotime1": "https://banner2.cleanpng.com/20180612/awp/kisspng-red-canids-tom-clancy-s-rainbow-six-siege-league-o-gaming-smite-5b1fd72e3e8ff5.4582464315288133582563.jpg",
+            "time2": "LOUD",
+            "logotime2": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
+            "vencedor": "LOUD"
+          }
+        ]
+      },
+      "semana_3": {
+        "rodada_3": [
+          {
+            "id_jogo": 11,
+            "data": "2024-06-08",
+            "time1": "LOS",
+            "logotime1": "https://n9necats.com.br/wp-content/uploads/2022/03/Los_Grandes.png",
+            "time2": "paiN Gaming",
+            "logotime2": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png",
+            "vencedor": "LOS"
+          },
+          {
+            "id_jogo": 12,
+            "data": "2024-06-08",
+            "time1": "Fluxo",
+            "logotime1": "https://esportenewsmundo.com.br/wp-content/uploads/2022/01/fluxo.png",
+            "time2": "KaBuM!",
+            "logotime2": "https://pm1.aminoapps.com/6743/de686a056e10c16124d5dff523a914ff0789c866v2_00.jpg",
+            "vencedor": "Fluxo"
+          },
+          {
+            "id_jogo": 13,
+            "data": "2024-06-08",
+            "time1": "RED Kalunga",
+            "logotime1": "https://banner2.cleanpng.com/20180612/awp/kisspng-red-canids-tom-clancy-s-rainbow-six-siege-league-o-gaming-smite-5b1fd72e3e8ff5.4582464315288133582563.jpg",
+            "time2": "INTZ",
+            "logotime2": "https://noticias.maisesports.com.br/wp-content/uploads/2014/07/INTZ1.png",
+            "vencedor": "RED Kalunga"
+          },
+          {
+            "id_jogo": 14,
+            "data": "2024-06-08",
+            "time1": "LOUD",
+            "logotime1": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
+            "time2": "Liberty",
+            "logotime2": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png",
+            "vencedor": "LOUD"
+          },
+          {
+            "id_jogo": 15,
+            "data": "2024-06-08",
+            "time1": "Vivo Keyd Stars",
+            "logotime1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDj2osS2rk5CQ-cxpzSs63tZGq2LE6UyWkg&s",
+            "time2": "FURIA",
+            "logotime2": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png",
+            "vencedor": "Vivo Keyd Stars"
+          }
+        ]
+      },
+      "semana_4": {
+        "rodada_4": [
+          {
+            "id_jogo": 16,
+            "data": "2024-06-09",
+            "time1": "INTZ",
+            "logotime1": "https://noticias.maisesports.com.br/wp-content/uploads/2014/07/INTZ1.png",
+            "time2": "LOUD",
+            "logotime2": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
+            "vencedor": "INTZ"
+          },
+          {
+            "id_jogo": 17,
+            "data": "2024-06-09",
+            "time1": "FURIA",
+            "logotime1": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png",
+            "time2": "KaBuM!",
+            "logotime2": "https://pm1.aminoapps.com/6743/de686a056e10c16124d5dff523a914ff0789c866v2_00.jpg",
+            "vencedor": "KaBuM!"
+          },
+          {
+            "id_jogo": 18,
+            "data": "2024-06-09",
+            "time1": "Liberty",
+            "logotime1": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png",
+            "time2": "RED Kalunga",
+            "logotime2": "https://banner2.cleanpng.com/20180612/awp/kisspng-red-canids-tom-clancy-s-rainbow-six-siege-league-o-gaming-smite-5b1fd72e3e8ff5.4582464315288133582563.jpg",
+            "vencedor": "Liberty"
+          },
+          {
+            "id_jogo": 19,
+            "data": "2024-06-09",
+            "time1": "paiN Gaming",
+            "logotime1": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png",
+            "time2": "Vivo Keyd Stars",
+            "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDj2osS2rk5CQ-cxpzSs63tZGq2LE6UyWkg&s",
+            "vencedor": "paiN Gaming"
+          },
+          {
+            "id_jogo": 20,
+            "data": "2024-06-09",
+            "time1": "LOS",
+            "logotime1": "https://n9necats.com.br/wp-content/uploads/2022/03/Los_Grandes.png",
+            "time2": "Fluxo",
+            "logotime2": "https://esportenewsmundo.com.br/wp-content/uploads/2022/01/fluxo.png",
+            "vencedor": "Fluxo"
+          }
+        ]
+      },
+      "semana_5_super_semana": {
+        "rodada_5": [
+          {
+            "id_jogo": 21,
+            "data": "2024-06-15",
+            "time1": "KaBuM!",
+            "logotime1": "https://pm1.aminoapps.com/6743/de686a056e10c16124d5dff523a914ff0789c866v2_00.jpg",
+            "time2": "LOUD",
+            "logotime2": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
+            "vencedor": "KaBuM!"
+          },
+          {
+            "id_jogo": 22,
+            "data": "2024-06-15",
+            "time1": "INTZ",
+            "logotime1": "https://noticias.maisesports.com.br/wp-content/uploads/2014/07/INTZ1.png",
+            "time2": "RED Kalunga",
+            "logotime2": "https://banner2.cleanpng.com/20180612/awp/kisspng-red-canids-tom-clancy-s-rainbow-six-siege-league-o-gaming-smite-5b1fd72e3e8ff5.4582464315288133582563.jpg",
+            "vencedor": "INTZ"
+          },
+          {
+            "id_jogo": 23,
+            "data": "2024-06-15",
+            "time1": "Fluxo",
+            "logotime1": "https://esportenewsmundo.com.br/wp-content/uploads/2022/01/fluxo.png",
+            "time2": "paiN Gaming",
+            "logotime2": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png",
+            "vencedor": "Fluxo"
+          },
+          {
+            "id_jogo": 24,
+            "data": "2024-06-15",
+            "time1": "Vivo Keyd Stars",
+            "logotime1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDj2os…"
+          }
+        ]
       }
-    },
+    }
+  },
     "lec": {
       "liga": "LEC (Europa)",
       "jogos": [

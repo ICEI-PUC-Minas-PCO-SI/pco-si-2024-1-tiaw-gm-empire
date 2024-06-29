@@ -356,11 +356,15 @@ const teamsData = {
 
 let jogos = document.querySelector("#jogos")
 
+let campeonato = "Valorant Challengers"
+
 teamsData.times_jogos.valorant.campeonatos.valorant_challengers.jogos.forEach(jogo => {
-    let dataJogo = jogo.data;
-    let timeUm = jogo.times[0].logo;
-    let timeDois = jogo.times[1].logo;
-    let lugar = jogo.local;
+    let dataJogo = jogo.data
+    let nomeTimeUm = jogo.times[0].nome
+    let nomeTimeDois = jogo.times[1].nome
+    let timeUm = jogo.times[0].logo
+    let timeDois = jogo.times[1].logo
+    let lugar = jogo.local
 
     // Criar o HTML para cada jogo e adicionar ao elemento jogos
     jogos.innerHTML += `
@@ -371,10 +375,15 @@ teamsData.times_jogos.valorant.campeonatos.valorant_challengers.jogos.forEach(jo
                         <p>${dataJogo}</p>
                     </div>
                     <div class="time">
-                        <img src="${timeUm}" width="40px" height="40px" id="imagem_time_1" data-nome="Liberty" class="img_lol_cblol">
+                        <img src="${timeUm}" width="40px" height="40px" id="imagem_time_1">
+                        <p class="nome_time_um">${nomeTimeUm}</p>
                     </div>
                     <div class="time">
-                        <img src="${timeDois}" alt="" height="40px" width="40px" id="imagem_time_2" data-nome="Loud" class="img_lol_cblol">
+                        <img src="${timeDois}" alt="" height="40px" width="40px" id="imagem_time_2">
+                        <p class="nome_time_um">${nomeTimeDois}</p>
+                    </div>
+                    <div class="campeonato">
+                    <p>${campeonato}</p>
                     </div>
                 </div>
         </aside>
