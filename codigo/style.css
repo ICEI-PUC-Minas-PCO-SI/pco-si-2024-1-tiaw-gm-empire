@@ -418,6 +418,8 @@ section{
 
 
 @media only screen and (max-width: 500px){
+
+    
     .jogos{
         flex-direction: column;
         align-items: center;
@@ -437,6 +439,7 @@ section{
         header{
             display: grid;
             height: 200px;
+            width: 100%;
         }
 
         header #searchInput{
@@ -473,28 +476,26 @@ section{
         overflow: scroll;
     }
 
+
+    .jogos .cs_proximos, .jogos .r6_proximos, .jogos .cs_ultimos, .jogos .r6_ultimos {
+        display: block;
+    }
+
+
     #seta_esquerda{
-        position: absolute;
-        top: 1230px;
-        right: 55%;
+        display: none;
     }
 
     #seta_direita{
-        position: absolute;
-        top: 1230px;
-        left: 55%;
+        display: none;
     }
 
     #ultimos_jogos_seta_esquerda{
-        position: absolute;
-        top: 1850px;
-        right: 55%;
+        display: none;
     }
 
     #ultimos_jogos_seta_direita{
-        position: absolute;
-        top: 1850px;
-        left: 55%;
+        display: none;
     }
 
     .card_noticia{
@@ -513,7 +514,10 @@ section{
         margin-top: 50px;
     }
 
-    .footer_contatos, .footer_informacoes{
+    .footer_contatos{
+        display: none;
+    }
+    .footer_redes{
         display: none;
     }
 

@@ -483,3 +483,123 @@ footer h2{
         flex-direction: column;
     }
 }
+@media only screen and (max-width: 500px){
+
+    body{
+        height: 140vh;
+    }
+    
+    .jogos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_img{
+        width: 200px;
+    }
+    .header_links{
+        width: 100px;
+    }
+
+    .header_links ul{
+        gap: 10px;
+    }
+
+        header{
+            display: grid;
+            height: 200px;
+        }
+
+        header #searchInput{
+            grid-row: 2;
+            grid-column: span 2;
+            width: 86%;
+            margin-left: 15px;
+        }
+
+        header #icon_busca{
+            display: none;
+        }
+
+
+
+    .card{
+        scale: 0.8;
+    }
+
+    #searchContainer{
+        width: 370px;
+        grid-column: span 3;
+        grid-row: 2;
+    }
+
+    #nome_jogo1, #nome_jogo2, #nome_jogo3, #nome_jogo4{
+        text-align: center;
+    }
+    .noticias_container{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        max-height: 130px;
+        overflow: scroll;
+    }
+
+
+    .jogos .cs_proximos, .jogos .r6_proximos, .jogos .cs_ultimos, .jogos .r6_ultimos {
+        display: block;
+    }
+
+
+    #seta_esquerda{
+        display: none;
+    }
+
+    #seta_direita{
+        display: none;
+    }
+
+    #ultimos_jogos_seta_esquerda{
+        display: none;
+    }
+
+    #ultimos_jogos_seta_direita{
+        display: none;
+    }
+
+    .card_noticia{
+        width: 100%;
+        height: 200px;
+        font-size: 10px;
+        scale: 1.1;
+    }
+
+
+    .valorant{
+        margin-bottom: 50px;
+    }
+
+    #titulo{
+        margin-top: 50px;
+    }
+
+    .footer_contatos{
+        display: none;
+    }
+    .footer_redes{
+        display: none;
+    }
+
+    .container{
+       height: 400px;
+       padding: 50px;
+    }
+
+    .games{
+        width: 100%;
+    }
+
+    .games ul{
+        width: 100%;
+    }
+
+}

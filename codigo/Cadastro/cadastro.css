@@ -111,8 +111,7 @@ img:hover{
     }
 
     .bi-eye, .bi-eye-slash{
-        top: 66%;
-        left: 87%;
+        display: none;
     }
 }
 
@@ -131,8 +130,7 @@ img:hover{
     }
 
     .bi-eye, .bi-eye-slash{
-        
-        left: 88%;
+        display: none;
     }
 }
 
@@ -151,9 +149,8 @@ img:hover{
     }
 
     .bi-eye, .bi-eye-slash{
-        left: 84%;
+        display: none;
     }
-}
 
 @media only screen and (min-width: 800px) and (max-width: 899px){
     .container{
@@ -187,4 +184,4 @@ img:hover{
         top: 59%;
         left: 69%;
     }
-}
+}}

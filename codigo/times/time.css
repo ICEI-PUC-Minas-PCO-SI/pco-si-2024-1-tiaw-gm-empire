@@ -339,13 +339,20 @@ footer h2{
         grid-template-columns: 3;
         grid-template-rows: 2;
         height: 230px;
-        width: 375px;
+        width: 100%
+    }
+
+    .footer_contatos{
+        display: none;
+    }
+    .footer_redes{
+        display: none;
     }
 
     header #searchInput{
         grid-row: 2;
         grid-column: span 2;
-        width: 86%;
+        width: 100%;
         margin-left: 15px;
         margin-bottom: 10px;
     }
