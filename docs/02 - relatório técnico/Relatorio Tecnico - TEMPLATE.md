@@ -464,10 +464,13 @@ As imagens ilustram o fluxo do usuário em nossa solução. Assim que o usuário
 Fontes utilizadas para a idealização do projeto
 
 > **https://liquipedia.net**. ★ Uma enciclopédia de e-sports que oferece informações detalhadas sobre torneios e jogadores. Serve como um excelente exemplo de como organizar dados de e-sports.
+
 > **https://escharts.com/pt**. ★ Proporciona estatísticas detalhadas e dados de e-sports que podem ser integrados a sites para mostrar informações sobre torneios e partidas.
+
 > **https://rapidapi.com**. ★  Um hub de APIs que oferece acesso a dados de vários e-sports, que podem ser utilizados para desenvolver funcionalidades de calendários e estatísticas.
+
 > **https://www.toornament.com**. ★  Ferramenta robusta para gerenciamento de torneios, que inclui calendário, inscrições e estatísticas em tempo real.
+
 > **https://www.esportstalk.com**. ★  Fórum onde é possível encontrar discussões e tendências sobre e-sports que ajudaram na criação de conteúdo relevante para o site. 
 
-=======
 
