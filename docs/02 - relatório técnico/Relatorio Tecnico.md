@@ -47,7 +47,6 @@ Curso que tem o estudo voltado para a compreensão, desenvolvimento e aplicaçã
   - [Arquitetura da solução](#arquitetura-da-solução)
 - [Avaliação da Aplicação](#avaliação-da-aplicação)
   - [Plano de Testes](#plano-de-testes)
-  - [Ferramentas de Testes (Opcional)](#ferramentas-de-testes-opcional)
   - [Registros de Testes](#registros-de-testes)
 - [Referências](#referências)
 
@@ -280,8 +279,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| O site deve ser intuitivo e fácil de usar, com uma interface limpa e organizada que permita aos usuários encontrar rapidamente as informações que procuram. | ALTA | 
 |RF-002| o site deve exibir um calendário de eventos importantes, como torneios, campeonatos e eventos especiais. | ALTA |
-|RF-003| Os usuários devem poder se inscrever para receber notificações sobre os horários dos confrontos dos times de sua preferência. | MÉDIA | 
-|RF-004| Permitir aos usuários acessar e reproduzir destaques de partidas anteriores. | BAIXA | 
+|RF-003| Os usuários devem poder pesquisar e visualizar informações sobre os times. | MÉDIA | 
+|RF-004| Permitir aos usuários interagir por meio de comentário nas notícias e no feedback do site. | BAIXA | 
 
 
 ### Requisitos não Funcionais
@@ -427,37 +426,19 @@ As imagens ilustram o fluxo do usuário em nossa solução. Assim que o usuário
 # Avaliação da Aplicação
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+| ID | CENÁRIO | REQUISITO RELACIONADO |
+|----|---------|-----------------------|
+| 1 | `Acessar o Site` <br><br> Passo a passo: <br> `1.` Abrir página inicial <br> `2.` Navegar pela página visualizando noticias e resumo dos resultados recentes <br><br> Após acessar, o site mostrará um resumo dos resultados dos principais campeonatos de jogos como Valorant, Rainbow Six e League of Legends além de notícias relacionadas ao cenário. | RF-001 |
+| 2 | `Ver o Calendário e Jogos` <br><br> Passo a passo: <br> `1.` Selecionar o ícone do jogo desejado na página inicial <br> `2.` Visualizar informações dos próximos e últimos jogos. <br> `3.` Navegar pelo calendário visualizando toda a agenda de jogos marcados em todos os meses.  <br><br> Após selecionar o jogo, o usuário poderá ver um pequeno resumo dos resultados dos jogos mais recentes. Verá também um calendário interativo com as datas de todas as partidas disponíveis de cada jogo. | RF-002 |
+| 3 | `Pesquisar por times específicos` <br><br> Passo a passo: <br> `1.` Abrir a página inicial <br> `2.` Clicar no campo de busca no topo da página <br> `3.` Digitar o nome de uma equipe e apertar *enter* <br><br> Durante a busca, o sistema retornará todas as equipes à medida que o usuário inserir cada caractere e após selecionado, o usuário será redirecionado para a página da equipe | RF-003 |
+| 4 | `Cadastrar/Logar e visualização e interação de noticias` <br><br> Passo a passo: <br> `1.` Abrir a página inicial <br> `2.` Clicar em uma das notícias em destaque <br> `3.` Fazer Login(Opcional) <br><br> Ao Navegar pela notícia, o usuário poderá visualizar a notícia completa e caso ele queira interagir, uma barra de comentários fica disponível ao final da notícia e na tela de feedback possibilitando a interação do usuário que estiver logado. | RF-005 |
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 
-## Ferramentas de Testes (Opcional)
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
-
+Os testes foram fundamentais para identificar falhas no desenvolvimento e na experiência do usuário e promover uma experiências mais intuitiva e prática.
 
 # Referências
 
