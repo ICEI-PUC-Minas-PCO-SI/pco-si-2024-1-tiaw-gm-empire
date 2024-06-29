@@ -7,7 +7,7 @@
             {
               "nome": "Liberty",
               "game": "https://logos-world.net/wp-content/uploads/2023/02/LoL-Symbol.png",
-              "campeonato": "cblol",
+              "campeonato": "CBLOL",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png",
               "jogadores": [
                 {   
@@ -1865,7 +1865,7 @@
             {
               "nome": "Leviatán",
               "game": "https://www.pngall.com/wp-content/uploads/13/Valorant-Logo-PNG-File.png",
-              "campeonato": "champions",
+              "campeonato": "Valorant Champions",
               "logo": "https://static.valorantzone.gg/news/2022/02/08003207/297px-Leviatan_allmode.png",
               "jogadores": [
                 {
@@ -1890,7 +1890,7 @@
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "30/06/2024 17:00",
                 "times": [
                   {
@@ -1907,7 +1907,7 @@
               },
               "proximo_jogo": {
                 "data": "02/07/2024 17:00",
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "Leviatán",
@@ -1948,7 +1948,7 @@
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "29/06/2024 17:00",
                 "times": [
                   {
@@ -1965,7 +1965,7 @@
               },
               "proximo_jogo": {
                 "data": "02/07/2024",
-                "local": "Arena LEC",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "Evil Geniuses",
@@ -2006,7 +2006,7 @@
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "30/06/2024",
                 "times": [
                   {
@@ -2023,7 +2023,7 @@
               },
               "proximo_jogo": {
                 "data": "02/07/2024",
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "LOUD",
@@ -2064,7 +2064,7 @@
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "30/06/2024",
                 "times": [
                   {
@@ -2081,7 +2081,7 @@
               },
               "proximo_jogo": {
                 "data": "03/07/2024",
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "MIBR",
@@ -2122,7 +2122,7 @@
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "29/06/2024",
                 "times": [
                   {
@@ -2139,7 +2139,7 @@
               },
               "proximo_jogo": {
                 "data": "03/07/2024",
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "KRÜ Esports",
@@ -2180,7 +2180,7 @@
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "24/06/2024",
                 "times": [
                   {
@@ -2197,7 +2197,7 @@
               },
               "proximo_jogo": {
                 "data": "01/07/2024",
-                "local": "Arena LEC",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "G2 Esports",
@@ -2238,7 +2238,7 @@
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "22/06/2024",
                 "times": [
                   {
@@ -2255,7 +2255,7 @@
               },
               "proximo_jogo": {
                 "data": "01/07/2024",
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "NRG",
@@ -2296,7 +2296,7 @@
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "24/06/2024",
                 "times": [
                   {
@@ -2313,7 +2313,7 @@
               },
               "proximo_jogo": {
                 "data": "01/07/2024",
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "Cloud9",
@@ -2354,7 +2354,7 @@
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "30/06/2024",
                 "times": [
                   {
@@ -2371,7 +2371,7 @@
               },
               "proximo_jogo": {
                 "data": "01/07/2024",
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "100 Thieves",
@@ -2412,7 +2412,7 @@
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "29/06/2024",
                 "times": [
                   {
@@ -2429,7 +2429,7 @@
               },
               "proximo_jogo": {
                 "data": "01/07/2024",
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "Sentinels",
@@ -2470,7 +2470,7 @@
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "29/06/2024",
                 "times": [
                   {
@@ -2487,7 +2487,7 @@
               },
               "proximo_jogo": {
                 "data": "01/07/2024",
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "FURIA Esports",

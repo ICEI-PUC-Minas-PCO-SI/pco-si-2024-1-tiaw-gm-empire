@@ -9,11 +9,13 @@ function atualizar(){
         for(let i = 0; i < 2; i++){
             document.querySelector(`#imagem_time_${i + 1}`).src = teamsData.times_jogos.lol.campeonatos.cblol.times[0].proximo_jogo.times[i].logo
         }
+        document.querySelector("#campeonato1").innerHTML = teamsData.times_jogos.lol.campeonatos.cblol.times[0].campeonato	
     // card 2
         document.querySelector("#local_2").innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_champions.times[0].proximo_jogo.local
         document.querySelector("#data_2").innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_champions.times[0].proximo_jogo.data
         document.querySelector(`#imagem_time_3`).src = teamsData.times_jogos.valorant.campeonatos.valorant_champions.times[0].proximo_jogo.times[0].logo
         document.querySelector(`#imagem_time_4`).src = teamsData.times_jogos.valorant.campeonatos.valorant_champions.times[0].proximo_jogo.times[1].logo
+        document.querySelector(`#campeonato2`).innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_champions.times[0].campeonato
 
     // card 3 - ultimos jogos
         // campeonato
@@ -28,6 +30,7 @@ function atualizar(){
         document.querySelector("#placar_1").innerHTML = teamsData.times_jogos.lol.campeonatos.Lec.times[0].ultimo_jogo.times[0].placar
         // placar 2
         document.querySelector("#placar_2").innerHTML = teamsData.times_jogos.lol.campeonatos.Lec.times[0].ultimo_jogo.times[1].placar
+        document.querySelector("#campeonato3").innerHTML = teamsData.times_jogos.lol.campeonatos.Lec.times[0].campeonato
 
     // card 4
         document.querySelector("#local_4").innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_challengers.times[0].ultimo_jogo.local
@@ -41,6 +44,7 @@ function atualizar(){
         document.querySelector("#placar_3").innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_challengers.times[0].ultimo_jogo.times[0].placar
         // placar 2
         document.querySelector("#placar_4").innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_challengers.times[0].ultimo_jogo.times[1].placar
+        document.querySelector("#campeonato4").innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_challengers.times[0].campeonato
 
      
 }
