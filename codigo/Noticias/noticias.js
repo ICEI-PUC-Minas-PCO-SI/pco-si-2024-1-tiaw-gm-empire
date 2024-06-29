@@ -50,7 +50,8 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log(userJson)
         const novoComentario = {
             "nome": userJson.nome,
-            "comentario": commentTextArea.value
+            "comentario": commentTextArea.value,
+            "noticia": noticia.id
         }
         
         enviarComentarioParaServidor(novoComentario);
@@ -60,7 +61,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function exibirComentarios() {
         fetch('https://json-server-one-phi.vercel.app/comentario-noticia').then(r => r.json()).then(res => {
-            res.forEach(coment => {
+            const coments = res.filter(n => n.noticia == noticia.id)
+            
+            coments.forEach(coment => {
                 comentarios.insertAdjacentHTML('beforeend', `<p>${coment.nome}: ${coment.comentario}`)
             })
             
@@ -198,21 +201,22 @@ function enviarComentarioParaServidor(novoComentario) {
             'Content-Type': 'application/json',
         },
         body: JSON.stringify(novoComentario),
-    })
-        .then(response => {
-            console.log(novoComentario)
-            console.log(response);
-            Swal.fire({
-                title: "Registrado!",
-                text: "Comentário registrado com sucesso 👍",
-                icon: "success"
-            });
-            comentarioTextArea.value = '';
-            comentario.innerHTML = '';
-            exibirComentarios();
-
-        })
-        .catch(error => {
-            console.error('Erro ao enviar o comentário:', error);
+    }).then(response => {
+        debugger;
+        console.log(novoComentario)
+        console.log(response);
+        Swal.fire({
+            title: "Registrado!",
+            text: "Comentário registrado com sucesso 👍",
+            icon: "success"
         });
+        comentarioTextArea.value = '';
+        comentario.innerHTML = '';
+        exibirComentarios();
+
+    }).catch(
+        error => {
+            console.error('Erro ao enviar o comentário:', error);
+        }
+    );
 }
