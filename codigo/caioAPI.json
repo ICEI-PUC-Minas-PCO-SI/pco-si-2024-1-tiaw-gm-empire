@@ -1,0 +1,1487 @@
+{
+    "cblol_2024_split_2": {
+      "temporada_regular": {
+        "semana_1": {
+          "rodada_1": [
+            {
+              "id_jogo": 1,
+              "data": "2024-06-01",
+              "time1": "LOUD",
+              "time2": "paiN Gaming",
+              "vencedor": "LOUD"
+            },
+            {
+              "id_jogo": 2,
+              "data": "2024-06-01",
+              "time1": "Fluxo",
+              "time2": "FURIA",
+              "vencedor": "Fluxo"
+            },
+            {
+              "id_jogo": 3,
+              "data": "2024-06-01",
+              "time1": "LOS",
+              "time2": "INTZ",
+              "vencedor": "INTZ"
+            },
+            {
+              "id_jogo": 4,
+              "data": "2024-06-01",
+              "time1": "Liberty",
+              "time2": "KaBuM!",
+              "vencedor": "KaBuM!"
+            },
+            {
+              "id_jogo": 5,
+              "data": "2024-06-01",
+              "time1": "Vivo Keyd Stars",
+              "time2": "RED Kalunga",
+              "vencedor": "RED Kalunga"
+            }
+          ]
+        },
+        "semana_2": {
+          "rodada_2": [
+            {
+              "id_jogo": 6,
+              "data": "2024-06-02",
+              "time1": "FURIA",
+              "time2": "LOS",
+              "vencedor": "FURIA"
+            },
+            {
+              "id_jogo": 7,
+              "data": "2024-06-02",
+              "time1": "KaBuM!",
+              "time2": "Vivo Keyd Stars",
+              "vencedor": "KaBuM!"
+            },
+            {
+              "id_jogo": 8,
+              "data": "2024-06-02",
+              "time1": "paiN Gaming",
+              "time2": "Fluxo",
+              "vencedor": "paiN Gaming"
+            },
+            {
+              "id_jogo": 9,
+              "data": "2024-06-02",
+              "time1": "INTZ",
+              "time2": "Liberty",
+              "vencedor": "INTZ"
+            },
+            {
+              "id_jogo": 10,
+              "data": "2024-06-02",
+              "time1": "RED Kalunga",
+              "time2": "LOUD",
+              "vencedor": "LOUD"
+            }
+          ]
+        },
+        "semana_3": {
+          "rodada_3": [
+            {
+              "id_jogo": 11,
+              "data": "2024-06-08",
+              "time1": "LOS",
+              "time2": "paiN Gaming",
+              "vencedor": "LOS"
+            },
+            {
+              "id_jogo": 12,
+              "data": "2024-06-08",
+              "time1": "Fluxo",
+              "time2": "KaBuM!",
+              "vencedor": "Fluxo"
+            },
+            {
+              "id_jogo": 13,
+              "data": "2024-06-08",
+              "time1": "RED Kalunga",
+              "time2": "INTZ",
+              "vencedor": "RED Kalunga"
+            },
+            {
+              "id_jogo": 14,
+              "data": "2024-06-08",
+              "time1": "LOUD",
+              "time2": "Liberty",
+              "vencedor": "LOUD"
+            },
+            {
+              "id_jogo": 15,
+              "data": "2024-06-08",
+              "time1": "Vivo Keyd Stars",
+              "time2": "FURIA",
+              "vencedor": "Vivo Keyd Stars"
+            }
+          ]
+        },
+        "semana_4": {
+          "rodada_4": [
+            {
+              "id_jogo": 16,
+              "data": "2024-06-09",
+              "time1": "INTZ",
+              "time2": "LOUD",
+              "vencedor": "INTZ"
+            },
+            {
+              "id_jogo": 17,
+              "data": "2024-06-09",
+              "time1": "FURIA",
+              "time2": "KaBuM!",
+              "vencedor": "KaBuM!"
+            },
+            {
+              "id_jogo": 18,
+              "data": "2024-06-09",
+              "time1": "Liberty",
+              "time2": "RED Kalunga",
+              "vencedor": "Liberty"
+            },
+            {
+              "id_jogo": 19,
+              "data": "2024-06-09",
+              "time1": "paiN Gaming",
+              "time2": "Vivo Keyd Stars",
+              "vencedor": "paiN Gaming"
+            },
+            {
+              "id_jogo": 20,
+              "data": "2024-06-09",
+              "time1": "LOS",
+              "time2": "Fluxo",
+              "vencedor": "Fluxo"
+            }
+          ]
+        },
+        "semana_5_super_semana": {
+          "rodada_5": [
+            {
+              "id_jogo": 21,
+              "data": "2024-06-15",
+              "time1": "KaBuM!",
+              "time2": "INTZ",
+              "vencedor": "KaBuM!"
+            },
+            {
+              "id_jogo": 22,
+              "data": "2024-06-15",
+              "time1": "LOUD",
+              "time2": "LOS",
+              "vencedor": "LOUD"
+            },
+            {
+              "id_jogo": 23,
+              "data": "2024-06-15",
+              "time1": "RED Kalunga",
+              "time2": "FURIA",
+              "vencedor": "RED Kalunga"
+            },
+            {
+              "id_jogo": 24,
+              "data": "2024-06-15",
+              "time1": "Fluxo",
+              "time2": "Vivo Keyd Stars",
+              "vencedor": "Fluxo"
+            },
+            {
+              "id_jogo": 25,
+              "data": "2024-06-15",
+              "time1": "Liberty",
+              "time2": "paiN Gaming",
+              "vencedor": "Liberty"
+            }
+          ],
+          "rodada_6": [
+            {
+              "id_jogo": 26,
+              "data": "2024-06-16",
+              "time1": "Vivo Keyd Stars",
+              "time2": "LOS",
+              "vencedor": "Vivo Keyd Stars"
+            },
+            {
+              "id_jogo": 27,
+              "data": "2024-06-16",
+              "time1": "paiN Gaming",
+              "time2": "RED Kalunga",
+              "vencedor": "paiN Gaming"
+            },
+            {
+              "id_jogo": 28,
+              "data": "2024-06-16",
+              "time1": "KaBuM!",
+              "time2": "LOUD",
+              "vencedor": "LOUD"
+            },
+            {
+              "id_jogo": 29,
+              "data": "2024-06-16",
+              "time1": "FURIA",
+              "time2": "INTZ",
+              "vencedor": "INTZ"
+            },
+            {
+              "id_jogo": 30,
+              "data": "2024-06-16",
+              "time1": "Fluxo",
+              "time2": "Liberty",
+              "vencedor": "Liberty"
+            }
+          ]
+        },
+        "semana_6_super_semana": {
+          "rodada_7": [
+            {
+              "id_jogo": 31,
+              "data": "2024-06-22",
+              "time1": "Liberty",
+              "time2": "FURIA",
+              "vencedor": "Liberty"
+            },
+            {
+              "id_jogo": 32,
+              "data": "2024-06-22",
+              "time1": "LOS",
+              "time2": "RED Kalunga",
+              "vencedor": "LOS"
+            },
+            {
+              "id_jogo": 33,
+              "data": "2024-06-22",
+              "time1": "LOUD",
+              "time2": "Vivo Keyd Stars",
+              "vencedor": "LOUD"
+            },
+            {
+              "id_jogo": 34,
+              "data": "2024-06-22",
+              "time1": "INTZ",
+              "time2": "Fluxo",
+              "vencedor": "INTZ"
+            },
+            {
+              "id_jogo": 35,
+              "data": "2024-06-22",
+              "time1": "paiN Gaming",
+              "time2": "KaBuM!",
+              "vencedor": "paiN Gaming"
+            }
+          ],
+          "rodada_8": [
+            {
+              "id_jogo": 36,
+              "data": "2024-06-23",
+              "time1": "RED Kalunga",
+              "time2": "Fluxo",
+              "vencedor": "Fluxo"
+            },
+            {
+              "id_jogo": 37,
+              "data": "2024-06-23",
+              "time1": "FURIA",
+              "time2": "LOUD",
+              "vencedor": "LOUD"
+            },
+            {
+              "id_jogo": 38,
+              "data": "2024-06-23",
+              "time1": "KaBuM!",
+              "time2": "Liberty",
+              "vencedor": "KaBuM!"
+            },
+            {
+              "id_jogo": 39,
+              "data": "2024-06-23",
+              "time1": "Vivo Keyd Stars",
+              "time2": "INTZ",
+              "vencedor": "Vivo Keyd Stars"
+            },
+            {
+              "id_jogo": 40,
+              "data": "2024-06-23",
+              "time1": "LOS",
+              "time2": "paiN Gaming",
+              "vencedor": "LOS"
+            }
+          ]
+        },
+        "semana_7": {
+          "rodada_9": [
+            {
+              "id_jogo": 41,
+              "data": "2024-06-29",
+              "time1": "Fluxo",
+              "time2": "Vivo Keyd Stars",
+              "vencedor": "Fluxo"
+            },
+            {
+              "id_jogo": 42,
+              "data": "2024-06-29",
+              "time1": "paiN Gaming",
+              "time2": "KaBuM!",
+              "vencedor": "paiN Gaming"
+            },
+            {
+              "id_jogo": 43,
+              "data": "2024-06-29",
+              "time1": "INTZ",
+              "time2": "RED Kalunga",
+              "vencedor": "INTZ"
+            },
+            {
+              "id_jogo": 44,
+              "data": "2024-06-29",
+              "time1": "Liberty",
+              "time2": "LOS",
+              "vencedor": "Liberty"
+            },
+            {
+              "id_jogo": 45,
+              "data": "2024-06-29",
+              "time1": "LOUD",
+              "time2": "FURIA",
+              "vencedor": "LOUD"
+            }
+          ]
+        },
+        "semana_8": {
+          "rodada_10": [
+            {
+              "id_jogo": 46,
+              "data": "2024-06-30",
+              "time1": "RED Kalunga",
+              "time2": "LOUD",
+              "vencedor": "RED Kalunga"
+            },
+            {
+              "id_jogo": 47,
+              "data": "2024-06-30",
+              "time1": "Vivo Keyd Stars",
+              "time2": "paiN Gaming",
+              "vencedor": "Vivo Keyd Stars"
+            },
+            {
+              "id_jogo": 48,
+              "data": "2024-06-30",
+              "time1": "KaBuM!",
+              "time2": "Fluxo",
+              "vencedor": "KaBuM!"
+            },
+            {
+              "id_jogo": 49,
+              "data": "2024-06-30",
+              "time1": "FURIA",
+              "time2": "Liberty",
+              "vencedor": "FURIA"
+            },
+            {
+              "id_jogo": 50,
+              "data": "2024-06-30",
+              "time1": "LOS",
+              "time2": "INTZ",
+              "vencedor": "LOS"
+            }
+          ]
+        }
+      }
+    },
+    "lec": {
+      "liga": "LEC (Europa)",
+      "jogos": [
+        {
+          "id": 1,
+          "data": "23.06.2024",
+          "hora": "13:00",
+          "time1": "GIANTX",
+          "time2": "Team BDS",
+          "placar1": 0,
+          "placar2": 1
+        },
+        {
+          "id": 2,
+          "data": "23.06.2024",
+          "hora": "12:00",
+          "time1": "Rogue",
+          "time2": "Heretics",
+          "placar1": 1,
+          "placar2": 0
+        },
+        {
+          "id": 3,
+          "data": "22.06.2024",
+          "hora": "15:25",
+          "time1": "MAD Lions",
+          "time2": "Fnatic",
+          "placar1": 0,
+          "placar2": 1
+        },
+        {
+          "id": 4,
+          "data": "22.06.2024",
+          "hora": "14:30",
+          "time1": "G2 Esports",
+          "time2": "Karmine Corp",
+          "placar1": 1,
+          "placar2": 0
+        },
+        {
+          "id": 5,
+          "data": "22.06.2024",
+          "hora": "13:35",
+          "time1": "Vitality",
+          "time2": "GIANTX",
+          "placar1": 0,
+          "placar2": 1
+        },
+        {
+          "id": 6,
+          "data": "22.06.2024",
+          "hora": "12:50",
+          "time1": "Heretics",
+          "time2": "SK Gaming",
+          "placar1": 0,
+          "placar2": 1
+        },
+        {
+          "id": 7,
+          "data": "22.06.2024",
+          "hora": "12:00",
+          "time1": "Team BDS",
+          "time2": "Rogue",
+          "placar1": 1,
+          "placar2": 0
+        },
+        {
+          "id": 8,
+          "data": "16.06.2024",
+          "hora": "15:00",
+          "time1": "Karmine Corp",
+          "time2": "Team BDS",
+          "placar1": 0,
+          "placar2": 1
+        },
+        {
+          "id": 9,
+          "data": "16.06.2024",
+          "hora": "14:15",
+          "time1": "SK Gaming",
+          "time2": "Fnatic",
+          "placar1": 0,
+          "placar2": 1
+        },
+        {
+          "id": 10,
+          "data": "16.06.2024",
+          "hora": "13:30",
+          "time1": "GIANTX",
+          "time2": "MAD Lions",
+          "placar1": 1,
+          "placar2": 0
+        },
+        {
+          "id": 11,
+          "data": "16.06.2024",
+          "hora": "12:45",
+          "time1": "Rogue",
+          "time2": "G2 Esports",
+          "placar1": 0,
+          "placar2": 1
+        },
+        {
+          "id": 12,
+          "data": "16.06.2024",
+          "hora": "12:00",
+          "time1": "Vitality",
+          "time2": "Heretics",
+          "placar1": 1,
+          "placar2": 0
+        },
+        {
+          "id": 13,
+          "data": "15.06.2024",
+          "hora": "15:30",
+          "time1": "G2 Esports",
+          "time2": "GIANTX",
+          "placar1": 1,
+          "placar2": 0
+        },
+        {
+          "id": 14,
+          "data": "15.06.2024",
+          "hora": "14:30",
+          "time1": "Heretics",
+          "time2": "Karmine Corp",
+          "placar1": 1,
+          "placar2": 0
+        },
+        {
+          "id": 15,
+          "data": "15.06.2024",
+          "hora": "13:45",
+          "time1": "MAD Lions",
+          "time2": "Vitality",
+          "placar1": 0,
+          "placar2": 1
+        },
+        {
+          "id": 16,
+          "data": "15.06.2024",
+          "hora": "12:45",
+          "time1": "Fnatic",
+          "time2": "Rogue",
+          "placar1": 1,
+          "placar2": 0
+        },
+        {
+          "id": 17,
+          "data": "15.06.2024",
+          "hora": "12:00",
+          "time1": "Team BDS",
+          "time2": "SK Gaming",
+          "placar1": 0,
+          "placar2": 1
+        },
+        {
+          "id": 18,
+          "data": "10.06.2024",
+          "hora": "15:45",
+          "time1": "Heretics",
+          "time2": "MAD Lions",
+          "placar1": 0,
+          "placar2": 1
+        },
+        {
+          "id": 19,
+          "data": "10.06.2024",
+          "hora": "15:00",
+          "time1": "Rogue",
+          "time2": "Karmine Corp",
+          "placar1": 0,
+          "placar2": 1
+        },
+        {
+          "id": 20,
+          "data": "10.06.2024",
+          "hora": "13:45",
+          "time1": "Team BDS",
+          "time2": "G2 Esports",
+          "placar1": 1,
+          "placar2": 0
+        },
+        {
+          "id": 21,
+          "data": "10.06.2024",
+          "hora": "12:45",
+          "time1": "GIANTX",
+          "time2": "SK Gaming",
+          "placar1": 0,
+          "placar2": 1
+        },
+        {
+          "id": 22,
+          "data": "10.06.2024",
+          "hora": "12:00",
+          "time1": "Fnatic",
+          "time2": "Vitality",
+          "placar1": 1,
+          "placar2": 0
+        },
+        {
+          "id": 23,
+          "data": "09.06.2024",
+          "hora": "15:00",
+          "time1": "G2 Esports",
+          "time2": "SK Gaming",
+          "placar1": 0,
+          "placar2": 1
+        },
+        {
+          "id": 24,
+          "data": "09.06.2024",
+          "hora": "14:15",
+          "time1": "Fnatic",
+          "time2": "GIANTX",
+          "placar1": 1,
+          "placar2": 0
+        },
+        {
+          "id": 25,
+          "data": "09.06.2024",
+          "hora": "13:30",
+          "time1": "Karmine Corp",
+          "time2": "MAD Lions",
+          "placar1": 1,
+          "placar2": 0
+        },
+        {
+          "id": 26,
+          "data": "09.06.2024",
+          "hora": "12:45",
+          "time1": "Rogue",
+          "time2": "Vitality",
+          "placar1": 1,
+          "placar2": 0
+        },
+        {
+          "id": 27,
+          "data": "09.06.2024",
+          "hora": "12:00",
+          "time1": "Team BDS",
+          "time2": "Heretics",
+          "placar1": 1,
+          "placar2": 0
+        },
+        {
+          "id": 28,
+          "data": "08.06.2024",
+          "hora": "15:55",
+          "time1": "Karmine Corp",
+          "time2": "Fnatic",
+          "placar1": 0,
+          "placar2": 1
+        },
+        {
+          "id": 29,
+          "data": "08.06.2024",
+          "hora": "15:00",
+          "time1": "MAD Lions",
+          "time2": "G2 Esports",
+          "placar1": 0,
+          "placar2": 1
+        },
+        {
+          "id": 30,
+          "data": "08.06.2024",
+          "hora": "14:05",
+          "time1": "Vitality",
+          "time2": "Team BDS",
+          "placar1": 0,
+          "placar2": 1
+        },
+        {
+          "id": 31,
+          "data": "08.06.2024",
+          "hora": "13:10",
+          "time1": "SK Gaming",
+          "time2": "Rogue",
+          "placar1": 1,
+          "placar2": 0
+        },
+        {
+          "id": 32,
+          "data": "08.06.2024",
+          "hora": "12:00",
+          "time1": "Heretics",
+          "time2": "GIANTX",
+          "placar1": 1,
+          "placar2": 0
+        }
+      ]
+    },
+    "champioons": {
+      "Campeonato": "Champions Tour 2024: Americas",
+    "Jogos": [
+      {
+        "ID": 1,
+        "Semana": "Semana 1",
+        "Data": "Sábado, 6 de abril",
+        "Jogos": [
+          {
+            "ID": 1,
+            "Time1": "Cloud9",
+            "Placar1": 2,
+            "Time2": "Leviatán",
+            "Placar2": 1,
+            "Mapas": [
+              {
+                "Mapa": "Icebox",
+                "Placar1": 7,
+                "Placar2": 13
+              },
+              {
+                "Mapa": "Sunset",
+                "Placar1": 13,
+                "Placar2": 7
+              },
+              {
+                "Mapa": "Ascent",
+                "Placar1": 18,
+                "Placar2": 16
+              }
+            ]
+          },
+          {
+            "ID": 2,
+            "Time1": "NRG",
+            "Placar1": 2,
+            "Time2": "LOUD",
+            "Placar2": 0,
+            "Mapas": [
+              {
+                "Mapa": "Breeze",
+                "Placar1": 13,
+                "Placar2": 10
+              },
+              {
+                "Mapa": "Sunset",
+                "Placar1": 13,
+                "Placar2": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": 2,
+        "Semana": "Semana 1",
+        "Data": "Domingo, 7 de abril",
+        "Jogos": [
+          {
+            "ID": 3,
+            "Time1": "G2",
+            "Placar1": 2,
+            "Time2": "Evil Geniuses",
+            "Placar2": 0,
+            "Mapas": [
+              {
+                "Mapa": "Lotus",
+                "Placar1": 13,
+                "Placar2": 8
+              },
+              {
+                "Mapa": "Icebox",
+                "Placar1": 13,
+                "Placar2": 3
+              }
+            ]
+          },
+          {
+            "ID": 4,
+            "Time1": "Sentinels",
+            "Placar1": 2,
+            "Time2": "100 Thieves",
+            "Placar2": 0,
+            "Mapas": [
+              {
+                "Mapa": "Icebox",
+                "Placar1": 13,
+                "Placar2": 10
+              },
+              {
+                "Mapa": "Split",
+                "Placar1": 13,
+                "Placar2": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": 3,
+        "Semana": "Semana 1",
+        "Data": "Segunda-feira, 8 de abril",
+        "Jogos": [
+          {
+            "ID": 5,
+            "Time1": "KRÜ",
+            "Placar1": 2,
+            "Time2": "FURIA",
+            "Placar2": 1,
+            "Mapas": [
+              {
+                "Mapa": "Lotus",
+                "Placar1": 13,
+                "Placar2": 7
+              },
+              {
+                "Mapa": "Icebox",
+                "Placar1": 11,
+                "Placar2": 13
+              },
+              {
+                "Mapa": "Breeze",
+                "Placar1": 13,
+                "Placar2": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": 4,
+        "Semana": "Semana 2",
+        "Data": "Sábado, 13 de abril",
+        "Jogos": [
+          {
+            "ID": 6,
+            "Time1": "G2",
+            "Placar1": 0,
+            "Time2": "100 Thieves",
+            "Placar2": 2,
+            "Mapas": [
+              {
+                "Mapa": "Bind",
+                "Placar1": 9,
+                "Placar2": 13
+              },
+              {
+                "Mapa": "Split",
+                "Placar1": 8,
+                "Placar2": 13
+              }
+            ]
+          },
+          {
+            "ID": 7,
+            "Time1": "Sentinels",
+            "Placar1": 0,
+            "Time2": "Leviatán",
+            "Placar2": 2,
+            "Mapas": [
+              {
+                "Mapa": "Lotus",
+                "Placar1": 17,
+                "Placar2": 19
+              },
+              {
+                "Mapa": "Icebox",
+                "Placar1": 11,
+                "Placar2": 13
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": 5,
+        "Semana": "Semana 2",
+        "Data": "Domingo, 14 de abril",
+        "Jogos": [
+          {
+            "ID": 8,
+            "Time1": "KRÜ",
+            "Placar1": 2,
+            "Time2": "MIBR",
+            "Placar2": 0,
+            "Mapas": [
+              {
+                "Mapa": "Icebox",
+                "Placar1": 13,
+                "Placar2": 6
+              },
+              {
+                "Mapa": "Sunset",
+                "Placar1": 13,
+                "Placar2": 8
+              }
+            ]
+          },
+          {
+            "ID": 9,
+            "Time1": "NRG",
+            "Placar1": 2,
+            "Time2": "FURIA",
+            "Placar2": 0,
+            "Mapas": [
+              {
+                "Mapa": "Split",
+                "Placar1": 13,
+                "Placar2": 2
+              },
+              {
+                "Mapa": "Breeze",
+                "Placar1": 13,
+                "Placar2": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": 6,
+        "Semana": "Semana 2",
+        "Data": "Segunda-feira, 15 de abril",
+        "Jogos": [
+          {
+            "ID": 10,
+            "Time1": "Cloud9",
+            "Placar1": 2,
+            "Time2": "Evil Geniuses",
+            "Placar2": 1,
+            "Mapas": [
+              {
+                "Mapa": "Lotus",
+                "Placar1": 9,
+                "Placar2": 13
+              },
+              {
+                "Mapa": "Sunset",
+                "Placar1": 13,
+                "Placar2": 8
+              },
+              {
+                "Mapa": "Split",
+                "Placar1": 13,
+                "Placar2": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": 7,
+        "Semana": "Super Semana",
+        "Data": "Sábado, 20 de abril",
+        "Jogos": [
+          {
+            "ID": 11,
+            "Time1": "Sentinels",
+            "Placar1": 2,
+            "Time2": "MIBR",
+            "Placar2": 0,
+            "Mapas": [
+              {
+                "Mapa": "Lotus",
+                "Placar1": 13,
+                "Placar2": 3
+              },
+              {
+                "Mapa": "Bind",
+                "Placar1": 13,
+                "Placar2": 7
+              }
+            ]
+          },
+          {
+            "ID": 12,
+            "Time1": "Cloud9",
+            "Placar1": 2,
+            "Time2": "LOUD",
+            "Placar2": 1,
+            "Mapas": [
+              {
+                "Mapa": "Bind",
+                "Placar1": 11,
+                "Placar2": 13
+              },
+              {
+                "Mapa": "Icebox",
+                "Placar1": 13,
+                "Placar2": 4
+              },
+              {
+                "Mapa": "Lotus",
+                "Placar1": 13,
+                "Placar2": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": 8,
+        "Semana": "Super Semana",
+        "Data": "Domingo, 21 de abril",
+        "Jogos": [
+          {
+            "ID": 13,
+            "Time1": "KRÜ",
+            "Placar1": 2,
+            "Time2": "Evil Geniuses",
+            "Placar2": 0,
+            "Mapas": [
+              {
+                "Mapa": "Lotus",
+                "Placar1": 13,
+                "Placar2": 5
+              },
+              {
+                "Mapa": "Breeze",
+                "Placar1": 13,
+                "Placar2": 9
+              }
+            ]
+          },
+          {
+            "ID": 14,
+            "Time1": "NRG",
+            "Placar1": 0,
+            "Time2": "Leviatán",
+            "Placar2": 2,
+            "Mapas": [
+              {
+                "Mapa": "Sunset",
+                "Placar1": 4,
+                "Placar2": 13
+              },
+              {
+                "Mapa": "Bind",
+                "Placar1": 4,
+                "Placar2": 13
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": 9,
+        "Semana": "Super Semana",
+        "Data": "Segunda-feira, 22 de abril",
+        "Jogos": [
+          {
+            "ID": 15,
+            "Time1": "G2",
+            "Placar1": 2,
+            "Time2": "FURIA",
+            "Placar2": 0,
+            "Mapas": [
+              {
+                "Mapa": "Lotus",
+                "Placar1": 13,
+                "Placar2": 3
+              },
+              {
+                "Mapa": "Icebox",
+                "Placar1": 13,
+                "Placar2": 3
+              }
+            ]
+          },
+          {
+            "ID": 16,
+            "Time1": "Cloud9",
+            "Placar1": 0,
+            "Time2": "100 Thieves",
+            "Placar2": 2,
+            "Mapas": [
+              {
+                "Mapa": "Bind",
+                "Placar1": 7,
+                "Placar2": 13
+              },
+              {
+                "Mapa": "Ascent",
+                "Placar1": 6,
+                "Placar2": 13
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": 10,
+        "Semana": "Semana 3",
+        "Data": "Terça-feira, 23 de abril",
+        "Jogos": [
+          {
+            "ID": 17,
+            "Time1": "Sentinels",
+            "Placar1": 1,
+            "Time2": "Evil Geniuses",
+            "Placar2": 2,
+            "Mapas": [
+              {
+                "Mapa": "Lotus",
+                "Placar1": 13,
+                "Placar2": 10
+              },
+              {
+                "Mapa": "Bind",
+                "Placar1": 11,
+                "Placar2": 13
+              },
+              {
+                "Mapa": "Sunset",
+                "Placar1": 10,
+                "Placar2": 13
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": 11,
+        "Semana": "Semana 3",
+        "Data": "Terça-feira, 23 de abril",
+        "Jogos": [
+          {
+            "ID": 18,
+            "Time1": "NRG",
+            "Placar1": 2,
+            "Time2": "MIBR",
+            "Placar2": 0,
+            "Mapas": [
+              {
+                "Mapa": "Split",
+                "Placar1": 13,
+                "Placar2": 9
+              },
+              {
+                "Mapa": "Breeze",
+                "Placar1": 13,
+                "Placar2": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": 12,
+        "Semana": "Semana 3",
+        "Data": "Quarta-feira, 24 de abril",
+        "Jogos": [
+          {
+            "ID": 19,
+            "Time1": "G2",
+            "Placar1": 1,
+            "Time2": "Leviatán",
+            "Placar2": 2,
+            "Mapas": [
+              {
+                "Mapa": "Breeze",
+                "Placar1": 6,
+                "Placar2": 13
+              },
+              {
+                "Mapa": "Icebox",
+                "Placar1": 13,
+                "Placar2": 8
+              },
+              {
+                "Mapa": "Lotus",
+                "Placar1": 9,
+                "Placar2": 13
+              }
+            ]
+          },
+          {
+            "ID": 20,
+            "Time1": "KRÜ",
+            "Placar1": 2,
+            "Time2": "LOUD",
+            "Placar2": 0,
+            "Mapas": [
+              {
+                "Mapa": "Split",
+                "Placar1": 13,
+                "Placar2": 8
+              },
+              {
+                "Mapa": "Ascent",
+                "Placar1": 13,
+                "Placar2": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": 13,
+        "Semana": "Semana 4",
+        "Data": "Sábado, 27 de abril",
+        "Jogos": [
+          {
+            "ID": 21,
+            "Time1": "G2",
+            "Placar1": 2,
+            "Time2": "MIBR",
+            "Placar2": 0,
+            "Mapas": [
+              {
+                "Mapa": "Icebox",
+                "Placar1": 13,
+                "Placar2": 9
+              },
+              {
+                "Mapa": "Bind",
+                "Placar1": 13,
+                "Placar2": 3
+              }
+            ]
+          },
+          {
+            "ID": 22,
+            "Time1": "Sentinels",
+            "Placar1": 0,
+            "Time2": "LOUD",
+            "Placar2": 2,
+            "Mapas": [
+              {
+                "Mapa": "Lotus",
+                "Placar1": 7,
+                "Placar2": 13
+              },
+              {
+                "Mapa": "Icebox",
+                "Placar1": 8,
+                "Placar2": 13
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": 14,
+        "Semana": "Semana 4",
+        "Data": "Domingo, 28 de abril",
+        "Jogos": [
+          {
+            "ID": 23,
+            "Time1": "Cloud9",
+            "Placar1": 2,
+            "Time2": "FURIA",
+            "Placar2": 1,
+            "Mapas": [
+              {
+                "Mapa": "Ascent",
+                "Placar1": 2,
+                "Placar2": 13
+              },
+              {
+                "Mapa": "Lotus",
+                "Placar1": 13,
+                "Placar2": 3
+              },
+              {
+                "Mapa": "Bind",
+                "Placar1": 13,
+                "Placar2": 8
+              }
+            ]
+          },
+          {
+            "ID": 24,
+            "Time1": "NRG",
+            "Placar1": 1,
+            "Time2": "Evil Geniuses",
+            "Placar2": 2,
+            "Mapas": [
+              {
+                "Mapa": "Ascent",
+                "Placar1": 6,
+                "Placar2": 13
+              },
+              {
+                "Mapa": "Lotus",
+                "Placar1": 16,
+                "Placar2": 14
+              },
+              {
+                "Mapa": "Sunset",
+                "Placar1": 11,
+                "Placar2": 13
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": 15,
+        "Semana": "Semana 4",
+        "Data": "Segunda-feira, 29 de abril",
+        "Jogos": [
+          {
+            "ID": 25,
+            "Time1": "KRÜ",
+            "Placar1": 2,
+            "Time2": "100 Thieves",
+            "Placar2": 1,
+            "Mapas": [
+              {
+                "Mapa": "Sunset",
+                "Placar1": 13,
+                "Placar2": 7
+              },
+              {
+                "Mapa": "Breeze",
+                "Placar1": 11,
+                "Placar2": 13
+              },
+              {
+                "Mapa": "Split",
+                "Placar1": 13,
+                "Placar2": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": 16,
+        "Semana": "Semana 5",
+        "Data": "Sexta-feira, 3 de maio",
+        "Jogos": [
+          {
+            "ID": 26,
+            "Time1": "Sentinels",
+            "Placar1": 2,
+            "Time2": "FURIA",
+            "Placar2": 0,
+            "Mapas": [
+              {
+                "Mapa": "Split",
+                "Placar1": 13,
+                "Placar2": 5
+              },
+              {
+                "Mapa": "Icebox",
+                "Placar1": 13,
+                "Placar2": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": 17,
+        "Semana": "Semana 5",
+        "Data": "Sábado, 4 de maio",
+        "Jogos": [
+          {
+            "ID": 27,
+            "Time1": "NRG",
+            "Placar1": 0,
+            "Time2": "100 Thieves",
+            "Placar2": 2,
+            "Mapas": [
+              {
+                "Mapa": "Split",
+                "Placar1": 8,
+                "Placar2": 13
+              },
+              {
+                "Mapa": "Bind",
+                "Placar1": 7,
+                "Placar2": 13
+              }
+            ]
+          },
+          {
+            "ID": 28,
+            "Time1": "KRÜ",
+            "Placar1": 1,
+            "Time2": "Leviatán",
+            "Placar2": 2,
+            "Mapas": [
+              {
+                "Mapa": "Ascent",
+                "Placar1": 4,
+                "Placar2": 13
+              },
+              {
+                "Mapa": "Breeze",
+                "Placar1": 14,
+                "Placar2": 12
+              },
+              {
+                "Mapa": "Lotus",
+                "Placar1": 10,
+                "Placar2": 13
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": 18,
+        "Semana": "Semana 5",
+        "Data": "Domingo, 5 de maio",
+        "Jogos": [
+          {
+            "ID": 29,
+            "Time1": "Cloud9",
+            "Placar1": 2,
+            "Time2": "MIBR",
+            "Placar2": 0,
+            "Mapas": [
+              {
+                "Mapa": "Icebox",
+                "Placar1": 14,
+                "Placar2": 12
+              },
+              {
+                "Mapa": "Sunset",
+                "Placar1": 13,
+                "Placar2": 9
+              }
+            ]
+          },
+          {
+            "ID": 30,
+            "Time1": "G2",
+            "Placar1": 0,
+            "Time2": "LOUD",
+            "Placar2": 2,
+            "Mapas": [
+              {
+                "Mapa": "Bind",
+                "Placar1": 11,
+                "Placar2": 13
+              },
+              {
+                "Mapa": "Icebox",
+                "Placar1": 4,
+                "Placar2": 13
+              }
+            ]
+          }
+        ]
+      }
+    ]
+    },
+    "Champions Tour": {
+    "Campeonato": "Champions Tour 2024: Americas",
+    "Etapas": [
+      {
+        "Nome": "Etapa 1",
+        "Eventos": [
+          {
+            "Nome": "Qualificatória 1",
+            "Datas": [
+              "14 de março",
+              "15 de março",
+              "21 de março",
+              "22 de março"
+            ]
+          },
+          {
+            "Nome": "Qualificatória 2",
+            "Datas": [
+              "1° de abril",
+              "2 de abril",
+              "5 de abril",
+              "6 de abril"
+            ]
+          },
+          {
+            "Nome": "VCT Game Changers (Evento Principal)",
+            "Fases": [
+              {
+                "Nome": "Fase Online",
+                "DataInicial": "15 de abril",
+                "DataFinal": "19 de abril"
+              },
+              {
+                "Nome": "Fase Presencial",
+                "DataInicial": "14 de maio",
+                "DataFinal": "16 de maio"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Nome": "Etapa 2",
+        "Periodo": "Junho e Julho"
+      },
+      {
+        "Nome": "Etapa 3",
+        "Periodo": "Agosto a Outubro"
+      }
+    ]
+    }
+  }
