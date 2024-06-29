@@ -42,7 +42,6 @@ Curso que tem o estudo voltado para a compreensão, desenvolvimento e aplicaçã
   - [Divisão de Papéis](#divisão-de-papéis)
   - [Ferramentas](#ferramentas)
   - [Controle de Versão](#controle-de-versão)
-- [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
 - [Projeto da Solução](#projeto-da-solução)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
   - [Arquitetura da solução](#arquitetura-da-solução)
@@ -396,9 +395,6 @@ O projeto de interface e fluxos de usuário foi esculpido por João Victor e o V
 > - `dev`: branch para versão de desenvolvimento do software
 > - `master`: branch utilizada para a documentação geral do projeto, e, no futuro, para o código final da implementação
 
-# **############## SPRINT 1 ACABA AQUI #############**
-
-
 # Projeto da Solução
 
 ## Tecnologias Utilizadas
@@ -424,9 +420,6 @@ A nossa solução visa criar uma plataforma que disponibilize da melhor maneira 
 As imagens ilustram o fluxo do usuário em nossa solução. Assim que o usuário entra na plataforma, ele é apresentado à tela inicial (Home) onde ele é confrontado com as opões de fazer login/cadastro ou então visualizar superficialmente os jogos mostrados na tela e as noticias recentes(Quando logado, consegue fazer comentários e interagir com outros usuários).
 
 ![arquitetura 2](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-gm-empire/assets/165699187/01707da6-b055-4a56-9167-40bfc3277661)
-
-
-
 
 
 
@@ -468,12 +461,13 @@ As imagens ilustram o fluxo do usuário em nossa solução. Assim que o usuário
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Fontes utilizadas para a idealização do projeto
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
+> **https://liquipedia.net**. ★ Uma enciclopédia de e-sports que oferece informações detalhadas sobre torneios e jogadores. Serve como um excelente exemplo de como organizar dados de e-sports.
+> **https://escharts.com/pt**. ★ Proporciona estatísticas detalhadas e dados de e-sports que podem ser integrados a sites para mostrar informações sobre torneios e partidas.
+> **https://rapidapi.com**. ★  Um hub de APIs que oferece acesso a dados de vários e-sports, que podem ser utilizados para desenvolver funcionalidades de calendários e estatísticas.
+> **https://www.toornament.com**. ★  Ferramenta robusta para gerenciamento de torneios, que inclui calendário, inscrições e estatísticas em tempo real.
+> **https://www.esportstalk.com**. ★  Fórum onde é possível encontrar discussões e tendências sobre e-sports que ajudaram na criação de conteúdo relevante para o site. 
+
 =======
 
