@@ -11,6 +11,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: 25%;
+    top:1%;
 }
 
 .container{
@@ -96,7 +99,7 @@ img:hover{
 .bi-eye, .bi-eye-slash{
     position: absolute;
     top: 53.5%;
-    left: 65.5%;
+    left: 83.5%;
     font-size: 25px;
     cursor: pointer;
 }

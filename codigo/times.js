@@ -439,12 +439,12 @@ const teamsData = {
               }
             },
             {
-              "nome": "Red",
+              "nome": "Red Canids",
               "campeonato": "cblol",
-              "logo": "https://banner2.cleanpng.com/20180612/awp/kisspng-red-canids-tom-clancy-s-rainbow-six-siege-league-o-gaming-smite-5b1fd72e3e8ff5.4582464315288133582563.jpg",
+              "logo": "https://static.valorantzone.gg/news/2023/01/10123132/380px-Red_Canids_allmode.png",
               "jogadores": [
                 {
-                  "nome": "Guigo",
+                  "nome": "fNb",
                   "lane": "Top",
                   "img": "https://s2-ge.glbimg.com/JnRZoVwVcNyqKORVssj9OZHp73k=/0x0:1200x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/6/P/Zmv0nwSWOW3PEmwxdv5Q/guigo.jpg"
                 },
@@ -583,14 +583,14 @@ const teamsData = {
                   "img": "https://cdn.ome.lt/8B93QVyvHdUUcvHM5rFHs999yNE=/1200x630/smart/extras/conteudos/imagem_2023-12-15_122852895.png"
                 },
                 {
-                  "nome": "Matsu",
+                  "nome": "Titan",
                   "lane": "Bot",
-                  "img": "https://theclutch.com.br/wp-content/uploads/2019/12/Matsu-paiN-800x533.jpg"
+                  "img": "https://s2-ge.glbimg.com/AS55dnMaIRzB1i6YyufK_reh3u8=/0x0:1920x1280/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/W/y/I7bZIpSQOtKDaQpn4dKg/titan-lol-red-canids-cblol-2022.jpg"
                 },
                 {
-                  "nome": "Damage",
+                  "nome": "Kuri",
                   "lane": "Suport",
-                  "img": "https://s2-ge.glbimg.com/GjwvFky0ulrpyTqvqTgTdJoI_lQ=/0x0:1920x1280/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/N/1/pZdfzoTj2vLRX6jzvhLw/52965261263-fd5ab34f76-k.jpg"
+                  "img": "https://www.pichauarena.com.br/wp-content/uploads/2023/11/52698675015_9c3dbe8cbc_k.jpg"
                 }
               ],
               "ultimo_jogo": {
@@ -660,7 +660,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "data": "30/06/2024 23:00",
                 "times": [
                   {
@@ -677,7 +677,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "04/07/2024 20:00",
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "times": [
                   {
                    "nome": "GIANTX",
@@ -722,7 +722,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "data": "30/06/2024 23:00",
                 "times": [
                   {
@@ -739,7 +739,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "03/07/2024 20:00",
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "times": [
                   {
                    "nome": "Team Vitality",
@@ -784,7 +784,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "data": "30/06/2024 23:00",
                 "times": [
                   {
@@ -801,7 +801,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "04/07/2024 20:00",
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "times": [
                   {
                    "nome": "SK Gaming",
@@ -946,7 +946,7 @@ const teamsData = {
                 {
                   "nome": "Armut",
                   "lane": "Top",
-                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ40-AxZOKDwbIUG8yHd2bFknQyZw0JpGBpTA&s"
+                  "img": "https://s2-ge.glbimg.com/DRN37wgmC4SH5fSt4x7wEwFlRXM=/0x0:4096x2303/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/w/a/ugepj0SWynCLVWvvNZQg/armut-lol-mad-lions.jpeg"
                 },
                 {
                   "nome": "Elyoya",
@@ -1285,7 +1285,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-              "local": "Arena Challengers",
+              "local": "Shrine Auditorium",
               "data": "25/06/2024 17:00",
               "times": [
                 {
@@ -1302,7 +1302,7 @@ const teamsData = {
             },
             "proximo_jogo": {
               "data": "04/07/2024 20:00",
-              "local": "Arena Challengers",
+              "local": "Shrine Auditorium",
               "times": [
                 {
                   "nome": "Hero Base",
@@ -1342,7 +1342,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-              "local": "Arena Challengers",
+              "local": "Kia Forum",
               "data": "25/06/2024 17:00",
               "times": [
                 {
@@ -1359,7 +1359,7 @@ const teamsData = {
             },
             "proximo_jogo": {
               "data": "04/07/2024 17:00",
-              "local": "Arena LEC",
+              "local": "Kia Forum",
               "times": [
                 {
                   "nome": "The 7",
@@ -1859,7 +1859,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "Kia Forum",
                 "data": "30/06/2024 17:00",
                 "times": [
                   {
@@ -1876,7 +1876,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "02/07/2024 17:00",
-                "local": "Arena Champions",
+                "local": "Kia Forum",
                 "times": [
                   {
                     "nome": "Leviatán",
