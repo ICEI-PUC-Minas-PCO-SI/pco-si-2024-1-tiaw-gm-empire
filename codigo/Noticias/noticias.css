@@ -113,6 +113,10 @@ a{
     color: black;
 }
 
+.formulario{
+    margin: 10px 10%;
+}
+
 #icon_busca{
     cursor: pointer;
 }

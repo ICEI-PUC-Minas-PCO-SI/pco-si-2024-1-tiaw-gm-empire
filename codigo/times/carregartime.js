@@ -22,14 +22,16 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector(`#local_1`).innerHTML = selectedTeam.proximo_jogo.local
         document.querySelector(`#local_2`).innerHTML = selectedTeam.ultimo_jogo.local
 
-        if(selectedTeam.campeonato == "cblol" || selectedTeam.campeonato == "lec"){
+        if(selectedTeam.campeonato == "CBLOL" || selectedTeam.campeonato == "LEC"){
             document.querySelector("#card1").style.borderLeft = "5px solid blue"
             document.querySelector("#card2").style.borderLeft = "5px solid blue"
         }
-        if(selectedTeam.campeonato == "challengers" || selectedTeam.campeonato == "champions"){
+        if(selectedTeam.campeonato == "Valorant Challengers" || selectedTeam.campeonato == "Valorant Champions"){
             document.querySelector("#card1").style.borderLeft = "5px solid red"
             document.querySelector("#card2").style.borderLeft = "5px solid red"
         }
+        document.querySelector(`#campeonato_1`).innerHTML = selectedTeam.campeonato
+        document.querySelector(`#campeonato_2`).innerHTML = selectedTeam.campeonato
         
     } 
     else {

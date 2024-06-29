@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         
         enviarComentarioParaServidor(novoComentario);
+        location.reload
     });
 
     exibirComentarios();

@@ -692,7 +692,7 @@ const teamsData = {
             },
             {
               "nome": "Team Vitality",
-              "campeonato": "lec",
+              "campeonato": "LEC",
               "logo": "https://esportbet.com/wp-content/smush-webp/2022/04/Team-Vitality.jpg.webp",
               "jogadores": [
                 {
@@ -754,7 +754,7 @@ const teamsData = {
             },
             {
               "nome": "SK Gaming",
-              "campeonato": "lec",
+              "campeonato": "LEC",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdKjXicEX8L3YkfFpXZuIiAdNMpDjxwU22Mw&s",
               "jogadores": [
                 {
@@ -816,7 +816,7 @@ const teamsData = {
             },
             {
               "nome": "Rougue",
-              "campeonato": "lec",
+              "campeonato": "LEC",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s",
               "jogadores": [
                 {
@@ -878,7 +878,7 @@ const teamsData = {
             },
             {
               "nome": "Fnatic",
-              "campeonato": "lec",
+              "campeonato": "LEC",
               "logo": "https://cdn.pandascore.co/images/team/image/394/220px_fnaticlogo_square.png",
               "jogadores": [
                 {
@@ -940,7 +940,7 @@ const teamsData = {
             },
             {
               "nome": "MAD Lions",
-              "campeonato": "lec",
+              "campeonato": "LEC",
               "logo": "https://egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Fvalorant%2FteamsV2%2Fm%2Fma%2Fmad-lions-koi_1706943970413.png&w=384&q=75",
               "jogadores": [
                 {
@@ -1002,7 +1002,7 @@ const teamsData = {
             },
             {
               "nome": "Team BDS",
-              "campeonato": "lec",
+              "campeonato": "LEC",
               "logo": "https://am-a.akamaihd.net/image?resize=400:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1641292031788_Team_BDSlogo_square.png",
               "jogadores": [
                 {
@@ -1064,7 +1064,7 @@ const teamsData = {
             },
             {
               "nome": "Team Heretics",
-              "campeonato": "lec",
+              "campeonato": "LEC",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWAamjH2-yyxgIMcwhcnqAf2EzqJSj3IzK_Q&s",
               "jogadores": [
                 {
@@ -1126,7 +1126,7 @@ const teamsData = {
             },
             {
               "nome": "G2 Esports",
-              "campeonato": "lec",
+              "campeonato": "LEC",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s",
               "jogadores": [
                 {
@@ -1188,7 +1188,7 @@ const teamsData = {
             },
             {
               "nome": "Karmine Corp",
-              "campeonato": "lec",
+              "campeonato": "LEC",
               "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/895a9f157056617.Y3JvcCw5MDAsNzAzLDAsOTg.png",
               "jogadores": [
                 {   
@@ -1876,7 +1876,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "02/07/2024 17:00",
-                "local": "Kia Forum",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "Leviatán",
@@ -1891,7 +1891,7 @@ const teamsData = {
             },
             {
               "nome": "Evil Geniuses",
-              "campeonato": "champions",
+              "campeonato": "Valorant Champions",
               "logo": "https://pbs.twimg.com/profile_images/1484293952132251648/WPTSuxkN_400x400.jpg",
               "jogadores": [
                 {
@@ -1916,7 +1916,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "29/06/2024 17:00",
                 "times": [
                   {
@@ -1933,7 +1933,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "02/07/2024",
-                "local": "Arena LEC",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "Evil Geniuses",
@@ -1948,7 +1948,7 @@ const teamsData = {
             },
             {
               "nome": "LOUD",
-              "campeonato": "champions",
+              "campeonato": "Valorant Champions",
               "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
               "jogadores": [
                 {
@@ -1973,7 +1973,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "30/06/2024",
                 "times": [
                   {
@@ -1990,7 +1990,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "02/07/2024",
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "LOUD",
@@ -2005,7 +2005,7 @@ const teamsData = {
             },
             {
               "nome": "MIBR",
-              "campeonato": "champions",
+              "campeonato": "Valorant Champions",
               "logo": "https://upload.wikimedia.org/wikipedia/commons/5/53/Made_In_Brazil_logo.png",
               "jogadores": [
                 {
@@ -2030,7 +2030,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "30/06/2024",
                 "times": [
                   {
@@ -2047,7 +2047,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "03/07/2024",
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "MIBR",
@@ -2062,7 +2062,7 @@ const teamsData = {
             },
             {
               "nome": "KRÜ Esports",
-              "campeonato": "champions",
+             "campeonato": "Valorant Champions",
               "logo": "https://static.valorantzone.gg/news/2021/04/14153552/kru.png",
               "jogadores": [
                 {
@@ -2087,7 +2087,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "29/06/2024",
                 "times": [
                   {
@@ -2104,7 +2104,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "03/07/2024",
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "KRÜ Esports",
@@ -2119,7 +2119,7 @@ const teamsData = {
             },
             {
               "nome": "G2 Esports",
-              "campeonato": "champions",
+              "campeonato": "Valorant Champions",
               "logo": "https://static.valorantzone.gg/news/2022/02/06153248/g2.png",
               "jogadores": [
                 {
@@ -2144,7 +2144,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "24/06/2024",
                 "times": [
                   {
@@ -2161,7 +2161,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "01/07/2024",
-                "local": "Arena LEC",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "G2 Esports",
@@ -2176,7 +2176,7 @@ const teamsData = {
             },
             {
               "nome": "NRG",
-              "campeonato": "champions",
+              "campeonato": "Valorant Champions",
               "logo": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png",
               "jogadores": [
                 {
@@ -2201,7 +2201,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "22/06/2024",
                 "times": [
                   {
@@ -2217,7 +2217,7 @@ const teamsData = {
                 ]
               },
               "proximo_jogo": {
-                "data": "01/07/2024",
+                "local": "COEX Shinhan Card Artium",
                 "local": "Arena Champions",
                 "times": [
                   {
@@ -2233,7 +2233,7 @@ const teamsData = {
             },
             {
               "nome": "Cloud9",
-              "campeonato": "champions",
+              "campeonato": "Valorant Champions",
               "logo": "https://static.valorantzone.gg/news/2021/04/03214658/380px-Cloud9.png",
               "jogadores": [
                 {
@@ -2258,7 +2258,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "24/06/2024",
                 "times": [
                   {
@@ -2275,7 +2275,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "01/07/2024",
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "Cloud9",
@@ -2290,7 +2290,7 @@ const teamsData = {
             },
             {
               "nome": "100 Thieves",
-              "campeonato": "champions",
+             "campeonato": "Valorant Champions",
               "logo": "https://static.valorantzone.gg/news/2021/04/03164947/100-thieves-4ejlxysw.png",
               "jogadores": [
                 {
@@ -2315,7 +2315,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+               "local": "COEX Shinhan Card Artium",
                 "data": "30/06/2024",
                 "times": [
                   {
@@ -2332,7 +2332,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "01/07/2024",
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "100 Thieves",
@@ -2347,7 +2347,7 @@ const teamsData = {
             },
             {
               "nome": "Sentinels",
-              "campeonato": "champions",
+              "campeonato": "Valorant Champions",
               "logo": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png",
               "jogadores": [
                 {
@@ -2372,7 +2372,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+               "local": "COEX Shinhan Card Artium",
                 "data": "29/06/2024",
                 "times": [
                   {
@@ -2389,7 +2389,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "01/07/2024",
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "Sentinels",
@@ -2404,7 +2404,7 @@ const teamsData = {
             },
             {
               "nome": "FURIA Esports",
-              "campeonato": "champions",
+              "campeonato": "Valorant Champions",
               "logo": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png",
               "jogadores": [
                 {
@@ -2429,7 +2429,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "data": "29/06/2024",
                 "times": [
                   {
@@ -2446,7 +2446,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "01/07/2024",
-                "local": "Arena Champions",
+                "local": "COEX Shinhan Card Artium",
                 "times": [
                   {
                     "nome": "FURIA Esports",

@@ -245,8 +245,9 @@ main h1{
     cursor: pointer;
 }
 
+
 #campeonato1{
-    margin-bottom: 3px;
+    margin-bottom: 10px;
 }
 .data{
     display: flex;
@@ -502,6 +503,7 @@ section{
         font-size: 10px;
         scale: 1.1;
     }
+
 
     .valorant{
         margin-bottom: 50px;
