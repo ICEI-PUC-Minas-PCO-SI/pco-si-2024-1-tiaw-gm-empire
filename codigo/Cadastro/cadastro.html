@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="../index.html"><img src="../Imgs//logos/logo-removebg-preview.png" alt=""></a>
+        </div>
+        <div class="form">
+            <h1>ENTRE COM SUA CONTA</h1>
+            <form action="">
+                <label for="">E-MAIL</label><br>
+                <input type="text" placeholder="DIGITE SEU E-MAIL"  id="inputEmail"><br>
+                <label for="">USUÁRIO</label><br>
+                <input type="text" placeholder="DIGITE SEU USUÁRIO"  id="inputUser"><br>
+                <label for="">SENHA</label><br>
+                <input type="password" placeholder="DIGITE SUA SENHA"  id="inputPass"><i class="bi bi-eye" id="btnsenha" onclick="mostrarSenha()"></i><br>
+                <div class="links">
+                    <a href="../Login/login.html">Já tenho uma conta</a>
+                </div>
+                <input type="button" value="REGISTRAR" id="btn">
+            </form>
+        </div>
+    </div>
+</body>
+<script>
+    var senha = document.querySelector("#inputPass")
+    var botaoSenha = document.querySelector("#btnsenha")
+    function mostrarSenha(){
+        if(senha.type === "password"){
+            senha.setAttribute('type', 'text')
+            botaoSenha.classList.replace('bi-eye','bi-eye-slash')
+        }
+        else{
+            senha.setAttribute('type', 'password')
+            botaoSenha.classList.replace('bi-eye-slash','bi-eye')
+        }
+    }
+</script>
+<script src="cadastro.js"></script>
+</html>
