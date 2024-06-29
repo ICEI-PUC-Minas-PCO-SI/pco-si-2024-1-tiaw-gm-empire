@@ -7,7 +7,7 @@ const teamsData = {
             {
               "nome": "Liberty",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png",
-              "campeonato": "cblol",
+              "campeonato": "CBLOL",
               "jogadores": [
                 {   
                   "nome": "Makes",
@@ -68,7 +68,7 @@ const teamsData = {
             },
             {
               "nome": "LOS",
-              "campeonato": "cblol",
+              "campeonato": "CBLOL",
               "logo": "https://n9necats.com.br/wp-content/uploads/2022/03/Los_Grandes.png",
               "jogadores": [
                 {
@@ -130,7 +130,7 @@ const teamsData = {
             },
             {
               "nome": "Kabum",
-              "campeonato": "cblol",
+              "campeonato": "CBLOL",
               "logo": "https://pm1.aminoapps.com/6743/de686a056e10c16124d5dff523a914ff0789c866v2_00.jpg",
               "jogadores": [
                 {
@@ -192,7 +192,7 @@ const teamsData = {
             },
             {
               "nome": "Vivo Keyd",
-              "campeonato": "cblol",
+              "campeonato": "CBLOL",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDj2osS2rk5CQ-cxpzSs63tZGq2LE6UyWkg&s",
               "jogadores": [
                 {
@@ -254,7 +254,7 @@ const teamsData = {
             },
             {
               "nome": "Fluxo",
-              "campeonato": "cblol",
+              "campeonato": "CBLOL",
               "logo": "https://esportenewsmundo.com.br/wp-content/uploads/2022/01/fluxo.png",
               "jogadores": [
                 {
@@ -316,7 +316,7 @@ const teamsData = {
             },
             {
               "nome": "Fúria",
-              "campeonato": "cblol",
+              "campeonato": "CBLOL",
               "logo": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png",
               "jogadores": [
                 {
@@ -378,7 +378,7 @@ const teamsData = {
             },
             {
               "nome": "Loud",
-              "campeonato": "cblol",
+              "campeonato": "CBLOL",
               "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
               "jogadores": [
                 {
@@ -440,7 +440,7 @@ const teamsData = {
             },
             {
               "nome": "Red Canids",
-              "campeonato": "cblol",
+              "campeonato": "CBLOL",
               "logo": "https://static.valorantzone.gg/news/2023/01/10123132/380px-Red_Canids_allmode.png",
               "jogadores": [
                 {
@@ -502,7 +502,7 @@ const teamsData = {
             },
             {
               "nome": "Intz",
-              "campeonato": "cblol",
+             "campeonato": "CBLOL",
               "logo": "https://noticias.maisesports.com.br/wp-content/uploads/2014/07/INTZ1.png",
               "jogadores": [
                 {
@@ -564,7 +564,7 @@ const teamsData = {
             },
             {
               "nome": "Pain Gaming",
-              "campeonato": "cblol",
+              "campeonato": "CBLOL",
               "logo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png",
               "jogadores": [
                 {
@@ -630,7 +630,7 @@ const teamsData = {
           "times": [
             {
               "nome": "GIANTX",
-              "campeonato": "lec",
+              "campeonato": "LEC",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZEuXkixwb0r-W-6Ie8PyVtLdLwp7NJIgSA&s",
               "jogadores": [
                 {
@@ -1260,7 +1260,7 @@ const teamsData = {
           "times": [
             {
               "nome": "Hero Base",
-              "campeonato": "challengers",
+              "campeonato": "Valorant Challengers",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR5A4CVohUKkco24sZ-41lbbcrbZwkU_TXxbYIz5YVpwpedT2p2qLtvRymBbk_QDBHiEg&usqp=CAU",
               "jogadores": [
                 {
@@ -1834,7 +1834,7 @@ const teamsData = {
           "times": [
             {
               "nome": "Leviatán",
-              "campeonato": "champions",
+              "campeonato": "Valorant Champions",
               "logo": "https://static.valorantzone.gg/news/2022/02/08003207/297px-Leviatan_allmode.png",
               "jogadores": [
                 {
@@ -1859,7 +1859,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Kia Forum",
+                "local": "COEX Shinhan Card Artium",
                 "data": "30/06/2024 17:00",
                 "times": [
                   {
