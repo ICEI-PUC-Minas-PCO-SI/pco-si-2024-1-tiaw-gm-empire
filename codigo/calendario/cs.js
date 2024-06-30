@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
                  
                     jogos.insertAdjacentHTML('beforeend', 
                         `<aside class="jogos-do-dia">
-                            <div class="card" id="card1" onmouseenter="cardMouseEnter();" onmouseleave="cardMouseLeave();">
+                            <div class="card" id="card1" onmouseover= cardMouseEnter()>
                                     <div class="data">
                                         <h4 id="local_1">${local}</h4>
                                         <p>${formatDate(dataJogo)}</p>
@@ -58,6 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         });
     }
+
 
 
     // Função para criar os dias do mês
@@ -171,31 +172,32 @@ document.addEventListener("DOMContentLoaded", function () {
 
         let cards = document.querySelectorAll('.card');
 
-    // Adiciona eventos para mostrar/ocultar o campeonato ao passar o mouse
-    [...cards].forEach(card => {
-        card.addEventListener('mouseenter', () => {
-            let campeonatoDiv = card.querySelector('.campeonato');
-            campeonatoDiv.style.display = 'block';
-        });
-
-        card.addEventListener('mouseleave', () => {
-            let campeonatoDiv = card.querySelector('.campeonato');
-            campeonatoDiv.style.display = 'none';
-        })
+    
+ //   // Adiciona eventos para mostrar/ocultar o campeonato ao passar o mouse
+ //   [...cards].forEach(card => {
+ //       card.addEventListener('mouseenter', () => {
+ //           let campeonatoDiv = card.querySelector('.campeonato');
+ //           campeonatoDiv.style.display = 'block';
+ //       });
+//
+ //       card.addEventListener('mouseleave', () => {
+ //           let campeonatoDiv = card.querySelector('.campeonato');
+ //           campeonatoDiv.style.display = 'none';
+ //       })
+ //   })
+//
+ //       
     })
 
-        
-    })
-
-   function cardMouseEnter(e) {
-       console.log(e);
-       let campeonatoDiv = e.target.querySelector('.campeonato');
-       campeonatoDiv.style.display = 'block';
-   }
-   function cardMouseLeave(e) {
-       let campeonatoDiv = e.target.querySelector('.campeonato');
-       campeonatoDiv.style.display = 'none';
-   }
+ function cardMouseEnter() {
+     console.log();
+     let campeonatoDiv = document.querySelector('.campeonato');
+     campeonatoDiv.style.display = 'block';
+ }
+ function cardMouseLeave(e) {
+     let campeonatoDiv = document.querySelector('.campeonato');
+     campeonatoDiv.style.display = 'none';
+ }
 const usuarioDiv = document.getElementById('usuario');
 function usuarioLogado() {
     if (sessionStorage.getItem('USER')) {
