@@ -22,14 +22,16 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector(`#local_1`).innerHTML = selectedTeam.proximo_jogo.local
         document.querySelector(`#local_2`).innerHTML = selectedTeam.ultimo_jogo.local
 
-        if(selectedTeam.campeonato == "cblol" || selectedTeam.campeonato == "lec"){
+        if(selectedTeam.campeonato == "CBLOL" || selectedTeam.campeonato == "LEC"){
             document.querySelector("#card1").style.borderLeft = "5px solid blue"
             document.querySelector("#card2").style.borderLeft = "5px solid blue"
         }
-        if(selectedTeam.campeonato == "challengers" || selectedTeam.campeonato == "champions"){
+        if(selectedTeam.campeonato == "Valorant Challengers" || selectedTeam.campeonato == "Valorant Champions"){
             document.querySelector("#card1").style.borderLeft = "5px solid red"
             document.querySelector("#card2").style.borderLeft = "5px solid red"
         }
+        document.querySelector(`#campeonato_1`).innerHTML = selectedTeam.campeonato
+        document.querySelector(`#campeonato_2`).innerHTML = selectedTeam.campeonato
         
     } 
     else {
@@ -73,25 +75,85 @@ function sair() {
    }
 
 
-const searchInput = document.getElementById('searchInput');
-    const suggestions = document.getElementById('suggestions');
-    const icone_busca = document.querySelector("#icon_busca")
-
-    icone_busca.addEventListener('click', async () => {
-        fetch('../times.json').then(r => r.json()).then(
-            response => {
-                const timesCs = response.times_jogos.cs.campeonatos.BPFG.times;
-                const timesLol = response.times_jogos.lol.campeonatos.cblol.times;
-                const timesLol2 = response.times_jogos.lol.campeonatos.Lec.times;
-                const timesValorant = response.times_jogos.valorant.campeonatos.valorant_challengers.times;
-                const timesValorant2 = response.times_jogos.valorant.campeonatos.valorant_champions.times;
-                const timesTodos = timesCs.concat(timesLol).concat(timesLol2).concat(timesValorant).concat(timesValorant2);
-                const teamName = searchInput.value
-                const team = timesTodos.find(team => team.nome === teamName);
-                if (team) {
-                    localStorage.setItem('selectedTeam', JSON.stringify(team));
-                    window.location.href = "time.html"
-                }
-            }
-        )
-    })
+   const searchInput = document.getElementById('searchInput');
+   const suggestions = document.getElementById('suggestions');
+   const icone_busca = document.querySelector("#icon_busca");
+   
+   const handleSearch = async () => {
+       fetch('../times.json')
+           .then(response => response.json())
+           .then(data => {
+               const timesTodos = [];
+   
+               // Coletando todos os times de todos os jogos
+               Object.values(data.times_jogos).forEach(jogo => {
+                   Object.values(jogo.campeonatos).forEach(campeonato => {
+                       timesTodos.push(...campeonato.times.map(time => ({
+                           ...time,
+                           jogo: jogo.nome // Adicionando o nome do jogo ao objeto do time
+                       })));
+                   });
+               });
+   
+               const searchValue = searchInput.value.trim().toLowerCase();
+               suggestions.innerHTML = ''; // Limpa sugestões anteriores
+   
+               if (searchValue.length >= 1) {
+                   const filteredTeams = timesTodos.filter(team => {
+                       const teamName = team.nome.toLowerCase();
+                       return teamName.includes(searchValue);
+                   });
+   
+                   if (filteredTeams.length > 0) {
+                       filteredTeams.slice(0, 5).forEach(team => {
+                           const suggestionItem = document.createElement('div');
+                           suggestionItem.classList.add('suggestion');
+   
+                           // Criando o conteúdo da sugestão com nome do time e ícone do jogo
+                           suggestionItem.innerHTML = `
+                                <img src="${team.logo}" width="45px" height="31px" id="time" alt="${team.jogo}" class="game-icon">
+                                <span id="nome">${team.nome}</span>
+                                <img src="${team.game}" width="45px" height="31px" id="jogo" alt="${team.game}" class="game-icon">
+                           `;
+   
+                           suggestionItem.addEventListener('click', () => {
+                               searchInput.value = team.nome; // Preenche o input com o termo sugerido
+                               localStorage.setItem('selectedTeam', JSON.stringify(team));
+                               window.location.href = "time.html";
+                           });
+                           suggestions.appendChild(suggestionItem);
+                       });
+                       suggestions.style.display = 'block'; // Mostra as sugestões
+                   } else {
+                       suggestions.style.display = 'none'; // Esconde as sugestões se não houver resultados
+                   }
+               } else {
+                   suggestions.style.display = 'none'; // Esconde as sugestões se o termo for muito curto
+               }
+           })
+           .catch(error => {
+               console.error('Erro ao carregar dados:', error);
+           });
+   };
+   
+   icone_busca.addEventListener('click', handleSearch);
+   
+   searchInput.addEventListener('input', () => {
+       handleSearch();
+   });
+   
+   searchInput.addEventListener('keydown', (event) => {
+       if (event.key === 'Enter') {
+           handleSearch();
+       }
+   });
+   
+   document.addEventListener('click', (event) => {
+       if (!document.getElementById('searchContainer').contains(event.target)) {
+           suggestions.style.display = 'none'; // Esconde as sugestões quando clicar fora do container
+       }
+   });
+   
+   document.addEventListener('DOMContentLoaded', () => {
+       handleSearch();
+   });

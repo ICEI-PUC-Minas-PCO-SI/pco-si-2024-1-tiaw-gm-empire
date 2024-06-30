@@ -12,7 +12,11 @@
         <div class="header_img">
             <a href="index.html"><img src="Imgs/logos/logo-removebg-preview.png" width="50%" height="60%"></a> 
         </div>   
-        <input type="text" placeholder = "Digite um nome de um time:" id="pesquisa"><i class="bi bi-search" id="icon_busca"></i>
+        <div id="searchContainer">
+            <input type="text" id="searchInput" placeholder="Digite o nome de um time">
+            <i class="bi bi-search" id="icon_busca"></i>
+            <div id="suggestions"></div>
+        </div>
         <div class="header_links">
             <ul>
                 <li><a href="Sobrenos/sobrenos.html">SOBRE NÓS</a></li>
@@ -48,6 +52,7 @@
                     <div class="time">
                         <img src="" alt="" height="40px" width="40px" id="imagem_time_2" data-nome="Loud" class="img_lol_cblol">
                     </div>
+                    <h4 id="campeonato1"></p>
                 </div>
              </div>
              <div class="valorant_proximos">
@@ -63,6 +68,7 @@
                     <div class="time">
                         <img src="" alt="" height="40px" width="40px" id="imagem_time_4" data-nome="Evil Geniuses" class="img_valorant_champions">
                     </div>
+                    <h4 id="campeonato2"></p>
                 </div>
              </div>
              <div class="cs_proximos">
@@ -93,6 +99,7 @@
                         <img src="" alt="" height="40px" width="40px" id="imagem_time_6" data-nome="G2 Esports" class="img_lol_Lec">
                         <p id="placar_2"></p>
                     </div>
+                    <h4 id="campeonato3"></p>
                 </div>
              </div>
              <div class="valorant_ultimos">
@@ -110,9 +117,10 @@
                         <img src="" alt="" height="40px" width="40px" id="imagem_time_8" data-nome="The 7" class="img_valorant_challengers">
                         <p id="placar_4"></p>
                     </div>
+                    <h4 id="campeonato4"></p>
                 </div>
              </div>
-             <div class="cs_ultimos" >
+             <div class="cs_ultimos">
                 <h2>Cs-Go</h2>
                 <h4>Não há jogos disponiveis</h1>
              </div>
@@ -132,15 +140,15 @@
             <div class="footer_logo">
                 <img src="Imgs/logos/logo-removebg-preview.png" alt="" height="80%" width="auto">
             </div>
-            <div class="footer_informacoes">
-                <h2>Informações</h2>
-                <a href="Feedback/feedback.html"><h4>Feedback</h4></a>
-            </div>
-            <div class="footer_contatos">
-                <h2>Contatos</h2>
-                <h4><i class="bi bi-telephone-fill"></i>(31) 98214-7060</h4>
-                <h4><i class="bi bi-envelope"></i>gmempire@gmempire.com</h4>
-            </div>
+                <div class="footer_informacoes">
+                    <h2>Informações</h2>
+                    <a href="Feedback/feedback.html"><h4>Feedback</h4></a>
+                </div>
+                <div class="footer_contatos">
+                    <h2>Contatos</h2>
+                    <h4><i class="bi bi-telephone-fill"></i>(31) 98214-7060</h4>
+                    <h4><i class="bi bi-envelope"></i>gmempire@gmempire.com</h4>
+                </div>
             <div class="footer_redes">
                 <i class="bi bi-facebook"></i>
                 <i class="bi bi-instagram"></i>

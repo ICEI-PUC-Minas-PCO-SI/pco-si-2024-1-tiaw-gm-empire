@@ -16,7 +16,11 @@
         <div class="header_img">
             <a href="../index.html"><img src="../Imgs/logos/logo-removebg-preview.png" width="50%" height="60%"></a> 
         </div>   
-        <input type="text" placeholder = "Digite um nome de um time:" id="searchInput"><i class="bi bi-search" id="icon_busca"></i>
+        <div id="searchContainer">
+            <input type="text" id="searchInput" placeholder="Digite o nome de um time">
+            <i class="bi bi-search" id="icon_busca"></i>
+            <div id="suggestions"></div>
+        </div>
         <div class="header_links">
             <ul>
                 <li><a href="../Sobrenos/sobrenos.html">SOBRE NÓS</a></li>
@@ -28,10 +32,10 @@
     <main>
         <div id="conteudoNoticia"></div>
         <div class="comentarios" id="comentario-do-usuario"></div>
-        <form action="#" class="form-coment">
+        <div class="formulario">
             <textarea id="comentario" disabled></textarea>
-            <button class="btn-submit" disabled>Enviar comentário</button>
-        </form>
+            <button class="btn-submit" id="btn" disabled>Enviar comentário</button>
+        </div>
     </main>
     <footer>
         <div class="footer_container">

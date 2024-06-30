@@ -9,11 +9,13 @@ function atualizar(){
         for(let i = 0; i < 2; i++){
             document.querySelector(`#imagem_time_${i + 1}`).src = teamsData.times_jogos.lol.campeonatos.cblol.times[0].proximo_jogo.times[i].logo
         }
+        document.querySelector("#campeonato1").innerHTML = teamsData.times_jogos.lol.campeonatos.cblol.times[0].campeonato	
     // card 2
         document.querySelector("#local_2").innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_champions.times[0].proximo_jogo.local
         document.querySelector("#data_2").innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_champions.times[0].proximo_jogo.data
         document.querySelector(`#imagem_time_3`).src = teamsData.times_jogos.valorant.campeonatos.valorant_champions.times[0].proximo_jogo.times[0].logo
         document.querySelector(`#imagem_time_4`).src = teamsData.times_jogos.valorant.campeonatos.valorant_champions.times[0].proximo_jogo.times[1].logo
+        document.querySelector(`#campeonato2`).innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_champions.times[0].campeonato
 
     // card 3 - ultimos jogos
         // campeonato
@@ -28,6 +30,7 @@ function atualizar(){
         document.querySelector("#placar_1").innerHTML = teamsData.times_jogos.lol.campeonatos.Lec.times[0].ultimo_jogo.times[0].placar
         // placar 2
         document.querySelector("#placar_2").innerHTML = teamsData.times_jogos.lol.campeonatos.Lec.times[0].ultimo_jogo.times[1].placar
+        document.querySelector("#campeonato3").innerHTML = teamsData.times_jogos.lol.campeonatos.Lec.times[0].campeonato
 
     // card 4
         document.querySelector("#local_4").innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_challengers.times[0].ultimo_jogo.local
@@ -41,6 +44,7 @@ function atualizar(){
         document.querySelector("#placar_3").innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_challengers.times[0].ultimo_jogo.times[0].placar
         // placar 2
         document.querySelector("#placar_4").innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_challengers.times[0].ultimo_jogo.times[1].placar
+        document.querySelector("#campeonato4").innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_challengers.times[0].campeonato
 
      
 }
@@ -207,25 +211,86 @@ document.addEventListener('DOMContentLoaded', () => {
       });
    }
 
-    const searchInput = document.getElementById('searchInput');
-    const suggestions = document.getElementById('suggestions');
-    const icone_busca = document.querySelector("#icon_busca")
-
-    icone_busca.addEventListener('click', async () => {
-        fetch('times.json').then(r => r.json()).then(
-            response => {
-                const timesCs = response.times_jogos.cs.campeonatos.BPFG.times;
-                const timesLol = response.times_jogos.lol.campeonatos.cblol.times;
-                const timesLol2 = response.times_jogos.lol.campeonatos.Lec.times;
-                const timesValorant = response.times_jogos.valorant.campeonatos.valorant_challengers.times;
-                const timesValorant2 = response.times_jogos.valorant.campeonatos.valorant_champions.times;
-                const timesTodos = timesCs.concat(timesLol).concat(timesLol2).concat(timesValorant).concat(timesValorant2);
-                const teamName = searchInput.value
-                const team = timesTodos.find(team => team.nome === teamName);
-                if (team) {
-                    localStorage.setItem('selectedTeam', JSON.stringify(team));
-                    window.location.href = "times/time.html"
-                }
-            }
-        )
-    })
+   const searchInput = document.getElementById('searchInput');
+   const suggestions = document.getElementById('suggestions');
+   const icone_busca = document.querySelector("#icon_busca");
+   
+   const handleSearch = async () => {
+       fetch('times.json')
+           .then(response => response.json())
+           .then(data => {
+               const timesTodos = [];
+   
+               // Coletando todos os times de todos os jogos
+               Object.values(data.times_jogos).forEach(jogo => {
+                   Object.values(jogo.campeonatos).forEach(campeonato => {
+                       timesTodos.push(...campeonato.times.map(time => ({
+                           ...time,
+                           jogo: jogo.nome // Adicionando o nome do jogo ao objeto do time
+                       })));
+                   });
+               });
+               console.log(timesTodos)
+   
+               const searchValue = searchInput.value.trim().toLowerCase();
+               suggestions.innerHTML = ''; // Limpa sugestões anteriores
+   
+               if (searchValue.length >= 1) {
+                   const filteredTeams = timesTodos.filter(team => {
+                       const teamName = team.nome.toLowerCase();
+                       return teamName.includes(searchValue);
+                   });
+   
+                   if (filteredTeams.length > 0) {
+                       filteredTeams.slice(0, 5).forEach(team => {
+                           const suggestionItem = document.createElement('div');
+                           suggestionItem.classList.add('suggestion');
+   
+                           // Criando o conteúdo da sugestão com nome do time e ícone do jogo
+                           suggestionItem.innerHTML = `
+                                <img src="${team.logo}" width="45px" height="31px" id="time" alt="${team.jogo}" class="game-icon">
+                                <span id="nome">${team.nome}</span>
+                                <img src="${team.game}" width="45px" height="31px" id="jogo" alt="${team.game}" class="game-icon">
+                           `;
+   
+                           suggestionItem.addEventListener('click', () => {
+                               searchInput.value = team.nome; // Preenche o input com o termo sugerido
+                               localStorage.setItem('selectedTeam', JSON.stringify(team));
+                               window.location.href = "times/time.html";
+                           });
+                           suggestions.appendChild(suggestionItem);
+                       });
+                       suggestions.style.display = 'block'; // Mostra as sugestões
+                   } else {
+                       suggestions.style.display = 'none'; // Esconde as sugestões se não houver resultados
+                   }
+               } else {
+                   suggestions.style.display = 'none'; // Esconde as sugestões se o termo for muito curto
+               }
+           })
+           .catch(error => {
+               console.error('Erro ao carregar dados:', error);
+           });
+   };
+   
+   icone_busca.addEventListener('click', handleSearch);
+   
+   searchInput.addEventListener('input', () => {
+       handleSearch();
+   });
+   
+   searchInput.addEventListener('keydown', (event) => {
+       if (event.key === 'Enter') {
+           handleSearch();
+       }
+   });
+   
+   document.addEventListener('click', (event) => {
+       if (!document.getElementById('searchContainer').contains(event.target)) {
+           suggestions.style.display = 'none'; // Esconde as sugestões quando clicar fora do container
+       }
+   });
+   
+   document.addEventListener('DOMContentLoaded', () => {
+       handleSearch();
+   });

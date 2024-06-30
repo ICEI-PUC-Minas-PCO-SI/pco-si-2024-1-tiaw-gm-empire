@@ -29,19 +29,74 @@ header{
     gap: 50px;
     align-items: center;
 }
-header #icon_busca{
+#searchContainer {
+    width: 33.33%; /* 1/3 do header */
+    display: flex;
+    align-items: center;
+    position: relative; /* Para posicionamento absoluto do ícone */
+}
+
+#searchContainer input[type="text"] {
+    width: calc(100% - 30px); /* Ajustado para acomodar o ícone de busca */
+    height: 43px; /* Ajustado conforme o seu estilo */
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid transparent; /* Ajustado conforme o seu estilo */
+    border-radius: 20px; /* Ajustado conforme o seu estilo */
+    font-size: 16px;
+    outline: none;
+}
+
+#icon_busca {
     color: black;
     font-size: 22px;
     position: absolute;
-    left: 68%;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    cursor: pointer; /* Adicionado para indicar que é clicável */
 }
 
-header input{
-    width: 40%;
-    height: 43px;
-    outline: none;
-    border-radius: 20px;
-    border: 2px solid transparent;
+#suggestions {
+    position: absolute;
+    top: 110%; /* Coloca a caixa de sugestões abaixo da barra de pesquisa */
+    left: 0;
+    width: 90%; /* Mesma largura que a barra de pesquisa */
+    background-color: #ffffff; /* Cor de fundo */
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    z-index: 1;
+    cursor: pointer;
+    padding: 10px; /* Espaçamento interno */
+    overflow-y: auto; /* Adiciona scroll se necessário */
+    display: none; /* Inicialmente oculto */
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Transições suaves */
+}
+
+.suggestion {
+    padding: 8px 12px; /* Espaçamento interno para cada sugestão */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    display: grid;
+    grid-template-columns: 10;
+    place-items: center;
+}
+
+.suggestion #time{
+    grid-column: 1;
+}
+.suggestion #nome{
+    grid-column: 2;
+}
+
+.suggestion #jogo{
+    grid-column: 10;
+}
+
+
+.suggestion:hover {
+    background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
 }
 li a{
     text-decoration: none;
@@ -188,6 +243,11 @@ main h1{
     padding: 15px;
     transition: all 1s ease;
     cursor: pointer;
+}
+
+
+#campeonato1{
+    margin-bottom: 10px;
 }
 .data{
     display: flex;
@@ -358,20 +418,18 @@ section{
 
 
 @media only screen and (max-width: 500px){
+
+    
     .jogos{
         flex-direction: column;
         align-items: center;
     }
 
     .header_img{
-        grid-row: 1;
-        grid-column: 1;
-        width: 100%;
+        width: 200px;
     }
     .header_links{
-        grid-column: 2;
-        grid-row: 1;
-        width: 100%;
+        width: 100px;
     }
 
     .header_links ul{
@@ -380,12 +438,11 @@ section{
 
         header{
             display: grid;
-            grid-template-columns: 3;
-            grid-template-rows: 2;
             height: 200px;
+            width: 100%;
         }
 
-        header #pesquisa{
+        header #searchInput{
             grid-row: 2;
             grid-column: span 2;
             width: 86%;
@@ -396,8 +453,16 @@ section{
             display: none;
         }
 
+
+
     .card{
         scale: 0.8;
+    }
+
+    #searchContainer{
+        width: 370px;
+        grid-column: span 3;
+        grid-row: 2;
     }
 
     #nome_jogo1, #nome_jogo2, #nome_jogo3, #nome_jogo4{
@@ -411,28 +476,26 @@ section{
         overflow: scroll;
     }
 
+
+    .jogos .cs_proximos, .jogos .r6_proximos, .jogos .cs_ultimos, .jogos .r6_ultimos {
+        display: block;
+    }
+
+
     #seta_esquerda{
-        position: absolute;
-        top: 1230px;
-        right: 55%;
+        display: none;
     }
 
     #seta_direita{
-        position: absolute;
-        top: 1230px;
-        left: 55%;
+        display: none;
     }
 
     #ultimos_jogos_seta_esquerda{
-        position: absolute;
-        top: 1850px;
-        right: 55%;
+        display: none;
     }
 
     #ultimos_jogos_seta_direita{
-        position: absolute;
-        top: 1850px;
-        left: 55%;
+        display: none;
     }
 
     .card_noticia{
@@ -451,7 +514,10 @@ section{
         margin-top: 50px;
     }
 
-    .footer_contatos, .footer_informacoes{
+    .footer_contatos{
+        display: none;
+    }
+    .footer_redes{
         display: none;
     }
 

@@ -11,6 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .container{
@@ -96,12 +97,12 @@ img:hover{
 .bi-eye, .bi-eye-slash{
     position: absolute;
     top: 53.5%;
-    left: 65.5%;
+    left: 83.5%;
     font-size: 25px;
     cursor: pointer;
 }
 /*celulares de 400 até 479 pixels de largura*/
-@media only screen and (min-width: 400px) and (max-width: 479px){
+@media only screen and (min-width: 370px) and (max-width: 479px){
     .logo{
         display: none;
     }
@@ -116,11 +117,11 @@ img:hover{
     }
 
     .bi-eye, .bi-eye-slash{
-        left: 87%;
+        display: none;
     }
 }
 /*celulares at é 399 pixels de largura*/
-@media only screen and (max-width: 399px){
+@media only screen and (max-width: 499px){
     .logo{
         display: none;
     }
@@ -135,8 +136,7 @@ img:hover{
     }
 
     .bi-eye, .bi-eye-slash{
-        top: 58%;
-        left: 87%;
+        display: none;
     }
 }
 
@@ -155,8 +155,7 @@ img:hover{
     }
 
     .bi-eye, .bi-eye-slash{
-        top: 53.5%;
-        left: 84%;
+        display: none;
     }
 }
 
@@ -172,8 +171,7 @@ img:hover{
     }
 
     .bi-eye, .bi-eye-slash{
-        top: 53%;
-        left: 86%;
+        display: none;
     }
 }
 
