@@ -1,5 +1,7 @@
 {
   "cblol_2024_split_2": {
+    "campeonato": "CBLOL",
+    "local": "São Paulo, Brasil",
     "temporada_regular": {
       "semana_1": {
         "rodada_1": [
@@ -660,7 +662,7 @@
     ]
   },
   "blast_premier": {
-    "campeonato": "blast premier",
+    "campeonato": "Blast Premier",
     "local": "Londres, Inglaterra",
     "jogos": [
       {
