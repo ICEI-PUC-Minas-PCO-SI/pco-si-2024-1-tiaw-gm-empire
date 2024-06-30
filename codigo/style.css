@@ -294,6 +294,15 @@ main h1{
 #titulo{
     margin: 30px;
 }
+#easter_egg{
+    background-color: rgb(28, 34, 61);
+    color: rgb(28, 34, 61);
+}
+
+#easter_egg:hover{
+    background-color: white;
+    color: black;
+}
 
 section h1{
     text-align: center;

@@ -3855,6 +3855,72 @@
               ]
             }
         }
+      },
+      "fifa": {
+        "campeonatos": {
+          "proclubs": {
+            "times": [
+              {
+                "nome": "GM Empire",
+                    "game": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnoEzh_nCmVAGUNEpFhaX1zA9Ktwb7PYYouQ&s",
+                    "campeonato": "Pro clubs",
+                    "logo": "https://cdn.discordapp.com/attachments/1219748258230960139/1257004254321836093/logo.jpg?ex=6682d3f0&is=66818270&hm=8e3dfb1a700a617381c91e698d3ca7ee9c055536108a45a9df8240f3d13cd8b9&",
+                    "jogadores": [
+                      {
+                        "nome": "Vitor",
+                        "img": "https://media-gru1-2.cdn.whatsapp.net/v/t61.24694-24/355155413_2949853055147258_2753827365980592800_n.jpg?ccb=11-4&oh=01_Q5AaIEkL1TVa2r3IvZru90rfs0e30zCubaTK-ilci3qzxuLM&oe=668E8E2F&_nc_sid=e6ed6c&_nc_cat=109"
+                      },
+                      {
+                        "nome": "Estevão",
+                        "img": "https://media-gru1-2.cdn.whatsapp.net/v/t61.24694-24/437303943_777671594076184_1551358198326278353_n.jpg?ccb=11-4&oh=01_Q5AaIH-bTmXKoRkihAfm-lyUJGrAOsvRDsw4bxokaU1OYPes&oe=668D7225&_nc_sid=e6ed6c&_nc_cat=105"
+                      },
+                      {
+                        "nome": "João",
+                        "img": "https://media-gru1-2.cdn.whatsapp.net/v/t61.24694-24/233181950_381561983895049_9181640937446632434_n.jpg?ccb=11-4&oh=01_Q5AaIByLVZiFnLr1yl0z2ZLHEDANxGsrx8bIXWvoNwyPBKV_&oe=668D8B3D&_nc_sid=e6ed6c&_nc_cat=104"
+                      },
+                      {
+                        "nome": "Daniel Heringer",
+                        "img": "https://media-gru1-2.cdn.whatsapp.net/v/t61.24694-24/417010647_402967936066331_3173440106474270377_n.jpg?ccb=11-4&oh=01_Q5AaINRoNaRyix_j4KbEIBkj2rzAWOeE4c9xdukugrIObFFP&oe=668AE352&_nc_sid=e6ed6c&_nc_cat=107"
+                      },
+                      {
+                        "nome": "Daniel Fernandes",
+                        "img": "https://cdn.discordapp.com/attachments/1218241793909330003/1257046175165710366/daniel.jpeg?ex=6682fafa&is=6681a97a&hm=2ffa9d94673e9053189c487e6a0c5a6e89192c1d3dc65529bff17a817cd9f4c7&"
+                      }
+                    ],
+                    "ultimo_jogo": {
+                      "local": "Division 9",
+                      "data": "15/06/2024 23:30",
+                      "times": [
+                        {
+                          "nome": "GM Empire",
+                          "logo": "https://cdn.discordapp.com/attachments/1219748258230960139/1257004254321836093/logo.jpg?ex=6682d3f0&is=66818270&hm=8e3dfb1a700a617381c91e698d3ca7ee9c055536108a45a9df8240f3d13cd8b9&",
+                          "placar": 1
+                        },
+                        {
+                          "nome": "Bar sem lona",
+                          "logo": "https://pbs.twimg.com/profile_images/951255593884401664/PZqSxoLa_400x400.jpg",
+                          "placar": "7"
+                        }
+                      ]
+                    },
+                    "proximo_jogo": {
+                      "data": "02/07/2024 20:00",
+                      "local": "Division 9",
+                      "times": [
+                        {
+                          "nome": "GM Empire",
+                          "logo": "https://cdn.discordapp.com/attachments/1219748258230960139/1257004254321836093/logo.jpg?ex=6682d3f0&is=66818270&hm=8e3dfb1a700a617381c91e698d3ca7ee9c055536108a45a9df8240f3d13cd8b9&"
+                        },
+                        {
+                          "nome": "Horrivel Plate",
+                          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS26SZfY0idICDpX4POWEOHkSIYb4_7Zzl9Sw&s"
+                        }
+                      ]
+                    }
+              }
+            ]
+          }
+        }
       }
     }
   }

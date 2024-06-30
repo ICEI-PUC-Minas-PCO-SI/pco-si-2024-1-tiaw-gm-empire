@@ -63,6 +63,15 @@ function atualizar(){
      
 }
 
+const easter_egg = document.querySelector("#easter_egg")
+easter_egg.addEventListener("click", function(){
+    Swal.fire({
+        title: "Easter Egg!",
+        text: "Pesquise o nome GM Empire na barra de pesquisa! 👍",
+        icon: "alert"
+      });
+})
+
 function carrosel_direita() {
     document.querySelector('.lol_proximos').style.display = 'none';
     document.querySelector('.valorant_proximos').style.display = 'none';
