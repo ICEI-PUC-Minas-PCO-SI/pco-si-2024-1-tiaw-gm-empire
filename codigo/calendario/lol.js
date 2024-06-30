@@ -1,3 +1,16 @@
+function cardMouseEnter(i) {
+    console.log();
+    let campeonatoDiv = document.querySelector(`.campeonato-${i}`);
+    campeonatoDiv.style.display = 'block'
+}
+function cardMouseLeave(e) {
+    let campeonatoDiv = document.querySelectorAll('.campeonato');
+    [...campeonatoDiv].forEach(element => {
+        element.style.display = 'none'
+    })
+}
+
+
 document.addEventListener("DOMContentLoaded", function () {
     const header = document.getElementById("header");
     const prevMonth = document.getElementById("prevMonth");
@@ -299,6 +312,7 @@ teamsData.times_jogos.lol.campeonatos.cblol.jogos.forEach(jogo => {
         </aside>
     `;
 });
+
 
 const searchInput = document.getElementById('searchInput');
 const suggestions = document.getElementById('suggestions');

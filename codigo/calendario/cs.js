@@ -1,3 +1,16 @@
+function cardMouseEnter(i) {
+    console.log();
+    let campeonatoDiv = document.querySelector(`.campeonato-${i}`);
+    campeonatoDiv.style.display = 'block'
+}
+function cardMouseLeave() {
+    let campeonatoDiv = document.querySelectorAll('.campeonato');
+    [...campeonatoDiv].forEach(element => {
+        element.style.display = 'none'
+    })
+}
+
+
 document.addEventListener("DOMContentLoaded", function () {
     const header = document.getElementById("header");
     const prevMonth = document.getElementById("prevMonth");
@@ -16,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const games = caioAPI.blast_premier.jogos;
             const campeonato = caioAPI.blast_premier.campeonato;
             const local = caioAPI.blast_premier.local;
+            let i = 0
 
             games.forEach(jogo => {
                 let dataCompleta = jogo.data.split(' ')[0];
@@ -31,11 +45,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     // let nomeTimeDois = jogo.Time2;
                     let placar1 = jogo.placar1;
                     let placar2 = jogo.placar2;
-
-                 
+                    
+               
                     jogos.insertAdjacentHTML('beforeend', 
                         `<aside class="jogos-do-dia">
-                            <div class="card" id="card1" onmouseover= cardMouseEnter()>
+                            <div class="card" id="card1" onmouseover= cardMouseEnter(${i}) onmouseleave= cardMouseLeave()>
                                     <div class="data">
                                         <h4 id="local_1">${local}</h4>
                                         <p>${formatDate(dataJogo)}</p>
@@ -48,12 +62,13 @@ document.addEventListener("DOMContentLoaded", function () {
                                         <img src="${timeDois}" alt="" height="40px" width="40px" id="imagem_time_2">
                                         <p class="nome_time"><b>${placar2}</b></p>
                                     </div>
-                                    <div class="campeonato">
+                                    <div class="campeonato campeonato-${i}" style="display: none">
                                     <p><b>${campeonato}</b></p>
                                     </div>
                                 </div>
                         </aside>`
                     );
+                    i++ 
                 }
             });
         });
@@ -189,15 +204,7 @@ document.addEventListener("DOMContentLoaded", function () {
  //       
     })
 
- function cardMouseEnter() {
-     console.log();
-     let campeonatoDiv = document.querySelector('.campeonato');
-     campeonatoDiv.style.display = 'block';
- }
- function cardMouseLeave(e) {
-     let campeonatoDiv = document.querySelector('.campeonato');
-     campeonatoDiv.style.display = 'none';
- }
+
 const usuarioDiv = document.getElementById('usuario');
 function usuarioLogado() {
     if (sessionStorage.getItem('USER')) {
