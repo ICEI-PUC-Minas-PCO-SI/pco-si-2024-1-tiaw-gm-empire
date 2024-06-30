@@ -1,4 +1,5 @@
 # Divulgação: Apresentação do Projeto
 
-Nesta pasta inclua arquivos de slides que foram produzidos para apresentações do projeto e de seus resultados.
 
+
+[Apresentação final - GM Empire.pptx](https://github.com/user-attachments/files/16045757/Apresentacao.final.-.GM.Empire.pptx)
