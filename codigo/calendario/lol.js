@@ -4,226 +4,121 @@ document.addEventListener("DOMContentLoaded", function () {
     const nextMonth = document.getElementById("nextMonth");
     const tbody = document.getElementById("dias");
 
+    const meses = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
+    let dataAtual = new Date();
+    let mesAtual = dataAtual.getMonth();
+    let anoAtual = dataAtual.getFullYear();
+
+    // Função para criar os dias do mês
+    function criarDias(mes, ano) {
+        tbody.innerHTML = "";
+
+        // Dias do mês
+        const diasNoMes = new Date(ano, mes + 1, 0).getDate();
+
+        // Dia da semana do primeiro dia do mês
+        const primeiroDiaSemana = new Date(ano, mes, 1).getDay();
+
+        // Dias do mês anterior
+        const diasNoMesAnterior = new Date(ano, mes, 0).getDate();
+
+        let dia = 1;
+        for (let i = 0; i < 6; i++) {
+            const tr = document.createElement("tr");
+            for (let j = 0; j < 7; j++) {
+                let td = document.createElement("td");
+
+                // Dias do mês anterior
+                if (i === 0 && j < primeiroDiaSemana) {
+                    td.textContent = diasNoMesAnterior - primeiroDiaSemana + j + 1;
+                    td.classList.add("mes-anterior");
+                }
+                // Dias do mês atual
+                else if (dia <= diasNoMes) {
+                    td.textContent = dia;
+                    dia++;
+                }
+                // Dias do próximo mês
+                else {
+                    td.textContent = dia - diasNoMes;
+                    td.classList.add("prox-mes");
+                    dia++;
+                }
+
+                tr.appendChild(td);
+            }
+            tbody.appendChild(tr);
+            if (dia > diasNoMes && tr.children[6].classList.contains("prox-mes")) break;
+        }
+    }
+
+    // Atualiza o cabeçalho do mês e as setas de navegação
+    function atualizarMes(mes, ano) {
+        header.textContent = meses[mes] + " " + ano;
+
+        // Verifica se é o mês atual
+        const isMesAtual = (mes === dataAtual.getMonth() && ano === dataAtual.getFullYear());
+
+        // Mostra ou esconde as setas baseado no mês atual
+        if (isMesAtual) {
+            prevMonth.style.visibility = "visible"; // Mostra a seta de mês anterior
+            nextMonth.style.visibility = "hidden"; // Esconde a seta de próximo mês
+            nextMonth.classList.remove("bi", "bi-caret-right-fill");
+            nextMonth.classList.add("bi", "bi-caret-left-fill");
+        } else {
+            prevMonth.style.visibility = "hidden"; // Esconde a seta de mês anterior
+            nextMonth.style.visibility = "visible"; // Mostra a seta de próximo mês
+            nextMonth.classList.remove("bi", "bi-caret-left-fill");
+            nextMonth.classList.add("bi", "bi-caret-right-fill");
+        }
+    }
+
+    // Função para mudar para o próximo mês
+    function proximoMes() {
+        mesAtual++;
+        if (mesAtual > 11) {
+            mesAtual = 0;
+            anoAtual++;
+        }
+        atualizarMes(mesAtual, anoAtual);
+        criarDias(mesAtual, anoAtual);
+    }
+
+    // Função para mudar para o mês anterior
+    function mesAnterior() {
+        mesAtual--;
+        if (mesAtual < 0) {
+            mesAtual = 11;
+            anoAtual--;
+        }
+        atualizarMes(mesAtual, anoAtual);
+        criarDias(mesAtual, anoAtual);
+    }
+
+    // Adiciona o event listener para a seta de mês anterior (imagem)
+    prevMonth.addEventListener("click", function () {
+        mesAnterior();
+    });
+
+    // Adiciona o event listener para a seta de próximo mês (imagem)
+    nextMonth.addEventListener("click", function () {
+        proximoMes();
+    });
+
+    // Event listener para capturar as teclas de seta esquerda e direita
     document.addEventListener("keydown", function (event) {
-        if (event.key === "ArrowLeft") {
+        if (event.key === "ArrowLeft" && mesAtual === dataAtual.getMonth()) {
             mesAnterior();
-        } else if (event.key === "ArrowRight") {
+        } else if (event.key === "ArrowRight" && mesAtual === dataAtual.getMonth() - 1) {
             proximoMes();
         }
     });
 
-
-
-const meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
-let dataAtual = new Date();
-let mesAtual = dataAtual.getMonth();
-let anoAtual = dataAtual.getFullYear();
-
-// Função para criar os dias do mês
-function criarDias() {
-    tbody.innerHTML = "";
-
-    // Dias do mês
-    const diasNoMes = new Date(anoAtual, mesAtual + 1, 0).getDate();
-
-    // Dia da semana do primeiro dia do mês
-    const primeiroDiaSemana = new Date(anoAtual, mesAtual, 1).getDay();
-
-    // Dias do mês anterior
-    const diasNoMesAnterior = new Date(anoAtual, mesAtual, 0).getDate();
-
-    let dia = 1;
-    for (let i = 0; i < 6; i++) {
-        const tr = document.createElement("tr");
-        for (let j = 0; j < 7; j++) {
-            let td = document.createElement("td");
-
-            // Dias do mês anterior
-            if (i === 0 && j < primeiroDiaSemana) {
-                td.textContent = diasNoMesAnterior - primeiroDiaSemana + j + 1;
-                td.classList.add("mes-anterior");
-            }
-            // Dias do mês atual
-            else if (dia <= diasNoMes) {
-                td.textContent = dia;
-                dia++;
-
-
-
-                // Adicionar lembretes no dia 19
-                if (dia === 17 && mesAtual === dataAtual.getMonth() && anoAtual === dataAtual.getFullYear()) {
-                    const lembretes = ["Titans vs. Falcons"];
-                    lembretes.forEach(function (lembreteText) {
-                        const lembrete = document.createElement("a");
-                        lembrete.textContent = lembreteText;
-                        lembrete.classList.add("lembrete");
-                        lembrete.href = "https://www.ubisoft.com/pt-br/esports/rainbow-six/siege/calendar/2024-05";
-                        lembrete.target = "_blank"; // Para abrir em uma nova aba
-                        td.appendChild(lembrete);
-                        td.appendChild(document.createElement("br"));
-                    });
-                }
-                if (dia === 18 && mesAtual === dataAtual.getMonth() && anoAtual === dataAtual.getFullYear()) {
-                    const lembretes = ["Dragons vs. Griffins"];
-                    lembretes.forEach(function (lembreteText) {
-                        const lembrete = document.createElement("a");
-                        lembrete.textContent = lembreteText;
-                        lembrete.classList.add("lembrete");
-                        lembrete.href = "https://www.ubisoft.com/pt-br/esports/rainbow-six/siege/calendar/2024-05"; // Altere para o link desejado
-                        lembrete.target = "_blank"; // Para abrir em uma nova aba
-                        td.appendChild(lembrete);
-                        td.appendChild(document.createElement("br"));
-                    });
-                }
-                if (dia === 20 && mesAtual === dataAtual.getMonth() && anoAtual === dataAtual.getFullYear()) {
-                    const lembretes = ["Lions vs. Bears"];
-                    lembretes.forEach(function (lembreteText) {
-                        const lembrete = document.createElement("a");
-                        lembrete.textContent = lembreteText;
-                        lembrete.classList.add("lembrete");
-                        lembrete.href = "https://www.ubisoft.com/pt-br/esports/rainbow-six/siege/calendar/2024-05"; 
-                        lembrete.target = "_blank"; // Para abrir em uma nova aba
-                        td.appendChild(lembrete);
-                        td.appendChild(document.createElement("br"));
-                    });
-                }
-                if (dia === 21 && mesAtual === dataAtual.getMonth() && anoAtual === dataAtual.getFullYear()) {
-                    const lembretes = ["Eagles vs. Hawks"];
-                    lembretes.forEach(function (lembreteText) {
-                        const lembrete = document.createElement("a");
-                        lembrete.textContent = lembreteText;
-                        lembrete.classList.add("lembrete");
-                        lembrete.href = "https://www.ubisoft.com/pt-br/esports/rainbow-six/siege/calendar/2024-05";
-                        lembrete.target = "_blank"; // Para abrir em uma nova aba
-                        td.appendChild(lembrete);
-                        td.appendChild(document.createElement("br"));
-                    });
-                }
-                if (dia === 22 && mesAtual === dataAtual.getMonth() && anoAtual === dataAtual.getFullYear()) {
-                    const lembretes = ["Tigers vs. Panthers"];
-                    lembretes.forEach(function (lembreteText) {
-                        const lembrete = document.createElement("a");
-                        lembrete.textContent = lembreteText;
-                        lembrete.classList.add("lembrete");
-                        lembrete.href = "https://www.ubisoft.com/pt-br/esports/rainbow-six/siege/calendar/2024-05";
-                        lembrete.target = "_blank"; // Para abrir em uma nova aba
-                        td.appendChild(lembrete);
-                        td.appendChild(document.createElement("br"));
-                    });
-                }
-                if (dia === 23 && mesAtual === dataAtual.getMonth() && anoAtual === dataAtual.getFullYear()) {
-                    const lembretes = ["Wolves vs. Coyotes"];
-                    lembretes.forEach(function (lembreteText) {
-                        const lembrete = document.createElement("a");
-                        lembrete.textContent = lembreteText;
-                        lembrete.classList.add("lembrete");
-                        lembrete.href = "https://www.ubisoft.com/pt-br/esports/rainbow-six/siege/calendar/2024-05";
-                        lembrete.target = "_blank"; // Para abrir em uma nova aba
-                        td.appendChild(lembrete);
-                        td.appendChild(document.createElement("br"));
-                    });
-                }
-                if (dia === 25 && mesAtual === dataAtual.getMonth() && anoAtual === dataAtual.getFullYear()) {
-                    const lembretes = ["Sharks vs. Marlins"];
-                    lembretes.forEach(function (lembreteText) {
-                        const lembrete = document.createElement("a");
-                        lembrete.textContent = lembreteText;
-                        lembrete.classList.add("lembrete");
-                        lembrete.href = "https://www.ubisoft.com/pt-br/esports/rainbow-six/siege/calendar/2024-05"; 
-                        lembrete.target = "_blank"; // Para abrir em uma nova aba
-                        td.appendChild(lembrete);
-                        td.appendChild(document.createElement("br"));
-                    });
-                }
-                if (dia === 26 && mesAtual === dataAtual.getMonth() && anoAtual === dataAtual.getFullYear()) {
-                    const lembretes = ["Raptors vs. Pterodactyls"];
-                    lembretes.forEach(function (lembreteText) {
-                        const lembrete = document.createElement("a");
-                        lembrete.textContent = lembreteText;
-                        lembrete.classList.add("lembrete");
-                        lembrete.href = "https://www.ubisoft.com/pt-br/esports/rainbow-six/siege/calendar/2024-05"; 
-                        lembrete.target = "_blank"; // Para abrir em uma nova aba
-                        td.appendChild(lembrete);
-                        td.appendChild(document.createElement("br"));
-                    });
-                }
-                if (dia === 27 && mesAtual === dataAtual.getMonth() && anoAtual === dataAtual.getFullYear()) {
-                    const lembretes = ["Phoenix vs. Thunderbirds"];
-                    lembretes.forEach(function (lembreteText) {
-                        const lembrete = document.createElement("a");
-                        lembrete.textContent = lembreteText;
-                        lembrete.classList.add("lembrete");
-                        lembrete.href = "https://www.ubisoft.com/pt-br/esports/rainbow-six/siege/calendar/2024-05";
-                        lembrete.target = "_blank"; // Para abrir em uma nova aba
-                        td.appendChild(lembrete);
-                        td.appendChild(document.createElement("br"));
-                    });
-                }
-            }
-            // Dias do próximo mês
-            else {
-                td.textContent = dia - diasNoMes;
-                td.classList.add("prox-mes");
-                dia++;
-            }
-
-            tr.appendChild(td);
-        }
-        tbody.appendChild(tr);
-        if (dia > diasNoMes && tr.children[6].classList.contains("prox-mes")) break;
-    }
-}
-
-// Atualiza o cabeçalho do mês
-function atualizarMes() {
-    header.textContent = meses[mesAtual] + " " + anoAtual;
-}
-
-// Função para mudar para o próximo mês
-function proximoMes() {
-    mesAtual++;
-    if (mesAtual > 11) {
-        mesAtual = 0;
-        anoAtual++;
-    }
-    localStorage.setItem("mesAtual", mesAtual); // Salva o mês atual no localStorage
-    atualizarMes();
-    criarDias();
-}
-
-// Função para mudar para o mês anterior
-function mesAnterior() {
-    mesAtual--;
-    if (mesAtual < 0) {
-        mesAtual = 11;
-        anoAtual--;
-    }
-    localStorage.setItem("mesAtual", mesAtual); // Salva o mês atual no localStorage
-    atualizarMes();
-    criarDias();
-}
-
-// Adiciona os event listeners para as setas
-prevMonth.addEventListener("mouseenter", () => {
-    prevMonth.classList.add("hover");
-});
-prevMonth.addEventListener("mouseleave", () => {
-    prevMonth.classList.remove("hover");
-});
-nextMonth.addEventListener("mouseenter", () => {
-    nextMonth.classList.add("hover");
-});
-nextMonth.addEventListener("mouseleave", () => {
-    nextMonth.classList.remove("hover");
+    // Inicializa o calendário com o mês atual e o mês anterior
+    atualizarMes(mesAtual, anoAtual);
+    criarDias(mesAtual, anoAtual);
 });
 
-prevMonth.addEventListener("click", mesAnterior);
-nextMonth.addEventListener("click", proximoMes);
-
-// Inicializa o calendário
-atualizarMes();
-criarDias();
-});
 
 const usuarioDiv = document.getElementById('usuario');
 function usuarioLogado() {
@@ -261,6 +156,13 @@ function sair() {
    }
 
 
+
+
+
+
+/* Mostrar os jogos */
+
+// API JSON
 const teamsData = {
     "times_jogos": {
         "lol": {
@@ -442,3 +344,37 @@ const searchInput = document.getElementById('searchInput');
    document.addEventListener('DOMContentLoaded', () => {
        handleSearch();
    });
+
+   function renderizarCards(e) {
+    fetch("./caioAPI.JSON").then(r => r.json()).then(caioAPI => {
+        const dataSelecionada = e.target.textContent;
+        const jogos = caioAPI.cblol_2024_split_2.Jogos;
+
+        teamsData.times_jogos.lol.camponatos.cblol.jogos.forEach(jogo => {
+            let dataCompleta = jogo.data.split(' ')[0];
+            let data = dataCompleta.split('/')[0].toString();
+            if (data === dataSelecionada) {
+                let dataJogo = jogo.data;
+                let timeUm = jogo.times[0].logo;
+                let timeDois = jogo.times[1].logo;
+                let lugar = jogo.local;
+                // Criar o HTML para cada jogo e adicionar ao elemento jogos
+                jogos.innerHTML += `
+                <aside class="jogos-do-dia">
+                    <div class="card" id="card1">
+                        <div class="data">
+                            <h4 id="local_1">${lugar}</h4>
+                            <p>${dataJogo}</p>
+                        </div>
+                        <div class="time">
+                            <img src="${timeUm}" width="40px" height="40px" id="imagem_time_1" data-nome="Liberty" class="img_lol_cblol">
+                        </div>
+                        <div class="time">
+                            <img src="${timeDois}" alt="" height="40px" width="40px" id="imagem_time_2" data-nome="Loud" class="img_lol_cblol">
+                        </div>
+                    </div>
+                </aside>`;
+            }
+        });
+    });
+}
