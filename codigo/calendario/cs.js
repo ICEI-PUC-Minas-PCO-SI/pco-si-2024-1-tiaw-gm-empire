@@ -1,13 +1,11 @@
 function cardMouseEnter(i) {
-    console.log();
+
     let campeonatoDiv = document.querySelector(`.campeonato-${i}`);
     campeonatoDiv.style.display = 'block'
 }
-function cardMouseLeave() {
-    let campeonatoDiv = document.querySelectorAll('.campeonato');
-    [...campeonatoDiv].forEach(element => {
-        element.style.display = 'none'
-    })
+function cardMouseLeave(i) {
+    let campeonatoDiv = document.querySelector(`.campeonato-${i}`);
+    campeonatoDiv.style.display = 'none';
 }
 
 
@@ -20,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const meses = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
     let dataAtual = new Date();
     let mesAtual = dataAtual.getMonth();
+    console.log(mesAtual);
     let anoAtual = dataAtual.getFullYear();
 
     function renderizarCards(e) {
@@ -49,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
                
                     jogos.insertAdjacentHTML('beforeend', 
                         `<aside class="jogos-do-dia">
-                            <div class="card" id="card1" onmouseover= cardMouseEnter(${i}) onmouseleave= cardMouseLeave()>
+                            <div class="card" id="card1" onmouseover= cardMouseEnter(${i}) onmouseleave= cardMouseLeave(${i})>
                                     <div class="data">
                                         <h4 id="local_1">${local}</h4>
                                         <p>${formatDate(dataJogo)}</p>

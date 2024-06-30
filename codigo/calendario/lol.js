@@ -27,17 +27,20 @@ document.addEventListener("DOMContentLoaded", function () {
         fetch("../caioAPI.JSON").then(r => r.json()).then(caioAPI => {
             const dataSelecionada = e.target.textContent;
             let games = caioAPI.cblol_2024_split_2.temporada_regular.semana_1.rodada_1;
-            let campeonato = caioAPI 
-
             console.log(games);
             games.forEach(game => {
+                debugger;
                 console.log(game);            
                 let dataCompleta = game.data.split(' ')[0];
                 let data = dataCompleta.split('-')[2].toString();
                 let dataMes = dataCompleta.split('-')[1].toString();
                 let realMesAtual = mesAtual + 1;
 
-                if (data == dataSelecionada && dataMes == realMesAtual) {
+                // realMesAtual = +realMesAtual < 10 ? '0' + realMesAtual : realMesAtual;
+
+                // dataSelecionada = +dataSelecionada < 10 ? '0' + dataSelecionada : dataSelecionada; 
+
+                if (+data == dataSelecionada && +dataMes == realMesAtual) {
                     debugger;
                     let dataJogo = game.data;
                     let timeUm = game.logotime1;
