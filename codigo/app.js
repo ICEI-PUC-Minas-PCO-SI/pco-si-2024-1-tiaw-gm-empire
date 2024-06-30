@@ -1,4 +1,4 @@
-    
+
 function atualizar(){
     // card 1 - proximos jogos
         // campeonato
@@ -15,7 +15,15 @@ function atualizar(){
         document.querySelector(`#imagem_time_3`).src = teamsData.times_jogos.valorant.campeonatos.valorant_champions.times[0].proximo_jogo.times[0].logo
         document.querySelector(`#imagem_time_4`).src = teamsData.times_jogos.valorant.campeonatos.valorant_champions.times[0].proximo_jogo.times[1].logo
 
-    // card 3 - ultimos jogos
+    // card 3
+    
+    // PARTE PARA CORREÇÃO
+        document.querySelector("local_5").innerHTML = console.log(teamsData.times_jogos.cs.campeonatos.blast.times[7].local);
+        document.querySelector("#data_5").innerHTML = teamsData.times_jogos.cs.campeonatos.blast.times[16].proximo_jogo.data
+        document.querySelector(`#imagem_time_7`).src =teamsData.times_jogos.cs.campeonatos.blast.times[16].proximo_jogo.times[0].logo
+        document.querySelector(`#imagem_time_8`).src = teamsData.times_jogos.cs.campeonatos.blast.times[16].proximo_jogo.times[1].logo
+
+    // card 4 - ultimos jogos
         // campeonato
         document.querySelector("#local_3").innerHTML = teamsData.times_jogos.lol.campeonatos.Lec.times[0].ultimo_jogo.local
         // data
@@ -29,7 +37,7 @@ function atualizar(){
         // placar 2
         document.querySelector("#placar_2").innerHTML = teamsData.times_jogos.lol.campeonatos.Lec.times[0].ultimo_jogo.times[1].placar
 
-    // card 4
+    // card 5
         document.querySelector("#local_4").innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_challengers.times[0].ultimo_jogo.local
         // data
         document.querySelector("#data_4").innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_challengers.times[0].ultimo_jogo.data
