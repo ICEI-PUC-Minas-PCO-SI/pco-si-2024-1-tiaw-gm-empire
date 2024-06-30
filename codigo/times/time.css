@@ -27,6 +27,36 @@ header{
     height: 100%;
 }
 
+.hint {
+    display: none;
+    color: blue;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .clickable-point {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .hidden-character {
+    position: fixed;
+    top: 50%;
+    left: -200px;
+    display: none;
+    animation: moveAcross 5s linear forwards;
+  }
+  @keyframes moveAcross {
+    from {
+      left: -200px;
+    }
+    to {
+      left: 100%;
+    }
+}
 .header_links ul{
     height: 100%;
     display: flex;
