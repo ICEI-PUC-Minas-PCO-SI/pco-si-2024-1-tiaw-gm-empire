@@ -274,11 +274,11 @@ main h1{
 }
 #card2{
     grid-column: 2;
-    border-left: 5px solid red;
+    border-left: 5px solid rgb(136, 35, 35);
 }
 
-.card3{
-    border-left: 5px solid orange;
+#card3{
+    border-left: 5px solid rgb(100, 7, 250);
 }
 
 #seta_esquerda, #seta_direita, #ultimos_jogos_seta_direita, #ultimos_jogos_seta_esquerda{

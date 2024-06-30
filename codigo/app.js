@@ -47,18 +47,18 @@ function atualizar(){
         document.querySelector("#campeonato4").innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_challengers.times[0].campeonato
         //card 5
 
-        document.querySelector("#local_5").innerHTML = teamsData.times_jogos.cs.campeonatos.BPFG.times[14].ultimo_jogo.local
+        document.querySelector("#local_5").innerHTML = teamsData.times_jogos.cs.campeonatos.Blast.times[14].ultimo_jogo.local
         // data
-        document.querySelector("#data_5").innerHTML = teamsData.times_jogos.cs.campeonatos.BPFG.times[14].ultimo_jogo.data
+        document.querySelector("#data_5").innerHTML = teamsData.times_jogos.cs.campeonatos.Blast.times[14].ultimo_jogo.data
         
-        document.querySelector("#imagem_time_9").src = teamsData.times_jogos.cs.campeonatos.BPFG.times[14].ultimo_jogo.times[0].logo
+        document.querySelector("#imagem_time_9").src = teamsData.times_jogos.cs.campeonatos.Blast.times[14].ultimo_jogo.times[0].logo
         // time 2
-        document.querySelector("#imagem_time_10").src = teamsData.times_jogos.cs.campeonatos.BPFG.times[14].ultimo_jogo.times[1].logo
+        document.querySelector("#imagem_time_10").src = teamsData.times_jogos.cs.campeonatos.Blast.times[14].ultimo_jogo.times[1].logo
         // placar 1
-        document.querySelector("#placar_5").innerHTML = teamsData.times_jogos.cs.campeonatos.BPFG.times[14].ultimo_jogo.times[0].placar
+        document.querySelector("#placar_5").innerHTML = teamsData.times_jogos.cs.campeonatos.Blast.times[14].ultimo_jogo.times[0].placar
         // placar 2
-        document.querySelector("#placar_6").innerHTML = teamsData.times_jogos.cs.campeonatos.BPFG.times[14].ultimo_jogo.times[1].placar
-        document.querySelector("#campeonato5").innerHTML = teamsData.times_jogos.cs.campeonatos.BPFG.times[14].campeonato
+        document.querySelector("#placar_6").innerHTML = teamsData.times_jogos.cs.campeonatos.Blast.times[14].ultimo_jogo.times[1].placar
+        document.querySelector("#campeonato5").innerHTML = teamsData.times_jogos.cs.campeonatos.Blast.times[14].campeonato
 
      
 }
@@ -135,6 +135,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const imagens_valorant_challengers = document.querySelectorAll(".img_valorant_challengers")
     const championship_Lec = teamsData.times_jogos.lol.campeonatos.Lec
     const imagens_lol_Lec = document.querySelectorAll(".img_lol_Lec")
+    const championship_Blast = teamsData.times_jogos.cs.campeonatos.Blast
+    const imagens_cs_Blast = document.querySelectorAll(".img_cs_Blast")
 
     images_lol_cblol.forEach(img => {
         const teamName = img.getAttribute('data-nome');
@@ -148,6 +150,20 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
     });
+
+    imagens_cs_Blast.forEach(img => {
+        const teamName = img.getAttribute('data-nome');
+        const team = championship_Blast.times.find(team => team.nome === teamName);
+        if (team) {
+            img.src = team.logo;
+            img.alt = team.nome;
+            img.addEventListener('click', () => {
+                localStorage.setItem('selectedTeam', JSON.stringify(team));
+                window.location.href = 'times/time.html';
+            });
+        }
+    });
+
 
     imagens_valorant_champions.forEach(img => {
         const teamName = img.getAttribute('data-nome');

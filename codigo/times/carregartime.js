@@ -30,8 +30,24 @@ document.addEventListener('DOMContentLoaded', () => {
             document.querySelector("#card1").style.borderLeft = "5px solid red"
             document.querySelector("#card2").style.borderLeft = "5px solid red"
         }
+        if(selectedTeam.campeonato == "Blast"){
+            document.querySelector("#card1").style.borderLeft = "5px solid rgb(100, 7, 250)"
+            document.querySelector("#card2").style.borderLeft = "5px solid rgb(100, 7, 250)"
+        }
         document.querySelector(`#campeonato_1`).innerHTML = selectedTeam.campeonato
         document.querySelector(`#campeonato_2`).innerHTML = selectedTeam.campeonato
+        if(selectedTeam.proximo_jogo.data == ""){
+            document.querySelector(".proximo_jogo").style.display = "none"
+        }
+        if(selectedTeam.proximo_jogo.data == "" && selectedTeam.ultimo_jogo.data == ""){
+            document.querySelector(".proximo_jogo").style.display = "none"
+            document.querySelector(".ultimo_jogo").style.display = "none"
+            Swal.fire({
+                title: "Sem jogos!",
+                text: "Esse time não possui jogos disponíveis☹",
+                icon: "warning"
+              });
+        }
         
     } 
     else {

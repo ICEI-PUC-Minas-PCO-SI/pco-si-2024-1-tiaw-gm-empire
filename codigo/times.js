@@ -2465,11 +2465,12 @@ const teamsData = {
     },
     "cs": {
       "campeonatos": {
-        "BPFG": {
+        "Blast": {
           "times": [
             {
               "nome": "Astralis",
               "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+              "campeonato": "Blast",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLqdji9F5CQlIht-qS_HiJkK8DtsEgJI2wlQ&s",
               "jogadores": [
                 {
@@ -2492,11 +2493,40 @@ const teamsData = {
                   "nome": "Bubzkji",
                   "img": "https://liquipedia.net/counterstrike/File:Bubzkji_at_IEM_Winter_2023.jpg"
                 }
-              ]
+              ],
+              "ultimo_jogo": {
+                    "local": "COEX Shinhan Card Artium",
+                    "data": "14/06/2024 15:40",
+                    "times": [
+                      {
+                        "nome": "Astralis",
+                        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLqdji9F5CQlIht-qS_HiJkK8DtsEgJI2wlQ&s",
+                        "placar": 0
+                      },
+                      {
+                        "nome": "Virtus.pro",
+                        "logo": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
+                        "placar": 2
+                      }
+                    ]
+                  },
+                  "proximo_jogo": {
+                    "data": "",
+                    "local": "",
+                    "times": [
+                      {
+                        
+                      },
+                      {
+                        
+                      }
+                    ]
+                  }
             },
             {
               "nome": "BIG",
               "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+              "campeonato": "Blast",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF5MPDA-uZNjfsj85A03FfzZkb4iDCfjrGQfiCMU0eQpQYwFmAdmQthmgFQ_3idW9R62o&usqp=CAU",
               "jogadores": [
                 {
@@ -2524,6 +2554,7 @@ const teamsData = {
             {
               "nome": "Cloud9",
               "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+              "campeonato": "Blast",
               "logo": "https://static.valorantzone.gg/news/2021/04/03214658/380px-Cloud9.png",
               "jogadores": [
                 {
@@ -2550,6 +2581,7 @@ const teamsData = {
             },
             {
               "nome": "Complexity Gaming",
+              "campeonato": "Blast",
               "game": "https://pngimg.com/d/counter_strike_PNG77.png",
               "logo": "https://shortyawards.imgix.net/entries/12th/fb34880f-6283-48d4-896c-21b4b9f025c8.png?auto=format&fit=crop&h=300&q=65&w=500&s=c4bf700f1b236f212e80a5f5d89130b5",
               "jogadores": [
@@ -2578,6 +2610,7 @@ const teamsData = {
             {
               "nome": "FaZe Clan",
               "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+              "campeonato": "Blast",
               "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Faze_Clan.svg",
               "jogadores": [
                 {
@@ -2600,11 +2633,40 @@ const teamsData = {
                   "nome": "NEO",
                   "img": "https://liquipedia.net/counterstrike/File:NEO_at_PGL_Major_Copenhagen_2024.jpg"
                 }
-              ]
+              ],
+              "ultimo_jogo": {
+                    "local": "COEX Shinhan Card Artium",
+                    "data": "14/06/2024 12:00",
+                    "times": [
+                      {
+                        "nome": "FaZe Clan",
+                        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Faze_Clan.svg",
+                        "placar": 1
+                      },
+                      {
+                        "nome": "Team Vitality",
+                        "logo": "https://logowik.com/content/uploads/images/team-vitality6447.jpg",
+                        "placar": 2
+                      }
+                    ]
+                  },
+                  "proximo_jogo": {
+                    "data": "",
+                    "local": "",
+                    "times": [
+                      {
+                        
+                      },
+                      {
+                        
+                      }
+                    ]
+                  }
             },
             {
               "nome": "G2 Esports",
               "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+              "campeonato": "Blast",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s",
               "jogadores": [
                 {
@@ -2627,11 +2689,40 @@ const teamsData = {
                   "nome": "JaCkz",
                   "img": "https://liquipedia.net/counterstrike/File:JaCkz_at_IEM_Winter_2023.jpg"
                 }
-              ]
+              ],
+              "ultimo_jogo": {
+                    "local": "COEX Shinhan Card Artium",
+                    "data": "13/06/2024 13:00",
+                    "times": [
+                      {
+                        "nome": "G2 Esports",
+                        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s",
+                        "placar": 1
+                      },
+                      {
+                        "nome": "Team Vitality",
+                        "logo": "https://logowik.com/content/uploads/images/team-vitality6447.jpg",
+                        "placar": 2
+                      }
+                    ]
+                  },
+                  "proximo_jogo": {
+                    "data": "",
+                    "local": "",
+                    "times": [
+                      {
+                        
+                      },
+                      {
+                        
+                      }
+                    ]
+                  }
             },
             {
               "nome": "Heroic",
               "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+              "campeonato": "Blast",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKcdVyyAB6t9aZZ54737RSIIhToDTOwV6Gug&s",
               "jogadores": [
                 {
@@ -2658,30 +2749,63 @@ const teamsData = {
             },
             {
               "nome": "Natus Vincere",
+              "campeonato": "Blast",
               "game": "https://pngimg.com/d/counter_strike_PNG77.png",
               "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Natus_Vincere_logo.png",
               "jogadores": [
                 {
                   "nome": "s1mple",
-                  "img": "https://liquipedia.net/counterstrike/File:S1mple_at_IEM_Cologne_2023.jpg"
+                  "img": "https://pbs.twimg.com/profile_images/1466157009246511115/Vy1nsdwU_400x400.jpg"
                 },
                 {
                   "nome": "electronic",
-                  "img": "https://liquipedia.net/counterstrike/File:Electronic_at_IEM_Cologne_2023.jpg"
+                  "img": "https://pbs.twimg.com/profile_images/1777431391094943744/hN7sxMEF_400x400.jpg"
                 },
                 {
                   "nome": "Boombl4",
-                  "img": "https://liquipedia.net/counterstrike/File:Boombl4_at_IEM_Cologne_2023.jpg"
+                  "img": "https://pbs.twimg.com/media/GQN3Z2xWsAENwPP?format=jpg&name=large"
                 },
                 {
                   "nome": "flamie",
-                  "img": "https://liquipedia.net/counterstrike/File:Flamie_at_IEM_Cologne_2023.jpg"
-                  
+                  "img": "https://pbs.twimg.com/profile_images/1774599185062375424/cPxfxexp_400x400.jpg"
+               },
+              {
+                  "nome": "B1ad3",
+                  "img": "https://pbs.twimg.com/profile_images/1349011786637471747/qdWFkSfK_400x400.jpg" 
                 }
-              ]
+              ],
+              "ultimo_jogo": {
+                    "local": "COEX Shinhan Card Artium",
+                    "data": "16/06/2024 11:00",
+                    "times": [
+                      {
+                        "nome": "Natus Vincere",
+                        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Natus_Vincere_logo.png",
+                        "placar": 1
+                      },
+                      {
+                        "nome": "Virtus.pro",
+                        "logo": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
+                        "placar": 2
+                      }
+                    ]
+                  },
+                  "proximo_jogo": {
+                    "data": "",
+                    "local": "",
+                    "times": [
+                      {
+                        
+                      },
+                      {
+                        
+                      }
+                    ]
+                  }
             },
                 {
                   "nome": "Ninjas in Pyjamas",
+                  "campeonato": "Blast",
                   "game": "https://pngimg.com/d/counter_strike_PNG77.png",
                   "logo": "https://seeklogo.com/images/N/ninjas-in-pyjamas-logo-0AD2295340-seeklogo.com.png",
                   "jogadores": [
@@ -2709,6 +2833,7 @@ const teamsData = {
                 },
                 {
                   "nome": "OG",
+                  "campeonato": "Blast",
                   "game": "https://pngimg.com/d/counter_strike_PNG77.png",
                   "logo": "https://upload.wikimedia.org/wikipedia/pt/e/ed/OG_%28esports%29.png",
                   "jogadores": [
@@ -2736,6 +2861,7 @@ const teamsData = {
                 },
                 {
                   "nome": "Team Liquid",
+                  "campeonato": "Blast",
                   "game": "https://pngimg.com/d/counter_strike_PNG77.png",
                   "logo": "https://upload.wikimedia.org/wikipedia/pt/4/4b/Teamliquid_logo_blue.png?20220910162021",
                   "jogadores": [
@@ -2763,6 +2889,7 @@ const teamsData = {
                 },
                 {
                   "nome": "Team Vitality",
+                  "campeonato": "Blast",
                   "game": "https://pngimg.com/d/counter_strike_PNG77.png",
                   "logo": "https://logowik.com/content/uploads/images/team-vitality6447.jpg",
                   "jogadores": [
@@ -2786,10 +2913,40 @@ const teamsData = {
                       "nome": "Kyojin",
                       "img": "https://liquipedia.net/counterstrike/File:Kyojin_at_IEM_Cologne_2023.jpg"
                     }
-                  ]
+                  ],
+
+                  "ultimo_jogo": {
+                    "local": "COEX Shinhan Card Artium",
+                    "data": "15/06/2024 12:00",
+                    "times": [
+                      {
+                        "nome": "Team Vitality",
+                        "logo": "https://logowik.com/content/uploads/images/team-vitality6447.jpg",
+                        "placar": 1
+                      },
+                      {
+                        "nome": "Team Spirit",
+                        "logo": "https://ih1.redbubble.net/image.4338518766.9319/st,small,507x507-pad,600x600,f8f8f8.jpg",
+                        "placar": 2
+                      }
+                    ]
+                  },
+                  "proximo_jogo": {
+                    "data": "",
+                    "local": "",
+                    "times": [
+                      {
+                        
+                      },
+                      {
+                        
+                      }
+                    ]
+                  }
                 },
                 {
                   "nome": "Gamer Legion",
+                  "campeonato": "Blast",
                   "game": "https://pngimg.com/d/counter_strike_PNG77.png",
                   "logo": "https://prosettings.net/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=pad%2Cgravity=auto%2Cheight=675%2Cq=85%2Csharpen=2%2Cwidth=1200/wp-content/uploads/gamerlegion.png",
                   "jogadores": [
@@ -2817,6 +2974,7 @@ const teamsData = {
                 },
                 {
                   "nome": "Team Falcons",
+                  "campeonato": "Blast",
                   "game": "https://pngimg.com/d/counter_strike_PNG77.png",
                   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLJrVq_iVy8cssZQBYoTIzndnFRDzS-j5MWg&s",
                   "jogadores": [
@@ -2849,23 +3007,23 @@ const teamsData = {
                   "jogadores": [
                     {
                       "nome": "mir",
-                      "img": "https://liquipedia.net/counterstrike/File:Mir_at_IEM_Chicago_2023.jpg"
+                      "img": "https://pbs.twimg.com/profile_images/1755354829826707456/gpxhainu_400x400.jpg"
                     },
                     {
                       "nome": "chopper",
-                      "img": "https://liquipedia.net/counterstrike/File:Chopper_at_IEM_Chicago_2023.jpg"
+                      "img": "https://pbs.twimg.com/profile_images/1780507440821547008/y5xYlYET_400x400.jpg"
                     },
                     {
                       "nome": "magixx",
-                      "img": "https://liquipedia.net/counterstrike/File:Magixx_at_IEM_Chicago_2023.jpg"
+                      "img": "https://pbs.twimg.com/profile_images/1614699961093918722/wa6FAHCi_400x400.jpg"
                     },
                     {
                       "nome": "degster",
-                      "img": "https://liquipedia.net/counterstrike/File:Degster_at_IEM_Chicago_2023.jpg"
+                      "img": "https://pbs.twimg.com/profile_images/1804206095650422785/6ItipyHm_400x400.jpg"
                     },
                     {
                       "nome": "somedieyoung",
-                      "img": "https://liquipedia.net/counterstrike/File:Somedieyoung_at_IEM_Chicago_2023.jpg"
+                      "img": "https://pbs.twimg.com/profile_images/1712917191257993216/UFqPyD0t_400x400.jpg"
                     }
                   ],
                   "ultimo_jogo": {
@@ -2885,8 +3043,8 @@ const teamsData = {
                     ]
                   },
                   "proximo_jogo": {
-                    "data": "01/07/2024",
-                    "local": "COEX Shinhan Card Artium",
+                    "data": "",
+                    "local": "",
                     "times": [
                       {
                         
@@ -2899,6 +3057,7 @@ const teamsData = {
                 },
                 {
                   "nome": "Virtus.pro",
+                  "campeonato": "Blast",
                   "game": "https://pngimg.com/d/counter_strike_PNG77.png",
                   "logo": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
                   "jogadores": [
@@ -2922,7 +3081,35 @@ const teamsData = {
                       "nome": "SANJI",
                       "img": "https://liquipedia.net/counterstrike/File:Sanji_at_IEM_Cologne_2023.jpg"
                     }
-                  ]
+                  ],
+                  "ultimo_jogo": {
+                    "local": "COEX Shinhan Card Artium",
+                    "data": "15/06/2024 16:10",
+                    "times": [
+                      {
+                        "nome": "Virtus.pro",
+                        "logo": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
+                        "placar": 0
+                      },
+                      {
+                        "nome": "Natus Vincere",
+                        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Natus_Vincere_logo.png",
+                        "placar": 2
+                      }
+                    ]
+                  },
+                  "proximo_jogo": {
+                    "data": "",
+                    "local": "",
+                    "times": [
+                      {
+                        
+                      },
+                      {
+                        
+                      }
+                    ]
+                  }
                 }
           ]
         }
