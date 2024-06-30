@@ -409,7 +409,7 @@ O projeto de interface e fluxos de usuário foi esculpido por João Victor e o V
 | IDE | Visual Studio Code |
 | Versionamento de código | Git |
 | Controle de versão compartilhado | GitHub |
-| Hospedagem | a definir |
+| Hospedagem | 000webhost |
 
 ## Arquitetura da solução
 A nossa solução visa criar uma plataforma que disponibilize da melhor maneira possível, informações que irão satisfazer as necessidades dos usuários que gostam de jogar e estão presentes no mundo profissional dos e-sports, seja espectador ou até mesmo, um atleta. Dessa forma, a solução visa resolver dificuldades como: ● Datas e horários de partidas entre times; ● Notícias.
