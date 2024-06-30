@@ -27,6 +27,8 @@ document.addEventListener("DOMContentLoaded", function () {
         fetch("../caioAPI.JSON").then(r => r.json()).then(caioAPI => {
             const dataSelecionada = e.target.textContent;
             let games = caioAPI.cblol_2024_split_2.temporada_regular.semana_1.rodada_1;
+            let campeonato = caioAPI 
+
             console.log(games);
             games.forEach(game => {
                 console.log(game);            
