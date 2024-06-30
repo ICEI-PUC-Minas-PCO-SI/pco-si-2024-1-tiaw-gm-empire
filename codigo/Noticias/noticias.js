@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-});
+
 
 const usuarioDiv = document.getElementById('usuario');
 function usuarioLogado() {
