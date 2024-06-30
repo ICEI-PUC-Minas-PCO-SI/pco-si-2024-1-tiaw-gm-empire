@@ -657,5 +657,164 @@
         "Vencedor": "NRG"
       }
     ]
+  },
+  "blast_premier": {
+    "campeonato": "blast premier",
+    "jogos": [
+      {
+        "ID": 1,
+        "data": "2024-06-16",
+        "time1": "Team Spirit",
+        "logotime1": "https://ih1.redbubble.net/image.4338518766.9319/st,small,507x507-pad,600x600,f8f8f8.jpg",
+        "placar1": 3,
+        "Time2": "NaVi",
+        "logotime2": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Natus_Vincere_logo.png",
+        "placar2": 3,
+        "Vencedor": "Team Spirit"
+      },
+      {
+        "ID": 2,
+        "data": "2024-06-15",
+        "time1": "NaVi",
+        "logotime1": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Natus_Vincere_logo.png",
+        "placar1": 2,
+        "Time2": "Virtus.pro",
+        "logotime2": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
+        "placar2": 0,
+        "Vencedor": "NaVi"
+      },
+      {
+        "ID": 3,
+        "data": "2024-06-15",
+        "time1": "Team Spirit",
+        "logotime1": "https://ih1.redbubble.net/image.4338518766.9319/st,small,507x507-pad,600x600,f8f8f8.jpg",
+        "placar1": 2,
+        "Time2": "Team Vitality",
+        "logotime2": "https://esportbet.com/wp-content/smush-webp/2022/04/Team-Vitality.jpg.webp",
+        "placar2": 1,
+        "Vencedor": "Team Spirit"
+      },
+      {
+        "ID": 4,
+        "data": "2024-06-14",
+        "time1": "Astralis",
+        "logotime1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLqdji9F5CQlIht-qS_HiJkK8DtsEgJI2wlQ&s",
+        "placar1": 0,
+        "Time2": "Virtus.pro",
+        "logotime2": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
+        "placar2": 2,
+        "Vencedor": "Virtus.pro"
+      },
+      {
+        "ID": 5,
+        "data": "2024-06-14",
+        "time1": "FaZe Clan",
+        "logotime1": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Faze_Clan.svg",
+        "placar1": 0,
+        "Time2": "Team Vitality",
+        "logotime2": "https://esportbet.com/wp-content/smush-webp/2022/04/Team-Vitality.jpg.webp",
+        "placar2": 2,
+        "Vencedor": "Team Vitality"
+      },
+      {
+        "ID": 6,
+        "data": "2024-06-13",
+        "time1": "Team Spirit",
+        "logotime1": "https://ih1.redbubble.net/image.4338518766.9319/st,small,507x507-pad,600x600,f8f8f8.jpg",
+        "placar1": 1,
+        "Time2": "NaVi",
+        "logotime2": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
+        "placar2": 2,
+        "Vencedor": "Team Spirit"
+      },
+      {
+        "ID": 7,
+        "data": "2024-06-13",
+        "time1": "Virtus.pro",
+        "logotime1": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
+        "placar1": 0,
+        "Time2": "Team Spirit",
+        "logotime2": "https://ih1.redbubble.net/image.4338518766.9319/st,small,507x507-pad,600x600,f8f8f8.jpg",
+        "placar2": 2,
+        "Vencedor": "Team Spirit"
+      },
+      {
+        "ID": 8,
+        "data": "2024-06-13",
+        "time1": "Team Vitality",
+        "logotime1": "https://esportbet.com/wp-content/smush-webp/2022/04/Team-Vitality.jpg.webp",
+        "placar1": 2,
+        "Time2": "G2 Esports",
+        "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s",
+        "placar2": 1,
+        "Vencedor": "Team Vitality"
+      },
+      {
+        "ID": 9,
+        "data": "2024-06-13",
+        "time1": "FaZe Clan",
+        "logotime1": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Faze_Clan.svg",
+        "placar1": 1,
+        "Time2": "NaVi",
+        "logotime2": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
+        "placar2": 2,
+        "Vencedor": "NaVi"
+      },
+      {
+        "ID": 10,
+        "data": "2024-06-13",
+        "time1": "sAw",
+        "logotime1": "https://pbs.twimg.com/profile_images/1798389853479993347/2E8Nzxz__400x400.jpg",
+        "placar1": 0,
+        "Time2": "Astralis",
+        "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLqdji9F5CQlIht-qS_HiJkK8DtsEgJI2wlQ&s",
+        "placar2": 2,
+        "Vencedor": "Astralis"
+      },
+      {
+        "ID": 11,
+        "data": "2024-06-12",
+        "time1": "Team Spirit",
+        "logotime1": "https://ih1.redbubble.net/image.4338518766.9319/st,small,507x507-pad,600x600,f8f8f8.jpg",
+        "placar1": 2,
+        "Time2": "G2 Esports",
+        "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s",
+        "placar2": 1,
+        "Vencedor": "Team Spirit"
+      },
+      {
+        "ID": 12,
+        "data": "2024-06-12",
+        "time1": "Team Vitality",
+        "logotime1": "https://esportbet.com/wp-content/smush-webp/2022/04/Team-Vitality.jpg.webp",
+        "placar1": 1,
+        "Time2": "Virtus.pro",
+        "logotime2": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
+        "placar2": 2,
+        "Vencedor": "Virtus.pro"
+      },
+      {
+        "ID": 13,
+        "data": "2024-06-12",
+        "time1": "NaVi",
+        "logotime1": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
+        "placar1": 2,
+        "Time2": "Astralis",
+        "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLqdji9F5CQlIht-qS_HiJkK8DtsEgJI2wlQ&s",
+        "placar2": 0,
+        "Vencedor": "NaVi"
+      },
+      {
+        "ID": 14,
+        "data": "2024-06-12",
+        "time1": "FaZe Clan",
+        "logotime1": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Faze_Clan.svg",
+        "placar1": 2,
+        "Time2": "sAw",
+        "logotime2": "https://pbs.twimg.com/profile_images/1798389853479993347/2E8Nzxz__400x400.jpg",
+        "placar2": 0,
+        "Vencedor": "FaZe Clan"
+      }
+    ]
   }
 }

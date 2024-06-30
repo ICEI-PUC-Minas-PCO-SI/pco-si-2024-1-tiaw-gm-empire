@@ -194,11 +194,6 @@ function sair() {
     });
 }
 
-
-
-
-
-
 /* Mostrar os jogos */
 
 // API JSON
