@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GM Empire</title>
-     <script src="dados.json" id="jsonDados" type="application/json"></script>
+    <script src="dados.json" id="jsonDados" type="application/json"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="calendario.css">
 </head>
+
 <body>
     <header>
         <div class="header_img">
-            <a href="../index.html"><img src="../Imgs/logos/logo-removebg-preview.png" width="50%" height="60%"></a> 
-        </div>   
+            <a href="../index.html"><img src="../Imgs/logos/logo-removebg-preview.png" width="50%" height="60%"></a>
+        </div>
         <div id="searchContainer">
             <input type="text" id="searchInput" placeholder="Digite o nome de um time">
             <i class="bi bi-search" id="icon_busca"></i>
@@ -51,7 +53,7 @@
             </tbody>
         </table>
     </main>
-        
+
     <!--DIV PARA ADICIONAR OS JOGOS-->
     <div id="jogos"></div>
 
@@ -63,7 +65,9 @@
             </div>
             <div class="footer_informacoes">
                 <h2>Informações</h2>
-                <a href=""><h4>Feedback</h4></a>
+                <a href="">
+                    <h4>Feedback</h4>
+                </a>
             </div>
             <div class="footer_contatos">
                 <h2>Contatos</h2>
@@ -80,6 +84,7 @@
     </footer>
     <script src="../sweetalert.js"></script>
     <script src="valorant.js"></script>
-    <script src="/codigo/times.js"></script>
+    <!-- <script src="/codigo/times.js"></script> -->
 </body>
+
 </html>
