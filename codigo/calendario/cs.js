@@ -4,7 +4,7 @@ function cardMouseEnter(i) {
     campeonatoDiv.style.display = 'block'
 }
 function cardMouseLeave(i) {
-    let campeonatoDiv = document.querySelectorAll('.campeonato-${i}');
+    let campeonatoDiv = document.querySelector(`.campeonato-${i}`);
     campeonatoDiv.style.display = 'none';
 }
 
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
                
                     jogos.insertAdjacentHTML('beforeend', 
                         `<aside class="jogos-do-dia">
-                            <div class="card" id="card1" onmouseover= cardMouseEnter(${i}) onmouseleave= cardMouseLeave()>
+                            <div class="card" id="card1" onmouseover= cardMouseEnter(${i}) onmouseleave= cardMouseLeave(${i})>
                                     <div class="data">
                                         <h4 id="local_1">${local}</h4>
                                         <p>${formatDate(dataJogo)}</p>
