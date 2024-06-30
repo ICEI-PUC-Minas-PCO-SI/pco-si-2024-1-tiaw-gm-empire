@@ -1,4 +1,3 @@
-
 # Informações do Projeto
 ## Documentação da GM Empire
 
@@ -74,8 +73,8 @@ como também, atender todas as expectativas dos fãs de E-Sports em todo o mundo
 De acordo com o que foi apresentado na introdução, o principal problema que
 necessita de uma solução através desse projeto, é a falta de informações relacionadas
 à horários de campeonatos de jogos digitais. Vale lembrar que nesta web, a GM Empire
-cita os cinco jogos mais jogados do mundo atualmente. São eles: CS2 (Counter-Strike
-2); LOL (League of Legends); Rainbow Six Siege; Fortnite; Valorant;
+cita os quatro jogos mais jogados do mundo atualmente. São eles: CS2 (Counter-Strike
+2); LOL (League of Legends); Rainbow Six Siege; Valorant;
 
 ## Objetivos
 
