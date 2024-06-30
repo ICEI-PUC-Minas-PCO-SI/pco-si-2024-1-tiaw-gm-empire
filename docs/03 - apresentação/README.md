@@ -2,4 +2,5 @@
 
 
 
-[Apresentação final - GM Empire.pptx](https://github.com/user-attachments/files/16045757/Apresentacao.final.-.GM.Empire.pptx)
+
+[Apresentação final - GM Empire.pdf](https://github.com/user-attachments/files/16045760/Apresentacao.final.-.GM.Empire.pdf)
