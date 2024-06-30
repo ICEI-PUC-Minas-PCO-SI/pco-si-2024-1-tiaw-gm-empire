@@ -15,6 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const dataSelecionada = e.target.textContent;
             const games = caioAPI.champions.Jogos;
     
+            let local = caioAPI.champions.local
+
             games.forEach(jogo => {
                 let dataCompleta = jogo.data.split(' ')[0];
                 let data = dataCompleta.split('-')[2].toString();
@@ -31,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <aside class="jogos-do-dia">
                         <div class="card" id="card1">
                             <div class="data">
-                                <h4 id="local_1">${lugar ? lugar : 'Não informado'}</h4>
+                                <h4 id="local_1">${local}</h4>
                                 <p>${formatDate(dataJogo)}</p>
                             </div>
                             <div class="time">
