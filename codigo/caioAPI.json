@@ -1,5 +1,7 @@
 {
   "cblol_2024_split_2": {
+    "campeonato": "CBLOL",
+    "local": "São Paulo, Brasil",
     "temporada_regular": {
       "semana_1": {
         "rodada_1": [
@@ -294,7 +296,8 @@
     }
   },
   "champions": {
-    "Campeonato": "Champions Tour 2024: Americas",
+    "campeonato": "Champions Tour 2024: Americas",
+    "local": "Los Angeles, Estados Unidos",
     "Jogos": [
       {
         "ID": 1,
@@ -659,7 +662,7 @@
     ]
   },
   "blast_premier": {
-    "campeonato": "blast premier",
+    "campeonato": "Blast Premier",
     "local": "Londres, Inglaterra",
     "jogos": [
       {

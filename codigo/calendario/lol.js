@@ -1,13 +1,11 @@
 function cardMouseEnter(i) {
-    console.log();
+
     let campeonatoDiv = document.querySelector(`.campeonato-${i}`);
     campeonatoDiv.style.display = 'block'
 }
-function cardMouseLeave(e) {
-    let campeonatoDiv = document.querySelectorAll('.campeonato');
-    [...campeonatoDiv].forEach(element => {
-        element.style.display = 'none'
-    })
+function cardMouseLeave(i) {
+    let campeonatoDiv = document.querySelector(`.campeonato-${i}`);
+    campeonatoDiv.style.display = 'none';
 }
 
 
@@ -25,33 +23,33 @@ document.addEventListener("DOMContentLoaded", function () {
     function renderizarCards(e) {
         jogos.innerHTML = '';
         fetch("../caioAPI.JSON").then(r => r.json()).then(caioAPI => {
-            const dataSelecionada = e.target.textContent;
-            let games = caioAPI.cblol_2024_split_2.temporada_regular.semana_1.rodada_1;
-            console.log(games);
+            
+            let dataSelecionada = e.target.textContent;
+            let games = caioAPI.cblol_2024_split_2.temporada_regular.semana_1.rodada_1.concat(caioAPI.cblol_2024_split_2.temporada_regular.semana_2.rodada_2).concat(caioAPI.cblol_2024_split_2.temporada_regular.semana_3.rodada_3).concat(caioAPI.cblol_2024_split_2.temporada_regular.semana_4.rodada_4).concat(caioAPI.cblol_2024_split_2.temporada_regular.semana_5_super_semana.rodada_5);
+            let campeonato = caioAPI.cblol_2024_split_2.campeonato
+            let local = caioAPI.cblol_2024_split_2.local
+            let i = 0
+            
+            console.log(games.length);
             games.forEach(game => {
-                debugger;
                 console.log(game);            
                 let dataCompleta = game.data.split(' ')[0];
                 let data = dataCompleta.split('-')[2].toString();
                 let dataMes = dataCompleta.split('-')[1].toString();
                 let realMesAtual = mesAtual + 1;
 
-                // realMesAtual = +realMesAtual < 10 ? '0' + realMesAtual : realMesAtual;
-
-                // dataSelecionada = +dataSelecionada < 10 ? '0' + dataSelecionada : dataSelecionada; 
-
                 if (+data == dataSelecionada && +dataMes == realMesAtual) {
-                    debugger;
                     let dataJogo = game.data;
                     let timeUm = game.logotime1;
                     let timeDois = game.logotime2;
-                    let lugar = game.local;
+                    
+
                     // Criar o HTML para cada jogo e adicionar ao elemento jogos
                     jogos.insertAdjacentHTML('beforeend', `
                     <aside class="jogos-do-dia">
-                        <div class="card" id="card1">
+                        <div class="card" id="card1" onmouseover= cardMouseEnter(${i}) onmouseleave= cardMouseLeave(${i})>
                             <div class="data">
-                                <h4 id="local_1">${lugar ? lugar : 'Não informado'}</h4>
+                                <h4 id="local_1">${local}</h4>
                                 <p>${formatDate(dataJogo)}</p>
                             </div>
                             <div class="time">
@@ -60,9 +58,13 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="time">
                                 <img src="${timeDois}" alt="" height="40px" width="40px" id="imagem_time_2" data-nome="Loud" class="img_lol_cblol">
                             </div>
+                            <div class="campeonato campeonato-${i}" style="display: none">
+                                <p><b>${campeonato}</b></p>
+                            </div>
                         </div>
                     </aside>`) ;
                 } 
+                i++
             });
         });
     }
@@ -216,109 +218,6 @@ function sair() {
     });
 }
 
-/* Mostrar os jogos */
-
-// API JSON
-const teamsData = {
-    "times_jogos": {
-        "lol": {
-            "campeonatos": {
-                "cblol": {
-                    "jogos": [
-                        {
-                            "data": "12/07/2024 16:00",
-                            "local": "Arena CBLOL",
-                            "times": [
-                                {
-                                    "nome": "Liberty",
-                                    "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png",
-                                },
-                                {
-                                    "nome": "Loud",
-                                    "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png"
-                                }
-                            ]
-                        },
-                        {
-                            "data": "12/07/2024 13:00",
-                            "local": "Arena CBLOL",
-                            "times": [
-                                {
-                                    "nome": "LOS",
-                                    "logo": "https://n9necats.com.br/wp-content/uploads/2022/03/Los_Grandes.png"
-                                },
-                                {
-                                    "nome": "Pain Gaming",
-                                    "logo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png"
-                                }
-                            ]
-                        },
-                        {
-                            "data": "12/07/2024 15:00",
-                            "local": "Arena CBLOL",
-                            "times": [
-                                {
-                                    "nome": "Kabum",
-                                    "logo": "https://pm1.aminoapps.com/6743/de686a056e10c16124d5dff523a914ff0789c866v2_00.jpg"
-                                },
-                                {
-                                    "nome": "Fluxo",
-                                    "logo": "https://esportenewsmundo.com.br/wp-content/uploads/2022/01/fluxo.png"
-                                }
-                            ]
-                        },
-                        {
-                            "data": "12/07/2024 15:00",
-                            "local": "Arena CBLOL",
-                            "times": [
-                                {
-                                    "nome": "Vivo Keyd",
-                                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDj2osS2rk5CQ-cxpzSs63tZGq2LE6UyWkg&s"
-                                },
-                                {
-                                    "nome": "Fúria",
-                                    "logo": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            }
-        }
-    }
-}
-
-
-//Receber os dados da API
-
-let jogos = document.querySelector("#jogos")
-
-teamsData.times_jogos.lol.campeonatos.cblol.jogos.forEach(jogo => {
-    let dataJogo = jogo.data;
-    let timeUm = jogo.times[0].logo;
-    let timeDois = jogo.times[1].logo;
-    let lugar = jogo.local;
-
-    // Criar o HTML para cada jogo e adicionar ao elemento jogos
-    jogos.innerHTML += `
-        <aside class="jogos-do-dia">
-            <div class="card" id="card1">
-                    <div class="data">
-                        <h4 id="local_1">${lugar}</h4>
-                        <p>${dataJogo}</p>
-                    </div>
-                    <div class="time">
-                        <img src="${timeUm}" width="40px" height="40px" id="imagem_time_1" data-nome="Liberty" class="img_lol_cblol">
-                    </div>
-                    <div class="time">
-                        <img src="${timeDois}" alt="" height="40px" width="40px" id="imagem_time_2" data-nome="Loud" class="img_lol_cblol">
-                    </div>
-                </div>
-        </aside>
-    `;
-});
-
-
 const searchInput = document.getElementById('searchInput');
 const suggestions = document.getElementById('suggestions');
 const icone_busca = document.querySelector("#icon_busca");
@@ -412,5 +311,5 @@ function formatDate(dateString) {
     const day = parts[2];
     
     // Retornar a data no formato dd/mm/yyyy
-    return `${day}/${month}/${year}`;
+    return `${day}/${month}/${year}`
 }
