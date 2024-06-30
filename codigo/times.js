@@ -2469,7 +2469,8 @@ const teamsData = {
           "times": [
             {
               "nome": "Astralis",
-              "logo": "https://liquipedia.net/counterstrike/File:Astralis_2021_lightmode.png",
+              "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+              "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLqdji9F5CQlIht-qS_HiJkK8DtsEgJI2wlQ&s",
               "jogadores": [
                 {
                   "nome": "device",
@@ -2495,7 +2496,8 @@ const teamsData = {
             },
             {
               "nome": "BIG",
-              "logo": "https://liquipedia.net/counterstrike/File:BIG_2021_lightmode.png",
+              "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+              "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF5MPDA-uZNjfsj85A03FfzZkb4iDCfjrGQfiCMU0eQpQYwFmAdmQthmgFQ_3idW9R62o&usqp=CAU",
               "jogadores": [
                 {
                   "nome": "tabseN",
@@ -2521,6 +2523,7 @@ const teamsData = {
             },
             {
               "nome": "Cloud9",
+              "game": "https://pngimg.com/d/counter_strike_PNG77.png",
               "logo": "https://static.valorantzone.gg/news/2021/04/03214658/380px-Cloud9.png",
               "jogadores": [
                 {
@@ -2547,7 +2550,8 @@ const teamsData = {
             },
             {
               "nome": "Complexity Gaming",
-              "logo": "https://liquipedia.net/counterstrike/File:Complexity_2021_lightmode.png",
+              "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+              "logo": "https://shortyawards.imgix.net/entries/12th/fb34880f-6283-48d4-896c-21b4b9f025c8.png?auto=format&fit=crop&h=300&q=65&w=500&s=c4bf700f1b236f212e80a5f5d89130b5",
               "jogadores": [
                 {
                   "nome": "blameF",
@@ -2573,7 +2577,8 @@ const teamsData = {
             },
             {
               "nome": "FaZe Clan",
-              "logo": "https://liquipedia.net/counterstrike/File:FaZe_Clan_November_2021_full_darkmode.png",
+              "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+              "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Faze_Clan.svg",
               "jogadores": [
                 {
                   "nome": "rain",
@@ -2599,7 +2604,8 @@ const teamsData = {
             },
             {
               "nome": "G2 Esports",
-              "logo": "https://liquipedia.net/counterstrike/File:G2_Esports_2021_lightmode.png",
+              "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+              "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s",
               "jogadores": [
                 {
                   "nome": "NiKo",
@@ -2625,7 +2631,8 @@ const teamsData = {
             },
             {
               "nome": "Heroic",
-              "logo": "https://liquipedia.net/counterstrike/File:Heroic_2021_lightmode.png",
+              "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+              "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKcdVyyAB6t9aZZ54737RSIIhToDTOwV6Gug&s",
               "jogadores": [
                 {
                   "nome": "cadiaN",
@@ -2651,7 +2658,8 @@ const teamsData = {
             },
             {
               "nome": "Natus Vincere",
-              "logo": "https://liquipedia.net/counterstrike/File:Natus_Vincere_2021_lightmode.png",
+              "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+              "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Natus_Vincere_logo.png",
               "jogadores": [
                 {
                   "nome": "s1mple",
@@ -2668,10 +2676,14 @@ const teamsData = {
                 {
                   "nome": "flamie",
                   "img": "https://liquipedia.net/counterstrike/File:Flamie_at_IEM_Cologne_2023.jpg"
-                },
+                  
+                }
+              ]
+            },
                 {
-                  "nome": "ninjas in pyjamas",
-                  "logo": "https://liquipedia.net/counterstrike/File:Ninjas_in_Pyjamas_2021_lightmode.png",
+                  "nome": "Ninjas in Pyjamas",
+                  "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+                  "logo": "https://seeklogo.com/images/N/ninjas-in-pyjamas-logo-0AD2295340-seeklogo.com.png",
                   "jogadores": [
                     {
                       "nome": "hampus",
@@ -2697,7 +2709,8 @@ const teamsData = {
                 },
                 {
                   "nome": "OG",
-                  "logo": "https://liquipedia.net/counterstrike/File:OG_2021_lightmode.png",
+                  "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+                  "logo": "https://upload.wikimedia.org/wikipedia/pt/e/ed/OG_%28esports%29.png",
                   "jogadores": [
                     {
                       "nome": "valde",
@@ -2723,7 +2736,8 @@ const teamsData = {
                 },
                 {
                   "nome": "Team Liquid",
-                  "logo": "https://liquipedia.net/counterstrike/File:Team_Liquid_2021_lightmode.png",
+                  "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+                  "logo": "https://upload.wikimedia.org/wikipedia/pt/4/4b/Teamliquid_logo_blue.png?20220910162021",
                   "jogadores": [
                     {
                       "nome": "EliGE",
@@ -2749,7 +2763,8 @@ const teamsData = {
                 },
                 {
                   "nome": "Team Vitality",
-                  "logo": "https://liquipedia.net/counterstrike/File:Vitality_2021_lightmode.png",
+                  "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+                  "logo": "https://logowik.com/content/uploads/images/team-vitality6447.jpg",
                   "jogadores": [
                     {
                       "nome": "ZywOo",
@@ -2775,7 +2790,8 @@ const teamsData = {
                 },
                 {
                   "nome": "Gamer Legion",
-                  "logo": "https://liquipedia.net/counterstrike/File:Gamer_Legion_2021_lightmode.png",
+                  "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+                  "logo": "https://prosettings.net/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=pad%2Cgravity=auto%2Cheight=675%2Cq=85%2Csharpen=2%2Cwidth=1200/wp-content/uploads/gamerlegion.png",
                   "jogadores": [
                     {
                       "nome": "draken",
@@ -2801,7 +2817,8 @@ const teamsData = {
                 },
                 {
                   "nome": "Team Falcons",
-                  "logo": "https://liquipedia.net/counterstrike/File:Team_Falcons_2021_lightmode.png",
+                  "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+                  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLJrVq_iVy8cssZQBYoTIzndnFRDzS-j5MWg&s",
                   "jogadores": [
                     {
                       "nome": "sjuush",
@@ -2827,7 +2844,8 @@ const teamsData = {
                 },
                 {
                   "nome": "Team Spirit",
-                  "logo": "https://liquipedia.net/counterstrike/File:Team_Spirit_2021_lightmode.png",
+                  "campeonato": "Blast",
+                  "logo": "https://ih1.redbubble.net/image.4338518766.9319/st,small,507x507-pad,600x600,f8f8f8.jpg",
                   "jogadores": [
                     {
                       "nome": "mir",
@@ -2849,11 +2867,40 @@ const teamsData = {
                       "nome": "somedieyoung",
                       "img": "https://liquipedia.net/counterstrike/File:Somedieyoung_at_IEM_Chicago_2023.jpg"
                     }
-                  ]
+                  ],
+                  "ultimo_jogo": {
+                    "local": "COEX Shinhan Card Artium",
+                    "data": "16/06/2024 11:00",
+                    "times": [
+                      {
+                        "nome": "Team Spirit",
+                        "logo": "https://ih1.redbubble.net/image.4338518766.9319/st,small,507x507-pad,600x600,f8f8f8.jpg",
+                        "placar": 3
+                      },
+                      {
+                        "nome": "Natus Vincere",
+                        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Natus_Vincere_logo.png",
+                        "placar": 1
+                      }
+                    ]
+                  },
+                  "proximo_jogo": {
+                    "data": "01/07/2024",
+                    "local": "COEX Shinhan Card Artium",
+                    "times": [
+                      {
+                        
+                      },
+                      {
+                        
+                      }
+                    ]
+                  }
                 },
                 {
                   "nome": "Virtus.pro",
-                  "logo": "https://liquipedia.net/counterstrike/File:Virtus.pro_logo.png",
+                  "game": "https://pngimg.com/d/counter_strike_PNG77.png",
+                  "logo": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
                   "jogadores": [
                     {
                       "nome": "buster",
@@ -2877,8 +2924,6 @@ const teamsData = {
                     }
                   ]
                 }
-              ]
-            },
           ]
         }
       }

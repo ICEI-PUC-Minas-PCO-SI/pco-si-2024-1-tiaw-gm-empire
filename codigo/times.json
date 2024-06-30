@@ -2147,7 +2147,7 @@
                   },
                   {
                     "nome": "NRG",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png"
+                    "logo": "https://external-preview.redd.it/MLkKZxx2pkZ2SwpwJEjZExgkKDqbzjZ4mWuNi8iJoDU.jpg?auto=webp&s=8b7343b51a42955c8d9b2b20c754b6a2a8871fcf"
                   }
                 ]
               }
@@ -2214,7 +2214,7 @@
               "nome": "NRG",
               "game": "https://www.pngall.com/wp-content/uploads/13/Valorant-Logo-PNG-File.png",
               "campeonato": "Valorant Champions",
-              "logo": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png",
+              "logo": "https://external-preview.redd.it/MLkKZxx2pkZ2SwpwJEjZExgkKDqbzjZ4mWuNi8iJoDU.jpg?auto=webp&s=8b7343b51a42955c8d9b2b20c754b6a2a8871fcf",
               "jogadores": [
                 {
                   "nome": "crashies",
@@ -2243,7 +2243,7 @@
                 "times": [
                   {
                     "nome": "NRG",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png",
+                    "logo": "https://external-preview.redd.it/MLkKZxx2pkZ2SwpwJEjZExgkKDqbzjZ4mWuNi8iJoDU.jpg?auto=webp&s=8b7343b51a42955c8d9b2b20c754b6a2a8871fcf",
                     "placar": 3
                   },
                   {
@@ -2259,7 +2259,7 @@
                 "times": [
                   {
                     "nome": "NRG",
-                    "logo": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png"
+                    "logo": "https://external-preview.redd.it/MLkKZxx2pkZ2SwpwJEjZExgkKDqbzjZ4mWuNi8iJoDU.jpg?auto=webp&s=8b7343b51a42955c8d9b2b20c754b6a2a8871fcf"
                   },
                   {
                     "nome": "G2 Esports",
@@ -2885,7 +2885,6 @@
                 },
                 {
                   "nome": "Team Spirit",
-                  "game": "https://pngimg.com/d/counter_strike_PNG77.png",
                   "logo": "https://ih1.redbubble.net/image.4338518766.9319/st,small,507x507-pad,600x600,f8f8f8.jpg",
                   "jogadores": [
                     {
@@ -2908,7 +2907,35 @@
                       "nome": "somedieyoung",
                       "img": "https://liquipedia.net/counterstrike/File:Somedieyoung_at_IEM_Chicago_2023.jpg"
                     }
-                  ]
+                  ],
+                  "ultimo_jogo": {
+                    "local": "COEX Shinhan Card Artium",
+                    "data": "16/06/2024 11:00",
+                    "times": [
+                      {
+                        "nome": "Team Spirit",
+                        "logo": "https://ih1.redbubble.net/image.4338518766.9319/st,small,507x507-pad,600x600,f8f8f8.jpg",
+                        "placar": 3
+                      },
+                      {
+                        "nome": "Natus Vincere",
+                        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Natus_Vincere_logo.png",
+                        "placar": 1
+                      }
+                    ]
+                  },
+                  "proximo_jogo": {
+                    "data": "01/07/2024",
+                    "local": "COEX Shinhan Card Artium",
+                    "times": [
+                      {
+                        
+                      },
+                      {
+                        
+                      }
+                    ]
+                  }
                 },
                 {
                   "nome": "Virtus.pro",

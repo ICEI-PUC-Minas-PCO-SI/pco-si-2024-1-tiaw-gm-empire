@@ -45,6 +45,20 @@ function atualizar(){
         // placar 2
         document.querySelector("#placar_4").innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_challengers.times[0].ultimo_jogo.times[1].placar
         document.querySelector("#campeonato4").innerHTML = teamsData.times_jogos.valorant.campeonatos.valorant_challengers.times[0].campeonato
+        //card 5
+
+        document.querySelector("#local_5").innerHTML = teamsData.times_jogos.cs.campeonatos.BPFG.times[14].ultimo_jogo.local
+        // data
+        document.querySelector("#data_5").innerHTML = teamsData.times_jogos.cs.campeonatos.BPFG.times[14].ultimo_jogo.data
+        
+        document.querySelector("#imagem_time_9").src = teamsData.times_jogos.cs.campeonatos.BPFG.times[14].ultimo_jogo.times[0].logo
+        // time 2
+        document.querySelector("#imagem_time_10").src = teamsData.times_jogos.cs.campeonatos.BPFG.times[14].ultimo_jogo.times[1].logo
+        // placar 1
+        document.querySelector("#placar_5").innerHTML = teamsData.times_jogos.cs.campeonatos.BPFG.times[14].ultimo_jogo.times[0].placar
+        // placar 2
+        document.querySelector("#placar_6").innerHTML = teamsData.times_jogos.cs.campeonatos.BPFG.times[14].ultimo_jogo.times[1].placar
+        document.querySelector("#campeonato5").innerHTML = teamsData.times_jogos.cs.campeonatos.BPFG.times[14].campeonato
 
      
 }

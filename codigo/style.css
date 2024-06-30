@@ -214,6 +214,14 @@ ul li{
    
 }
 
+.r6_ultimos{
+    width: 407px;
+}
+
+.r6_proximos, .cs_proximos{
+    width: 407px;
+}
+
 .games ul li:hover{
     scale: 1.2;
 }
