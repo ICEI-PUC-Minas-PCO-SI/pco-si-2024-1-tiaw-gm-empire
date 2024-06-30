@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const meses = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
     let dataAtual = new Date();
     let mesAtual = dataAtual.getMonth();
+    console.log(mesAtual);
     let anoAtual = dataAtual.getFullYear();
 
     function renderizarCards(e) {
@@ -15,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const dataSelecionada = e.target.textContent;
             const games = caioAPI.blast_premier.jogos;
             const campeonato = caioAPI.blast_premier.campeonato;
+            let i = 0;
 
             games.forEach(jogo => {
                 let dataCompleta = jogo.data.split(' ')[0];
@@ -31,11 +33,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     // let nomeTimeDois = jogo.Time2;
                     let placar1 = jogo.placar1;
                     let placar2 = jogo.placar2;
-
+                    
                  
                     jogos.insertAdjacentHTML('beforeend', 
                         `<aside class="jogos-do-dia">
-                            <div class="card" id="card1" onmouseenter="cardMouseEnter();" onmouseleave="cardMouseLeave();">
+                            <div class="card" id="card1" onmouseenter="cardMouseEnter(${i});" onmouseleave="cardMouseLeave();">
                                     <div class="data">
                                         <h4 id="local_1">${lugar ? lugar : 'Não informado'}</h4>
                                         <p>${formatDate(dataJogo)}</p>
@@ -48,12 +50,14 @@ document.addEventListener("DOMContentLoaded", function () {
                                         <img src="${timeDois}" alt="" height="40px" width="40px" id="imagem_time_2">
                                         <p class="nome_time"><b>${placar2}</b></p>
                                     </div>
-                                    <div class="campeonato" style="display: none">
+                                    <div class="campeonato campenato-${i}" style="display: none">
                                     <p>${campeonato}</p>
                                     </div>
                                 </div>
                         </aside>`
                     );
+
+                    i++;
                 }
             });
         });
@@ -189,7 +193,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function cardMouseEnter(e) {
     console.log(e);
-    let campeonatoDiv = e.target.querySelector('.campeonato');
+    let campeonatoDiv = document.querySelector(`.campeonato-${e}`);
     campeonatoDiv.style.display = 'block';
 }
 

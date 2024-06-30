@@ -12,17 +12,23 @@ document.addEventListener("DOMContentLoaded", function () {
     function renderizarCards(e) {
         jogos.innerHTML = '';
         fetch("../caioAPI.JSON").then(r => r.json()).then(caioAPI => {
-            const dataSelecionada = e.target.textContent;
-            let games = caioAPI.cblol_2024_split_2.temporada_regular.semana_1.rodada_1;
-            console.log(games);
+            
+            let dataSelecionada = e.target.textContent;
+            let games = caioAPI.cblol_2024_split_2.temporada_regular.semana_1.rodada_1.concat(caioAPI.cblol_2024_split_2.temporada_regular.semana_2.rodada_2).concat(caioAPI.cblol_2024_split_2.temporada_regular.semana_3.rodada_3).concat(caioAPI.cblol_2024_split_2.temporada_regular.semana_4.rodada_4).concat(caioAPI.cblol_2024_split_2.temporada_regular.semana_5_super_semana.rodada_5);
+            console.log(games.length);
             games.forEach(game => {
+                debugger;
                 console.log(game);            
                 let dataCompleta = game.data.split(' ')[0];
                 let data = dataCompleta.split('-')[2].toString();
                 let dataMes = dataCompleta.split('-')[1].toString();
                 let realMesAtual = mesAtual + 1;
 
-                if (data == dataSelecionada && dataMes == realMesAtual) {
+                // realMesAtual = +realMesAtual < 10 ? '0' + realMesAtual : realMesAtual;
+
+                // dataSelecionada = +dataSelecionada < 10 ? '0' + dataSelecionada : dataSelecionada; 
+
+                if (+data == dataSelecionada && +dataMes == realMesAtual) {
                     debugger;
                     let dataJogo = game.data;
                     let timeUm = game.logotime1;
