@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
             let local = caioAPI.champions.local
             let i = 0
     
-            let local = caioAPI.champions.local
 
             games.forEach(jogo => {
                 let dataCompleta = jogo.data.split(' ')[0];
