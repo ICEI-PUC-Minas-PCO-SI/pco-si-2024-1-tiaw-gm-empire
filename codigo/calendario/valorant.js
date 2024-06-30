@@ -382,13 +382,29 @@ teamsData.times_jogos.valorant.campeonatos.valorant_challengers.jogos.forEach(jo
                         <img src="${timeDois}" alt="" height="40px" width="40px" id="imagem_time_2">
                         <p class="nome_time_um">${nomeTimeDois}</p>
                     </div>
-                    <div class="campeonato">
+                    <div class="campeonato" style="display: none">
                     <p>${campeonato}</p>
                     </div>
                 </div>
         </aside>
     `;
 });
+
+let cards = document.querySelectorAll('.card');
+
+// Adiciona eventos para mostrar/ocultar o campeonato ao passar o mouse
+cards.forEach(card => {
+    card.addEventListener('mouseenter', () => {
+        let campeonatoDiv = card.querySelector('.campeonato');
+        campeonatoDiv.style.display = 'block';
+    });
+
+    card.addEventListener('mouseleave', () => {
+        let campeonatoDiv = card.querySelector('.campeonato');
+        campeonatoDiv.style.display = 'none';
+    });
+})
+
 
 const searchInput = document.getElementById('searchInput');
    const suggestions = document.getElementById('suggestions');

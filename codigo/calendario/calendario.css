@@ -320,7 +320,7 @@ tbody td:empty {
     padding: 15px;
     cursor: pointer;
     height: 128px;
-    transition: all 0.5s ease-in ;
+    transition: all 0.2s ease-in ;
 }
 
 .nome_time {
@@ -353,12 +353,6 @@ tbody td:empty {
 }
 
 
-.x {
-    margin: 0 10px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
 .local-jogo {
     font-style: italic;
     text-align: center;
@@ -378,6 +372,10 @@ tbody td:empty {
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     padding: 15px;
     cursor: pointer;
+}
+
+div p {
+    transition: all 1s ease;
 }
 
 

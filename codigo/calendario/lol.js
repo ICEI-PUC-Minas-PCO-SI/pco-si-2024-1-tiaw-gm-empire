@@ -268,6 +268,20 @@ const teamsData = {
                 "cblol": {
                     "jogos": [
                         {
+                            "data": "05/07/2024 13:00",
+                            "local": "Arena CBLOL",
+                            "times": [
+                                {
+                                    "nome": "LOUD",
+                                    "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png"
+                                },
+                                {
+                                        "nome": "paiN Gaming",
+                                        "logo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png"
+                                }
+                                ]
+                        },
+                        {
                             "data": "12/07/2024 16:00",
                             "local": "Arena CBLOL",
                             "times": [
@@ -335,7 +349,9 @@ const teamsData = {
 
 let jogos = document.querySelector("#jogos")
 
+let cards = document.querySelectorAll('.card');
 let campeonato = "Cblol"
+
 
 teamsData.times_jogos.lol.campeonatos.cblol.jogos.forEach(jogo => {
     let dataJogo = jogo.data
@@ -355,19 +371,33 @@ teamsData.times_jogos.lol.campeonatos.cblol.jogos.forEach(jogo => {
                     </div>
                     <div class="time">
                         <img src="${timeUm}" width="40px" height="40px" id="imagem_time_1">
-                        <p class="nome_time_um">${nomeTimeUm}</p>
+                        <p class="nome_time">${nomeTimeUm}</p>
                     </div>
                     <div class="time">
                         <img src="${timeDois}" alt="" height="40px" width="40px" id="imagem_time_2">
-                        <p class="nome_time_um">${nomeTimeDois}</p>
+                        <p class="nome_time">${nomeTimeDois}</p>
                     </div>
-                    <div class="campeonato">
+                    <div class="campeonato" style="display: none">
                     <p>${campeonato}</p>
                     </div>
                 </div>
         </aside>
-    `;
-});
+    `
+let cards = document.querySelectorAll('.card');
+
+// Adiciona eventos para mostrar/ocultar o campeonato ao passar o mouse
+    cards.forEach(card => {
+    card.addEventListener('mouseenter', () => {
+        let campeonatoDiv = card.querySelector('.campeonato');
+        campeonatoDiv.style.display = 'block';
+    });
+
+    card.addEventListener('mouseleave', () => {
+        let campeonatoDiv = card.querySelector('.campeonato');
+        campeonatoDiv.style.display = 'none';
+    })
+    })
+})  
 
 const searchInput = document.getElementById('searchInput');
    const suggestions = document.getElementById('suggestions');

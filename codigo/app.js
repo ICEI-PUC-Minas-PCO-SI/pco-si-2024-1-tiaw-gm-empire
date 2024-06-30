@@ -1,4 +1,4 @@
-
+    
 function atualizar(){
     // card 1 - proximos jogos
         // campeonato

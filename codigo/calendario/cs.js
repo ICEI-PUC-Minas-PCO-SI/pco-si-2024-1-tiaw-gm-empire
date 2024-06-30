@@ -413,7 +413,21 @@ const teamsData = {
                                     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKcdVyyAB6t9aZZ54737RSIIhToDTOwV6Gug&s"
                                 }
                             ]
-                        }
+                        },
+                        {
+                            "data": "11/07/2024 11:00",
+                            "local": "Copenhagen, Dinamarca",
+                            "times": [
+                                {
+                                    "nome": "(Cloud9 X Vitality)",
+                                    
+                                },
+                                {
+                                    "nome": "(Natus Vincere X Ninjas in Pyjamas)",
+                                    
+                                }
+                            ]
+                        },
                     ]
                 }
             }
@@ -428,11 +442,6 @@ const teamsData = {
 let jogos = document.querySelector("#jogos")
 
 let campeonato = "Blast"
-
-fetch('../caioAPI.json') .then(response => response.json())
-   .then(data => {
-    console.log(data)
-   })
 
 teamsData.times_jogos.cs.campeonatos.blast.jogos.forEach(jogo => {
     let dataJogo = jogo.data
@@ -464,11 +473,10 @@ teamsData.times_jogos.cs.campeonatos.blast.jogos.forEach(jogo => {
                 </div>
         </aside>
     `
-    // Seleciona todos os cards gerados
 let cards = document.querySelectorAll('.card');
 
 // Adiciona eventos para mostrar/ocultar o campeonato ao passar o mouse
-cards.forEach(card => {
+    cards.forEach(card => {
     card.addEventListener('mouseenter', () => {
         let campeonatoDiv = card.querySelector('.campeonato');
         campeonatoDiv.style.display = 'block';
@@ -477,6 +485,6 @@ cards.forEach(card => {
     card.addEventListener('mouseleave', () => {
         let campeonatoDiv = card.querySelector('.campeonato');
         campeonatoDiv.style.display = 'none';
-    });
-})
-})
+    })
+    })
+})  

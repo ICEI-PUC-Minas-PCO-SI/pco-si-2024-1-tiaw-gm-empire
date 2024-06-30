@@ -2876,6 +2876,22 @@ const teamsData = {
                       "img": "https://liquipedia.net/counterstrike/File:Sanji_at_IEM_Cologne_2023.jpg"
                     }
                   ]
+                },
+                {
+                  "proximo_jogo": {
+                    "data": "07/07/2024 11:00",
+                            "local": "Copenhagen, Dinamarca",
+                            "times": [
+                                {
+                                    "nome": "Cloud9",
+                                    "logo": "https://static.valorantzone.gg/news/2021/04/03214658/380px-Cloud9.png",
+                                },
+                                {
+                                    "nome": "Vitality",
+                                    "logo": "https://logowik.com/content/uploads/images/team-vitality6447.jpg"
+                                }
+                            ]
+                  }
                 }
               ]
             },
