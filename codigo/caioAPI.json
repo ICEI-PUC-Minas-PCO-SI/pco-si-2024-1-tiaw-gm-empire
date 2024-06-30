@@ -660,6 +660,7 @@
   },
   "blast_premier": {
     "campeonato": "blast premier",
+    "local": "Londres, Inglaterra",
     "jogos": [
       {
         "ID": 1,
