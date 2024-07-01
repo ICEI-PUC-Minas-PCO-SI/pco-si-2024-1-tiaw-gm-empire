@@ -1,3 +1,13 @@
+function cardMouseEnter(i) {
+
+    let campeonatoDiv = document.querySelector(`.campeonato-${i}`);
+    campeonatoDiv.style.display = 'block'
+}
+function cardMouseLeave(i) {
+    let campeonatoDiv = document.querySelector(`.campeonato-${i}`);
+    campeonatoDiv.style.display = 'none';
+}
+
 document.addEventListener("DOMContentLoaded", function () {
     const header = document.getElementById("header");
     const prevMonth = document.getElementById("prevMonth");
@@ -14,7 +24,11 @@ document.addEventListener("DOMContentLoaded", function () {
         fetch("../caioAPI.JSON").then(r => r.json()).then(caioAPI => {
             const dataSelecionada = e.target.textContent;
             const games = caioAPI.champions.Jogos;
+            let campeonato = caioAPI.champions.campeonato
+            let local = caioAPI.champions.local
+            let i = 0
     
+
             games.forEach(jogo => {
                 let dataCompleta = jogo.data.split(' ')[0];
                 let data = dataCompleta.split('-')[2].toString();
@@ -25,30 +39,56 @@ document.addEventListener("DOMContentLoaded", function () {
                     let dataJogo = jogo.data;
                     let timeUm = jogo.logotime1;
                     let timeDois = jogo.logotime2;
-                    let lugar = jogo.local;
-                    let placarUm = jogo.placar1
-                    let placarDois = jogo.placar2
+                    let placar1 = jogo.placar1;
+                    let placar2 = jogo.placar2;
                     // Criar o HTML para cada jogo e adicionar ao elemento jogos
                     jogos.insertAdjacentHTML('beforeend', `
                     <aside class="jogos-do-dia">
-                        <div class="card" id="card1">
+                        <div class="card" id="card1" onmouseover= cardMouseEnter(${i}) onmouseleave= cardMouseLeave(${i})>
                             <div class="data">
-                                <h4 id="local_1">${lugar ? lugar : 'Não informado'}</h4>
+                                <h4 id="local_1">${local}</h4>
                                 <p>${formatDate(dataJogo)}</p>
                             </div>
                             <div class="time">
-                                <img src="${timeUm}" width="40px" height="40px" id="imagem_time_1" data-nome="Liberty" class="img_lol_cblol">
-                                <p id="placar_2">${placarUm}</p>
+                                <img src="${timeUm}" width="40px" height="40px" id="imagem_time_1">
+                                <p class="nome_time"><b>${placar1 ? placar1 : '-'}</b></p>
                             </div>
                             <div class="time">
-                                <img src="${timeDois}" alt="" height="40px" width="40px" id="imagem_time_2" data-nome="Loud" class="img_lol_cblol">
-                                <p id="placar_2">${placarDois}</p>
+                                <img src="${timeDois}" alt="" height="40px" width="40px" id="imagem_time_2">
+                                <p class="nome_time"><b>${placar2 ? placar2 : '-'}</b></p>
+                            </div>
+                            <div class="campeonato campeonato-${i}" style="display: none">
+                                <p><b>${campeonato}</b></p>
                             </div>
                         </div>
                     </aside>`);
                 }
+                i++
             });
         });
+    }
+
+    function temJogo(dia, mes) {
+        
+        let diasComJogo = [];
+        if (mes == 6) {
+            diasComJogo = [
+                13, 14, 15, 20, 21, 22, 23, 24, 27, 28, 29
+            ]
+        } else if (mes == 7) {
+            diasComJogo = [
+                2, 14, 15, 16, 17, 20, 22
+            ]
+        }
+        
+        let retorno = false;
+        for(i = 0; i < diasComJogo.length; i++) {
+            if (dia == diasComJogo[i]) {
+                retorno = true;
+            }    
+        }
+
+        return retorno;
     }
 
     // Função para criar os dias do mês
@@ -79,6 +119,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Dias do mês atual
                 else if (dia <= diasNoMes) {
                     td.textContent = dia;
+                    let jogoNoDia = temJogo(dia, mes+1);
+                    if (jogoNoDia == true) {
+                        td.classList.add('dia-jogo');
+                    }
                     dia++;
                 }
                 // Dias do próximo mês
@@ -197,113 +241,6 @@ function sair() {
         }
     });
 }
-
-
-
-
-
-
-/* Mostrar os jogos */
-
-// API JSON
-const teamsData = {
-    "times_jogos": {
-        "lol": {
-            "campeonatos": {
-                "cblol": {
-                    "jogos": [
-                        {
-                            "data": "12/07/2024 16:00",
-                            "local": "Arena CBLOL",
-                            "times": [
-                                {
-                                    "nome": "Liberty",
-                                    "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png",
-                                },
-                                {
-                                    "nome": "Loud",
-                                    "logo": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png"
-                                }
-                            ]
-                        },
-                        {
-                            "data": "12/07/2024 13:00",
-                            "local": "Arena CBLOL",
-                            "times": [
-                                {
-                                    "nome": "LOS",
-                                    "logo": "https://n9necats.com.br/wp-content/uploads/2022/03/Los_Grandes.png"
-                                },
-                                {
-                                    "nome": "Pain Gaming",
-                                    "logo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/PainGaming.png"
-                                }
-                            ]
-                        },
-                        {
-                            "data": "12/07/2024 15:00",
-                            "local": "Arena CBLOL",
-                            "times": [
-                                {
-                                    "nome": "Kabum",
-                                    "logo": "https://pm1.aminoapps.com/6743/de686a056e10c16124d5dff523a914ff0789c866v2_00.jpg"
-                                },
-                                {
-                                    "nome": "Fluxo",
-                                    "logo": "https://esportenewsmundo.com.br/wp-content/uploads/2022/01/fluxo.png"
-                                }
-                            ]
-                        },
-                        {
-                            "data": "12/07/2024 15:00",
-                            "local": "Arena CBLOL",
-                            "times": [
-                                {
-                                    "nome": "Vivo Keyd",
-                                    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDj2osS2rk5CQ-cxpzSs63tZGq2LE6UyWkg&s"
-                                },
-                                {
-                                    "nome": "Fúria",
-                                    "logo": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            }
-        }
-    }
-}
-
-
-//Receber os dados da API
-
-let jogos = document.querySelector("#jogos")
-
-teamsData.times_jogos.lol.campeonatos.cblol.jogos.forEach(jogo => {
-    let dataJogo = jogo.data;
-    let timeUm = jogo.times[0].logo;
-    let timeDois = jogo.times[1].logo;
-    let lugar = jogo.local;
-
-    // Criar o HTML para cada jogo e adicionar ao elemento jogos
-    jogos.innerHTML += `
-        <aside class="jogos-do-dia">
-            <div class="card" id="card1">
-                    <div class="data">
-                        <h4 id="local_1">${lugar}</h4>
-                        <p>${dataJogo}</p>
-                    </div>
-                    <div class="time">
-                        <img src="${timeUm}" width="40px" height="40px" id="imagem_time_1" data-nome="Liberty" class="img_lol_cblol">
-                    </div>
-                    <div class="time">
-                        <img src="${timeDois}" alt="" height="40px" width="40px" id="imagem_time_2" data-nome="Loud" class="img_lol_cblol">
-                    </div>
-                </div>
-        </aside>
-    `;
-});
 
 const searchInput = document.getElementById('searchInput');
 const suggestions = document.getElementById('suggestions');
