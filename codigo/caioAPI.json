@@ -1,5 +1,7 @@
 {
   "cblol_2024_split_2": {
+    "campeonato": "CBLOL",
+    "local": "São Paulo, Brasil",
     "temporada_regular": {
       "semana_1": {
         "rodada_1": [
@@ -295,10 +297,11 @@
   },
   "champions": {
     "Campeonato": "Champions Tour 2024: Americas",
+    "local": "Seul, na Coreia do Sul",
     "Jogos": [
       {
         "ID": 1,
-        "data": "2024-04-06",
+        "data": "2024-05-06",
         "time1": "Cloud9",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/03214658/380px-Cloud9.png",
         "Time2": "Leviatán",
@@ -307,7 +310,7 @@
       },
       {
         "ID": 2,
-        "data": "2024-04-06",
+        "data": "2024-05-06",
         "time1": "NRG",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png",
         "Time2": "LOUD",
@@ -316,7 +319,7 @@
       },
       {
         "ID": 3,
-        "data": "2024-04-07",
+        "data": "2024-05-07",
         "time1": "G2",
         "logotime1": "https://static.valorantzone.gg/news/2022/02/06153248/g2.png",
         "Time2": "Evil Geniuses",
@@ -325,7 +328,7 @@
       },
       {
         "ID": 4,
-        "data": "2024-04-07",
+        "data": "2024-05-07",
         "time1": "Sentinels",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png",
         "Time2": "100 Thieves",
@@ -334,7 +337,7 @@
       },
       {
         "ID": 5,
-        "data": "2024-04-08",
+        "data": "2024-05-08",
         "time1": "KRÜ",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/14153552/kru.png",
         "Time2": "FURIA",
@@ -343,7 +346,7 @@
       },
       {
         "ID": 6,
-        "data": "2024-04-13",
+        "data": "2024-05-13",
         "time1": "G2",
         "logotime1": "https://static.valorantzone.gg/news/2022/02/06153248/g2.png",
         "Time2": "100 Thieves",
@@ -352,7 +355,7 @@
       },
       {
         "ID": 7,
-        "data": "2024-04-13",
+        "data": "2024-05-13",
         "time1": "Sentinels",
         "logotime1": "https://example.com/logos/sentinels.jpg",
         "Time2": "Leviatán",
@@ -361,7 +364,7 @@
       },
       {
         "ID": 8,
-        "data": "2024-04-14",
+        "data": "2024-05-14",
         "time1": "KRÜ",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/14153552/kru.png",
         "Time2": "MIBR",
@@ -370,7 +373,7 @@
       },
       {
         "ID": 9,
-        "data": "2024-04-14",
+        "data": "2024-05-14",
         "time1": "NRG",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png",
         "Time2": "FURIA",
@@ -379,7 +382,7 @@
       },
       {
         "ID": 10,
-        "data": "2024-04-15",
+        "data": "2024-05-15",
         "time1": "Cloud9",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/03214658/380px-Cloud9.png",
         "Time2": "Evil Geniuses",
@@ -397,7 +400,7 @@
       },
       {
         "ID": 12,
-        "data": "2024-04-20",
+        "data": "2024-05-20",
         "time1": "Cloud9",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/03214658/380px-Cloud9.png",
         "Time2": "LOUD",
@@ -406,7 +409,7 @@
       },
       {
         "ID": 13,
-        "data": "2024-04-21",
+        "data": "2024-05-21",
         "time1": "KRÜ",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/14153552/kru.png",
         "Time2": "Evil Geniuses",
@@ -415,7 +418,7 @@
       },
       {
         "ID": 14,
-        "data": "2024-04-21",
+        "data": "2024-05-21",
         "time1": "NRG",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png",
         "Time2": "Leviatán",
@@ -424,7 +427,7 @@
       },
       {
         "ID": 15,
-        "data": "2024-04-22",
+        "data": "2024-05-22",
         "time1": "G2",
         "logotime1": "https://static.valorantzone.gg/news/2022/02/06153248/g2.png",
         "Time2": "FURIA",
@@ -433,7 +436,7 @@
       },
       {
         "ID": 16,
-        "data": "2024-04-22",
+        "data": "2024-05-22",
         "time1": "Cloud9",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/03214658/380px-Cloud9.png",
         "Time2": "100 Thieves",
@@ -442,7 +445,7 @@
       },
       {
         "ID": 17,
-        "data": "2024-04-23",
+        "data": "2024-05-23",
         "time1": "Sentinels",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png",
         "Time2": "Evil Geniuses",
@@ -451,7 +454,7 @@
       },
       {
         "ID": 18,
-        "data": "2024-04-23",
+        "data": "2024-05-23",
         "time1": "KRÜ",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/14153552/kru.png",
         "Time2": "LOUD",
@@ -460,7 +463,7 @@
       },
       {
         "ID": 19,
-        "data": "2024-04-24",
+        "data": "2024-05-24",
         "time1": "NRG",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png",
         "Time2": "MIBR",
@@ -469,7 +472,7 @@
       },
       {
         "ID": 20,
-        "data": "2024-04-27",
+        "data": "2024-05-27",
         "time1": "LOUD",
         "logotime1": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
         "Time2": "Evil Geniuses",
@@ -478,7 +481,7 @@
       },
       {
         "ID": 21,
-        "data": "2024-04-27",
+        "data": "2024-05-27",
         "time1": "KRÜ",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/14153552/kru.png",
         "Time2": "G2",
@@ -487,7 +490,7 @@
       },
       {
         "ID": 22,
-        "data": "2024-04-28",
+        "data": "2024-05-28",
         "time1": "NRG",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png",
         "Time2": "100 Thieves",
@@ -496,7 +499,7 @@
       },
       {
         "ID": 23,
-        "data": "2024-04-28",
+        "data": "2024-05-28",
         "time1": "Leviatán",
         "logotime1": "https://static.valorantzone.gg/news/2022/02/08003207/297px-Leviatan_allmode.png",
         "Time2": "MIBR",
@@ -505,7 +508,7 @@
       },
       {
         "ID": 24,
-        "data": "2024-04-29",
+        "data": "2024-05-29",
         "time1": "Sentinels",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png",
         "Time2": "FURIA",
@@ -514,7 +517,7 @@
       },
       {
         "ID": 25,
-        "data": "2024-04-29",
+        "data": "2024-05-29",
         "time1": "LOUD",
         "logotime1": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
         "Time2": "100 Thieves",
@@ -523,7 +526,7 @@
       },
       {
         "ID": 26,
-        "data": "2024-05-04",
+        "data": "2024-06-04",
         "time1": "Leviatán",
         "logotime1": "https://static.valorantzone.gg/news/2022/02/08003207/297px-Leviatan_allmode.png",
         "Time2": "FURIA",
@@ -532,7 +535,7 @@
       },
       {
         "ID": 27,
-        "data": "2024-05-04",
+        "data": "2024-06-04",
         "time1": "NRG",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png",
         "Time2": "Sentinels",
@@ -541,7 +544,7 @@
       },
       {
         "ID": 28,
-        "data": "2024-05-05",
+        "data": "2024-06-05",
         "time1": "KRÜ",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/14153552/kru.png",
         "Time2": "100 Thieves",
@@ -550,7 +553,7 @@
       },
       {
         "ID": 29,
-        "data": "2024-05-05",
+        "data": "2024-06-05",
         "time1": "LOUD",
         "logotime1": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
         "Time2": "MIBR",
@@ -559,7 +562,7 @@
       },
       {
         "ID": 30,
-        "data": "2024-05-06",
+        "data": "2024-06-06",
         "time1": "Cloud9",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/03214658/380px-Cloud9.png",
         "Time2": "G2",
@@ -568,7 +571,7 @@
       },
       {
         "ID": 31,
-        "data": "2024-05-11",
+        "data": "2024-06-11",
         "time1": "KRÜ",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/14153552/kru.png",
         "Time2": "Cloud9",
@@ -577,7 +580,7 @@
       },
       {
         "ID": 32,
-        "data": "2024-05-11",
+        "data": "2024-06-11",
         "time1": "NRG",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png",
         "Time2": "Evil Geniuses",
@@ -586,7 +589,7 @@
       },
       {
         "ID": 33,
-        "data": "2024-05-12",
+        "data": "2024-06-12",
         "time1": "LOUD",
         "logotime1": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
         "Time2": "G2",
@@ -595,7 +598,7 @@
       },
       {
         "ID": 34,
-        "data": "2024-05-12",
+        "data": "2024-06-12",
         "time1": "Leviatán",
         "logotime1": "https://static.valorantzone.gg/news/2022/02/08003207/297px-Leviatan_allmode.png",
         "Time2": "Evil Geniuses",
@@ -604,7 +607,7 @@
       },
       {
         "ID": 35,
-        "data": "2024-05-13",
+        "data": "2024-06-13",
         "time1": "FURIA",
         "logotime1": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png",
         "Time2": "100 Thieves",
@@ -613,7 +616,7 @@
       },
       {
         "ID": 36,
-        "data": "2024-05-13",
+        "data": "2024-06-13",
         "time1": "Sentinels",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/02184700/294px-Sentinels_Logo.png",
         "Time2": "MIBR",
@@ -622,7 +625,7 @@
       },
       {
         "ID": 37,
-        "data": "2024-05-18",
+        "data": "2024-06-18",
         "time1": "LOUD",
         "logotime1": "https://static.valorantzone.gg/news/2022/02/06183039/LOUD.png",
         "Time2": "Cloud9",
@@ -631,7 +634,7 @@
       },
       {
         "ID": 38,
-        "data": "2024-05-18",
+        "data": "2024-06-18",
         "time1": "Leviatán",
         "logotime1": "https://static.valorantzone.gg/news/2022/02/08003207/297px-Leviatan_allmode.png",
         "Time2": "G2",
@@ -640,7 +643,7 @@
       },
       {
         "ID": 39,
-        "data": "2024-05-19",
+        "data": "2024-06-19",
         "time1": "FURIA",
         "logotime1": "https://seeklogo.com/images/F/furia-esports-logo-C7F0FAD39C-seeklogo.com.png",
         "Time2": "G2",
@@ -649,7 +652,7 @@
       },
       {
         "ID": 40,
-        "data": "2024-05-19",
+        "data": "2024-06-19",
         "time1": "NRG",
         "logotime1": "https://static.valorantzone.gg/news/2021/04/04142844/NRG-LOGO-PNG.png",
         "Time2": "KRÜ",
@@ -657,5 +660,501 @@
         "Vencedor": "NRG"
       }
     ]
+  },
+  "blast_premier": {
+    "campeonato": "Blast Premier",
+    "local": "Londres, Inglaterra",
+    "jogos": [
+      {
+        "ID": 1,
+        "data": "2024-06-16",
+        "time1": "Team Spirit",
+        "logotime1": "https://ih1.redbubble.net/image.4338518766.9319/st,small,507x507-pad,600x600,f8f8f8.jpg",
+        "placar1": 2,
+        "Time2": "NaVi",
+        "logotime2": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Natus_Vincere_logo.png",
+        "placar2": 3,
+        "Vencedor": "Team Spirit"
+      },
+      {
+        "ID": 2,
+        "data": "2024-06-15",
+        "time1": "NaVi",
+        "logotime1": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Natus_Vincere_logo.png",
+        "placar1": 2,
+        "Time2": "Virtus.pro",
+        "logotime2": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
+        "placar2": 0,
+        "Vencedor": "NaVi"
+      },
+      {
+        "ID": 3,
+        "data": "2024-06-15",
+        "time1": "Team Spirit",
+        "logotime1": "https://ih1.redbubble.net/image.4338518766.9319/st,small,507x507-pad,600x600,f8f8f8.jpg",
+        "placar1": 2,
+        "Time2": "Team Vitality",
+        "logotime2": "https://esportbet.com/wp-content/smush-webp/2022/04/Team-Vitality.jpg.webp",
+        "placar2": 1,
+        "Vencedor": "Team Spirit"
+      },
+      {
+        "ID": 4,
+        "data": "2024-06-14",
+        "time1": "Astralis",
+        "logotime1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLqdji9F5CQlIht-qS_HiJkK8DtsEgJI2wlQ&s",
+        "placar1": 0,
+        "Time2": "Virtus.pro",
+        "logotime2": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
+        "placar2": 2,
+        "Vencedor": "Virtus.pro"
+      },
+      {
+        "ID": 5,
+        "data": "2024-06-14",
+        "time1": "FaZe Clan",
+        "logotime1": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Faze_Clan.svg",
+        "placar1": 0,
+        "Time2": "Team Vitality",
+        "logotime2": "https://esportbet.com/wp-content/smush-webp/2022/04/Team-Vitality.jpg.webp",
+        "placar2": 2,
+        "Vencedor": "Team Vitality"
+      },
+      {
+        "ID": 6,
+        "data": "2024-06-13",
+        "time1": "Team Spirit",
+        "logotime1": "https://ih1.redbubble.net/image.4338518766.9319/st,small,507x507-pad,600x600,f8f8f8.jpg",
+        "placar1": 1,
+        "Time2": "NaVi",
+        "logotime2": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
+        "placar2": 2,
+        "Vencedor": "Team Spirit"
+      },
+      {
+        "ID": 7,
+        "data": "2024-06-13",
+        "time1": "Virtus.pro",
+        "logotime1": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
+        "placar1": 0,
+        "Time2": "Team Spirit",
+        "logotime2": "https://ih1.redbubble.net/image.4338518766.9319/st,small,507x507-pad,600x600,f8f8f8.jpg",
+        "placar2": 2,
+        "Vencedor": "Team Spirit"
+      },
+      {
+        "ID": 8,
+        "data": "2024-06-13",
+        "time1": "Team Vitality",
+        "logotime1": "https://esportbet.com/wp-content/smush-webp/2022/04/Team-Vitality.jpg.webp",
+        "placar1": 2,
+        "Time2": "G2 Esports",
+        "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s",
+        "placar2": 1,
+        "Vencedor": "Team Vitality"
+      },
+      {
+        "ID": 9,
+        "data": "2024-06-13",
+        "time1": "FaZe Clan",
+        "logotime1": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Faze_Clan.svg",
+        "placar1": 1,
+        "Time2": "NaVi",
+        "logotime2": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
+        "placar2": 2,
+        "Vencedor": "NaVi"
+      },
+      {
+        "ID": 10,
+        "data": "2024-06-13",
+        "time1": "sAw",
+        "logotime1": "https://pbs.twimg.com/profile_images/1798389853479993347/2E8Nzxz__400x400.jpg",
+        "placar1": 0,
+        "Time2": "Astralis",
+        "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLqdji9F5CQlIht-qS_HiJkK8DtsEgJI2wlQ&s",
+        "placar2": 2,
+        "Vencedor": "Astralis"
+      },
+      {
+        "ID": 11,
+        "data": "2024-06-12",
+        "time1": "Team Spirit",
+        "logotime1": "https://ih1.redbubble.net/image.4338518766.9319/st,small,507x507-pad,600x600,f8f8f8.jpg",
+        "placar1": 2,
+        "Time2": "G2 Esports",
+        "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s",
+        "placar2": 1,
+        "Vencedor": "Team Spirit"
+      },
+      {
+        "ID": 12,
+        "data": "2024-06-12",
+        "time1": "Team Vitality",
+        "logotime1": "https://esportbet.com/wp-content/smush-webp/2022/04/Team-Vitality.jpg.webp",
+        "placar1": 1,
+        "Time2": "Virtus.pro",
+        "logotime2": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
+        "placar2": 2,
+        "Vencedor": "Virtus.pro"
+      },
+      {
+        "ID": 13,
+        "data": "2024-06-12",
+        "time1": "NaVi",
+        "logotime1": "https://cdn.worldvectorlogo.com/logos/virtuspro-1.svg",
+        "placar1": 2,
+        "Time2": "Astralis",
+        "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLqdji9F5CQlIht-qS_HiJkK8DtsEgJI2wlQ&s",
+        "placar2": 0,
+        "Vencedor": "NaVi"
+      },
+      {
+        "ID": 14,
+        "data": "2024-06-12",
+        "time1": "FaZe Clan",
+        "logotime1": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Faze_Clan.svg",
+        "placar1": 2,
+        "Time2": "sAw",
+        "logotime2": "https://pbs.twimg.com/profile_images/1798389853479993347/2E8Nzxz__400x400.jpg",
+        "placar2": 0,
+        "Vencedor": "FaZe Clan"
+      }
+    ]
+  },
+  "Lec": {
+    "campeonato": "lec", 
+    "local": "Berlin, Alemanha",
+      "jogos": [
+        {
+          "ID": 1,
+          "data": "2024-06-01",
+          "time1": "Karmine Corp",
+          "logotime1": "https://mir-s3-cdn-cf.behance.net/projects/404/895a9f157056617.Y3JvcCw5MDAsNzAzLDAsOTg.png",
+          "placar1": 2,
+          "time2": "Giants",
+          "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZEuXkixwb0r-W-6Ie8PyVtLdLwp7NJIgSA&s",
+          "placar2": 0,
+          "Vencedor": "Karmine Corp"
+        },
+        {
+          "ID": 2,
+          "data": "2024-06-01",
+          "time1": "Team Heretics",
+          "logotime1": "https://prosettings.net/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=pad%2Cgravity=auto%2Cheight=675%2Cq=85%2Csharpen=2%2Cwidth=1200/wp-content/uploads/team-heretics.png",
+          "placar1": 1,
+          "time2": "BDS",
+          "logotime2": "https://am-a.akamaihd.net/image?resize=400:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1641292031788_Team_BDSlogo_square.png",
+          "placar2": 2,
+          "Vencedor": "BDS"
+        },
+        {
+          "ID": 3,
+          "data": "2024-06-01",
+          "time1": "MAD Lions",
+          "logotime1": "https://egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Fvalorant%2FteamsV2%2Fm%2Fma%2Fmad-lions-koi_1706943970413.png&w=384&q=75",
+          "placar1": 2,
+          "time2": "Rogue",
+          "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s",
+          "placar2": 1,
+          "Vencedor": "MAD Lions"
+        },
+        {
+          "ID": 4,
+          "data": "2024-06-06",
+          "time1": "Rogue",
+          "logotime1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s",
+          "placar1": 0,
+          "time2": "SK Gaming",
+          "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdKjXicEX8L3YkfFpXZuIiAdNMpDjxwU22Mw&s",
+          "placar2": 2,
+          "Vencedor": "SK Gaming"
+        },
+        {
+          "ID": 5,
+          "data": "2024-06-06",
+          "time1": "Fnatic",
+          "logotime1": "https://cdn.pandascore.co/images/team/image/394/220px_fnaticlogo_square.png",
+          "placar1": 2,
+          "time2": "Team Vitality",
+          "logotime2": "https://esportbet.com/wp-content/smush-webp/2022/04/Team-Vitality.jpg.webp",
+          "placar2": 1,
+          "Vencedor": "Fnatic"
+        },
+        {
+          "ID": 6,
+          "data": "2024-06-06",
+          "time1": "G2 Esports",
+          "logotime1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s",
+          "placar1": 2,
+          "time2": "Karmine Corp",
+          "logotime2": "https://mir-s3-cdn-cf.behance.net/projects/404/895a9f157056617.Y3JvcCw5MDAsNzAzLDAsOTg.png",
+          "placar2": 0,
+          "Vencedor": "G2 Esports"
+        },
+        {
+          "ID": 7,
+          "data": "2024-06-07",
+          "time1": "Giants",
+          "logotime1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZEuXkixwb0r-W-6Ie8PyVtLdLwp7NJIgSA&s",
+          "placar1": 1,
+          "time2": "Team Heretics",
+          "logotime2": "https://prosettings.net/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=pad%2Cgravity=auto%2Cheight=675%2Cq=85%2Csharpen=2%2Cwidth=1200/wp-content/uploads/team-heretics.png",
+          "placar2": 2,
+          "Vencedor": "Team Heretics"
+        },
+        {
+          "ID": 8,
+          "data": "2024-06-08",
+          "time1": "BDS",
+          "logotime1": "https://am-a.akamaihd.net/image?resize=400:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1641292031788_Team_BDSlogo_square.png",
+          "placar1": 0,
+          "time2": "MAD Lions",
+          "logotime2": "https://egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Fvalorant%2FteamsV2%2Fm%2Fma%2Fmad-lions-koi_1706943970413.png&w=384&q=75",
+          "placar2": 2,
+          "Vencedor": "MAD Lions"
+        },
+        {
+          "ID": 9,
+          "data": "2024-06-08",
+          "time1": "Rogue",
+          "logotime1": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s",
+          "placar1": 1,
+          "time2": "SK Gaming",
+          "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdKjXicEX8L3YkfFpXZuIiAdNMpDjxwU22Mw&s",
+          "placar2": 2,
+          "Vencedor": "SK Gaming"
+        },
+        {
+          "ID": 10,
+          "data": "2024-06-18",
+          "time1": "Fnatic",
+          "logotime1": "https://cdn.pandascore.co/images/team/image/394/220px_fnaticlogo_square.png",
+          "placar1": 2,
+          "time2": "G2 Esports",
+          "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s",
+          "placar2": 1,
+          "Vencedor": "Fnatic"
+        },
+        {
+          "ID": 11,
+          "data": "2024-06-8",
+          "time1": "Team Vitality",
+          "logotime1": "https://prosettings.net/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=pad%2Cgravity=auto%2Cheight=675%2Cq=85%2Csharpen=2%2Cwidth=1200/wp-content/uploads/team-heretics.png",
+          "placar1": 1,
+          "time2": "SK Gaming",
+          "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdKjXicEX8L3YkfFpXZuIiAdNMpDjxwU22Mw&s",
+          "placar2": 2,
+          "Vencedor": "SK Gaming"
+        },
+        {
+          "ID": 12,
+          "data": "2024-06-12",
+          "time1": "Karmine Corp",
+          "logotime1": "https://mir-s3-cdn-cf.behance.net/projects/404/895a9f157056617.Y3JvcCw5MDAsNzAzLDAsOTg.png",
+          "placar1": 0,
+          "time2": "Team Heretics",
+          "logotime2": "https://prosettings.net/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=pad%2Cgravity=auto%2Cheight=675%2Cq=85%2Csharpen=2%2Cwidth=1200/wp-content/uploads/team-heretics.png",
+          "placar2": 2,
+          "Vencedor": "Team Heretics"
+        },
+        {
+          "ID": 13,
+          "data": "2024-06-12",
+          "time1": "BDS",
+          "logotime1": "https://am-a.akamaihd.net/image?resize=400:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1641292031788_Team_BDSlogo_square.png",
+          "placar1": 2,
+          "time2": "Giants",
+          "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZEuXkixwb0r-W-6Ie8PyVtLdLwp7NJIgSA&s",
+          "placar2": 1,
+          "Vencedor": "BDS"
+        },
+        {
+          "ID": 14,
+          "data": "2024-06-12",
+          "time1": "MAD Lions",
+          "logotime1": "https://egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Fvalorant%2FteamsV2%2Fm%2Fma%2Fmad-lions-koi_1706943970413.png&w=384&q=75",
+          "placar1": 2,
+          "time2": "Rogue",
+          "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s",
+          "placar2": 0,
+          "Vencedor": "MAD Lions"
+        },
+        {
+          "ID": 15,
+          "data": "2024-06-15",
+          "time1": "SK Gaming",
+          "logotime1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdKjXicEX8L3YkfFpXZuIiAdNMpDjxwU22Mw&s",
+          "placar1": 2,
+          "time2": "Fnatic",
+          "logotime2": "https://cdn.pandascore.co/images/team/image/394/220px_fnaticlogo_square.png",
+          "placar2": 1,
+          "Vencedor": "SK Gaming"
+        },
+        {
+          "ID": 16,
+          "data": "2024-06-15",
+          "time1": "G2 Esports",
+          "logotime1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s",
+          "placar1": 2,
+          "time2": "Team Vitality",
+          "logotime2": "https://esportbet.com/wp-content/smush-webp/2022/04/Team-Vitality.jpg.webp",
+          "placar2": 0,
+          "Vencedor": "G2 Esports"
+        },
+        {
+          "ID": 17,
+          "data": "2024-06-15",
+          "time1": "Karmine Corp",
+          "logotime1": "https://mir-s3-cdn-cf.behance.net/projects/404/895a9f157056617.Y3JvcCw5MDAsNzAzLDAsOTg.png",
+          "placar1": 1,
+          "time2": "Giants",
+          "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZEuXkixwb0r-W-6Ie8PyVtLdLwp7NJIgSA&s",
+          "placar2": 2,
+          "Vencedor": "Giants"
+        },
+        {
+          "ID": 18,
+          "data": "2024-06-18",
+          "time1": "Team Heretics",
+          "logotime1": "https://prosettings.net/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=pad%2Cgravity=auto%2Cheight=675%2Cq=85%2Csharpen=2%2Cwidth=1200/wp-content/uploads/team-heretics.png",
+          "placar1": 2,
+          "time2": "BDS",
+          "logotime2": "https://am-a.akamaihd.net/image?resize=400:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1641292031788_Team_BDSlogo_square.png",
+          "placar2": 1,
+          "Vencedor": "Team Heretics"
+        },
+        {
+          "ID": 19,
+          "data": "2024-06-18",
+          "time1": "MAD Lions",
+          "logotime1": "https://egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Fvalorant%2FteamsV2%2Fm%2Fma%2Fmad-lions-koi_1706943970413.png&w=384&q=75",
+          "placar1": 0,
+          "time2": "SK Gaming",
+          "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdKjXicEX8L3YkfFpXZuIiAdNMpDjxwU22Mw&s",
+          "placar2": 2,
+          "Vencedor": "SK Gaming"
+        },
+        {
+          "ID": 20,
+          "data": "2024-06-19",
+          "time1": "Rogue",
+          "logotime1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s",
+          "placar1": 1,
+          "time2": "Fnatic",
+          "logotime2": "https://cdn.pandascore.co/images/team/image/394/220px_fnaticlogo_square.png",
+          "placar2": 2,
+          "Vencedor": "Fnatic"
+        },
+        {
+          "ID": 21,
+          "data": "2024-06-19",
+          "time1": "Team Vitality",
+          "logotime1": "https://esportbet.com/wp-content/smush-webp/2022/04/Team-Vitality.jpg.webp",
+          "placar1": 2,
+          "time2": "G2 Esports",
+          "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s",
+          "placar2": 1,
+          "Vencedor": "Team Vitality"
+        },
+        {
+          "ID": 22,
+          "data": "2024-06-20",
+          "time1": "Karmine Corp",
+          "logotime1": "https://mir-s3-cdn-cf.behance.net/projects/404/895a9f157056617.Y3JvcCw5MDAsNzAzLDAsOTg.png",
+          "placar1": 1,
+          "time2": "Team Heretics",
+          "logotime2": "https://prosettings.net/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=pad%2Cgravity=auto%2Cheight=675%2Cq=85%2Csharpen=2%2Cwidth=1200/wp-content/uploads/team-heretics.png",
+          "placar2": 2,
+          "Vencedor": "Team Heretics"
+        },
+        {
+          "ID": 23,
+          "data": "2024-06-20",
+          "time1": "BDS",
+          "logotime1": "https://am-a.akamaihd.net/image?resize=400:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1641292031788_Team_BDSlogo_square.png",
+          "placar1": 2,
+          "time2": "MAD Lions",
+          "logotime2": "https://egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Fvalorant%2FteamsV2%2Fm%2Fma%2Fmad-lions-koi_1706943970413.png&w=384&q=75",
+          "placar2": 0,
+          "Vencedor": "BDS"
+        },
+        {
+          "ID": 24,
+          "data": "2024-06-20",
+          "time1": "Giants",
+          "logotime1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZEuXkixwb0r-W-6Ie8PyVtLdLwp7NJIgSA&s",
+          "placar1": 1,
+          "time2": "Rogue",
+          "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s",
+          "placar2": 2,
+          "Vencedor": "Rogue"
+        },
+        {
+          "ID": 25,
+          "data": "2024-06-20",
+          "time1": "SK Gaming",
+          "logotime1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdKjXicEX8L3YkfFpXZuIiAdNMpDjxwU22Mw&s",
+          "placar1": 2,
+          "time2": "Fnatic",
+          "logotime2": "https://cdn.pandascore.co/images/team/image/394/220px_fnaticlogo_square.png",
+          "placar2": 0,
+          "Vencedor": "SK Gaming"
+        },
+        {
+          "ID": 26,
+          "data": "2024-06-22",
+          "time1": "Team Vitality",
+          "logotime1": "https://esportbet.com/wp-content/smush-webp/2022/04/Team-Vitality.jpg.webp",
+          "placar1": 1,
+          "time2": "G2 Esports",
+          "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXkleRPcwT2o7L9dV54VgntEmsIBu5QXtNQ&s",
+          "placar2": 2,
+          "Vencedor": "G2 Esports"
+        },
+        {
+          "ID": 27,
+          "data": "2024-06-26",
+          "time1": "Karmine Corp",
+          "logotime1": "https://mir-s3-cdn-cf.behance.net/projects/404/895a9f157056617.Y3JvcCw5MDAsNzAzLDAsOTg.png",
+          "placar1": 1,
+          "time2": "Team Heretics",
+          "logotime2": "https://prosettings.net/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=pad%2Cgravity=auto%2Cheight=675%2Cq=85%2Csharpen=2%2Cwidth=1200/wp-content/uploads/team-heretics.png",
+          "placar2": 2,
+          "Vencedor": "Team Heretics"
+        },
+        {
+          "ID": 28,
+          "data": "2024-06-26",
+          "time1": "BDS",
+          "logotime1": "https://am-a.akamaihd.net/image?resize=400:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1641292031788_Team_BDSlogo_square.png",
+          "placar1": 2,
+          "time2": "Giants",
+          "logotime2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZEuXkixwb0r-W-6Ie8PyVtLdLwp7NJIgSA&s",
+          "placar2": 1,
+          "Vencedor": "BDS"
+        },
+        {
+          "ID": 29,
+          "data": "2024-06-28",
+          "time1": "MAD Lions",
+          "logotime1": "https://egamersworld.com/_next/image?url=https%3A%2F%2Fegamersworld.com%2Fuploads%2Fvalorant%2FteamsV2%2Fm%2Fma%2Fmad-lions-koi_1706943970413.png&w=384&q=75",
+          "placar1": 2,
+          "time2": "Fnatic",
+          "logotime2": "https://cdn.pandascore.co/images/team/image/394/220px_fnaticlogo_square.png",
+          "placar2": 0,
+          "Vencedor": "MAD Lions"
+        },
+        {
+          "ID": 30,
+          "data": "2024-06-28",
+          "time1": "Team Heretics",
+          "logotime1": "https://prosettings.net/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=pad%2Cgravity=auto%2Cheight=675%2Cq=85%2Csharpen=2%2Cwidth=1200/wp-content/uploads/team-heretics.png",
+          "placar1": 2,
+          "time2": "Karmine Corp",
+          "logotime2": "https://mir-s3-cdn-cf.behance.net/projects/404/895a9f157056617.Y3JvcCw5MDAsNzAzLDAsOTg.png",
+          "placar2": 0,
+          "Vencedor": "Team Heretics"
+        }
+      ]
+    }
   }
-}

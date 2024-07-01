@@ -815,7 +815,7 @@ const teamsData = {
               }
             },
             {
-              "nome": "Rougue",
+              "nome": "Rogue",
               "campeonato": "LEC",
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s",
               "jogadores": [
@@ -846,11 +846,11 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "data": "30/06/2024 23:00",
                 "times": [
                   {
-                    "nome": "Rougue",
+                    "nome": "Rogue",
                     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s",
                     "placar": 3
                   },
@@ -863,15 +863,15 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "04/07/2024 20:00",
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "times": [
                   {
-                    "nome": "Rougue",
+                    "nome": "Rogue",
                     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s"
                   },
                   {
                     "nome": "Karmine Corp",
-                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Karmine_Corp_logo.svg/800px-Karmine_Corp_logo.svg.png", 
+                    "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/895a9f157056617.Y3JvcCw5MDAsNzAzLDAsOTg.png", 
                   }
                 ]
               }
@@ -908,7 +908,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "data": "30/06/2024 20:00",
                 "times": [
                   {
@@ -917,7 +917,7 @@ const teamsData = {
                     "placar": 1
                   },
                   {
-                    "nome": "Rougue",
+                    "nome": "Rogue",
                     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s",
                     "placar": 3
                   }
@@ -925,7 +925,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "04/07/2024 22:00",
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "times": [
                   {
                     "nome": "Fnatic",
@@ -970,7 +970,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "data": "30/06/2024 20:00",
                 "times": [
                   {
@@ -987,7 +987,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "04/07/2024 23:00",
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "times": [
                   {
                     "nome": "MAD Lions",
@@ -1032,7 +1032,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "data": "30/06/2024 19:00",
                 "times": [
                   {
@@ -1049,7 +1049,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "04/07/2024 21:00",
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "times": [
                   {
                     "nome": "Team BDS",
@@ -1094,7 +1094,7 @@ const teamsData = {
                 }
               ],
               "ultimo_jogo": {
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "data": "30/06/2024 20:00",
                 "times": [
                   {
@@ -1111,7 +1111,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "12/07/2024 22:00",
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "times": [
                   {
                     "nome": "Team Heretics",
@@ -1156,7 +1156,7 @@ const teamsData = {
                 }
             ],
             "ultimo_jogo": {
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "data": "30/06/2024 21:00",
                 "times": [
                   {
@@ -1173,7 +1173,7 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "04/07/2024 22:00",
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "times": [
                   {
                     "nome": "G2 Esports",
@@ -1199,12 +1199,12 @@ const teamsData = {
                 {
                     "nome": "Bo",
                     "lane": "Jungler",
-                    "img": "https://liquipedia.net/commons/images/thumb/6/6f/KC_Bo_at_LEC_2024_Winter.jpg/600px-KC_Bo_at_LEC_2024_Winter.jpg"
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv5EgLguMc_xBYSkdE3oSKXT1V-EXwIQdW6Q&s"
                 },
                 {
                     "nome": "Saken",
                     "lane": "Mid",
-                    "img": "https://liquipedia.net/commons/images/thumb/8/86/KC_SAKEN_EMEAMasters_2023.jpg/600px-KC_SAKEN_EMEAMasters_2023.jpg"
+                    "img": "https://img.redbull.com/images/c_crop,w_3458,h_1729,x_0,y_334,f_auto,q_auto/c_scale,w_1200/redbullcom/2022/4/15/chsfsnuwwgg5igr8zj0k/lucas-saken-fayard-karmine-corp-lol"
                 },
                 {
                     "nome": "Upset",
@@ -1218,7 +1218,7 @@ const teamsData = {
                 }
             ],
             "ultimo_jogo": {
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "data": "30/06/2024 22:00",
                 "times": [
                   {
@@ -1235,14 +1235,14 @@ const teamsData = {
               },
               "proximo_jogo": {
                 "data": "04/07/2024 22:00",
-                "local": "Arena LEC",
+                "local": "LEC Studio",
                 "times": [
                   {
                     "nome": "Karmine Corp",
                     "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/895a9f157056617.Y3JvcCw5MDAsNzAzLDAsOTg.png",
                   },
                   {
-                    "nome": "Rougue",
+                    "nome": "Rogue",
                     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEbzEY5puOUlil9r6NjtvM3vulk-x4pytQ&s"    
                   }
                 ]

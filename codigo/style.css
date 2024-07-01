@@ -482,7 +482,7 @@ section{
         grid-row: 2;
     }
 
-    #nome_jogo1, #nome_jogo2, #nome_jogo3, #nome_jogo4{
+    #nome_jogo1, #nome_jogo2, #nome_jogo3, #nome_jogo4, #nome_jogo5{
         text-align: center;
     }
     .noticias_container{
@@ -496,6 +496,10 @@ section{
 
     .jogos .cs_proximos, .jogos .r6_proximos, .jogos .cs_ultimos, .jogos .r6_ultimos {
         display: block;
+    }
+
+    .jogos .r6_proximos, .jogos .r6_ultimos, .jogos .cs_proximos{
+        text-align: center;
     }
 
 

@@ -4,6 +4,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const nextMonth = document.getElementById("nextMonth");
     const tbody = document.getElementById("dias");
 
+    Swal.fire({
+        title: "Sem jogos!",
+        text: "Não tem partidas desse jogo!",
+        icon: "warning"
+      });
+
+
     const meses = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
     let dataAtual = new Date();
     let mesAtual = dataAtual.getMonth();

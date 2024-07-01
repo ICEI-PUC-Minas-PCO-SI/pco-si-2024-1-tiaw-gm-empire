@@ -41,8 +41,12 @@ document.addEventListener('DOMContentLoaded', function () {
     } else {
         // Usuário não está logado, desabilita a área de texto e muda seu placeholder
         commentTextArea.setAttribute('disabled', 'true');
-        btn - submit.setAttribute('disabled', 'true');
-        commentTextArea.placeholder = 'Você precisa estar logado para comentar.';
+        btn_submit.setAttribute('disabled', 'true');
+        Swal.fire({
+            title: "Atenção!",
+            text: "Você precisa realizar o login antes de comentar! 🙃",
+            icon: "warning"
+          });
     }
 
     btn.addEventListener('click', () => {

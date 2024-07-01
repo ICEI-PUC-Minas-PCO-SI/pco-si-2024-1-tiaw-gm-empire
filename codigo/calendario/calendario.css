@@ -450,6 +450,10 @@ footer h2{
         margin-left: 15px;
     }
 
+    main{
+        margin: 0;
+    }
+
     header #icon_busca{
         display: none;
     }

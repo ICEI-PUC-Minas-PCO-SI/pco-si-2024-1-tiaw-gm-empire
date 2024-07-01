@@ -28,6 +28,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     let timeUm = game.logotime1;
                     let timeDois = game.logotime2;
                     let lugar = game.local;
+                    let placarUm = game.placar1
+                    let placarDois = game.placar2
                     // Criar o HTML para cada jogo e adicionar ao elemento jogos
                     jogos.insertAdjacentHTML('beforeend', `
                     <aside class="jogos-do-dia">
@@ -38,10 +40,13 @@ document.addEventListener("DOMContentLoaded", function () {
                             </div>
                             <div class="time">
                                 <img src="${timeUm}" width="40px" height="40px" id="imagem_time_1" data-nome="Liberty" class="img_lol_cblol">
+                                <p id="placar_2">${placarUm}</p>
                             </div>
                             <div class="time">
                                 <img src="${timeDois}" alt="" height="40px" width="40px" id="imagem_time_2" data-nome="Loud" class="img_lol_cblol">
+                                <p id="placar_2">${placarDois}</p>
                             </div>
+
                         </div>
                     </aside>`) ;
                 } 
