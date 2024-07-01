@@ -72,6 +72,24 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    function temJogo(dia, mes) {
+        
+        let diasComJogo = [];
+        if (mes == 6) {
+            diasComJogo = [
+               16, 15, 14, 13, 12
+            ]
+        } 
+        
+        let retorno = false;
+        for(i = 0; i < diasComJogo.length; i++) {
+            if (dia == diasComJogo[i]) {
+                retorno = true;
+            }    
+        }
+
+        return retorno;
+    }
 
 
     // Função para criar os dias do mês
@@ -101,6 +119,10 @@ document.addEventListener("DOMContentLoaded", function () {
                     // Dias do mês atual
                     else if (dia <= diasNoMes) {
                         td.textContent = dia;
+                        let jogoNoDia = temJogo(dia, mes+1);
+                        if (jogoNoDia == true) {
+                            td.classList.add('dia-jogo');
+                        }
                         dia++;
                     }
                     // Dias do próximo mês
