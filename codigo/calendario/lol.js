@@ -1,11 +1,13 @@
 function cardMouseEnter(i) {
-
+    console.log();
     let campeonatoDiv = document.querySelector(`.campeonato-${i}`);
     campeonatoDiv.style.display = 'block'
 }
-function cardMouseLeave(i) {
-    let campeonatoDiv = document.querySelector(`.campeonato-${i}`);
-    campeonatoDiv.style.display = 'none';
+function cardMouseLeave(e) {
+    let campeonatoDiv = document.querySelectorAll('.campeonato');
+    [...campeonatoDiv].forEach(element => {
+        element.style.display = 'none'
+    })
 }
 
 
@@ -30,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
             let local = caioAPI.Lec.local
             let i = 0;
             games.forEach(game => {
+                debugger;
                 console.log(game);            
                 let dataCompleta = game.data.split(' ')[0];
                 let data = dataCompleta.split('-')[2].toString();
@@ -42,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // dataSelecionada = +dataSelecionada < 10 ? '0' + dataSelecionada : dataSelecionada; 
 
                 if (+data == dataSelecionada && +dataMes == realMesAtual) {
+                    debugger;
                     let dataJogo = game.data;
                     let timeUm = game.logotime1;
                     let timeDois = game.logotime2;
@@ -68,7 +72,6 @@ document.addEventListener("DOMContentLoaded", function () {
                         </div>
                     </aside>`) ;
                 } 
-                i++
             });
         });
     }
@@ -145,6 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (dia > diasNoMes && tr.children[6].classList.contains("prox-mes")) break;
         }
     }
+   
 
     // Atualiza o cabeçalho do mês e as setas de navegação
     function atualizarMes(mes, ano) {
@@ -211,6 +215,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Inicializa o calendário com o mês atual e o mês anterior
     atualizarMes(mesAtual, anoAtual);
     criarDias(mesAtual, anoAtual);
+    verificarJogosNoDia(diaJogo,mesAtual,anoAtual);
 });
 
 
@@ -248,6 +253,45 @@ function sair() {
         }
     });
 }
+
+
+
+
+//Receber os dados da API
+
+let jogos = document.querySelector("#jogos")
+
+teamsData.times_jogos.lol.campeonatos.cblol.jogos.forEach(jogo => {
+    let dataJogo = jogo.data;
+    let timeUm = jogo.times[0].logo;
+    let timeDois = jogo.times[1].logo;
+    let lugar = jogo.local;
+    
+
+
+
+    // Criar o HTML para cada jogo e adicionar ao elemento jogos
+    jogos.innerHTML += `
+        <aside class="jogos-do-dia">
+            <div class="card" id="card1">
+                    <div class="data">
+                        <h4 id="local_1">${lugar}</h4>
+                        <p>${dataJogo}</p>
+                    </div>
+                    <div class="time">
+                        <img src="${timeUm}" width="40px" height="40px" id="imagem_time_1" data-nome="Liberty" class="img_lol_cblol">
+                        <p class="nome_time"><b>${placar1}</b></p>
+                    </div>
+                    
+                    <div class="time">
+                        <img src="${timeDois}" alt="" height="40px" width="40px" id="imagem_time_2" data-nome="Loud" class="img_lol_cblol">
+                        <p class="nome_time"><b>${placar2}</b></p>
+                    </div>
+                </div>
+        </aside>
+    `;
+});
+
 
 const searchInput = document.getElementById('searchInput');
 const suggestions = document.getElementById('suggestions');
@@ -342,5 +386,5 @@ function formatDate(dateString) {
     const day = parts[2];
     
     // Retornar a data no formato dd/mm/yyyy
-    return `${day}/${month}/${year}`
+    return `${day}/${month}/${year}`;
 }

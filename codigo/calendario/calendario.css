@@ -379,6 +379,10 @@ tbody td:empty {
     
 }
 
+.jogos-no-dia {
+    background-color: rgb(45, 196, 196); /* Cor de fundo para dias com jogos */
+}
+
 div p {
     transition: all 1s ease;
 }
@@ -511,10 +515,7 @@ footer h2{
         height: 140vh;
     }
     
-    .jogos{
-        flex-direction: column;
-        align-items: center;
-    }
+   
 
     .header_img{
         width: 200px;
@@ -625,3 +626,4 @@ footer h2{
     }
 
 }
+
