@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="time.css">
+    <link rel="shortcut icon" href="../Imgs/Logo-GM-Empire-preta.ico" type="image/x-icon">
+    <title>GM Empire</title>
+</head>
+<body>
+    <header>
+        <div class="header_img">
+            <a href="../index.html"><img src="../Imgs/logos/logo-removebg-preview.png" width="50%" height="60%"></a> 
+        </div>   
+        <div id="searchContainer">
+            <input type="text" id="searchInput" placeholder="Digite o nome de um time">
+            <i class="bi bi-search" id="icon_busca"></i>
+            <div id="suggestions"></div>
+        </div>
+        <div class="header_links">
+            <ul>
+                <li><a href="../Sobrenos/sobrenos.html">SOBRE NÓS</a></li>
+                <li id="usuario"><a href="../Login/login.html"><button>ENTRAR</button></a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <div class="logo_nome">
+            <img src="" alt="" id="time-logo" width="200px" height="200px">
+            <h1 id="time-nome"></h1>
+        </div>
+        <div class="container">
+            <h1>Jogadores</h1>
+            <ul>
+                <div class="jogador">
+                    <img src="" width="70px" height="70px" alt="" id="foto_jogador_1"><li id="jogador_1"></li>
+                </div>
+                <div class="jogador">
+                    <img src="" width="70px" height="70px" alt="" id="foto_jogador_2"><li id="jogador_2"></li>
+                </div>
+                <div class="jogador">
+                    <img src="" width="70px" height="70px" alt="" id="foto_jogador_3"><li id="jogador_3"></li>
+                </div>
+                <div class="jogador">
+                    <img src="" width="70px" height="70px" alt="" id="foto_jogador_4"><li id="jogador_4"></li>
+                </div>
+                <div class="jogador">
+                    <img src="" width="70px" height="70px" alt="" id="foto_jogador_5"><li id="jogador_5"></li>
+                </div>
+            </ul>
+        </div>
+    </main>
+    <section>
+        <div class="proximo_jogo">
+            <h1>Próximo jogo</h1>
+            <div class="card" id="card1">
+                <div class="data">
+                    <h4 id="local_1"></h4>
+                    <p id="data_1"></p>
+                </div>
+                <div class="time">
+                    <img src="" width="40px" height="40px" id="imagem_time_1" data-nome="Fluxo" class="img_lol_cblol">
+                </div>
+                <div class="time">
+                    <img src="" alt="" height="40px" width="40px" id="imagem_time_2" data-nome="Kabum" class="img_lol_cblol">
+                </div>
+                <h4 id="campeonato_1"></h4>
+            </div>
+        </div>
+        <div class="ultimo_jogo">
+            <h1>Último jogo</h1>
+            <div class="card" id="card2">
+                <div class="data">
+                    <h4 id="local_2"></h4>
+                    <p id="data_2"></p>
+                </div>
+                <div class="time">
+                    <img src="" width="40px" height="40px" id="imagem_time_3" data-nome="Fluxo" class="img_lol_cblol">
+                    <p id="placar_1"></p>
+                </div>
+                <div class="time">
+                    <img src="" alt="" height="40px" width="40px" id="imagem_time_4" data-nome="Kabum" class="img_lol_cblol">
+                    <p id="placar_2"></p>
+                </div>
+                <h4 id="campeonato_2"></h4>
+            </div>
+        </div>
+    </section>
+    <div class="clickable-point" id="secretPoint"></div>
+    
+    <div class="hidden-character" id="hiddenCharacter">
+      <img src="../Imgs/giraaspas.png" alt="Personagem Secreto" width="200">
+    </div>
+    <footer>
+        <div class="footer_container">
+            <div class="footer_logo">
+                <img src="../Imgs/logos/logo-removebg-preview.png" alt="" height="80%" width="auto">
+            </div>
+            <div class="footer_informacoes">
+                <h2>Informações</h2>
+                <a href="../Feedback/feedback.html"><h4>Feedback</h4></a>
+            </div>
+            <div class="footer_contatos">
+                <h2>Contatos</h2>
+                <h4><i class="bi bi-telephone-fill"></i>(31) 98214-7060</h4>
+                <h4><i class="bi bi-envelope"></i>gmempire@gmempire.com</h4>
+            </div>
+            <div class="footer_redes">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter-x"></i>
+            </div>
+        </div>
+        <p>Copyright © 2024 GM Empire. All rights reserved.</p>
+    </footer>
+    <script src="../sweetalert.js"></script>
+    <script src="carregartime.js"></script>
+    <script src="easteregg.js"></script>
+</body>
+</html>

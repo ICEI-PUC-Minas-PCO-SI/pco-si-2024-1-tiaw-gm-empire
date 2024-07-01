@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Reddit+Mono:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    font-family: Roboto;
+}
+header{
+    background-color: rgb(28, 34, 61);
+    height: 165px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_links{
+    width: 40%;
+    height: 100%;
+}
+
+.header_links ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+#searchContainer {
+    width: 33.33%; /* 1/3 do header */
+    display: flex;
+    align-items: center;
+    position: relative; /* Para posicionamento absoluto do ícone */
+}
+
+#searchContainer input[type="text"] {
+    width: calc(100% - 30px); /* Ajustado para acomodar o ícone de busca */
+    height: 43px; /* Ajustado conforme o seu estilo */
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid transparent; /* Ajustado conforme o seu estilo */
+    border-radius: 20px; /* Ajustado conforme o seu estilo */
+    font-size: 16px;
+    outline: none;
+}
+
+#icon_busca {
+    color: black;
+    font-size: 22px;
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    cursor: pointer; /* Adicionado para indicar que é clicável */
+}
+
+#suggestions {
+    position: absolute;
+    top: 110%; /* Coloca a caixa de sugestões abaixo da barra de pesquisa */
+    left: 0;
+    width: 90%; /* Mesma largura que a barra de pesquisa */
+    background-color: #ffffff; /* Cor de fundo */
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    z-index: 1;
+    cursor: pointer;
+    padding: 10px; /* Espaçamento interno */
+    overflow-y: auto; /* Adiciona scroll se necessário */
+    display: none; /* Inicialmente oculto */
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Transições suaves */
+}
+
+.suggestion {
+    padding: 8px 12px; /* Espaçamento interno para cada sugestão */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    display: grid;
+    grid-template-columns: 10;
+    place-items: center;
+}
+
+.suggestion #time{
+    grid-column: 1;
+}
+.suggestion #nome{
+    grid-column: 2;
+}
+
+.suggestion #jogo{
+    grid-column: 10;
+}
+
+
+.suggestion:hover {
+    background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
+}
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    display: none;
+}
+.header_links{
+    width: 25%;
+}
+.header_links ul li{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header_img{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_img img{
+    transition: all 1s ease;
+}
+
+.header_img img:hover{
+    scale: 1.1;
+}
+
+#seta_esquerda:hover, #seta_direita:hover, #ultimos_jogos_seta_esquerda:hover, #ultimos_jogos_seta_direita:hover{
+    scale: 1.1;
+}
+
+#seta_esquerda, #seta_direita, #ultimos_jogos_seta_esquerda, #ultimos_jogos_seta_direita{
+    transition: all 1s ease;
+}
+
+header input{
+    padding-left: 17px;
+}
+
+li button{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+input::placeholder{
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+}
+
+ul li{
+    list-style: none;
+}
+
+.header_links li, button{
+    border-radius: 20px;
+    border: 2px solid transparent;
+    outline: none;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.header_links button{
+    padding: 10px;
+    width: 100px;
+}
+
+.header_links button:hover{
+    background-color: black;
+    color: white;
+}
+
+#icon_busca{
+    cursor: pointer;
+}
+
+.header_links li:hover, button:hover{
+    scale: 1.1;
+}
+
+.container{
+    margin: 20px;
+    background: radial-gradient(circle, rgb(127, 167, 207) 0%, rgb(28, 34, 61) 100%);
+    padding: 100px;
+    border-radius: 25px;
+}
+
+.container  h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.games ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.games ul li{
+    cursor: pointer;
+    transition: all 1s ease;
+   
+}
+
+.r6_ultimos{
+    width: 407px;
+}
+
+.r6_proximos, .cs_proximos{
+    width: 407px;
+}
+
+.games ul li:hover{
+    scale: 1.2;
+}
+
+.jogos h1{
+    text-align: center;
+}
+.jogos{
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 20px;
+  margin: 0px 80px;
+}
+
+#valorant{
+    scale: 1.4;
+}
+
+main h1{
+    text-align: center;
+}
+
+.card{
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 15px;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+
+#campeonato1{
+    margin-bottom: 10px;
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+#card1{
+    border-left: 5px solid blue;
+}
+#card2{
+    grid-column: 2;
+    border-left: 5px solid rgb(136, 35, 35);
+}
+
+#card3{
+    border-left: 5px solid rgb(100, 7, 250);
+}
+
+#seta_esquerda, #seta_direita, #ultimos_jogos_seta_direita, #ultimos_jogos_seta_esquerda{
+    font-size: 40px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+#nome_jogo1, #nome_jogo2, #nome_jogo3, #nome_jogo4{
+    margin-bottom: 20px;
+}
+
+#titulo{
+    margin: 30px;
+}
+#easter_egg{
+    background-color: rgb(28, 34, 61);
+    color: rgb(28, 34, 61);
+}
+
+#easter_egg:hover{
+    background-color: white;
+    color: black;
+}
+
+section h1{
+    text-align: center;
+    font-size: 33px;
+}
+
+.noticias_container{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.card_noticia{
+    display: flex;
+    width: 600px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.jogos .cs_proximos, .jogos .r6_proximos, .jogos .cs_ultimos, .jogos .r6_ultimos {
+    display: none;
+}
+
+.card_noticia:hover{
+    scale: 1.05;
+}
+.card_noticia:hover #noticia_data1{
+    scale: 1.0;
+}
+
+.conteudo_noticia{
+    padding: 5px;
+    border-bottom: 5px solid rgb(91, 142, 155);
+    display: grid;
+    grid-template-rows: 4;
+    gap: 6%;
+}
+
+
+#noticia_data1, #noticia_data2, #noticia_data3{
+    grid-row: 4;
+}
+.card_noticia img{
+    width: 50%;
+}
+footer{
+    background-color: rgb(28, 34, 61);
+    width: 100%;
+    height: 200px;
+    color: white;
+}
+
+footer p{
+    text-align: center;
+}
+
+.footer_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 170px;
+}
+
+.footer_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_redes{
+    display: flex;
+    gap: 40px;
+}
+
+.footer_redes i{
+    font-size: 40px;
+    padding-top: 50px;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.footer_redes i:hover{
+    scale: 1.2;
+}
+
+.footer_informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_informacoes a{
+    color: white;
+}
+
+.footer_informacoes h4{
+    cursor: pointer;
+}
+
+.footer_contatos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_contatos h4{
+    display: flex;
+    gap: 5px;
+}
+
+footer h2{
+    padding-top: 20px;
+}
+
+section{
+    margin-bottom: 65px;
+}
+
+#checkbox{
+    visibility: hidden;
+}
+
+.cs-ultimos_jogos{
+    position: absolute;
+    top: 100%;
+}
+
+
+@media only screen and (max-width: 500px){
+
+    
+    .jogos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_img{
+        width: 200px;
+    }
+    .header_links{
+        width: 100px;
+    }
+
+    .header_links ul{
+        gap: 10px;
+    }
+
+        header{
+            display: grid;
+            height: 200px;
+            width: 100%;
+        }
+
+        header #searchInput{
+            grid-row: 2;
+            grid-column: span 2;
+            width: 86%;
+            margin-left: 15px;
+        }
+
+        header #icon_busca{
+            display: none;
+        }
+
+
+
+    .card{
+        scale: 0.8;
+    }
+
+    #searchContainer{
+        width: 370px;
+        grid-column: span 3;
+        grid-row: 2;
+    }
+
+    #nome_jogo1, #nome_jogo2, #nome_jogo3, #nome_jogo4, #nome_jogo5{
+        text-align: center;
+    }
+    .noticias_container{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        max-height: 130px;
+        overflow: scroll;
+    }
+
+
+    .jogos .cs_proximos, .jogos .r6_proximos, .jogos .cs_ultimos, .jogos .r6_ultimos {
+        display: block;
+    }
+
+    .jogos .r6_proximos, .jogos .r6_ultimos, .jogos .cs_proximos{
+        text-align: center;
+    }
+
+
+    #seta_esquerda{
+        display: none;
+    }
+
+    #seta_direita{
+        display: none;
+    }
+
+    #ultimos_jogos_seta_esquerda{
+        display: none;
+    }
+
+    #ultimos_jogos_seta_direita{
+        display: none;
+    }
+
+    .card_noticia{
+        width: 100%;
+        height: 200px;
+        font-size: 10px;
+        scale: 1.1;
+    }
+
+
+    .valorant{
+        margin-bottom: 50px;
+    }
+
+    #titulo{
+        margin-top: 50px;
+    }
+
+    .footer_contatos{
+        display: none;
+    }
+    .footer_redes{
+        display: none;
+    }
+
+    .container{
+       height: 400px;
+       padding: 50px;
+    }
+
+    .games{
+        width: 100%;
+    }
+
+    .games ul{
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (min-width: 501px) and (max-width: 850px){
+    .jogos{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #seta_esquerda{
+        position: absolute;
+        top: 1080px;
+        right: 55%;
+    }
+
+    #seta_direita{
+        position: absolute;
+        top: 1080px;
+        left: 55%;
+    }
+
+    #ultimos_jogos_seta_esquerda{
+        position: absolute;
+        top: 1650px;
+        right: 55%;
+    }
+
+    #ultimos_jogos_seta_direita{
+        position: absolute;
+        top: 1650px;
+        left: 55%;
+    }
+    #titulo{
+        margin-top: 60px;
+    }
+
+    .card_noticia{
+        width: 100%;
+        height: 200px;
+        font-size: 20px;
+    }
+
+    .noticias_container{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        max-height: 330px;
+        overflow: scroll;
+    }
+    header #icon_busca{
+        left: 550px;
+    }
+
+}
+
+
+@media screen and (min-width: 850px) and (max-width: 1650px){
+    .card_noticia{
+        width: 450px;
+    }
+}

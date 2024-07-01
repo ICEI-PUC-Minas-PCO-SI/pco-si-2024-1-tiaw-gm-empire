@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Reddit+Mono:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(28, 34, 61);
+    height: 165px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    grid-column: span 2;
+    grid-row: 1;
+}
+
+.header_links{
+    width: 40%;
+    height: 100%;
+}
+
+.header_links ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+#searchContainer {
+    width: 33.33%; /* 1/3 do header */
+    display: flex;
+    align-items: center;
+    position: relative; /* Para posicionamento absoluto do ícone */
+}
+
+#searchContainer input[type="text"] {
+    width: calc(100% - 30px); /* Ajustado para acomodar o ícone de busca */
+    height: 43px; /* Ajustado conforme o seu estilo */
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid transparent; /* Ajustado conforme o seu estilo */
+    border-radius: 20px; /* Ajustado conforme o seu estilo */
+    font-size: 16px;
+    outline: none;
+}
+
+#icon_busca {
+    color: black;
+    font-size: 22px;
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    cursor: pointer; /* Adicionado para indicar que é clicável */
+}
+
+#suggestions {
+    position: absolute;
+    top: 110%; /* Coloca a caixa de sugestões abaixo da barra de pesquisa */
+    left: 0;
+    width: 90%; /* Mesma largura que a barra de pesquisa */
+    background-color: #ffffff; /* Cor de fundo */
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    z-index: 1;
+    cursor: pointer;
+    padding: 10px; /* Espaçamento interno */
+    overflow-y: auto; /* Adiciona scroll se necessário */
+    display: none; /* Inicialmente oculto */
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Transições suaves */
+}
+
+.suggestion{
+    padding: 8px 12px; /* Espaçamento interno para cada sugestão */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    display: grid;
+    grid-template-columns: 10;
+    place-items: center;
+}
+.suggestion #time{
+    grid-column: 1;
+}
+.suggestion #nome{
+    grid-column: 2;
+}
+
+.suggestion #jogo{
+    grid-column: 10;
+}
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.header_links{
+    width: 25%;
+}
+.header_links ul li{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+}
+
+.header_img{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_img img{
+    transition: all 1s ease;
+}
+
+.header_img img:hover{
+    scale: 1.1;
+}
+
+header input{
+    padding-left: 17px;
+}
+
+li button{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+input::placeholder{
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+}
+
+.header_links li, button{
+    border-radius: 20px;
+    border: 2px solid transparent;
+    outline: none;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.header_links button{
+    padding: 10px;
+    width: 100px;
+}
+
+.header_links button:hover{
+    background-color: black;
+    color: white;
+}
+
+.header_links li:hover, button:hover{
+    scale: 1.1;
+}
+#container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.dia-jogo {
+    background-color: lightblue !important;
+}
+
+main{
+    grid-column: 2;
+    grid-row: 2;
+    margin-right: 70px;
+    margin-top: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_game{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+#container{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#header {
+    font-size: 40px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-right: 8%;
+    margin-left: 8%;
+    width: 100%;
+}
+
+th, td {
+    border: 2px solid #ddd;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 22px;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+
+
+td:hover {
+    background-color: rgba(0, 173, 223, 0.8);
+    color: #fff;
+}
+
+thead th {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    color: #555;
+    padding: 10px;
+}
+
+td:not(:empty):hover {
+    background-color: rgba(0, 173, 223, 0.8);
+    color: #fff;
+}
+
+tbody td {
+    background-color: #fff;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
+tbody td:empty {
+    background-color: transparent;
+    border: none;
+}
+
+.hover {
+    transform: scale(1.1);
+}
+
+.lembrete {
+    background-color: #050504;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100px; /* Ajuste conforme necessário */
+    text-align: center;
+}
+
+.lembrete {
+    display: inline-block;
+    background-color:  #050504;
+    color:white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100px; /* Ajuste conforme necessário */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.lembrete:hover {
+    background-color: #ffa500;
+    color: #fff;
+}
+
+/* COMEÇO DOS PRÓXIMOS JOGOS */
+#jogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 5px;
+    gap: 40px;
+    scale: 0.9;
+}
+
+.card{
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 15px;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+#card1{
+    border-left: 5px solid blue;
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.time-um img, .time-dois img {
+    width: 80px; 
+    border-radius: 50%; 
+}
+
+.nome-time {
+    margin-top: 5px;
+}
+
+.x {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.local-jogo {
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    color: #666; 
+    display: none; 
+}
+
+
+/* Footer */
+footer{
+    background-color: rgb(28, 34, 61);
+    width: 100%;
+    height: 200px;
+    color: white;
+    grid-column: span 2;
+    grid-row: 3;
+}
+
+footer p{
+    text-align: center;
+}
+
+.footer_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 170px;
+}
+
+.footer_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_redes{
+    display: flex;
+    gap: 40px;
+}
+
+.footer_redes i{
+    font-size: 40px;
+    padding-top: 50px;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.footer_redes i:hover{
+    scale: 1.2;
+}
+
+.footer_informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_informacoes a{
+    color: white;
+}
+
+.footer_informacoes h4{
+    cursor: pointer;
+}
+
+.footer_contatos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_contatos h4{
+    display: flex;
+    gap: 5px;
+}
+
+footer h2{
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        display: grid;
+        grid-template-columns: 3;
+        grid-template-rows: 2;
+        height: 200px;
+        width: 400px;
+    }
+
+    header #pesquisa{
+        grid-row: 2;
+        grid-column: span 2;
+        width: 86%;
+        margin-left: 15px;
+    }
+
+    main{
+        margin: 0;
+    }
+
+    header #icon_busca{
+        display: none;
+    }
+
+    .header_img{
+        grid-row: 1;
+        grid-column: 1;
+        width: 100%;
+    }
+    .header_links{
+        grid-column: 2;
+        grid-row: 1;
+        width: 100%;
+    }
+
+    .header_links ul{
+        gap: 10px;
+    }
+
+    #container {
+        margin-top: 10px;
+    }
+
+    main {
+        padding: 10px;
+        scale: 1;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 500px){
+
+    body{
+        height: 140vh;
+    }
+    
+    .jogos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_img{
+        width: 200px;
+    }
+    .header_links{
+        width: 100px;
+    }
+
+    .header_links ul{
+        gap: 10px;
+    }
+
+        header{
+            display: grid;
+            height: 200px;
+        }
+
+        header #searchInput{
+            grid-row: 2;
+            grid-column: span 2;
+            width: 86%;
+            margin-left: 15px;
+        }
+
+        header #icon_busca{
+            display: none;
+        }
+
+
+
+    .card{
+        scale: 0.8;
+    }
+
+    #searchContainer{
+        width: 370px;
+        grid-column: span 3;
+        grid-row: 2;
+    }
+
+    #nome_jogo1, #nome_jogo2, #nome_jogo3, #nome_jogo4{
+        text-align: center;
+    }
+    .noticias_container{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        max-height: 130px;
+        overflow: scroll;
+    }
+
+
+    .jogos .cs_proximos, .jogos .r6_proximos, .jogos .cs_ultimos, .jogos .r6_ultimos {
+        display: block;
+    }
+
+
+    #seta_esquerda{
+        display: none;
+    }
+
+    #seta_direita{
+        display: none;
+    }
+
+    #ultimos_jogos_seta_esquerda{
+        display: none;
+    }
+
+    #ultimos_jogos_seta_direita{
+        display: none;
+    }
+
+    .card_noticia{
+        width: 100%;
+        height: 200px;
+        font-size: 10px;
+        scale: 1.1;
+    }
+
+
+    .valorant{
+        margin-bottom: 50px;
+    }
+
+    #titulo{
+        margin-top: 50px;
+    }
+
+    .footer_contatos{
+        display: none;
+    }
+    .footer_redes{
+        display: none;
+    }
+
+    .container{
+       height: 400px;
+       padding: 50px;
+    }
+
+    .games{
+        width: 100%;
+    }
+
+    .games ul{
+        width: 100%;
+    }
+
+}
