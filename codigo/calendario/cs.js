@@ -45,7 +45,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     let placar1 = jogo.placar1;
                     let placar2 = jogo.placar2;
                     
-               
                     jogos.insertAdjacentHTML('beforeend', 
                         `<aside class="jogos-do-dia">
                             <div class="card" id="card1" onmouseover= cardMouseEnter(${i}) onmouseleave= cardMouseLeave(${i})>

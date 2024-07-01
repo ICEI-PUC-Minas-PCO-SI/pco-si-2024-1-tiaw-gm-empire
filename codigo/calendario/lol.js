@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
             console.log(games);
             
             let local = caioAPI.Lec.local
-
+            let i = 0;
             games.forEach(game => {
                 console.log(game);            
                 let dataCompleta = game.data.split(' ')[0];
@@ -45,31 +45,55 @@ document.addEventListener("DOMContentLoaded", function () {
                     let dataJogo = game.data;
                     let timeUm = game.logotime1;
                     let timeDois = game.logotime2;
-                    
+                    let placar1 = game.placar1;
+                    let placar2 = game.placar2;
 
                     // Criar o HTML para cada jogo e adicionar ao elemento jogos
                     jogos.insertAdjacentHTML('beforeend', `
                     <aside class="jogos-do-dia">
-                        <div class="card" id="card1" onmouseover= cardMouseEnter(${i}) onmouseleave= cardMouseLeave(${i})>
+                        <div class="card" id="card1" onmouseover="cardMouseEnter(${i})" onmouseleave="cardMouseLeave(${i})">
                             <div class="data">
                                 <h4 id="local_1">${local}</h4>
                                 <p>${formatDate(dataJogo)}</p>
                             </div>
                             <div class="time">
                                 <img src="${timeUm}" width="40px" height="40px" id="imagem_time_1" data-nome="Liberty" class="img_lol_cblol">
+                                <p class="nome_time"><b>${placar1 ? placar1 : '-'}</b></p>
                             </div>
                             <div class="time">
                                 <img src="${timeDois}" alt="" height="40px" width="40px" id="imagem_time_2" data-nome="Loud" class="img_lol_cblol">
+                                <p class="nome_time"><b>${placar2 ? placar2 : '-'}</b></p>
                             </div>
-                            <div class="campeonato campeonato-${i}" style="display: none">
-                                <p><b>${campeonato}</b></p>
-                            </div>
+                           
                         </div>
                     </aside>`) ;
                 } 
                 i++
             });
         });
+    }
+
+    function temJogo(dia, mes) {
+        debugger;
+        let diasComJogo = [];
+        if (mes == 6) {
+            diasComJogo = [
+                1, 2, 6, 7, 8, 9, 12, 15, 16, 18, 19, 20, 22, 26, 28
+            ]
+        } else if (mes == 7) {
+            diasComJogo = [
+                2, 14, 15, 16, 17, 20, 22
+            ]
+        }
+        
+        let retorno = false;
+        for(i = 0; i < diasComJogo.length; i++) {
+            if (dia == diasComJogo[i]) {
+                retorno = true;
+            }    
+        }
+
+        return retorno;
     }
 
     // Função para criar os dias do mês
@@ -100,6 +124,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Dias do mês atual
                 else if (dia <= diasNoMes) {
                     td.textContent = dia;
+                    let jogoNoDia = temJogo(dia, mes+1);
+                    if (jogoNoDia == true) {
+                        td.classList.add('dia-jogo');
+                    }
                     td.addEventListener('click', renderizarCards);
                     dia++;
                 }

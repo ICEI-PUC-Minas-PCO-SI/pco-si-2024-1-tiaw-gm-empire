@@ -180,6 +180,10 @@ input::placeholder{
     margin-bottom: 20px;
 }
 
+.dia-jogo {
+    background-color: lightblue !important;
+}
+
 main{
     grid-column: 2;
     grid-row: 2;
